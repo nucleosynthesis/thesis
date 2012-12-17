@@ -76,11 +76,10 @@ corresponding equivalent integrated luminsity.}
 \section{Object Reconstruction and Identification}
 \label{sec:objectrecoandid}
 
-The reconstruction of all objects used in this analysis 
-are based on the standardized reconstruction software available for all CMS analyses.
-All data and MC samples are reconstructed with the standard reconstruction software \texttt{\cmssw}. 
-Additional sensitivity can be gained by tayloring the object selection and reconstruction specifically
-to the search for $\Hgg$. 
+The reconstruction of all objects used in this analysis, in both data and MC
+is based on the standardized CMS reconstruction software \texttt{\cmssw}. 
+Additional sensitivity can be gained by refining the object selection and reconstruction specifically
+to the search for $\Hgg$.
 
 
 \subsection{Boosted Decision Trees}
@@ -129,23 +128,148 @@ regression BDT targetting the the absolute deviation between the correction esti
 first BDT and the true correction to generator level. This second BDT is trained on an independant
 set of events to the first. The per-photon resolution is used to calculated an estimate of the 
 per-event mass resolution, $\sigma_{\mgg}$, which is used during the event selection 
-(Section~\ref{sec:eventselection}).
+(Section~\ref{sec:eventselection}). An additional regression BDT is trained on $Zee$ MC which is used
+to compare the supercluster energy scale in data and MC.
 
-\subsubsection{Energy Scale and Resolution}
+\subsubsection{Energy Scale Measured in Data}
+Despite correcting the energy of the photons using the regression technique, discrepancies between data and
+MC are still observed. This is due to additional detector effects which may not be simulated, such as the
+time dependance of the ECAL crystal transparency. Further corrections are
+derived based on $\Zee$ data which provides an invariant mass peak with almost no background constructed from 
+electromagnetic objects which are reconstructed using a similar procedure to photons.
+The energy scale of the superclusters is measured by matching the electron
+invariant mass peak in data to that in MC. This is acheived using an analytic fit to the $\Zee$ peak in data and MC
+separately. The natrual peak of the $Z$ is described using a Breit-Wigner distribution whose parameters are fixed
+to those given by the Particle Data Group (PDG REF), $m_{Z}=91.188,~\Gamma_{Z} = 2.495$. This is then convoluted 
+with a Crystal Ball (CB) which describes the resolution effects of the calorimeter and energy losses from 
+bremsstrahlung before the ECAL. The CB parameters, $\Delta m$ \ldots, are the free parameters of the fit.
 
-\subsection{Photon Identification}
-\label{sec:photonidentification}
+The values of these fitted parameters varies with the potition of the supercluster ($|\eta|$). Moreover the
+variation in data is strongly dependant on the run during which the data were taken. The scale is extracted in 
+six run ranges and four $|\eta|$ regions to account for this effect. 
+The difference between MC and data with time is less dependant on whether the electron showered or not which 
+is characterised by the $\rnine$ of the supercluster. The data-MC difference in each $|\eta|$ region is measured
+a second time after applying the first set of corrections to the data and obtaining the residual difference
+for electrons with $\rnine<0.94$ and $\rnine>0.94$ separately. The final energy scale correction is then defined
+as the product of the two corrections. The relative correction, 
+
+\begin{equation}
+1-\Delta P = 1 - \frac {\displaystyle \Delta m_{data} - \Delta m_{MC} }{\displaystyle m_{Z} }
+\end{equation}
+
+is applied to the photons in data. The values for the scale in each category are given in 
+Table~\ref{tab:scalecorr}. The uncertainties on these measurements are primarily due to 
+the difference in the $\rnine$ distribution of electrons and photons. In addition, smaller systemaitcs
+are included due to the variation of the measurements when changin the electron selection and
+between using the electron-trained and photon-trained regression corrections.
+These uncertainties are incorperated into the signal model for the purposes of 
+signal extraction as described in Section~\ref{sec:signalmodel}.
 
 \subsection{Vertex Selection}
 \label{sec:vertexselection}
 
-The natural width of the Higgs for at low mass is negligible when compared to the experimental 
-resolution of the calorimeter. 
+\subsection{Photon Identification}
+\label{sec:photonidentification}
+
+A large portion of the fake background in the $\Hgg$ search is due to high momentum neutral mesons
+which decay to two photons where both the photons are combined into the same supercluster. 
+Information from the shower shape of the photon supercluster can be used, as well as the 
+energy isolation within the calorimeter, in order to distinguish these from real photons
+from the primary interaction point. A BDT was trained on MC samples to combine the relavant information
+into a single photon identification (ID). The signal used for the training was taken from Higgs decaying to
+two photons MC with mass 121 GeV while the background was taken from non-prompt photons in the Gamma+Jet sample.
+Before training, events are required to pass a loose preselection designed to avoid training 
+where the MC is unable to properly describe the data and to match the variables used in the trigger.
+In addition, photon candidates are removed if there is a reconstructed GsfElectron matched to the 
+photon supercluster with no matching conversion reconstruction. This greatly reduces the contribution
+from $\Zee$ faking photons. The same preselection is applied to all MC and data for extracting the signal.
+The efficiency of the preselection for signal was measured in $\Zee$ data and MC using a tag-and-probe 
+method (REF). The results are shown in Table~\ref{tab:sigeffpresel}. 
+
+\begin{table}
+\begin{center}
+\begin{tabular}{| l | c | c | c |}
+\hline
+\textbf{Category} & \textbf{Data} & \textbf{MC} & \textbf{Data/MC} \\
+\hline
+EB $\rnine>0.9$ & 0.9267 $\pm$ 0.0012 & 0.9275 $\pm$ 0.0006 &0.999 $\pm$ 0.0013 \\
+EB $\rnine<0.9$ & 0.8882 $\pm$ 0.0023 & 0.9025 $\pm$ 0.0010 &0.984 $\pm$ 0.0025 \\
+EE $\rnine>0.9$ & 0.9442 $\pm$ 0.0010 & 0.9387 $\pm$ 0.0009 &1.006 $\pm$ 0.0014 \\
+EE $\rnine<0.9$ & 0.8639 $\pm$ 0.0010 & 0.8517 $\pm$ 0.0011 &1.014 $\pm$ 0.0015 \\
+\hline
+\end{tabular}
+\label{tab:sigeffpresel}
+\caption{Signal efficiency for the preselection measured in data and MC using tag-and-probe in
+$\Zee$ events. The ratio Data/MC are applied as corrections to the signal MC for the purposes
+of signal modelling. The uncertainties listed here are statistical only.}
+\end{center}
+\end{table}
+
+
+The input variables are chosen to be insensitive to the kinematics of the diphoton system itself
+including the diphoton invariant mass. The first set of variables describe the shower shape of the 
+supercluster: $\hoe$, $\sigieie$, $\rnine$ and the energy weighted widths of the supercluster in
+$\eta$ and $\phi$ ($\sigma_{\eta},~\sigma_{\phi}$). The $\eta$ of the supercluster is 
+included as the shower shape is dependant on the position within the calorimeter. 
+The second set of input variables describe the
+isolation of the photon in the calorimeter and tracker scaled to account for 
+the additional expected energy density due to pileup, $\rho$. These are the sum of the track isolation, 
+calculated relative to the chosen vertex and the vertex giving the maximum track isolation,
+ECAL isolation and HCAL isolation in a cone with $\Delta R<0.3$ minus $\rho$ times the effective area 0.17
+and the absolute ECAL and HCAL isolations within cones of $\Delta R <0.3$ and $\Delta R<0.4$ 
+respectively. In addition, the number of reconstructed vertices in the bunch crossing is included
+to reduce the pileup dependance of the isolation variables. 
+
+A separate BDT is trained for application in the ECAL barrel and endcaps as the shower
+shape and isolation variables are rather distinct between the two components. 
+A cut is made on the photon ID BDT output to select events used for the signal extraction which
+keeps practically all ($>99\%$) of the signal while removing around 22\% of background events.
+The cut is choson to be loose as the output of the photon ID will be used as input for the 
+event selection (diphoton BDT) desribed in Section~\ref{sec:diphotonbdt}, 
 
 \section{Event Selection}
 \label{sec:eventselection}
 
-This is really just the diphoton BDT description.
+In addition to passing the preselection, the two photons are required to pass mass-dependant transverse 
+momenta cuts, $p_{T}/\mgg > 1/3, 1/4$ for the leading and subleading $\pt$ photon respectively.
+The final selection of diphoton candidates used for the signal extraction is based on using as much information 
+in the event as possible to distinguish likely signal candidate events from the background. Although the 
+photon ID BDT is successful at rejecting fake backgrounds, a large portion of the background is due to
+real prompt photons from QCD processes. In order to distinguish these from a Higgs signal, 
+the specific kinematics and toplogy of the event is exploited.
+
+
+\subsection{Diphoton BDT}
+\label{sec:diphotonbdt}
+A BDT was trained to utilise the kinematics of the selected diphoton pair to discrimiate prompt photons
+from QCD background from those produced by the decay $\Hgg$. These are the relative transverse momenta 
+of the photons, $\pt^{1},~\pt^{2}$, their pseudo-rapidites, $\eta^{1},~\eta^{2}$ and the cosine of the 
+angle between the two photons in the transverse plane $cos(\Delta\phi)=cos(\phi^{1}-\phi^{2})$.
+In addition, information regarding the quality
+of the objects, the two photons and the selected vertex, is included in the form of the output of the 
+photon ID and the vertex probability. The per-photon resolution estimate, $\sigma_{E}$ is combined for
+each photon to produce a per-event mass resolution estimate $\sigma_{\mgg}$ under the assumption that 
+the correct vertex is chosen given by,
+
+\begin{equation}
+\sigma_{\mgg} (right-vtx) = \frac{\displaystyle 1}{\displaystyle 2} \mgg 
+\sqrt{ \left( \frac{\displaystyle {\sigma_{E}^{1}}}{\displaystyle E^{1} } \right)^{2}
+     + \left( \frac{\displaystyle {\sigma_{E}^{2}}}{\displaystyle E^{2} } \right)^{2}
+     }
+\end{equation}
+where $E^{1},~E^{2}$ are the energies of the two photons.
+
+Since the correct vertex is not always chosen, the mass resolution assuming the incorrect vertex is chosen
+is calculated using the average beamspot length in data, $\sigma_{Z}=5.8cm$. In this case, the distance 
+between the selected and true vertex will be distributed as a Gaussian with width $\sqrt{2}\sigma_{Z}$.
+The contribution to the resolution, $\sigma_{\mgg}^{vtx}$ can be calculated analystically given the positions of
+the two photons. The mass resolution estimator under the assumption that the incorrect vertex is chosen is 
+given by the sum in quadrature of $\sigma_{\mgg}^{vtx}$ with the mass resolution assuming the correct vertex is chosen.
+Both estimators for the mass resolution relative to the invariant mass, $\sigma_{\mgg}/\mgg~right/wrong-vtx$, 
+are included as inputs to the diphoton BDT.
+
+
+
 
 \begin{figure}[hbt!]
 \begin{center}
@@ -182,5 +306,10 @@ selection with a diphoton BDT output greater than 0.05.
  \label{fig:massmcdata}
 \end{center}
 \end{figure}
+
+\subsubsection{Diphoton BDT Validation with $Zee$}
+
+\subsection{Dijet Tagging}
+
 
 

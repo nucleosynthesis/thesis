@@ -174,13 +174,13 @@ void makeVarPlots(){
 
 	// Add the variables
 	//vars.push_back(v_mass);
-	vars.push_back(v_bdtoutput);
+	//vars.push_back(v_bdtoutput);
 	//vars.push_back(v_pt_1om);
 	//vars.push_back(v_pt_2om);
 	//vars.push_back(v_phoeta_1);
 	//vars.push_back(v_phoeta_2);
-	//vars.push_back(v_phoid_1);
-	//vars.push_back(v_phoid_2);
+	vars.push_back(v_phoid_1);
+	vars.push_back(v_phoid_2);
 	//vars.push_back(v_cosdphi);
 	//vars.push_back(v_sigmrv);
 	//vars.push_back(v_sigmwv);

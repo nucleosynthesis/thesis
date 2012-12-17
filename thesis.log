@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.31)  16 DEC 2012 21:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.31)  17 DEC 2012 18:38
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -135,9 +135,7 @@ LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 ) (./thesis.aux
 (./introduction.aux) (./theory/theory.aux) (./detector/detector.aux)
-(./hgg7TeV/hgg7TeV.aux) (./hgg7TeV/signalextraction.aux)
-(./hgg8TeV/hgg8TeV.tex.aux) (./combinations/combinations.aux)
-(./conclusions.aux))
+(./hgg7TeV/hgg7TeV.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -248,85 +246,115 @@ Chapter 3.
 ]
 
 LaTeX Warning: Reference `fig:mcregrcomparisons' on page 6 undefined on input l
-ine 106.
+ine 105.
 
 [6] <hgg7TeV/generalPlots/regrresall.pdf, id=28, 569.12625pt x 549.05125pt>
 File: hgg7TeV/generalPlots/regrresall.pdf Graphic file (type pdf)
 
-<use hgg7TeV/generalPlots/regrresall.pdf>
-<hgg7TeV/variablePlots/pt_1om.pdf, id=29, 569.12625pt x 408.52625pt>
+<use hgg7TeV/generalPlots/regrresall.pdf> [7 <./hgg7TeV/generalPlots/regrresall
+.pdf>]
+
+LaTeX Warning: Reference `tab:scalecorr' on page 8 undefined on input line 161.
+
+
+
+LaTeX Warning: Reference `sec:signalmodel' on page 8 undefined on input line 16
+6.
+
+[8] [9] <hgg7TeV/variablePlots/pt_1om.pdf, id=49, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_1om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_1om.pdf>
-<hgg7TeV/variablePlots/pt_2om.pdf, id=30, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/pt_2om.pdf, id=50, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_2om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_2om.pdf>
-<hgg7TeV/variablePlots/phoeta_1.pdf, id=31, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_1.pdf, id=51, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_1.pdf>
-<hgg7TeV/variablePlots/phoeta_2.pdf, id=32, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_2.pdf, id=52, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_2.pdf>
-<hgg7TeV/variablePlots/cosdphi.pdf, id=33, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/cosdphi.pdf, id=53, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/cosdphi.pdf Graphic file (type pdf)
 
-<use hgg7TeV/variablePlots/cosdphi.pdf> [7 <./hgg7TeV/generalPlots/regrresall.p
-df>] <hgg7TeV/variablePlots/phoid_1.pdf, id=48, 569.12625pt x 408.52625pt>
+<use hgg7TeV/variablePlots/cosdphi.pdf>
+<hgg7TeV/variablePlots/phoid_1.pdf, id=54, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_1.pdf>
-<hgg7TeV/variablePlots/phoid_2.pdf, id=49, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoid_2.pdf, id=55, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_2.pdf>
-<hgg7TeV/variablePlots/sigmrv.pdf, id=50, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmrv.pdf, id=56, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmrv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmrv.pdf>
-<hgg7TeV/variablePlots/sigmwv.pdf, id=51, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmwv.pdf, id=57, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmwv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmwv.pdf>
-<hgg7TeV/variablePlots/mass.pdf, id=52, 569.12625pt x 408.52625pt>
+
+LaTeX Warning: Reference `fig:massmcdata' on page 10 undefined on input line 29
+7.
+
+<hgg7TeV/variablePlots/mass.pdf, id=58, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/mass.pdf Graphic file (type pdf)
 
-<use hgg7TeV/variablePlots/mass.pdf>) [8 <./hgg7TeV/variablePlots/pt_1om.pdf, p
-age is rotated 90 degrees> <./hgg7TeV/variablePlots/pt_2om.pdf, page is rotated
- 90 degrees> <./hgg7TeV/variablePlots/phoeta_1.pdf, page is rotated 90 degrees>
- <./hgg7TeV/variablePlots/phoeta_2.pdf, page is rotated 90 degrees> <./hgg7TeV/
-variablePlots/cosdphi.pdf, page is rotated 90 degrees>] [9 <./hgg7TeV/variableP
-lots/phoid_1.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/phoid_2.
-pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/sigmrv.pdf, page is r
-otated 90 degrees> <./hgg7TeV/variablePlots/sigmwv.pdf, page is rotated 90 degr
-ees>] [10 <./hgg7TeV/variablePlots/mass.pdf, page is rotated 90 degrees>]
+<use hgg7TeV/variablePlots/mass.pdf>) [10] [11 <./hgg7TeV/variablePlots/pt_1om.
+pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/pt_2om.pdf, page is r
+otated 90 degrees> <./hgg7TeV/variablePlots/phoeta_1.pdf, page is rotated 90 de
+grees> <./hgg7TeV/variablePlots/phoeta_2.pdf, page is rotated 90 degrees> <./hg
+g7TeV/variablePlots/cosdphi.pdf, page is rotated 90 degrees>] [12 <./hgg7TeV/va
+riablePlots/phoid_1.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/p
+hoid_2.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/sigmrv.pdf, pa
+ge is rotated 90 degrees> <./hgg7TeV/variablePlots/sigmwv.pdf, page is rotated 
+90 degrees> <./hgg7TeV/variablePlots/mass.pdf, page is rotated 90 degrees>]
 \openout2 = `hgg7TeV/signalextraction.aux'.
 
 
 (./hgg7TeV/signalextraction.tex
-<hgg7TeV/sidebandMvaPlots/fom.pdf, id=492, 569.12625pt x 408.52625pt>
+
+LaTeX Warning: Reference `fig:sigwindowopt' on page 13 undefined on input line 
+28.
+
+<hgg7TeV/sidebandMvaPlots/fom.pdf, id=499, 569.12625pt x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/fom.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/fom.pdf>
-<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=493, 930.47626pt x 661.47125pt>
+<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=500, 930.47626pt x 661.47125pt>
 File: hgg7TeV/sidebandMvaPlots/bdt2dplot.png Graphic file (type png)
 
-<use hgg7TeV/sidebandMvaPlots/bdt2dplot.png> [11
+<use hgg7TeV/sidebandMvaPlots/bdt2dplot.png>
+
+LaTeX Warning: Reference `fig:mvacomparisons' on page 13 undefined on input lin
+e 78.
+
+[13
 
 
-] [12 <./hgg7TeV/sidebandMvaPlots/fom.pdf, page is rotated 90 degrees> <./hgg7T
+] [14 <./hgg7TeV/sidebandMvaPlots/fom.pdf, page is rotated 90 degrees> <./hgg7T
 eV/sidebandMvaPlots/bdt2dplot.png (PNG copy)>]
-<hgg7TeV/sidebandMvaPlots/roc.pdf, id=544, 569.12625pt x 408.52625pt>
+<hgg7TeV/sidebandMvaPlots/roc.pdf, id=551, 569.12625pt x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/roc.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/roc.pdf>
-<hgg7TeV/sidebandMvaPlots/testvstrain.pdf, id=545, 569.12625pt x 480.79625pt>
+
+LaTeX Warning: Reference `fig:bdttraining' on page 15 undefined on input line 9
+4.
+
+
+LaTeX Warning: Reference `sec:binningofthebdtoutputdistribution' on page 15 und
+efined on input line 96.
+
+<hgg7TeV/sidebandMvaPlots/testvstrain.pdf, id=552, 569.12625pt x 480.79625pt>
 File: hgg7TeV/sidebandMvaPlots/testvstrain.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/testvstrain.pdf>
-<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=546, 569.12625pt x
+<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=553, 569.12625pt x
  480.79625pt>
 File: hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf Graphic file (typ
 e pdf)
@@ -336,118 +364,184 @@ Overfull \hbox (11.66544pt too wide) in paragraph at lines 106--110
  []
 
 
-<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh145.pdf, id=547, 569.12625pt x 408.52
+LaTeX Warning: Reference `fig:datamcagreement_sidebandBDT' on page 15 undefined
+ on input line 117.
+
+
+<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh145.pdf, id=554, 569.12625pt x 408.52
 625pt>
 File: hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh145.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh145.pdf> [13 <./hgg7TeV/sideband
-MvaPlots/roc.pdf, page is rotated 90 degrees>] [14 <./hgg7TeV/sidebandMvaPlots/
+ <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh145.pdf> [15 <./hgg7TeV/sideband
+MvaPlots/roc.pdf, page is rotated 90 degrees>] [16 <./hgg7TeV/sidebandMvaPlots/
 testvstrain.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/testvs
 train-finalbins-neat.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlo
-ts/data-mc-sbsum-mh145.pdf, page is rotated 90 degrees>] [15]
-<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=730, 569.12625pt x 385.44pt>
+ts/data-mc-sbsum-mh145.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `eqn:expectedsig_bins' on page 17 undefined on input l
+ine 148.
+
+
+LaTeX Warning: Reference `fig:binningscheme' on page 17 undefined on input line
+ 182.
+
+[17]
+<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=736, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/binningscheme.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf> [16 <./hgg7TeV/sidebandMvaPlot
-s/binningscheme.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf, id=777, 555.41983pt x 370.28209pt>
+<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf>
+
+LaTeX Warning: Reference `fig:fullmassspec' on page 18 undefined on input line 
+217.
+
+
+LaTeX Warning: Reference `sec:backgroundshape' on page 18 undefined on input li
+ne 220.
+
+
+LaTeX Warning: Reference `sec:backgroundnormalisation' on page 18 undefined on 
+input line 222.
+
+[18 <./hgg7TeV/sidebandMvaPlots/binningscheme.pdf, page is rotated 90 degrees>]
+
+<hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf, id=783, 555.41983pt x 370.28209pt>
 File: hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf Graphic file (type pdf)
 <use hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf>]
+ [19 <./hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf>]
+
+LaTeX Warning: Reference `fig:totalerrorallfunc' on page 20 undefined on input 
+line 276.
+
+
 Overfull \hbox (1.75238pt too wide) in paragraph at lines 264--283
 []\OT1/cmr/m/n/12 To asses the bias in-tro-duced through choos-ing one par-tic-
 u-lar pa-ram-e-ter-i-sa-tion, pseudo-
  []
 
 
-<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=805, 569.12625pt x 385.44pt>
+<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=812, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf Graphic file (type pdf)
 <use hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf>
 
-LaTeX Warning: Reference `datasidebandsinput' on page 18 undefined on input lin
+LaTeX Warning: Reference `eqn:sbdefsu' on page 20 undefined on input line 304.
+
+
+LaTeX Warning: Reference `eqn:sbdefsu' on page 20 undefined on input line 312.
+
+
+LaTeX Warning: Reference `datasidebandsinput' on page 20 undefined on input lin
 e 317.
 
 
-<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=806, 569.12625pt x 546
+LaTeX Warning: Reference `fig:datasidebandsoutput' on page 20 undefined on inpu
+t line 318.
+
+
+<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=813, 569.12625pt x 546
 .04pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=807, 569.12625pt x 546.04p
+<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=814, 569.12625pt x 546.04p
 t>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf Graphic file (type pdf)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=808, 569.12625pt x 408
+<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=815, 569.12625pt x 408
 .52625pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf Graphic file (type pd
 f)
- <use hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf> [18]
-[19 <./hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, page is rotated 90 degree
-s> <./hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, page is rotated 90 d
-egrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, page is rotated 90 
-degrees>] [20 <./hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, page is r
-otated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=991, 569.12625pt x 373
+ <use hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf>
+
+LaTeX Warning: Reference `eqn:sbfitdef' on page 20 undefined on input line 343.
+
+
+[20] [21 <./hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, page is rotated 90 d
+egrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, page is rotated
+ 90 degrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, page is rotate
+d 90 degrees>] [22 <./hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, page
+ is rotated 90 degrees>]
+
+LaTeX Warning: Reference `sec:backgroundnormalisation' on page 23 undefined on 
+input line 354.
+
+
+LaTeX Warning: Reference `eqn:sbfitdef' on page 23 undefined on input line 361.
+
+
+
+LaTeX Warning: Reference `fig:examplesbfits' on page 23 undefined on input line
+ 364.
+
+
+LaTeX Warning: Reference `fig:covariance' on page 23 undefined on input line 36
+5.
+
+
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=997, 569.12625pt x 373
 .395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=992, 569.12625pt x 373
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=998, 569.12625pt x 373
 .395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=993, 569.12625pt x 373
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=999, 569.12625pt x 373
 .395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=994, 569.12625pt x 373
-.395pt>
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=1000, 569.12625pt x 37
+3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=995, 569.12625pt x 373
-.395pt>
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=1001, 569.12625pt x 37
+3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=996, 569.12625pt x 373
-.395pt>
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=1002, 569.12625pt x 37
+3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=997, 569.12625pt x 373
-.395pt>
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=1003, 569.12625pt x 37
+3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=998, 569.12625pt x 373
-.395pt>
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=1004, 569.12625pt x 37
+3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=999, 569.12625pt x 552.0
-625pt>
+<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=1005, 569.12625pt x 552.
+0625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf Graphic file (type pdf)
 
  <use hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf>
 
-LaTeX Warning: Reference `sec:statisticalinterpretations' on page 21 undefined 
+LaTeX Warning: Reference `sec:statisticalinterpretations' on page 23 undefined 
 on input line 401.
 
 
-LaTeX Warning: Reference `fig:relativefiterrorvsnsidebands' on page 21 undefine
+LaTeX Warning: Reference `fig:relativefiterrorvsnsidebands' on page 23 undefine
 d on input line 402.
 
 
-<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=1000, 569.12625pt 
+<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=1006, 569.12625pt 
 x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf Graphic file (typ
 e pdf)
  <use hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf>
-[21] [22 <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is rotate
+
+LaTeX Warning: Reference `eqn:sbfitdefho' on page 23 undefined on input line 42
+6.
+
+[23] [24 <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is rotate
 d 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, page is r
 otated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, page
  is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf,
@@ -455,102 +549,198 @@ otated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, page
 .pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_
 bin_6.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg
 _bdt_bin_7.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m1
-24_bg_bdt_bin_8.pdf, page is rotated 90 degrees>] [23 <./hgg7TeV/sidebandMvaPlo
-ts/fits/covariance_m124.pdf, page is rotated 90 degrees>] [24 <./hgg7TeV/sideba
+24_bg_bdt_bin_8.pdf, page is rotated 90 degrees>] [25 <./hgg7TeV/sidebandMvaPlo
+ts/fits/covariance_m124.pdf, page is rotated 90 degrees>] [26 <./hgg7TeV/sideba
 ndMvaPlots/fits/fracErrorvsNsidebands.pdf, page is rotated 90 degrees>]
 Missing character: There is no â in font cmr8!
 Missing character: There is no ˆ in font cmr8!
 Missing character: There is no ’ in font cmr8!
 
 
-LaTeX Warning: Reference `tab:photoncatsandres' on page 25 undefined on input l
+LaTeX Warning: Reference `tab:photoncatsandres' on page 27 undefined on input l
 ine 472.
 
-[25]
+
+LaTeX Warning: Reference `fig:signalmodel_escaleres' on page 27 undefined on in
+put line 512.
+
+[27]
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale.pdf
-, id=1447, 569.12625pt x 552.0625pt>
+, id=1453, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scal
 e.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale
 .pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.pdf, 
-id=1448, 569.12625pt x 552.0625pt>
+id=1454, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.
 pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.p
 df>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_sc
-ale.pdf, id=1449, 569.12625pt x 552.0625pt>
+ale.pdf, id=1455, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_scale.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_
 E_scale.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_re
-s.pdf, id=1450, 569.12625pt x 552.0625pt>
+s.pdf, id=1456, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_res.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_
-E_res.pdf> [26] [27 <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpol
-ation_test_E_scale.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots
-/signalModel/systematic_interpolation_test_E_res.pdf, page is rotated 90 degree
-s> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
-_E_scale.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalMod
-el/systematic_interpolation_test_curves_E_res.pdf, page is rotated 90 degrees>]
+E_res.pdf>
 
-<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=1631, 569.12625p
+LaTeX Warning: Reference `tab:sigsystematics' on page 28 undefined on input lin
+e 548.
+
+
+LaTeX Warning: Reference `fig:siginterptest' on page 28 undefined on input line
+ 676.
+
+
+<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=1457, 569.12625p
 t x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf Graphic file (t
 ype pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf>
-<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=1632, 569.12625pt x 217.81375pt>
+
+LaTeX Warning: Reference `fig:zeebdtoutput' on page 28 undefined on input line 
+694.
+
+<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=1458, 569.12625pt x 217.81375pt>
 File: hgg7TeV/zeeValidation/zeebdtoutput.pdf Graphic file (type pdf)
 
-<use hgg7TeV/zeeValidation/zeebdtoutput.pdf> [28 <./hgg7TeV/sidebandMvaPlots/si
-gnalModel/sigInterpTest135.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/model_m124.pdf, id=1679, 569.12625pt x 385.44pt>
+<use hgg7TeV/zeeValidation/zeebdtoutput.pdf> [28] [29 <./hgg7TeV/sidebandMvaPlo
+ts/signalModel/systematic_interpolation_test_E_scale.pdf, page is rotated 90 de
+grees> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_
+res.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/sy
+stematic_interpolation_test_curves_E_scale.pdf, page is rotated 90 degrees> <./
+hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_res
+.pdf, page is rotated 90 degrees>] [30] [31 <./hgg7TeV/sidebandMvaPlots/signalM
+odel/sigInterpTest135.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:results7TeV' on page 32 undefined on input line 7
+15.
+
+
+LaTeX Warning: Reference `sec:backgroundmodel' on page 32 undefined on input li
+ne 717.
+
+<hgg7TeV/sidebandMvaPlots/model_m124.pdf, id=1689, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/model_m124.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/model_m124.pdf> [29 <./hgg7TeV/zeeValidation/zeeb
-dtoutput.pdf, page is rotated 90 degrees>] [30 <./hgg7TeV/sidebandMvaPlots/mode
-l_m124.pdf, page is rotated 90 degrees>] [31]
-<hgg7TeV/statsPlots/qmu_example_130.pdf, id=1777, 569.12625pt x 528.97626pt>
+<use hgg7TeV/sidebandMvaPlots/model_m124.pdf>
+
+LaTeX Warning: Reference `eqn:likelihoodhggbdt' on page 32 undefined on input l
+ine 736.
+
+
+LaTeX Warning: Reference `eqn:slh' on page 32 undefined on input line 757.
+
+
+LaTeX Warning: Reference `eqn:blh' on page 32 undefined on input line 757.
+
+[32 <./hgg7TeV/zeeValidation/zeebdtoutput.pdf, page is rotated 90 degrees>]
+[33 <./hgg7TeV/sidebandMvaPlots/model_m124.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `eqn:slh' on page 34 undefined on input line 774.
+
+
+LaTeX Warning: Reference `sec:signalmodel' on page 34 undefined on input line 7
+78.
+
+
+LaTeX Warning: Reference `eqn:blh' on page 34 undefined on input line 782.
+
+
+LaTeX Warning: Reference `sec:backgroundshape' on page 34 undefined on input li
+ne 783.
+
+
+LaTeX Warning: Reference `eqn:likelihoodhggbdt' on page 34 undefined on input l
+ine 791.
+
+[34]
+
+LaTeX Warning: Reference `sec:signalextraction' on page 35 undefined on input l
+ine 822.
+
+
+LaTeX Warning: Reference `fig:qmuexample' on page 35 undefined on input line 83
+0.
+
+<hgg7TeV/statsPlots/qmu_example_130.pdf, id=1786, 569.12625pt x 528.97626pt>
 File: hgg7TeV/statsPlots/qmu_example_130.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/qmu_example_130.pdf> [32 <./hgg7TeV/statsPlots/qmu_exam
-ple_130.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/limit-100MeV.pdf, id=1824, 569.12625pt x 467.7475pt>
+<use hgg7TeV/statsPlots/qmu_example_130.pdf>
+
+LaTeX Warning: Reference `fig:limits7TeV' on page 35 undefined on input line 84
+6.
+
+
+LaTeX Warning: Reference `tab:compareasvstoys' on page 35 undefined on input li
+ne 852.
+
+
+Underfull \vbox (badness 1845) has occurred while \output is active []
+
+ [35 <./hgg7TeV/statsPlots/qmu_example_130.pdf, page is rotated 90 degrees>]
+<hgg7TeV/statsPlots/limit-100MeV.pdf, id=1833, 569.12625pt x 467.7475pt>
 File: hgg7TeV/statsPlots/limit-100MeV.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/limit-100MeV.pdf> [33] [34 <./hgg7TeV/statsPlots/limit-
-100MeV.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=1874, 569.12625pt x 502.878
+<use hgg7TeV/statsPlots/limit-100MeV.pdf>
+
+LaTeX Warning: Reference `eqn:llr' on page 36 undefined on input line 920.
+
+
+LaTeX Warning: Reference `eqn:plocal' on page 36 undefined on input line 926.
+
+[36] [37 <./hgg7TeV/statsPlots/limit-100MeV.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:q0dist' on page 38 undefined on input line 934.
+
+
+LaTeX Warning: Reference `fig:pvals7TeV' on page 38 undefined on input line 939
+.
+
+
+LaTeX Warning: Reference `fig:muhat7TeV' on page 38 undefined on input line 943
+.
+
+
+<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=1884, 569.12625pt x 502.878
 75pt>
 File: hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf Graphic file (type pdf)
  <use hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf>
-<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=1875, 569.12625pt x 408.52625pt>
+<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=1885, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/pvals-100MeV.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/pvals-100MeV.pdf>
-<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=1876, 569.12625pt x 408.52625pt>
+<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=1886, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/maxlh-100MeV.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/maxlh-100MeV.pdf>
-Underfull \vbox (badness 1622) has occurred while \output is active []
 
- [35 <./hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, page is rotated 90 degr
-ees>]
-[36 <./hgg7TeV/statsPlots/pvals-100MeV.pdf, page is rotated 90 degrees>]
-[37 <./hgg7TeV/statsPlots/maxlh-100MeV.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/lee-extrap.pdf, id=2017, 569.12625pt x 552.0625pt>
+LaTeX Warning: Reference `fig:leestudy' on page 38 undefined on input line 989.
+
+
+<hgg7TeV/statsPlots/lee-extrap.pdf, id=1887, 569.12625pt x 552.0625pt>
 File: hgg7TeV/statsPlots/lee-extrap.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/lee-extrap.pdf> [38 <./hgg7TeV/statsPlots/lee-extrap.pd
-f, page is rotated 90 degrees>]) [39]
+<use hgg7TeV/statsPlots/lee-extrap.pdf>
+
+LaTeX Warning: Reference `eqn:likelihoodhggbdt' on page 38 undefined on input l
+ine 1013.
+
+) [38] [39 <./hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, page is rotated 9
+0 degrees>] [40 <./hgg7TeV/statsPlots/pvals-100MeV.pdf, page is rotated 90 degr
+ees>] [41 <./hgg7TeV/statsPlots/maxlh-100MeV.pdf, page is rotated 90 degrees>]
+[42 <./hgg7TeV/statsPlots/lee-extrap.pdf, page is rotated 90 degrees>]
 \openout2 = `hgg8TeV/hgg8TeV.tex.aux'.
 
 
@@ -559,7 +749,7 @@ No file hgg8TeV/hgg8TeV.tex.tex.
 
 (./combinations/combinations.tex
 Chapter 4.
-) [40
+) [43
 
 
 
@@ -571,7 +761,7 @@ Chapter 4.
 
  (./conclusions.tex
 Chapter 5.
-) [41
+) [44
 
 
 
@@ -588,10 +778,10 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2337 strings out of 493848
- 37278 string characters out of 1152823
- 92949 words of memory out of 3000000
- 5509 multiletter control sequences out of 15000+50000
+ 2327 strings out of 493848
+ 37021 string characters out of 1152823
+ 95064 words of memory out of 3000000
+ 5507 multiletter control sequences out of 15000+50000
  14617 words of font info for 52 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,11n,32p,732b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -608,9 +798,9 @@ pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 msy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (41 pages, 1319311 bytes).
+Output written on thesis.pdf (44 pages, 1332737 bytes).
 PDF statistics:
- 2123 PDF objects out of 2487 (max. 8388607)
+ 2133 PDF objects out of 2487 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
