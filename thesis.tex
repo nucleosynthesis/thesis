@@ -2,29 +2,111 @@
 % nw709
 
 \documentclass[a4paper,12pt,twoside]{report}
+%\documentclass[a4paper,12pt]{report}
+%\documentclass{mythesis}
+%\usepackage{mythesis}
+
+
 %\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
+\usepackage[margin=1.0in]{geometry}
 \usepackage{graphicx}
-% Custom commands
-\newcommand{\mgg}{m_{\gamma\gamma}}
+\usepackage{amsmath}
+%\usepackage{morefloats}
+
+% Custom commands -----------------------
+% Processes
+\newcommand{\ttbar}{t\bar{t}}
 \newcommand{\Hgg}{H\rightarrow\gamma\gamma}
-\newcommand{\dmom}{\Delta M/M_{H}}
+% HGG style commands
+\newcommand{\mgg}{m_{\gamma\gamma}}
+\newcommand{\mh}{m_{H}}
+\newcommand{\mhsb}{m_{H,i}}
+\newcommand{\mhl}{m_{H,i}^{l}}
+\newcommand{\mhu}{m_{H,i}^{u}}
+\newcommand{\dmom}{\Delta m/m_{H}}
+\newcommand{\dmomsb}{(\mgg-\mhsb)/\mhsb}
+\newcommand{\Zee}{Z\rightarrow e^{+}e^{-}}
+\newcommand{\Zmumu}{Z\rightarrow \mu^{+}\mu^{-}}
+\newcommand{\ptgg}{p_{T}^{\gamma\gamma}}
+%General/Detector
+\newcommand{\cmssw}{CMSSW\_4\_2\_X}
 \newcommand{\clumi}{5.1 fb$^{-1}$}
+\newcommand{\rnine}{r_{9}}
+\newcommand{\pt}{p_{T}}
+\newcommand{\sigieie}{\sigma_{i\eta i\eta}}
+\newcommand{\hoe}{H/E}
+%Stats
+\newcommand{\qmu}{q_{\mu}}
+\newcommand{\muhat}{\hat{\mu}}
+\newcommand{\boldth}{{\boldsymbol{\theta}}}
+\newcommand{\xsbr}{\sigma(\Hgg)/\sigma(\Hgg)_{SM}}
+% ---------------------------------------
 
+% HEP THESIS STYLE --------------------------------------------
+%\makeatletter
+%\@ifpackageloaded{hyperref}{%
+%\hypersetup{%
+%pdftitle = {Observation of a new particle in the search for the 
+%       Standard Model Higgs boson at the CMS detector},
+%pdfsubject = {PhD Thesis},
+%pdfkeywords = {CMS detector, Higgs},
+%pdfauthor = {\textcopyright\ Nicholas Wardle}
+%}
+%}{}
+%\makeatother
+%% Define the thesis title and author
+%\title{Observation of a new particle in the search for the 
+%       Standard Model Higgs boson at the CMS detector}
+%\author{Nicholas Wardle}
+
+%% Start the document
+%\begin{document}
+
+%% Define the un-numbered front matter (cover pages, rubrik and table of contents)
+%\begin{frontmatter}
+%  \input{HepThesis/frontmatter}
+%\end{frontmatter}
+
+%% Start the content body of the thesis
+%\begin{mainmatter}
+%\input{introduction}
+%\input{theory/theory}
+%\input{detector/detector}
+%\input{hgg7TeV/hgg7TeV}
+%\input{combinations/combinations}
+%\input{conclusions}
+%\end{mainmatter}
+
+%% Produce the appendices
+%%\begin{appendices}
+%%  \input{appendices}
+%%\end{appendices}
+
+%% Produce the un-numbered back matter (e.g. colophon,
+%% bibliography, tables of figures etc., index...)
+%\begin{backmatter}
+%  \input{HepThesis/backmatter}
+%\end{backmatter}
+
+%% Close
+%\end{document}
+
+%PLAIN STYLE ---------------------------------------------------------
 \begin{document}
-
-\title{\LARGE {\bf Observation of a new particle in the search for the Standard Model Higgs boson at the CMS detector}\\
+\title{\LARGE {\bf Observation of a new particle in the search for the 
+Standard Model Higgs boson at the CMS detector}\\
  \vspace*{6mm}
 }
 
 \author{Nicholas Wardle}
-
 \maketitle
-
 \clearpage\include{introduction}
 \clearpage\include{theory/theory}
 \clearpage\include{detector/detector}
 \clearpage\include{hgg7TeV/hgg7TeV}
+	\include{hgg7TeV/signalextraction}
+	\include{hgg8TeV/hgg8TeV.tex}
 \clearpage\include{combinations/combinations}
 \clearpage\include{conclusions}
-
 \end{document}
+% --------------------------------------------------------------------

@@ -35,19 +35,29 @@ void makeVarPlots(){
 	
 	// Font
 	int fSTYLE = 42;
-	double fSIZE = 0.032;
+	double fSIZE = 0.05;
+	double tSIZE = 0.04;
 
 	// Canvas size
 	int gcWIDTH  = 800;
 	int gcHEIGHT = 600;
 
 	// Y-axis offset
-	double yOFFSET = 1.25;
+	double yOFFSET = 1.0;
+	double xOFFSET = 0.8;
 
-	// Legend
-	double tX1 = 0.49;
+	// Legend Tall
+	/*
+	double tX1 = 0.55;
 	double tX2 = 0.88;
-	double tY1 = 0.6;
+	double tY1 = 0.35;
+	double tY2 = 0.88;
+	*/
+
+	// Legend Wide
+	double tX1 = 0.35;
+	double tX2 = 0.88;
+	double tY1 = 0.55;
 	double tY2 = 0.88;
 
 	// Some Global strings
@@ -85,15 +95,16 @@ void makeVarPlots(){
 	int scMASS   = 125;
 
 	// Labels
+	//std::string lSIGNAL = (std::string)Form("#splitline{%d#timesSM Higgs}{m_{H} = %d GeV}",scSIGNAL,scMASS);
 	std::string lSIGNAL = (std::string)Form("%d#timesSM Higgs m_{H} = %d GeV",scSIGNAL,scMASS);
-	std::string lPP	    = "#gamma-#gamma";
-	std::string lPF	    = "#gamma-j";
-	std::string lFF	    = "j-j";
+	std::string lPP	    = "prompt-prompt";//"#gamma-#gamma";
+	std::string lPF	    = "prompt-fake";//"#gamma-j";
+	std::string lFF	    = "fake-fake";//"j-j";
 	std::string lDY	    = "Z#rightarrow e^{+}e^{-}";
 	std::string lDATA   = "Data";
 
-//	std::string gCUT    = "weight*(bdtoutput>0.05 && mass < 180 && mass >= 100)";
-	std::string gCUT    = "weight*(mass < 180 && mass >= 100)";
+	std::string gCUT    = "weight*(bdtoutput>0.05 && mass < 180 && mass >= 100)";
+//	std::string gCUT    = "weight*(mass < 180 && mass >= 100)";
 	// START ------------------------------------//
 	
 	std::string sName = "hgg-trees-2011-sig.root";
@@ -148,17 +159,18 @@ void makeVarPlots(){
 	// Variables that are to be drawn
 	std::vector<struct_histo> vars;
 	struct_histo v_mass; v_mass.name = "mass"; v_mass.xLabel = "m_{#gamma#gamma} GeV"; v_mass.yLabel = "Events / GeV"; v_mass.nBins = 80; v_mass.xMin=100;v_mass.xMax = 180; v_mass.isLog=false;v_mass.yMin=-10;v_mass.yMax=-10;
-	struct_histo v_bdtoutput; v_bdtoutput.name = "bdtoutput"; v_bdtoutput.xLabel = "BDT Output"; v_bdtoutput.yLabel = "Events"; v_bdtoutput.nBins = 50; v_bdtoutput.xMin=-1;v_bdtoutput.xMax = 1;v_bdtoutput.isLog=true;v_bdtoutput.yMax=50000;v_bdtoutput.yMin=-10;
-	struct_histo v_pt_1om; v_pt_1om.name = "pt_1om"; v_pt_1om.xLabel = "p_{T}^{1}/m_{#gamma#gamma}"; v_pt_1om.yLabel = "Events"; v_pt_1om.nBins = 50 ; v_pt_1om.xMin=0.3;v_pt_1om.xMax = 0.8;v_pt_1om.isLog=false;v_pt_1om.yMax=-10;v_pt_1om.yMin=-10;
+	//struct_histo v_bdtoutput; v_bdtoutput.name = "bdtoutput"; v_bdtoutput.xLabel = "BDT Output"; v_bdtoutput.yLabel = "Events"; v_bdtoutput.nBins = 50; v_bdtoutput.xMin=-1;v_bdtoutput.xMax = 1;v_bdtoutput.isLog=false;v_bdtoutput.yMax=3500;v_bdtoutput.yMin=-10;
+	struct_histo v_bdtoutput; v_bdtoutput.name = "bdtoutput"; v_bdtoutput.xLabel = "BDT Output"; v_bdtoutput.yLabel = "Events"; v_bdtoutput.nBins = 50; v_bdtoutput.xMin=0.05;v_bdtoutput.xMax = 1;v_bdtoutput.isLog=false;v_bdtoutput.yMax=1000;v_bdtoutput.yMin=-10;
+	struct_histo v_pt_1om; v_pt_1om.name = "pt_1om"; v_pt_1om.xLabel = "p_{T}^{1}/m_{#gamma#gamma}"; v_pt_1om.yLabel = "Events"; v_pt_1om.nBins = 50 ; v_pt_1om.xMin=0.3;v_pt_1om.xMax = 1.0;v_pt_1om.isLog=false;v_pt_1om.yMax=-10;v_pt_1om.yMin=-10;
 	struct_histo v_pt_2om; v_pt_2om.name = "pt_2om"; v_pt_2om.xLabel = "p_{T}^{2}/m_{#gamma#gamma}"; v_pt_2om.yLabel = "Events"; v_pt_2om.nBins = 50 ; v_pt_2om.xMin=0.3;v_pt_2om.xMax = 0.8;v_pt_2om.isLog=false;v_pt_2om.yMax=-10;v_pt_2om.yMin=-10;
-	struct_histo v_phoeta_1; v_phoeta_1.name = "phoeta_1"; v_phoeta_1.xLabel = "#eta^{1}"; v_phoeta_1.yLabel = "Events"; v_phoeta_1.nBins = 50 ; v_phoeta_1.xMin=-2.5;v_phoeta_1.xMax = 2.5;v_phoeta_1.isLog=false;v_phoeta_1.yMin=-10;v_phoeta_1.yMax=1200;
-	struct_histo v_phoeta_2; v_phoeta_2.name = "phoeta_2"; v_phoeta_2.xLabel = "#eta^{2}"; v_phoeta_2.yLabel = "Events"; v_phoeta_2.nBins = 50 ; v_phoeta_2.xMin=-2.5;v_phoeta_2.xMax = 2.5;v_phoeta_2.isLog=false;v_phoeta_2.yMin=-10;v_phoeta_2.yMax=1200;
+	struct_histo v_phoeta_1; v_phoeta_1.name = "phoeta_1"; v_phoeta_1.xLabel = "#eta^{1}"; v_phoeta_1.yLabel = "Events"; v_phoeta_1.nBins = 50 ; v_phoeta_1.xMin=-2.5;v_phoeta_1.xMax = 5;v_phoeta_1.isLog=false;v_phoeta_1.yMin=-10;v_phoeta_1.yMax=1600;
+	struct_histo v_phoeta_2; v_phoeta_2.name = "phoeta_2"; v_phoeta_2.xLabel = "#eta^{2}"; v_phoeta_2.yLabel = "Events"; v_phoeta_2.nBins = 50 ; v_phoeta_2.xMin=-2.5;v_phoeta_2.xMax = 5;v_phoeta_2.isLog=false;v_phoeta_2.yMin=-10;v_phoeta_2.yMax=1600;
 	struct_histo v_cosdphi; v_cosdphi.name = "cosdphi"; v_cosdphi.xLabel = "cos(#Delta#phi)"; v_cosdphi.yLabel = "Events"; v_cosdphi.nBins = 50 ; v_cosdphi.xMin=-1;v_cosdphi.xMax = 1;v_cosdphi.isLog=true;v_cosdphi.yMin=-10;v_cosdphi.yMax=-10;
 	struct_histo v_phoid_1; v_phoid_1.name = "phoid_1"; v_phoid_1.xLabel = "#gamma^{1} ID MVA Output"; v_phoid_1.yLabel = "Events"; v_phoid_1.nBins = 65 ; v_phoid_1.xMin=-.3;v_phoid_1.xMax = 1;v_phoid_1.isLog=false;v_phoid_1.yMin=-10;v_phoid_1.yMax=-2;
 	struct_histo v_phoid_2; v_phoid_2.name = "phoid_2"; v_phoid_2.xLabel = "#gamma^{1} ID MVA Output"; v_phoid_2.yLabel = "Events"; v_phoid_2.nBins = 65 ; v_phoid_2.xMin=-.3;v_phoid_2.xMax = 1;v_phoid_2.isLog=false;v_phoid_2.yMin=-10;v_phoid_2.yMax=-2;
-	struct_histo v_sigmrv; v_sigmrv.name = "sigmrv"; v_sigmrv.xLabel = "#sigma_{m_{#gamma#gamma}} right-vtx GeV"; v_sigmrv.yLabel = "Events / 0.1 GeV"; v_sigmrv.nBins = 80; v_sigmrv.xMin=0;v_sigmrv.xMax = 8; v_sigmrv.isLog=false;v_sigmrv.yMin=-10;v_sigmrv.yMax=-10;
+	struct_histo v_sigmrv; v_sigmrv.name = "sigmrv"; v_sigmrv.xLabel = "#sigma_{m_{#gamma#gamma}}/m_{#gamma#gamma} right-vtx GeV"; v_sigmrv.yLabel = "Events"; v_sigmrv.nBins = 80; v_sigmrv.xMin=0;v_sigmrv.xMax = 0.06; v_sigmrv.isLog=false;v_sigmrv.yMin=-10;v_sigmrv.yMax=-10;
 	
-	struct_histo v_sigmwv; v_sigmwv.name = "sigmwv"; v_sigmwv.xLabel = "#sigma_{m_{#gamma#gamma}} wrong-vtx GeV"; v_sigmwv.yLabel = "Events / 0.1 GeV"; v_sigmwv.nBins = 80; v_sigmwv.xMin=0;v_sigmwv.xMax = 8; v_sigmwv.isLog=false;v_sigmwv.yMin=-10;v_sigmwv.yMax=1200;
+	struct_histo v_sigmwv; v_sigmwv.name = "sigmwv"; v_sigmwv.xLabel = "#sigma_{m_{#gamma#gamma}}/m_{#gamma#gamma} wrong-vtx GeV"; v_sigmwv.yLabel = "Events"; v_sigmwv.nBins = 80; v_sigmwv.xMin=0;v_sigmwv.xMax = 0.1; v_sigmwv.isLog=false;v_sigmwv.yMin=-10;v_sigmwv.yMax=-10;
 
 	// Add the variables
 	//vars.push_back(v_mass);
@@ -183,23 +195,26 @@ void makeVarPlots(){
 
 		std::cout << "About to create Histograms .... " << std::endl;
 		std::cout << "Data + Signal .... " << std::endl;
-		t_data->Draw(Form(	"%s>>h_data_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
-		t_ggh->Draw(Form(	"%s>>h_ggh_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
-		t_vbf->Draw(Form(	"%s>>h_vbf_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
-		t_wzh->Draw(Form(	"%s>>h_wzh_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
-		t_tth->Draw(Form(	"%s>>h_tth_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		std::string pvariable = (*it_vars).name;
+		if ( (*it_vars).name == "sigmwv" || (*it_vars).name == "sigmrv") pvariable+="/mass";  // want sigma(m)/m
+
+		t_data->Draw(Form(	"%s>>h_data_%s(%d,%f,%f)",pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		t_ggh->Draw(Form(	"%s>>h_ggh_%s(%d,%f,%f)", pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		t_vbf->Draw(Form(	"%s>>h_vbf_%s(%d,%f,%f)", pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		t_wzh->Draw(Form(	"%s>>h_wzh_%s(%d,%f,%f)", pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		t_tth->Draw(Form(	"%s>>h_tth_%s(%d,%f,%f)", pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
 		std::cout << "PP .... " << std::endl;
-		t_ppjets->Draw(Form(	"%s>>h_ppjets_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
-		t_box->Draw(Form(	"%s>>h_box_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		t_ppjets->Draw(Form(	"%s>>h_ppjets_%s(%d,%f,%f)",pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		t_box->Draw(Form(	"%s>>h_box_%s(%d,%f,%f)",   pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
 		std::cout << "PF .... " << std::endl;
-		t_qcd30_pf->Draw(Form(	"%s>>h_qcd30_pf_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
-		t_qcd40_pf->Draw(Form(	"%s>>h_qcd40_pf_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str())); 	
-		t_gjet->Draw(Form(	"%s>>h_gjet_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));     	
+		t_qcd30_pf->Draw(Form(	"%s>>h_qcd30_pf_%s(%d,%f,%f)",pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));
+		t_qcd40_pf->Draw(Form(	"%s>>h_qcd40_pf_%s(%d,%f,%f)",pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str())); 	
+		t_gjet->Draw(Form(	"%s>>h_gjet_%s(%d,%f,%f)",    pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));     	
 		std::cout << "FF .... " << std::endl;
-		t_qcd30_ff->Draw(Form(	"%s>>h_qcd30_ff_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));	
-		t_qcd40_ff->Draw(Form(	"%s>>h_qcd40_ff_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));		
+		t_qcd30_ff->Draw(Form(	"%s>>h_qcd30_ff_%s(%d,%f,%f)",pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));	
+		t_qcd40_ff->Draw(Form(	"%s>>h_qcd40_ff_%s(%d,%f,%f)",pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));		
 		std::cout << "DY .... " << std::endl;
-		t_dyee->Draw(Form(	"%s>>h_dyee_%s(%d,%f,%f)",(*it_vars).name.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));		
+		t_dyee->Draw(Form(	"%s>>h_dyee_%s(%d,%f,%f)",    pvariable.c_str(),(*it_vars).name.c_str(),(*it_vars).nBins,(*it_vars).xMin,(*it_vars).xMax),Form("%s",gCUT.c_str()));		
 		std::cout << ".... Done" << std::endl;
 
 		// find the objects
@@ -235,10 +250,13 @@ void makeVarPlots(){
 		// Data is the one with the labels
 		h_data->GetYaxis()->SetTitle((*it_vars).yLabel.c_str());
 		h_data->GetXaxis()->SetTitle((*it_vars).xLabel.c_str());
+		h_data->GetXaxis()->SetTitleSize(fSIZE);
+		h_data->GetYaxis()->SetTitleSize(fSIZE);
 		h_data->SetMarkerStyle(cMARKER);
 		h_data->SetMarkerSize(cMSIZE);
 		h_data->SetMarkerColor(cDATA);
 		h_data->GetYaxis()->SetTitleOffset(yOFFSET);
+		h_data->GetXaxis()->SetTitleOffset(xOFFSET);
 		if ((*it_vars).yMin > -1 ) h_data->SetMinimum((*it_vars).yMin);
 		if ((*it_vars).yMax > -1 ) h_data->SetMaximum((*it_vars).yMax);
 
@@ -289,7 +307,7 @@ void makeVarPlots(){
 
 		TLegend *tLEG = new TLegend(tX1,tY1,tX2,tY2);
 		tLEG->SetTextFont(fSTYLE);
-		tLEG->SetTextSize(fSIZE);
+		tLEG->SetTextSize(tSIZE);
 	
 		tLEG->SetFillColor(kWhite);
 		tLEG->AddEntry(h_data,lDATA.c_str(),"PEL");
@@ -315,7 +333,7 @@ void makeVarPlots(){
 		TLatex *txt = new TLatex();
 		txt->SetTextSize(fSIZE);	txt->SetNDC(); txt->SetTextFont(fSTYLE);
 		txt->DrawLatex(0.1,0.91,cmsPRE.c_str());
-		txt->DrawLatex(0.67,0.91,cmsSQRTS.c_str());
+		txt->DrawLatex(0.55,0.91,cmsSQRTS.c_str());
 		
 		can->SaveAs(Form("%s.pdf",(*it_vars).name.c_str()));
 

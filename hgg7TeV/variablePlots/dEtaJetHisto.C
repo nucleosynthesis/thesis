@@ -35,19 +35,20 @@ void makeVarPlots(){
 	
 	// Font
 	int fSTYLE = 42;
-	double fSIZE = 0.032;
+	double fSIZE = 0.05;
+	double tSIZE = 0.04;
 
 	// Canvas size
 	int gcWIDTH  = 800;
 	int gcHEIGHT = 600;
-
 	// Y-axis offset
-	double yOFFSET = 1.25;
+	double yOFFSET = 1.0;
+	double xOFFSET = 0.8;
 
 	// Legend
-	double tX1 = 0.49;
+	double tX1 = 0.55;
 	double tX2 = 0.88;
-	double tY1 = 0.6;
+	double tY1 = 0.35;
 	double tY2 = 0.88;
 
 	// Some Global strings
@@ -85,10 +86,15 @@ void makeVarPlots(){
 	int scMASS   = 125;
 
 	// Labels
-	std::string lSIGNAL = (std::string)Form("%d#timesVBF m_{H} = %d GeV",scSIGNAL,scMASS);
-	std::string lPP	    = "#gamma-#gamma";
-	std::string lPF	    = "#gamma-j";
-	std::string lFF	    = "j-j";
+	std::string lSIGNAL = (std::string)Form("#splitline{%d#timesqqH}{m_{H} = %d GeV}",scSIGNAL,scMASS);
+	//std::string lPP	    = "#gamma-#gamma";
+	//std::string lPF	    = "#gamma-j";
+	//std::string lFF	    = "j-j";
+	//std::string lDY	    = "Z#rightarrow e^{+}e^{-}";
+	//std::string lDATA   = "Data";
+	std::string lPP	    = "prompt-prompt";//"#gamma-#gamma";
+	std::string lPF	    = "prompt-fake";//"#gamma-j";
+	std::string lFF	    = "fake-fake";//"j-j";
 	std::string lDY	    = "Z#rightarrow e^{+}e^{-}";
 	std::string lDATA   = "Data";
 
@@ -192,8 +198,11 @@ void makeVarPlots(){
 		h_data->GetXaxis()->SetTitle((*it_vars).xLabel.c_str());
 		h_data->SetMarkerStyle(cMARKER);
 		h_data->SetMarkerSize(cMSIZE);
+		h_data->GetXaxis()->SetTitleSize(fSIZE);
+		h_data->GetYaxis()->SetTitleSize(fSIZE);
 		h_data->SetMarkerColor(cDATA);
 		h_data->GetYaxis()->SetTitleOffset(yOFFSET);
+		h_data->GetXaxis()->SetTitleOffset(xOFFSET);
 		if ((*it_vars).yMin > -1 ) h_data->SetMinimum((*it_vars).yMin);
 		if ((*it_vars).yMax > -1 ) h_data->SetMaximum((*it_vars).yMax);
 
@@ -244,7 +253,7 @@ void makeVarPlots(){
 
 		TLegend *tLEG = new TLegend(tX1,tY1,tX2,tY2);
 		tLEG->SetTextFont(fSTYLE);
-		tLEG->SetTextSize(fSIZE);
+		tLEG->SetTextSize(tSIZE);
 	
 		tLEG->SetFillColor(kWhite);
 		tLEG->AddEntry(h_data,lDATA.c_str(),"PEL");
@@ -270,7 +279,7 @@ void makeVarPlots(){
 		TLatex *txt = new TLatex();
 		txt->SetTextSize(fSIZE);	txt->SetNDC(); txt->SetTextFont(fSTYLE);
 		txt->DrawLatex(0.1,0.91,cmsPRE.c_str());
-		txt->DrawLatex(0.67,0.91,cmsSQRTS.c_str());
+		txt->DrawLatex(0.55,0.91,cmsSQRTS.c_str());
 		
 		can->SaveAs(Form("%s.pdf",(*it_vars).name.c_str()));
 

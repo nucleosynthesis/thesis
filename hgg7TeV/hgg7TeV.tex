@@ -1,201 +1,186 @@
 \chapter{Higgs decaying to two photons}
 
+The Higgs to two photon channel is one of the most promising decays in the search for the SM higgs
+at the LHC. Despite having a relatively small branching ratio, the decay $\Hgg$ 
+provides a very clean, fully reconstructable final-state topology, making it 
+one of the most sensitive channels at low mass.
+The dominant source of background is from real, prompt diphoton events from QCD 
+processes, $pp\rightarrow\gamma\gamma$.
+In addition, there is a contribution from $pp\rightarrow\gamma+jet$ and $pp\rightarrow jet+jet$
+in which jets are mis-identified as photons.
+This chapter describes a search for a Higgs boson decaying to two photons
+which was performed on the full 2011 dataset 
+corresponding to \clumi of proton-proton collisions recorded at CMS at a center of mass energy of 7 TeV.
+
+\section{Data samples}
+\label{sec:datasamples}
+
+The dataset used for this analysis is the combination of the 2011A and 2011B 
+proton-proton collision runs.
+The selection for the dataset used for this analysis is based around dedicated diphoton triggers
+which select events online which satistfy one of two sets of criteria.
+The first set requires two HLT photon candidates, one with $\pt>26$ GeV and the other with 
+$\pt>18$ GeV, which are well isolated in the calorimeter. The second has a lower threshold on
+the first photon, $\pt>22$ GeV but requires that both photons have localised showers in the ECAL 
+($\rnine>0.8$ in 2011A and $\rnine>0.9$ in 2011B). 
+Additionally, the invariant mass of the two trigger objects are required to have an 
+invariant mass greater than 60 (70)GeV in the 2011A(B) datasets.
+Events which would pass the full offline selection but failed to trigger at the HLT lead to an inefficiency, 
+reducing the number of signal events with respect to that expected from an integrted luminosity of \clumi.
+However, the tresholds applied offline are choson to be much tighter than those of the trigger;
+the trigger efficiency is $>$99\% with respect to the analysis selection. 
+
+Signal Monte Carlo (MC) events are generated for a Higgs decaying to two photons via the four main 
+production processes, gluon-gluon fusion, vector boson fusion and assosiated $W/Z$ and $\ttbar$ production.
+The gluon-gluon fusion (ggH) and vector boson fusion (qqH) were generated with \texttt{POWHEG} with 
+next-to leading order (NLO) contributions whereas
+the two associated production processes were generated to leading order (LO) only.
+The $\pt$ spectrum of the Higgs ($\pt^{H}$) from gluon-gluon fusion was calculated at
+next-to-next-to leading plus next-to leading log resummed order (NNLO+NLL) using the \texttt{HqT} program.
+The production cross-sections and branching ratios are taken from the LHC Cross-section Working Group.
+
+MC for background processes were generated at LO using \texttt{POWHEG} intefaced with \texttt{PYTHIA}.
+The QCD dijet and $\gamma+jet$ samples are filtered by requiring the generated photons, electrons and neutral
+mesons with $\pt>15$ GeV have at most one charged particle in a cone, $\Delta R<0.2$, to increase the 
+production efficiency with respect to the tracker isolation requirements of the full selection.
+The background samples considered for this analysis are summarized in Table~\ref{tab:backgroundmc}.
+A full simulation of the CMS detector is provided in \texttt{GEANT4} which is used for all signal
+and background MC samples.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{|l r|c|c|}
+\hline
+\textbf{Process}  & &  \textbf{Cross-section} ($pb$) & \textbf{Luminosity} ($pb^{-1}$)\\
+\hline
+\hline
+DiPhotonJets & & 154.7 & 7400 \\
+\hline
+DiPhoton Box & $\hat{\pt}~25-250$ & 12.37 & 41900 \\
+\hline 
+QCD Dijet    & $\hat{\pt}~30-40$      & 10870 & 560 \\
+	     & $\hat{\pt}~40-\infty$  & 43571 & 920 \\
+\hline 
+Gamma+Jet    & $\hat{\pt}~20-\infty$  & 493.44& 2400 \\
+\hline 
+DrellYan+Jets to $ll$  & $\hat{\pt}~50-\infty$  & 2475& 14000 \\
+\hline
+\end{tabular}
+\caption{Background MC used throughput the analysis with production cross-sections and 
+corresponding equivalent integrated luminsity.}
+\label{tab:backgroundmc}
+\end{center}
+\end{table}
+
 
 \section{Object Reconstruction and Identification}
+\label{sec:objectrecoandid}
 
-\subsection{Photon Energy Reconstruction}
+The reconstruction of all objects used in this analysis 
+are based on the standardized reconstruction software available for all CMS analyses.
+All data and MC samples are reconstructed with the standard reconstruction software \texttt{\cmssw}. 
+Additional sensitivity can be gained by tayloring the object selection and reconstruction specifically
+to the search for $\Hgg$. 
+
+
+\subsection{Boosted Decision Trees}
+General introduction about BDT's and what they do.
+\label{sec:boosteddecisiontrees}
+
+
+\subsection{Supercluster Energy Correction}
+\label{superclusterenergyreconstruction}
+
+As the natural width of Higgs boson is around 100 MeV, the width of a reconstructed mass peak from 
+a $\Hgg$ decay is driven by the experimental energy resolution of the photons.
+This resolution can be improved dramatically by correcting the raw energy of the supercluster 
+on a per-photon level. These corrections are derived using a multivariate technique 
+in which a regression BDT is trained on prompt photons in the gamma+jet MC sample using the 
+ratio of the generated photon energy to the raw energy of the reconstructed supercluster.
+As this ratio can vary across different regions of the detector, the input varibles include both the 
+$\eta$ and $\phi$ positions of the supercluster. In addition, several variables are included which 
+describe the shower shape: $\rnine$, the energy weighted widths in $\eta$ and $\phi$ of the supercluster,
+the energy weighted crystal width ($\sigieie$) and the ratio of hadronic energy behind the supercluster
+to the energy of the supercluster itself ($\hoe$). In the endcap, there is additional information 
+available from the pre-shower. The ratio of the energy in the pre-shower to the raw supercluster energy
+is included for superclusters in the ECAL endcap. Figure~\ref{fig:mcregrcomparisons} shows the improvement
+in resolution after applying the regression corrections compared to the raw measurement.
+In addition, a similar set of corrections were derived using by fitting an analytical expression 
+of the residual energy difference between the 
+generated and reconstructed photon energy as a functon of supercluster energy, position and $\rnine$. 
+The regression technique reduces the effective resolution of the Higgs mass peak ($\sigma_{eff}$) 
+resolution by around 30\% over using the raw supercluster energy compared to the analytic fit which
+improves the resolution by 15\%. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=.6\textwidth]{hgg7TeV/generalPlots/regrresall.pdf}
+\label{fig:mcregrcomparison}
+\caption{Comparison of the diphoton mass peak in MC Higgs with a mass of 120 GeV using different 
+measurements of the photon energy. The black line 
+is from using the raw energy of the supercluster, the blue is from using the analytic fit method 
+and the red from using the regresssion method. The quantity $\sigma_{eff}$,
+the narrowest range in $\mgg$ which contains 68\% of the distribution, is given for each peak.}
+\end{center}
+\end{figure}
+
+An estimate of the per-photon energy resolution, $\sigma_{E}$, is obtained by training a second 
+regression BDT targetting the the absolute deviation between the correction estimated by the 
+first BDT and the true correction to generator level. This second BDT is trained on an independant
+set of events to the first. The per-photon resolution is used to calculated an estimate of the 
+per-event mass resolution, $\sigma_{\mgg}$, which is used during the event selection 
+(Section~\ref{sec:eventselection}).
+
+\subsubsection{Energy Scale and Resolution}
+
+\subsection{Photon Identification}
+\label{sec:photonidentification}
+
+\subsection{Vertex Selection}
+\label{sec:vertexselection}
 
 The natural width of the Higgs for at low mass is negligible when compared to the experimental 
 resolution of the calorimeter. 
 
-$\approx$ 6-8 pages in total just using information from PAS + Notes
-subsections on photon selection and vertex selection.
+\section{Event Selection}
+\label{sec:eventselection}
 
-MC / data comparison plots
+This is really just the diphoton BDT description.
 
-Event selection
-After applying the selection, the majority of the remaining background comprises of real 
-
-
-\section{Signal Extraction}
-
-The signature for the decay $\Hgg$ is the presence of a narrow peak on a smoothly falling background in 
-the invariant mass spectrum. 
-The signal to background ratio can be dramatically increased by focusing on events falling in a window 
-around the mass of the Higgs boson, $m_{H}$. Since this mass is unconstrained in the Standard Model, 
-the search is perfomed for a range of mass hypotheses effectively sliding the signal window across 
-the diphoton mass spectrum.
-
-As the signal yield for a SM Higgs decaying to two photons is expected to be small, 
-additional event information from the detector and the kinematics of the diphoton system can be used to 
-increase the sensitivity of the search. 
-
-This section descibes a MVA based approach to extracting the signal, categorizing events within a sliding 
-signal region window based on a single event discriminator. The approach allows for use of data in sidebands
-to determine expected event yeilds within the signal region, making little assumption about the specific
-composition and kinematics of the background. 
-
-\subsection{Definition of the Signal region}
-
-Once the expected resolution of the Higgs peak is determined, the choice of signal window can be optimized
-to reduce the uncertainty on the background while selecting as many signal events as possible.
-The size of the signal window is chosen using a simplified analysis in which the number of signal events
-from a SM Higgs with hypothesised mass $m_{H}$ expected within the range $|\Delta M/M_{H}|=|(\mgg-m_{H})/m_{H}| < w$ 
-is compared to the uncertainty on the total number of events (from background and signal) in that range.
-The figure of merit, $N_{S}/\sigma = N_{S}/\sqrt{\sigma_{S}^{2} + \sigma_{B}^{2}}$, is calculated as
-a function of signal region cut value, $w$, for a range of mass hypotheses as shown in Figure
-%~\ref{fig:sigwindowopt}
-The error on the background is calculated using the procedure defined in whereas the error on the signal is 
-purely statistical.
-%\ref{} where the background modelling is done
-
-\begin{figure}
- \begin{centering}
-  \includegraphics[width=\textwidth]{hgg7TeV/sidebandMvaPlots/fom.png}
- \end{centering}
-  \caption{Figure of merit for selection of the signal region cut value, $w$. Each color shows the evaluation
-  under different Higgs mass hypotheses.}
-  \label{fig:sigwindowopt}
+\begin{figure}[hbt!]
+\begin{center}
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/pt_1om}
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/pt_2om}\\
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoeta_1}
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoeta_2}\\
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/cosdphi}
+ \label{fig:diphotonbdtvars1}
+ \caption{VARIABLES}
+\end{center}
 \end{figure}
 
-For this analysis, $w=0.02$ was chosen as the optimal signal region cut value.
-
-\subsection{Event BDT Desciminator}
-
-The inputs to the diphoton BDT contain information from the event kinematics and the quality of the photons 
-and vertex location in the form of the photon ID MVA output and event resolution estimators. 
-The output of the diphoton BDT combined with the invariant mass of the diphoton system therefore provides 
-the necessary information to separate signal from background.
-
-Figure
-%~\ref{fig:bdtplane} 
-shows the variation in the signal to background ratio across different regions in the 
-two-dimensional plane defined by the output of the diphoton MVA and $\dmom$.
-
-\begin{figure}
- \begin{centering}
-  \includegraphics[width=\textwidth]{hgg7TeV/sidebandMvaPlots/bdt2dplot.png}
- \end{centering}
- \caption{Signal to background ratio as a function of diphoton BDT output and $\dmom$.
- The red lines indicate the cuts applied before the training and for applying the event selection.}
- \label{fig:bdtplane}
+\begin{figure}[hbt!]
+\begin{center}
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoid_1}
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoid_2}\\
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/sigmrv}
+  \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/sigmwv}
+ \label{fig:diphotonbdtvars2}
+ \caption{VARIABLES}
+\end{center}
 \end{figure}
 
-The two variables are combined to produce a single event disctiminator by training a BDT with TMVA using the diphoton BDT output and $\dmom$ as inputs.
-The BDT is trained with Higgs signal MC with $m_{H}=123$ GeV including all four production processes and background MC including prompt-prompt, prompt-fake
-and fake-fake events.
+Figure~\ref{fig:massmcdata} shows the invariant mass distribution in data and MC for events passing the full
+selection with a diphoton BDT output greater than 0.05.
 
-% ? Some description about the two training techniques maybe ? or it might be better in the Introduction to the H->gg section?
-The performance of several different training methodologies were compared to find which gave the optimum separation of signal and background.
-Two different choices of boosting were studied, one in which BLAH BLAH (adaptive boosting) and the other BLAH BLAH (gradient boosting).
-In addition, these were compared to a simple likelihood and decorrelated likelihood (which considers at most linear correlations between the variables)
-as shown in Figure
-%~\ref{fig:mvacomparisons}.
-The gradient boosting method was found to give the best performance although the variation between methodologies was small.
- 
-
-%With finite statistics, a BDT can be overtrained by allowing the training to emphasise statistical fluctuations which are not physical and will not necessarily be
-%representative of the data. To test for this, the MC samples are split into two equal samples, the first of which is used to train the BDT. The second set are 
-%then used to evaluate the BDT's overtraining by comparing their distribution to that of the training sample using a Kolmogorov-Smirnoff (KS) test.
-%The distributions for the train and test sample for signal and background shown in Figure~\ref{fig:bdttraining}.
-%The KS test is calculated using a very fine binning (5000 bins) to avoid dependance of the test on binning choice.
-
-%\begin{figure}
-% \begin{centering}
-%  \includegraphics[width=\textwidth]{hgg7TeV/sidebandMvaPlots/bdttraining.png}
-% \end{centering}
-% \caption{Signal and background BDT output distribution with the training sample (points)
-%and testing sample (solid area) superimposed using an arbitary uniform binning.}
-% \label{fig:bdttraining}
-%\end{figure}
-
-In this analysis, the background is estimated entirely from data. This means that any disagreement between
-data and MC will only effect the performance of the BDT and not the validity of the final results. 
-The agreement between the data and MC is shown in Figure~\ref{fig:datamcagreement_sidebandBDT} for a mass 
-hypothesis, $m_{H}=145$ GeV. The level of agreement is sufficient so as not to require indepth study of the
-BDT output distribution of the background MC.
-
-\begin{figure}
- \begin{centering}
-  \includegraphics[width=\textwidth]{hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh145}
- \end{centering}
- \caption{Distribution of data and MC in BDT output for $m_{H}=145$ GeV, binned in constant bin width.}
- \label{fig:datamcagreement_sidebandBDT}
-\end{figure}
-
-\subsection{Binning of the BDT Output Distribution}
-
-The BDT provides a single variable with which to classify events based on their signal to back-
-ground ratio which will have a discrete number of response values based on the number of
-trees used. The boosting procedure provides a pseudo-continuous distribution which is used
-to model the signal and background. However, the resulting distribution will still be only
-pseudo-continuous. In addition, the BDT response does not directly correspond to a physical
-distribution and it is therefore difficult to motivate any parameterisation of either the signal
-or background distributions. To overcome these issues, a binning procedure is defined to con-
-struct templates which are used as models for the signal and background expectation as a
-function of BDT response range (BDT bin). This procedure is designed firstly to ensure that no
-bin in the data-driven background model is empty and secondly that as few bins as possible
-are used without reducing too much the sensitivity of the BDT to improve performance of the
-limit calculation and allow for better modelling of systematic variations.
-
-The binning procedure is defined as follows:
-
-\begin{enumerate}
-
-\item The distribution of background MC is binned very finely to provide an almost discrete
-dataset (5000 equally spaced bins are used). The background is re-binned such that there are 20
-expected events per bin at a luminosity of \clumi. The procedure starts from the highest BDT
-value bin since the final step bin may have less than 20 events. If that is the case, the last and
-penultimate bins are combined.
-\item Smoothed versions of the signal (at each 5 GeV step mass) and background MC tem-
-plates are produced in order to obtain a stable model of the signal to background ratio
-$S/B$ as a function of BDT bin.
-The smoothing procedure is done via binning a fit (of a 9th order polynomial) to the signal
-distribution. Other smoothing techniques were found to give less stable performance.
-\item $N$ bin edges (boundaries), $b_{i}$, are defined on the remaining bins such that $N+1$ bin-
-ranges (categories) are formed with $b_{1} < b_{2} < \ldots < b_{N}$. A full scan is performed varying the
-bin edges to find the maximum expected significance in the presence of a SM Higgs signal. 
-\item An extra boundary is added and the scan is repeated and the maximum expected
-significance is found for $N+1$ boundaries. If the maximum expected significance  
-is increased by more than 0.1\% compared to that of step 3, the new boundary is kept and step 4 
-is repeated, if not, the procedure terminates.
-\end{enumerate}
-
-The scan in step 3 is split into two parts, first using a large step size to find the 
-region where the maximum lies
-and then small steps within that region. The ratio of small to large step size is chosen to be that
-which minimizes the total number of iterations in the scan reducing the time taken for the procedure.
-An example of the binning procedure is shown in Figure~\ref{fig:binningscheme}. 
-The red histogram is the $S/B$ distribution after step 1, the 
-blue after step 2 and the black vertical lines show the final set of 7 bins chosen for this analysis.
-
-\begin{figure}
- \begin{centering}
-  \includegraphics[width=0.9\textwidth]{hgg7TeV/sidebandMvaPlots/binningscheme.png}
- \end{centering}
- \caption{Signal to background ratio as a function of BDT output bin.
- The red and blue histograms show the distribution after applying step 1 of the binning procedure before
-and after smoothing respectively. The black vertical lines indicate the boundaries of the final
-binning choice from the full procedure.}
- \label{fig:binningscheme}
+\begin{figure}[hbt!]
+\begin{center}
+  \includegraphics[width=0.5\textwidth]{hgg7TeV/variablePlots/mass}
+ \caption{Invariant mass distrobution in data and MC after applying the full event selection in the
+ range 100 to 180 GeV. The contribution expected from a SM Higgs with mass 125 GeV, scaled by 10, 
+ is shown in red. }
+ \label{fig:massmcdata}
+\end{center}
 \end{figure}
 
 
-
-\subsection{Background modelling}
-
-$\approx$ 4-5 pages. Datafits to sidebands ,
-systematic studies on background normalization
-and shape (linear, 2nd order pol \ldots)
-
-\subsection{Signal modelling}
-$\approx$ 4-5 pages describing systematics and how they are included into 
-the model. Describe relevant measurements from Z's.
-
-\subsection{7TeV results}
-$\approx$ 1 pages limits, pvalues \ldots
-Since the mass of the Higgs is unknown, the data are tested against a range of possible mass hypotheses
-
-\section{8TeV results}
-$\approx$ 1-2 pages, describing changes to analysis in 2012,
-resutls from 2012 + combined with 2011 
