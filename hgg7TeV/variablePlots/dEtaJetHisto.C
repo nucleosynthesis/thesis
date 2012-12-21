@@ -35,7 +35,7 @@ void makeVarPlots(){
 	
 	// Font
 	int fSTYLE = 42;
-	double fSIZE = 0.05;
+	double fSIZE = 0.055;
 	double tSIZE = 0.04;
 
 	// Canvas size
@@ -43,7 +43,7 @@ void makeVarPlots(){
 	int gcHEIGHT = 600;
 	// Y-axis offset
 	double yOFFSET = 1.0;
-	double xOFFSET = 0.8;
+	double xOFFSET = 0.75;
 
 	// Legend
 	double tX1 = 0.55;
@@ -137,7 +137,7 @@ void makeVarPlots(){
 	// ---------------------------------------------------------------------------------------------------------------------------------------------------
 	// Variables that are to be drawn
 	std::vector<struct_histo> vars;
-	struct_histo v_mass; v_mass.name = "cut_VBF_dEta_sequential_cat0"; v_mass.xLabel = "#Delta#eta(Jet 1, Jet 2)"; v_mass.yLabel = "Events / 0.5"; v_mass.isLog=false;v_mass.yMin=-10;v_mass.yMax=-10;
+	struct_histo v_mass; v_mass.name = "cut_VBF_dEta_sequential_cat0"; v_mass.xLabel = "|#eta_{j^{1}} - #eta_{j^{2}}|"; v_mass.yLabel = "Events / 0.5"; v_mass.isLog=false;v_mass.yMin=-10;v_mass.yMax=-10;
 
 	// Add the variables
 	//vars.push_back(v_mass);

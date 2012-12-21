@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.31)  20 DEC 2012 12:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.31)  21 DEC 2012 14:47
 entering extended mode
  %&-line parsing enabled.
 **hgg7TeV/hgg7TeV.tex
@@ -14,11 +14,11 @@ orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
 rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 ! Undefined control sequence.
 l.1 \chapter
-            {Higgs decaying to two photons}
+            {Higgs Decay to Two Photons}
 ? 
 ! Emergency stop.
 l.1 \chapter
-            {Higgs decaying to two photons}
+            {Higgs Decay to Two Photons}
 End of file on the terminal!
 
  
@@ -29,5 +29,5 @@ Here is how much of TeX's memory you used:
  3381 multiletter control sequences out of 15000+50000
  3640 words of font info for 14 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 5i,0n,1p,61b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 5i,0n,1p,58b,8s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

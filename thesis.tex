@@ -7,10 +7,12 @@
 %\usepackage{mythesis}
 
 
-%\usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
-\usepackage[margin=1.0in]{geometry}
+\usepackage[margin=1.0in]{geometry}  % -> This seems to be the best margin size
+%\usepackage[margin=1.5in]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{natbib}
+\bibliographystyle{plain}
 %\usepackage{morefloats}
 
 % Custom commands -----------------------
@@ -112,5 +114,8 @@ Standard Model Higgs boson at the CMS detector}\\
 	\include{hgg8TeV/hgg8TeV}
 \clearpage\include{combinations/combinations}
 \clearpage\include{conclusions}
+\clearpage\include{appendices}
+
+\bibliography{thesis}
 \end{document}
 % --------------------------------------------------------------------
