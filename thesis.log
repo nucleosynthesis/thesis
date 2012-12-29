@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.31)  21 DEC 2012 14:48
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.31)  22 DEC 2012 01:06
 entering extended mode
  %&-line parsing enabled.
 **thesis.tex
@@ -133,17 +133,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
-)
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
-Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip46
-\bibsep=\skip47
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count104
 ) (./thesis.aux
 (./introduction.aux) (./theory/theory.aux) (./detector/detector.aux)
 (./hgg7TeV/hgg7TeV.aux) (./hgg7TeV/signalextraction.aux) (./hgg8TeV/hgg8TeV.aux
-) (./combinations/combinations.aux) (./conclusions.aux) (./appendices.aux))
+) (./combinations/combinations.aux) (./conclusions.aux)
+(./hgg7TeV/appendices.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
@@ -202,15 +196,15 @@ driver: pdftex
 -----------------------
 (/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count104
 \scratchdimen=\dimen118
 \scratchbox=\box28
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count105
+\nofMParguments=\count106
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count108
+\MPscratchCnt=\count107
 \MPscratchDim=\dimen119
-\MPnumerator=\count109
+\MPnumerator=\count108
 \everyMPtoPDFconversion=\toks22
 ) [1
 
@@ -272,12 +266,7 @@ LaTeX Warning: Reference `AN-11-048' on page 9 undefined on input line 228.
 
 [9 <./hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, page is rotated 90 degrees>]
 
-Package natbib Warning: Citation `HIG-12-015' on page 10 undefined on input lin
-e 239.
-
-
-Package natbib Warning: Citation `AN-12-116' on page 10 undefined on input line
- 252.
+LaTeX Warning: Citation `AN-12-116' on page 10 undefined on input line 252.
 
 [10 <./hgg7TeV/generalPlots/vtxEffHMC.pdf, page is rotated 90 degrees>]
 [11]
@@ -636,45 +625,55 @@ Chapter 5.
 
 
 
-]
-\openout2 = `appendices.aux'.
-
- (./appendices.tex
-Chapter 6.
-) [53
-
-
-
-
-] [54] (./thesis.bbl
+] (./thesis.bbl
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [55
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [53
 
 
-]
-! Undefined control sequence.
-l.125   {\href
-              {http://inspirehep.net/record/230779/files/230779.pdf}{DESY-F3...
+]) [54]
+\openout2 = `hgg7TeV/appendices.aux'.
 
-? 
-)
+ (./hgg7TeV/appendices.tex
+Appendix A.
 
-Package natbib Warning: There were undefined citations.
+LaTeX Warning: Reference `escale2011' on page 55 undefined on input line 7.
 
-[56] (./thesis.aux (./introduction.aux) (./theory/theory.aux)
+
+LaTeX Warning: Reference `eres2011' on page 55 undefined on input line 9.
+
+[55
+
+
+] <hgg7TeV/appendix/minimumtime.pdf, id=2648, 569.12625pt x 385.44pt>
+File: hgg7TeV/appendix/minimumtime.pdf Graphic file (type pdf)
+
+<use hgg7TeV/appendix/minimumtime.pdf>
+<hgg7TeV/appendix/newbinAlgo.pdf, id=2649, 569.12625pt x 385.44pt>
+File: hgg7TeV/appendix/newbinAlgo.pdf Graphic file (type pdf)
+
+<use hgg7TeV/appendix/newbinAlgo.pdf>) [56 <./hgg7TeV/appendix/minimumtime.pdf,
+ page is rotated 90 degrees>] [57 <./hgg7TeV/appendix/newbinAlgo.pdf, page is r
+otated 90 degrees>] (./thesis.aux (./introduction.aux) (./theory/theory.aux)
 (./detector/detector.aux) (./hgg7TeV/hgg7TeV.aux)
 (./hgg7TeV/signalextraction.aux) (./hgg8TeV/hgg8TeV.aux)
-(./combinations/combinations.aux) (./conclusions.aux) (./appendices.aux))
+(./combinations/combinations.aux) (./conclusions.aux) (./hgg7TeV/appendices.aux
+))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2833 strings out of 493848
- 44731 string characters out of 1152823
- 102965 words of memory out of 3000000
- 5975 multiletter control sequences out of 15000+50000
+ 2475 strings out of 493848
+ 40585 string characters out of 1152823
+ 96672 words of memory out of 3000000
+ 5618 multiletter control sequences out of 15000+50000
  15272 words of font info for 54 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,11n,32p,742b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -692,9 +691,9 @@ sfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 msy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (56 pages, 1646850 bytes).
+Output written on thesis.pdf (57 pages, 1682414 bytes).
 PDF statistics:
- 2703 PDF objects out of 2984 (max. 8388607)
+ 2794 PDF objects out of 2984 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -94,7 +94,7 @@ Additional sensitivity can be gained by refining the object selection and recons
 to the search for $\Hgg$.
 
 \subsection{Supercluster Energy Correction}
-\label{superclusterenergyreconstruction}
+\label{sec:superclusterenergyreconstruction}
 
 As the natural width of Higgs boson is around 100 MeV, the width of a reconstructed mass peak from 
 a $\Hgg$ decay is driven by the experimental energy resolution of the photons.
@@ -236,7 +236,7 @@ fraction of the events in which the selected vertex is located within 10mm from 
 \label{sec:photonidentification}
 
 A large portion of the fake background in the $\Hgg$ search is due to high momentum neutral mesons
-which decay to two photons where both the photons are combined into the same supercluster~\cite{HIG-12-015}. 
+which decay to two photons where both the photons are combined into the same supercluster~\cite{HIG-11-033}. 
 Information from the shower shape of the photon supercluster can be used, in addition to the 
 energy isolation within the calorimeter, in order to distinguish these from prompt photons
 from the primary interaction point. A BDT was trained on MC events to combine the relevant information
@@ -479,7 +479,8 @@ the remaining events, thereby exploiting their high signal to background ratio f
 extraction. 
 
 \begin{table}
-\begin{tabular}{|l|c|}
+\begin{center}
+\begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}|l|c|}
 \hline
 \textbf{Variable} & \textbf{Cut Value} \\
 \hline
@@ -488,14 +489,15 @@ $E_{T}^{j^{1}}$ & $>$ 30 GeV \\
 $E_{T}^{j^{2}}$ & $>$ 20 GeV \\
 $m_{jj}$ 	 & $>$ 350 GeV \\
 $|\eta_{j^{1}} - \eta_{j^{2}}|$ & $>$ 3.5 \\
-$|\phi_{jj} - \phi_{\gamma\gamma}$ & $>$ 2.6 \\
-$|0.5(\eta_{j^{1}} + \eta_{j^{2}}) - \eta_{\gamma\gamma}|$ & $<$ 2.5 \\
+$|\phi_{jj} - \phi_{\gamma\gamma}|$ & $>$ 2.6 \\
+$|\frac{1}{2}(\eta_{j^{1}} + \eta_{j^{2}}) - \eta_{\gamma\gamma}|$ & $<$ 2.5 \\
 \hline
-\end{tabular}
+\end{tabular*}
 \label{tab:vbfcuts}
 \caption{Dijet selection criteria for the two identified jets
 to be considered likely associated to $qqH$ production. The leading and subleading $E_{T}$ jets
 are denoted $j^{1}$ and $j^{2}$ respectively.}
+\end{center}
 \end{table}
 
 \begin{figure}
