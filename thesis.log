@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.3.31)  22 DEC 2012 01:06
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.30)  15 JAN 2013 15:11
 entering extended mode
  %&-line parsing enabled.
-**thesis.tex
+**thesis
 (./thesis.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -12,49 +12,243 @@ skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
 orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
 , estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
 rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
-(/usr/share/texmf-texlive/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
-)
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
-)
-(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
-Package: geometry 2008/12/21 v4.2 Page Geometry
+(./mythesis.cls
+Document Class: mythesis 
+(./hepthesis.cls
+Document Class: hepthesis 2010/05/27 HEP thesis class by Andy Buckley (v1.4.3)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2009/07/24 v3.04a KOMA-Script document class (book)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
 
 (/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
-Package ifvtex Info: VTeX not detected.
-)
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
-\Gm@bindingoffset=\dimen103
-\Gm@wd@mp=\dimen104
-\Gm@odd@mp=\dimen105
-\Gm@even@mp=\dimen106
-\Gm@dimlist=\toks15
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
 
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texmf-texlive/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internaly I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
+Package scrbook Info: You've used obsolete option `12pt'.
+(scrbook)             \KOMAExecuteOptions{fontsize=12pt} will be
+(scrbook)             used instead.
+(scrbook)             You may simply replace `12pt'
+(scrbook)             by `fontsize=12pt'.
+Class scrbook Info: File `scrsize12pt.clo' used to setup font sizes on input li
+ne 1272.
+
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrsize12pt.clo
+File: scrsize12pt.clo 2009/07/24 v3.04a KOMA-Script font size class option (12p
+t)
+)
+(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
+Package: typearea 2009/07/24 v3.04a KOMA-Script package (type area)
+
+Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 12
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 448.13095pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 2.4185pt
+(typearea)              \oddsidemargin  = 2.4185pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 635.5pt
+(typearea)              \topmargin      = -41.72441pt
+(typearea)              \headheight     = 18.125pt
+(typearea)              \headsep        = 21.75pt
+(typearea)              \topskip        = 12.0pt
+(typearea)              \footskip       = 50.75pt
+(typearea)              \baselineskip   = 14.5pt
+(typearea)              on input line 1115.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen102
+) (/usr/share/texmf-texlive/tex/latex/microtype/microtype.sty
+Package: microtype 2009/03/27 v2.3d Micro-typography with pdfTeX (RS)
+\MT@toks=\toks15
+\MT@count=\count89
+LaTeX Info: Redefining \lsstyle on input line 1608.
+LaTeX Info: Redefining \lslig on input line 1608.
+\MT@outer@space=\skip47
+LaTeX Info: Redefining \textls on input line 1616.
+\MT@outer@kern=\dimen103
+LaTeX Info: Redefining \textmicrotypecontext on input line 2167.
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/usr/share/texmf-texlive/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2009/03/27 v2.3d microtype main configuration file (RS)
+))
+(/usr/share/texmf-texlive/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count90
+\cp@tempcnt=\count91
+) (./varwidth.sty
+Package: varwidth 2003/03/10 ver 0.9a;  Variable-width minipages
+\@vwid@box=\box27
+\sift@deathcycles=\count92
+\@vwid@loff=\dimen104
+\@vwid@roff=\dimen105
+) (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip48
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen106
+))
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen107
+)
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box28
+\strutbox@=\box29
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks17
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks18
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks19
+\multlinegap=\skip49
+\multlinetaggap=\skip50
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+(/usr/share/texmf-texlive/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen115
+\lightrulewidth=\dimen116
+\cmidrulewidth=\dimen117
+\belowrulesep=\dimen118
+\belowbottomsep=\dimen119
+\aboverulesep=\dimen120
+\abovetopsep=\dimen121
+\cmidrulesep=\dimen122
+\cmidrulekern=\dimen123
+\defaultaddspace=\dimen124
+\@cmidla=\count105
+\@cmidlb=\count106
+\@aboverulesep=\dimen125
+\@belowrulesep=\dimen126
+\@thisruleclass=\count107
+\@lastruleclass=\count108
+\@thisrulewidth=\dimen127
+)
+(/usr/share/texmf-texlive/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/share/texmf-texlive/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+)
+(/usr/share/texmf-texlive/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2009/09/04 v1.5i extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/usr/share/texmf-texlive/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks21
+\verbatim@line=\toks22
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf-texlive/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(/usr/share/texmf-texlive/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
 (/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -71,629 +265,1302 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 (/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count91
+\Gread@gobject=\count109
 ))
-\Gin@req@height=\dimen107
-\Gin@req@width=\dimen108
+\Gin@req@height=\dimen128
+\Gin@req@width=\dimen129
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip43
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count110
+\rotFPtop=\skip60
+\rotFPbot=\skip61
+\rot@float@box=\box30
+\rot@mess@toks=\toks23
+)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
 
-For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen130
+\captionmargin@=\dimen131
+\captionwidth=\dimen132
+\caption@indent=\dimen133
+\caption@parindent=\dimen134
+\caption@hangindent=\dimen135
+)
+Package caption Info: KOMA-Script document class.
+\c@ContinuedFloat=\count111
+Package caption Info: rotating package is loaded.
+)
+\@bindextramargin=\skip62
+\@mainmatterextramargin=\skip63
+\@backmatterextramargin=\skip64
+\@frontmatterextramargin=\skip65
+\@appendixextramargin=\skip66
+\@abstractextramargin=\skip67
+\@declarationextramargin=\skip68
+\@acknowledgementsextramargin=\skip69
+\@prefaceextramargin=\skip70
+\@pagequoteextramargin=\skip71
+\@frontmattertopskip=\skip72
+\@frontmattertitletopskip=\skip73
+\frontmattertitleskip=\skip74
+\smallfigwidth=\skip75
+\mediumfigwidth=\skip76
+\largefigwidth=\skip77
+\hugefigwidth=\skip78
+\littlefigwidth=\skip79
+\bigfigwidth=\skip80
+LaTeX Info: Redefining \contentsname on input line 444.
+LaTeX Info: Redefining \bibname on input line 445.
+LaTeX Info: Redefining \listfigurename on input line 446.
+LaTeX Info: Redefining \listtablename on input line 447.
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks16
-\ex@=\dimen109
+Special comment 'frontmatter' Special comment 'mainmatter'
+Special comment 'appendices' Special comment 'backmatter'
+LaTeX Info: Redefining \titlepage on input line 652.
+\@oldparindent=\skip81
+LaTeX Info: Redefining \dedication on input line 705.
+)
+(/usr/share/texmf-texlive/tex/latex/csquotes/csquotes.sty
+Package: csquotes 2009/09/23 v4.4c context-sensitive quotations
+
+(/usr/share/texmf-texlive/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2009/08/06 v1.8 e-TeX tools for LaTeX
+
+(/usr/share/texmf-texlive/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count112
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen110
+\csq@reset=\count113
+\csq@gtype=\count114
+\csq@glevel=\count115
+\csq@qlevel=\count116
+\csq@maxlvl=\count117
+\csq@tshold=\count118
+\csq@ltx@everypar=\toks24
+
+(/usr/share/texmf-texlive/tex/latex/csquotes/csquotes.def
+File: csquotes.def 2009/09/23 v4.4c csquotes generic definitions
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(/usr/share/texmf-texlive/tex/latex/csquotes/csquotes.cfg
+File: csquotes.cfg 2009/05/30 v4.4 csquotes configuration
 )
-\inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count93
-\leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count95
-\DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
-\big@size=\dimen111
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count97
-\c@MaxMatrixCols=\count98
-\dotsspace@=\muskip10
-\c@parentequation=\count99
-\dspbrk@lvl=\count100
-\tag@help=\toks17
-\row@=\count101
-\column@=\count102
-\maxfields@=\count103
-\andhelp@=\toks18
-\eqnshift@=\dimen112
-\alignsep@=\dimen113
-\tagshift@=\dimen114
-\tagwidth@=\dimen115
-\totwidth@=\dimen116
-\lineht@=\dimen117
-\@envbody=\toks19
-\multlinegap=\skip44
-\multlinetaggap=\skip45
-\mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
-) (./thesis.aux
-(./introduction.aux) (./theory/theory.aux) (./detector/detector.aux)
-(./hgg7TeV/hgg7TeV.aux) (./hgg7TeV/signalextraction.aux) (./hgg8TeV/hgg8TeV.aux
-) (./combinations/combinations.aux) (./conclusions.aux)
-(./hgg7TeV/appendices.aux))
+Package csquotes Info: Enabling multilingual support.
+)
+(/usr/share/texmf-texlive/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 285.
+LaTeX Info: Redefining \nocite on input line 356.
+Package: cite 2009/08/29  v 5.2
+)
+(/usr/share/texmf-texlive/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+(/usr/share/texmf-texlive/tex/latex/tools/afterpage.sty
+Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+\AP@output=\toks25
+\AP@partial=\box31
+\AP@footins=\box32
+)
+(/var/lib/texmf/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count119
+\U@D=\dimen136
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+)
+(/usr/share/texmf-texlive/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip82
+\subfigcapskip=\skip83
+\subfigcaptopadj=\dimen137
+\subfigbottomskip=\skip84
+\subfigcapmargin=\dimen138
+\subfiglabelskip=\skip85
+\c@subfigure=\count120
+\c@lofdepth=\count121
+\c@subtable=\count122
+\c@lotdepth=\count123
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/share/texmf-texlive/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip86
+\subfig@bottom=\skip87
+)
+(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks26
+)
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box33
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen139
+\pgf@y=\dimen140
+\pgf@xa=\dimen141
+\pgf@ya=\dimen142
+\pgf@xb=\dimen143
+\pgf@yb=\dimen144
+\pgf@xc=\dimen145
+\pgf@yc=\dimen146
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count124
+\c@pgf@countb=\count125
+\c@pgf@countc=\count126
+\c@pgf@countd=\count127
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+)))
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count128
+\pgfsyssoftpath@bigbuffer@items=\count129
+)
+(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen147
+\pgfmath@count=\count130
+\pgfmath@box=\box34
+\pgfmath@toks=\toks30
+\pgfmath@stack@operand=\toks31
+\pgfmath@stack@operation=\toks32
+)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
+(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count131
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen148
+\pgf@picmaxx=\dimen149
+\pgf@picminy=\dimen150
+\pgf@picmaxy=\dimen151
+\pgf@pathminx=\dimen152
+\pgf@pathmaxx=\dimen153
+\pgf@pathminy=\dimen154
+\pgf@pathmaxy=\dimen155
+\pgf@xx=\dimen156
+\pgf@xy=\dimen157
+\pgf@yx=\dimen158
+\pgf@yy=\dimen159
+\pgf@zx=\dimen160
+\pgf@zy=\dimen161
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen162
+\pgf@path@lasty=\dimen163
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen164
+\pgf@shorten@start@additional=\dimen165
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box35
+\pgf@hbox=\box36
+\pgf@layerbox@main=\box37
+\pgf@picture@serial@count=\count132
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen166
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen167
+\pgf@pt@y=\dimen168
+\pgf@pt@temp=\dimen169
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen170
+\pgf@sys@shading@range@num=\count133
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box38
+))
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box39
+)
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen171
+\pgf@nodesepend=\dimen172
+)
+(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen173
+\pgffor@skip=\dimen174
+\pgffor@stack=\toks33
+\pgffor@toks=\toks34
+))
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count134
+\pgfplotmarksize=\dimen175
+)
+\tikz@lastx=\dimen176
+\tikz@lasty=\dimen177
+\tikz@lastxsaved=\dimen178
+\tikz@lastysaved=\dimen179
+\tikzleveldistance=\dimen180
+\tikzsiblingdistance=\dimen181
+\tikz@figbox=\box40
+\tikz@tempbox=\box41
+\tikztreelevel=\count135
+\tikznumberofchildren=\count136
+\tikznumberofcurrentchild=\count137
+\tikz@fig@count=\count138
+
+(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count139
+\pgfmatrixcurrentcolumn=\count140
+\pgf@matrix@numberofcolumns=\count141
+)
+\tikz@expandcount=\count142
+
+(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
+hs.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+))) (/usr/share/texmf-texlive/tex/latex/overpic/overpic.sty
+Package: overpic 1999/07/04 v0.52  Overwriting eps pictures
+
+Package: overpic v0.52 <1999/07/04> (RN)
+(/usr/share/texmf-texlive/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count143
+\d@lta=\count144
+\@delta=\dimen182
+\@@delta=\dimen183
+\@gridcnt=\count145
+\@joinkind=\count146
+\@dotgap=\dimen184
+\@ddotgap=\dimen185
+\@x@diff=\count147
+\@y@diff=\count148
+\x@diff=\dimen186
+\y@diff=\dimen187
+\@dotbox=\box42
+\num@segments=\count149
+\num@segmentsi=\count150
+\@datafile=\read3
+)
+overpic: relative positioning in percent
+) (/usr/share/texmf-texlive/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen188
+)
+(/usr/share/texmf-texlive/tex/latex/pbox/pbox.sty
+Package: pbox 2003/04/06 v1.0 Dynamic parboxes
+
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count151
+\calc@Bcount=\count152
+\calc@Adimen=\dimen189
+\calc@Bdimen=\dimen190
+\calc@Askip=\skip88
+\calc@Bskip=\skip89
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count153
+\calc@Cskip=\skip90
+)
+\pb@xlen=\skip91
+)
+(/usr/share/texmf-texlive/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2001/05/28 v1.06 decimal alignment package (DPC)
+
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen191
+\extrarowheight=\dimen192
+\NC@list=\toks35
+\extratabsurround=\skip92
+\backup@length=\skip93
+))) (./mythesis.sty
+Package: mythesis 07/11/2011
+
+(./hepnicenames.sty
+Package: hepnicenames 2007/03/07 Friendly alternatives to the PEN particle code
+s (version 1.4)
+ (./heppennames.sty
+Package: heppennames 2007/03/07 Elementary Particle Naming Scheme (version 1.4)
+
+ (./hepparticles.sty
+Package: hepparticles 2005/02/22 HEP particle typesetting (v1.4)
+
+(/usr/share/texmf-texlive/tex/latex/maybemath/maybemath.sty
+Package: maybemath 2005/2/22
+
+(/usr/share/texmf-texlive/tex/latex/tools/bm.sty
+Package: bm 2004/02/26 v1.1c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup5
+\symboldletters=\mathgroup6
+\symboldsymbols=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 138.
+LaTeX Info: Redefining \bm on input line 204.
+)))
+(/usr/share/texmf-texlive/tex/latex/tools/xspace.sty
+Package: xspace 2006/05/08 v1.12 Space after command names (DPC,MH)
+))) (./hepunits.sty
+Package: hepunits 2007/09/27 High-energy physics units by Andy Buckley (v1.1.1)
+
+
+(./SIunits.sty
+Package: SIunits 2007/12/02 v1.36 Support for the International System of units
+ (MH)
+
+
+\@qskwidth=\skip94
+\symgreek=\mathgroup8
+(./SIunits.cfg)
+LaTeX Info: Redefining \usk on input line 576.
+
+Option `mediumspace' provided!
+LaTeX Info: Redefining \@qsk on input line 576.
+Option `thickqspace' provided!
+Option `textstyle' provided!
+Option `squaren' provided!
+))
+LaTeX Info: Redefining \th on input line 8.
+LaTeX Info: Redefining \pod on input line 57.
+) (/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+
+
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
+
+\bibhang=\skip95
+\bibsep=\skip96
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count154
+)
+
+Package array Warning: Column D is already defined on input line 15.
+
+
+LaTeX Warning: Unused global option(s):
+    [noroman].
+
+(./thesis.aux
+
+LaTeX Warning: Label `fig:egcorrfunc' multiply defined.
+
+)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 73.
+ (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Info: Redefining \microtypecontext on input line 73.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
 
-*geometry auto-detecting driver*
-*geometry detected driver: pdftex*
--------------------- Geometry parameters
-paper: a4paper
-landscape: --
-twocolumn: --
-twoside: true
-asymmetric: --
-h-parts: 72.26999pt, 452.9679pt, 72.26999pt
-v-parts: 72.26999pt, 700.50687pt, 72.26999pt
-hmarginratio: --
-vmarginratio: --
-lines: --
-heightrounded: --
-bindingoffset: 0.0pt
-truedimen: --
-includehead: --
-includefoot: --
-includemp: --
-driver: pdftex
--------------------- Page layout dimensions and switches
-\paperwidth  597.50787pt
-\paperheight 845.04684pt
-\textwidth  452.9679pt
-\textheight 700.50687pt
-\oddsidemargin  0.0pt
-\evensidemargin 0.0pt
-\topmargin  -37.0pt
-\headheight 12.0pt
-\headsep    25.0pt
-\footskip   30.0pt
-\marginparwidth 85.0pt
-\marginparsep   10.0pt
-\columnsep  10.0pt
-\skip\footins  10.8pt plus 4.0pt minus 2.0pt
-\hoffset 0.0pt
-\voffset 0.0pt
-\mag 1000
-\@twosidetrue \@mparswitchtrue 
-(1in=72.27pt, 1cm=28.45pt)
------------------------
-(/usr/share/texmf/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf-texlive/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2008/02/29 v1.9a microtype config. file: Computer Modern Roman
+ (RS)
+)
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen118
-\scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen119
-\MPnumerator=\count108
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count155
+\scratchdimen=\dimen193
+\scratchbox=\box43
+\nofMPsegments=\count156
+\nofMParguments=\count157
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count158
+\MPscratchDim=\dimen194
+\MPnumerator=\count159
+\everyMPtoPDFconversion=\toks37
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+ ABD: EveryShipout initializing macros
+Option `squaren' provided! 
+ Command \squaren defined by SIunits package!
+
+LaTeX Info: Redefining \micro on input line 73.
+\openout3 = `comment.cut'.
+
+\c@iterlist=\count160
+(./comment.cut (./frontmatter.tex
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 4.
+
+(/usr/share/texmf-texlive/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+(/usr/share/texmf-texlive/tex/latex/microtype/mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `introduction.aux'.
 
- (./introduction.tex)
-[2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
+] [3
+
+] [4
+
+] [5
+
+] (./thesis.toc
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 4.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 10.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 21.
+ [6
 
 ]
-\openout2 = `theory/theory.aux'.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 52.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 57.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 58.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 62.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 65.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 66.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 67.
+)
+\tf@toc=\write5
+\openout5 = `thesis.toc'.
 
- (./theory/theory.tex
+ [7]))
+\openout3 = `comment.cut'.
+
+
+(./comment.cut (./introduction.tex) (./theory/theory.tex [1
+
+]
 Chapter 1.
-) [3
-
-
-
+) (./detector/detector.tex [2
 
 ]
-\openout2 = `detector/detector.aux'.
-
- (./detector/detector.tex
 Chapter 2.
-) [4
+<detector/CERN.jpg, id=41, 997.7275pt x 637.38126pt>
+File: detector/CERN.jpg Graphic file (type jpg)
+ <use detector/CERN.jpg>
+[3
+
+] [4 <./detector/CERN.jpg>]
+<detector/cmsdetector.pdf, id=53, 796.9775pt x 597.23125pt>
+File: detector/cmsdetector.pdf Graphic file (type pdf)
+
+<use detector/cmsdetector.pdf> [5]
+<detector/trcker/tracker_col.jpg, id=59, 324.89522pt x 211.05399pt>
+File: detector/trcker/tracker_col.jpg Graphic file (type jpg)
+
+<use detector/trcker/tracker_col.jpg> [6 <./detector/cmsdetector.pdf>]
+<detector/trcker/zresotrcker.png, id=76, 598.235pt x 574.145pt>
+File: detector/trcker/zresotrcker.png Graphic file (type png)
+
+<use detector/trcker/zresotrcker.png> [7 <./detector/trcker/tracker_col.jpg>]
+[8 <./detector/trcker/zresotrcker.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 189.
 
 
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 189.
 
+<detector/ecal/clustering.png, id=84, 892.33376pt x 423.5825pt>
+File: detector/ecal/clustering.png Graphic file (type png)
+
+<use detector/ecal/clustering.png> [9 <./detector/ecal/clustering.png (PNG copy
+)>] <detector/ecal/laser.pdf, id=88, 361.35pt x 252.945pt>
+File: detector/ecal/laser.pdf Graphic file (type pdf)
+
+<use detector/ecal/laser.pdf>
+<detector/ecal/scaleeop.pdf, id=89, 569.12625pt x 270.00874pt>
+File: detector/ecal/scaleeop.pdf Graphic file (type pdf)
+
+<use detector/ecal/scaleeop.pdf> [10] [11 <./detector/ecal/laser.pdf> <./detect
+or/ecal/scaleeop.pdf, page is rotated 90 degrees>]
+<detector/r9eg.pdf, id=149, 569.12625pt x 546.04pt>
+File: detector/r9eg.pdf Graphic file (type pdf)
+ <use detector/r9eg.pdf>
+<detector/sieieeg.pdf, id=150, 569.12625pt x 546.04pt>
+File: detector/sieieeg.pdf Graphic file (type pdf)
+
+<use detector/sieieeg.pdf> [12 <./detector/r9eg.pdf, page is rotated 90 degrees
+> <./detector/sieieeg.pdf, page is rotated 90 degrees>])
+(./detector/l1trigger.tex [13]
+<detector/l1jet/bias.pdf, id=244, 569.12625pt x 385.44pt>
+File: detector/l1jet/bias.pdf Graphic file (type pdf)
+
+<use detector/l1jet/bias.pdf> [14 <./detector/l1jet/bias.pdf, page is rotated 9
+0 degrees>]
+
+Package natbib Warning: Citation `jetcalib' on page 15 undefined on input line 
+73.
+
+<detector/l1jet/egcorrfunc.pdf, id=291, 569.12625pt x 408.52625pt>
+File: detector/l1jet/egcorrfunc.pdf Graphic file (type pdf)
+
+<use detector/l1jet/egcorrfunc.pdf> [15 <./detector/l1jet/egcorrfunc.pdf, page 
+is rotated 90 degrees>]
+<detector/l1jet/rspvspt.pdf, id=338, 569.12625pt x 546.04pt>
+File: detector/l1jet/rspvspt.pdf Graphic file (type pdf)
+
+<use detector/l1jet/rspvspt.pdf>
+<detector/l1jet/rspvseta.pdf, id=339, 569.12625pt x 546.04pt>
+File: detector/l1jet/rspvseta.pdf Graphic file (type pdf)
+
+<use detector/l1jet/rspvseta.pdf>
+<detector/l1jet/MCresolution.pdf, id=340, 569.12625pt x 408.52625pt>
+File: detector/l1jet/MCresolution.pdf Graphic file (type pdf)
+
+<use detector/l1jet/MCresolution.pdf>) (./hgg7TeV/hgg7TeV.tex [16 <./detector/l
+1jet/rspvspt.pdf, page is rotated 90 degrees> <./detector/l1jet/rspvseta.pdf, p
+age is rotated 90 degrees>] [17 <./detector/l1jet/MCresolution.pdf, page is rot
+ated 90 degrees>]
+Chapter 3.
+[18
 
 ]
-\openout2 = `hgg7TeV/hgg7TeV.aux'.
 
- (./hgg7TeV/hgg7TeV.tex
-Chapter 3.
-[5
+LaTeX Warning: Reference `sec:pileup' on page 19 undefined on input line 61.
+
+[19]
+
+Package caption Warning: \label before \caption on input line 124.
+See the caption package documentation for explanation.
 
 
+LaTeX Warning: Reference `fig:mcregrcomparison' on page 20 undefined on input l
+ine 112.
 
-
-] [6]
-<hgg7TeV/generalPlots/regrresall.pdf, id=28, 569.12625pt x 549.05125pt>
+[20] <hgg7TeV/generalPlots/regrresall.pdf, id=486, 569.12625pt x 549.05125pt>
 File: hgg7TeV/generalPlots/regrresall.pdf Graphic file (type pdf)
 
-<use hgg7TeV/generalPlots/regrresall.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<use hgg7TeV/generalPlots/regrresall.pdf> [21 <./hgg7TeV/generalPlots/regrresal
+l.pdf>]
 
- [7 <./hgg7TeV/generalPlots/regrresall.pdf>]
-<hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, id=43, 569.12625pt x 408.52625pt>
+Package caption Warning: \label before \caption on input line 14.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:escale2011' on page 22 undefined on input line 17
+0.
+
+[22]
+
+Package caption Warning: \label before \caption on input line 190.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:higgsrightwrongvertex' on page 23 undefined on in
+put line 183.
+
+
+<hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, id=503, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/rightwrongvtxpeak.pdf Graphic file (type pdf)
+<use hgg7TeV/generalPlots/rightwrongvtxpeak.pdf> [23 <./hgg7TeV/generalPlots/ri
+ghtwrongvtxpeak.pdf, page is rotated 90 degrees>]
 
-<use hgg7TeV/generalPlots/rightwrongvtxpeak.pdf> [8]
-<hgg7TeV/generalPlots/vtxEffHMC.pdf, id=47, 569.12625pt x 408.52625pt>
+Package caption Warning: \label before \caption on input line 225.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:vtxeffhmc' on page 24 undefined on input line 215
+.
+
+<hgg7TeV/generalPlots/vtxEffHMC.pdf, id=550, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/vtxEffHMC.pdf Graphic file (type pdf)
 
 <use hgg7TeV/generalPlots/vtxEffHMC.pdf>
 
-LaTeX Warning: Reference `AN-11-048' on page 9 undefined on input line 228.
+LaTeX Warning: Reference `AN-11-048' on page 24 undefined on input line 229.
 
-[9 <./hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Citation `AN-12-116' on page 10 undefined on input line 252.
+Package caption Warning: \label before \caption on input line 225.
+See the caption package documentation for explanation.
 
-[10 <./hgg7TeV/generalPlots/vtxEffHMC.pdf, page is rotated 90 degrees>]
-[11]
-<hgg7TeV/variablePlots/bdtoutput_full.pdf, id=144, 569.12625pt x 408.52625pt>
+
+LaTeX Warning: Reference `fig:vtxeffhmc' on page 24 undefined on input line 232
+.
+
+
+Package natbib Warning: Citation `AN-12-116' on page 24 undefined on input line
+ 253.
+
+[24] [25 <./hgg7TeV/generalPlots/vtxEffHMC.pdf, page is rotated 90 degrees>]
+[26] [27]
+<hgg7TeV/variablePlots/bdtoutput_full.pdf, id=607, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/bdtoutput_full.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/bdtoutput_full.pdf>
-<hgg7TeV/variablePlots/pt_1om.pdf, id=145, 569.12625pt x 408.52625pt>
+
+Package caption Warning: \label before \caption on input line 374.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:diphotonbdtvars1' on page 28 undefined on input l
+ine 360.
+
+
+Package caption Warning: \label before \caption on input line 388.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:diphotonbdtvars2' on page 28 undefined on input l
+ine 360.
+
+<hgg7TeV/variablePlots/pt_1om.pdf, id=608, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_1om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_1om.pdf>
-<hgg7TeV/variablePlots/pt_2om.pdf, id=146, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/pt_2om.pdf, id=609, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_2om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_2om.pdf>
-<hgg7TeV/variablePlots/phoeta_1.pdf, id=147, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_1.pdf, id=610, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_1.pdf>
-<hgg7TeV/variablePlots/phoeta_2.pdf, id=148, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_2.pdf, id=611, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_2.pdf>
-<hgg7TeV/variablePlots/cosdphi.pdf, id=149, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/cosdphi.pdf, id=612, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/cosdphi.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/cosdphi.pdf>
-<hgg7TeV/variablePlots/phoid_1.pdf, id=150, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoid_1.pdf, id=613, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_1.pdf>
-<hgg7TeV/variablePlots/phoid_2.pdf, id=151, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoid_2.pdf, id=614, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_2.pdf>
-<hgg7TeV/variablePlots/sigmrv.pdf, id=152, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmrv.pdf, id=615, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmrv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmrv.pdf>
-<hgg7TeV/variablePlots/sigmwv.pdf, id=153, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmwv.pdf, id=616, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmwv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmwv.pdf>
-<hgg7TeV/variablePlots/mass.pdf, id=154, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/mass.pdf, id=617, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/mass.pdf Graphic file (type pdf)
 
-<use hgg7TeV/variablePlots/mass.pdf> [12]
-<hgg7TeV/zeeValidation/zeevalidationdipho.pdf, id=158, 569.12625pt x 408.52625p
+<use hgg7TeV/variablePlots/mass.pdf>
+
+Package caption Warning: \label before \caption on input line 422.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:zeevaliddiphomva' on page 28 undefined on input l
+ine 416.
+
+[28 <./hgg7TeV/variablePlots/bdtoutput_full.pdf, page is rotated 90 degrees>]
+[29 <./hgg7TeV/variablePlots/pt_1om.pdf, page is rotated 90 degrees> <./hgg7TeV
+/variablePlots/pt_2om.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots
+/phoeta_1.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/phoeta_2.pd
+f, page is rotated 90 degrees> <./hgg7TeV/variablePlots/cosdphi.pdf, page is ro
+tated 90 degrees>]
+<hgg7TeV/zeeValidation/zeevalidationdipho.pdf, id=886, 569.12625pt x 408.52625p
 t>
 File: hgg7TeV/zeeValidation/zeevalidationdipho.pdf Graphic file (type pdf)
  <use hgg7TeV/zeeValidation/zeevalidationdipho.pdf>
 
-LaTeX Warning: Reference `fig:zeevailidphoidmva' on page 13 undefined on input 
-line 433.
+Package caption Warning: \label before \caption on input line 445.
+See the caption package documentation for explanation.
 
-<hgg7TeV/zeeValidation/sigmaE_EB.pdf, id=159, 569.12625pt x 546.04pt>
+
+LaTeX Warning: Reference `fig:zeevalidsigmaE' on page 30 undefined on input lin
+e 434.
+
+
+LaTeX Warning: Reference `fig:zeevailidphoidmva' on page 30 undefined on input 
+line 434.
+
+<hgg7TeV/zeeValidation/sigmaE_EB.pdf, id=887, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/sigmaE_EB.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/sigmaE_EB.pdf>
-<hgg7TeV/zeeValidation/sigmaE_EE.pdf, id=160, 569.12625pt x 546.04pt>
+<hgg7TeV/zeeValidation/sigmaE_EE.pdf, id=888, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/sigmaE_EE.pdf Graphic file (type pdf)
 
-<use hgg7TeV/zeeValidation/sigmaE_EE.pdf>
-<hgg7TeV/zeeValidation/phoID_EB.pdf, id=161, 569.12625pt x 546.04pt>
+<use hgg7TeV/zeeValidation/sigmaE_EE.pdf> [30 <./hgg7TeV/variablePlots/phoid_1.
+pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/phoid_2.pdf, page is 
+rotated 90 degrees> <./hgg7TeV/variablePlots/sigmrv.pdf, page is rotated 90 deg
+rees> <./hgg7TeV/variablePlots/sigmwv.pdf, page is rotated 90 degrees>]
+<hgg7TeV/zeeValidation/phoID_EB.pdf, id=1065, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/phoID_EB.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EB.pdf>
-<hgg7TeV/zeeValidation/phoID_EE.pdf, id=162, 569.12625pt x 546.04pt>
+<hgg7TeV/zeeValidation/phoID_EE.pdf, id=1066, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/phoID_EE.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EE.pdf>
 
-LaTeX Warning: Reference `HIG-11-033' on page 13 undefined on input line 470.
+LaTeX Warning: Reference `HIG-11-033' on page 31 undefined on input line 471.
 
-[13 <./hgg7TeV/variablePlots/bdtoutput_full.pdf, page is rotated 90 degrees>]
-<hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, id=210, 569.12625pt x 
-408.52625pt>
+
+Package caption Warning: \label before \caption on input line 507.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:vbfdeta' on page 31 undefined on input line 474.
+
+
+Package caption Warning: \label before \caption on input line 497.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:vbfcuts' on page 31 undefined on input line 477.
+
+[31 <./hgg7TeV/variablePlots/mass.pdf, page is rotated 90 degrees> <./hgg7TeV/z
+eeValidation/zeevalidationdipho.pdf, page is rotated 90 degrees>] [32 <./hgg7Te
+V/zeeValidation/sigmaE_EB.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValida
+tion/sigmaE_EE.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValidation/phoID_
+EB.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValidation/phoID_EE.pdf, page
+ is rotated 90 degrees>]
+<hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, id=1331, 569.12625pt x
+ 408.52625pt>
 File: hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf Graphic file (type
  pdf)
  <use hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf>)
-[14 <./hgg7TeV/variablePlots/pt_1om.pdf, page is rotated 90 degrees> <./hgg7TeV
-/variablePlots/pt_2om.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots
-/phoeta_1.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/phoeta_2.pd
-f, page is rotated 90 degrees> <./hgg7TeV/variablePlots/cosdphi.pdf, page is ro
-tated 90 degrees>] [15 <./hgg7TeV/variablePlots/phoid_1.pdf, page is rotated 90
- degrees> <./hgg7TeV/variablePlots/phoid_2.pdf, page is rotated 90 degrees> <./
-hgg7TeV/variablePlots/sigmrv.pdf, page is rotated 90 degrees> <./hgg7TeV/variab
-lePlots/sigmwv.pdf, page is rotated 90 degrees>] [16 <./hgg7TeV/variablePlots/m
-ass.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValidation/zeevalidationdiph
-o.pdf, page is rotated 90 degrees>] [17 <./hgg7TeV/zeeValidation/sigmaE_EB.pdf,
- page is rotated 90 degrees> <./hgg7TeV/zeeValidation/sigmaE_EE.pdf, page is ro
-tated 90 degrees> <./hgg7TeV/zeeValidation/phoID_EB.pdf, page is rotated 90 deg
-rees> <./hgg7TeV/zeeValidation/phoID_EE.pdf, page is rotated 90 degrees>]
-[18 <./hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, page is rotated 
-90 degrees>]
-\openout2 = `hgg7TeV/signalextraction.aux'.
-
- (./hgg7TeV/signalextraction.tex
-<hgg7TeV/sidebandMvaPlots/fom.pdf, id=915, 569.12625pt x 408.52625pt>
+(./hgg7TeV/signalextraction.tex [33] [34 <./hgg7TeV/variablePlots/cut_VBF_dEta_
+sequential_cat0.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/fom.pdf, id=1382, 569.12625pt x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/fom.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/fom.pdf>
-<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=916, 930.47626pt x 661.47125pt>
+<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=1383, 930.47626pt x 661.47125pt>
 File: hgg7TeV/sidebandMvaPlots/bdt2dplot.png Graphic file (type png)
 
-<use hgg7TeV/sidebandMvaPlots/bdt2dplot.png> [19
-
-
-] [20 <./hgg7TeV/sidebandMvaPlots/fom.pdf, page is rotated 90 degrees> <./hgg7T
-eV/sidebandMvaPlots/bdt2dplot.png (PNG copy)>]
-<hgg7TeV/sidebandMvaPlots/roc.pdf, id=967, 569.12625pt x 408.52625pt>
+<use hgg7TeV/sidebandMvaPlots/bdt2dplot.png> [35 <./hgg7TeV/sidebandMvaPlots/fo
+m.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/roc.pdf, id=1430, 569.12625pt x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/roc.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/roc.pdf>
-<hgg7TeV/sidebandMvaPlots/testvstrain.pdf, id=968, 569.12625pt x 480.79625pt>
-File: hgg7TeV/sidebandMvaPlots/testvstrain.pdf Graphic file (type pdf)
+<use hgg7TeV/sidebandMvaPlots/roc.pdf> [36 <./hgg7TeV/sidebandMvaPlots/bdt2dplo
+t.png (PNG copy)>]
+<hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf, id=1435, 569.12625pt x 480.
+79625pt>
+File: hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/testvstrain.pdf>
-<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=969, 569.12625pt x
- 480.79625pt>
+ <use hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf>
+<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=1436, 569.12625pt 
+x 480.79625pt>
 File: hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf Graphic file (typ
 e pdf)
  <use hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf>
-<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, id=970, 569.12625pt x 408.52
-625pt>
+<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, id=1437, 569.12625pt x 408.5
+2625pt>
 File: hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21 <./hgg7TeV/sidebandMvaPlots/roc.pdf, page is rotated 90 degrees>] [22 <./h
-gg7TeV/sidebandMvaPlots/testvstrain.pdf, page is rotated 90 degrees> <./hgg7TeV
-/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, page is rotated 90 degrees> <
-./hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, page is rotated 90 degrees>
-] [23]
-<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=1152, 569.12625pt x 385.44pt>
+ <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf> [37 <./hgg7TeV/sideband
+MvaPlots/roc.pdf, page is rotated 90 degrees>] [38 <./hgg7TeV/sidebandMvaPlots/
+testvstrain_nolegend.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlo
+ts/testvstrain-finalbins-neat.pdf, page is rotated 90 degrees> <./hgg7TeV/sideb
+andMvaPlots/data-mc-sbsum-mh125.pdf, page is rotated 90 degrees>]
+[39]
+<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=1619, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/binningscheme.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf, id=1153, 555.41983pt x 370.28209pt
+<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf> [40 <./hgg7TeV/sidebandMvaPlot
+s/binningscheme.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf, id=1666, 555.41983pt x 370.28209pt
 >
 File: hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf> [24 <./hgg7TeV/sidebandMvaPlo
-ts/binningscheme.pdf, page is rotated 90 degrees>]
-Overfull \hbox (1.75238pt too wide) in paragraph at lines 258--276
-[]\OT1/cmr/m/n/12 To asses the bias in-tro-duced through choos-ing one par-tic-
-u-lar pa-ram-e-ter-i-sa-tion, pseudo-
- []
-
-[25 <./hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf>]
-<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=1228, 569.12625pt x 385.44pt
+ <use hgg7TeV/sidebandMvaPlots/fits/fit_m124.pdf> [41] [42 <./hgg7TeV/sidebandM
+vaPlots/fits/fit_m124.pdf>]
+<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=1698, 569.12625pt x 385.44pt
 >
 File: hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf> [26 <./hgg7TeV/sidebandMva
+ <use hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf> [43 <./hgg7TeV/sidebandMva
 Plots/fits/totalErrors.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=1275, 569.12625pt x 54
+<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=1745, 569.12625pt x 54
 6.04pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=1276, 569.12625pt x 546.04
+<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=1746, 569.12625pt x 546.04
 pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf Graphic file (type pdf)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=1277, 569.12625pt x 40
+<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=1747, 569.12625pt x 40
 8.52625pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf Graphic file (type pd
 f)
- <use hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf> [27 <./hgg7TeV/sideb
-andMvaPlots/datasidebands_diphobdt.pdf, page is rotated 90 degrees> <./hgg7TeV/
-sidebandMvaPlots/datasidebands_dmom.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=1367, 569.12625pt x 37
+ <use hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf> [44]
+[45 <./hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, page is rotated 90 
+degrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, page is rotated 90
+ degrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, page is rotat
+ed 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=1883, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=1368, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=1884, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=1369, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=1885, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=1370, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=1886, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=1371, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=1887, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=1372, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=1888, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=1373, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=1889, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=1374, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=1890, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=1375, 569.12625pt x 552.
+<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=1891, 569.12625pt x 552.
 0625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf Graphic file (type pdf)
 
  <use hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=1376, 569.12625pt 
+<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=1892, 569.12625pt 
 x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf Graphic file (typ
 e pdf)
  <use hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf>
-[28 <./hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, page is rotated 90 
-degrees>] [29 <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is r
-otated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, page
- is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf,
- page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4
+[46] [47 <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is rotate
+d 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, page is r
+otated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, page
+ is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf,
+ page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5
 .pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_
-bin_5.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg
-_bdt_bin_6.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m1
-24_bg_bdt_bin_7.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fi
-ts/m124_bg_bdt_bin_8.pdf, page is rotated 90 degrees>] [30 <./hgg7TeV/sidebandM
-vaPlots/fits/covariance_m124.pdf, page is rotated 90 degrees>] [31 <./hgg7TeV/s
-idebandMvaPlots/fits/fracErrorvsNsidebands.pdf, page is rotated 90 degrees>]
+bin_6.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg
+_bdt_bin_7.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m1
+24_bg_bdt_bin_8.pdf, page is rotated 90 degrees>] [48 <./hgg7TeV/sidebandMvaPlo
+ts/fits/covariance_m124.pdf, page is rotated 90 degrees>] [49 <./hgg7TeV/sideba
+ndMvaPlots/fits/fracErrorvsNsidebands.pdf, page is rotated 90 degrees>]
 Missing character: There is no â in font cmr8!
 Missing character: There is no ˆ in font cmr8!
 Missing character: There is no ’ in font cmr8!
 
-[32]
+
+Package caption Warning: \label before \caption on input line 20.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:eres2011' on page 50 undefined on input line 469.
+
+
+[50]
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale.pdf
-, id=1866, 569.12625pt x 552.0625pt>
+, id=2339, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scal
 e.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale
 .pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.pdf, 
-id=1867, 569.12625pt x 552.0625pt>
+id=2340, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.
 pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.p
 df>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_sc
-ale.pdf, id=1868, 569.12625pt x 552.0625pt>
+ale.pdf, id=2341, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_scale.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_
 E_scale.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_re
-s.pdf, id=1869, 569.12625pt x 552.0625pt>
+s.pdf, id=2342, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_res.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_
-E_res.pdf> [33] [34 <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpol
+E_res.pdf> [51] [52 <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpol
 ation_test_E_scale.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots
 /signalModel/systematic_interpolation_test_E_res.pdf, page is rotated 90 degree
 s> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_scale.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalMod
 el/systematic_interpolation_test_curves_E_res.pdf, page is rotated 90 degrees>]
-[35]
-<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=2053, 569.12625p
+
+Overfull \hbox (0.78737pt too wide) in paragraph at lines 550--633
+ [] 
+ []
+
+
+<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=2521, 569.12625p
 t x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf Graphic file (t
 ype pdf)
 
-<use hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf>
-<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=2054, 569.12625pt x 217.81375pt>
+<use hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf> [53] [54]
+[55 <./hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, page is rotat
+ed 90 degrees>]
+<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=2575, 569.12625pt x 217.81375pt>
 File: hgg7TeV/zeeValidation/zeebdtoutput.pdf Graphic file (type pdf)
 
-<use hgg7TeV/zeeValidation/zeebdtoutput.pdf> [36 <./hgg7TeV/sidebandMvaPlots/si
-gnalModel/sigInterpTest135.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/model_m124.pdf, id=2101, 569.12625pt x 385.44pt>
+<use hgg7TeV/zeeValidation/zeebdtoutput.pdf>
+<hgg7TeV/sidebandMvaPlots/model_m124.pdf, id=2576, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/model_m124.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/model_m124.pdf> [37 <./hgg7TeV/zeeValidation/zeeb
-dtoutput.pdf, page is rotated 90 degrees>] [38 <./hgg7TeV/sidebandMvaPlots/mode
-l_m124.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/qmu_example_130.pdf, id=2196, 569.12625pt x 528.97626pt>
+<use hgg7TeV/sidebandMvaPlots/model_m124.pdf> [56 <./hgg7TeV/zeeValidation/zeeb
+dtoutput.pdf, page is rotated 90 degrees>] [57 <./hgg7TeV/sidebandMvaPlots/mode
+l_m124.pdf, page is rotated 90 degrees>] [58] [59]
+<hgg7TeV/statsPlots/qmu_example_130.pdf, id=2675, 569.12625pt x 528.97626pt>
 File: hgg7TeV/statsPlots/qmu_example_130.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/qmu_example_130.pdf>
-<hgg7TeV/statsPlots/limit-100MeV.pdf, id=2197, 569.12625pt x 467.7475pt>
+
+Package caption Warning: \label before \caption on input line 887.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:compareasvstoys' on page 60 undefined on input li
+ne 849.
+
+[60 <./hgg7TeV/statsPlots/qmu_example_130.pdf, page is rotated 90 degrees>]
+<hgg7TeV/statsPlots/limit-100MeV.pdf, id=2723, 569.12625pt x 467.7475pt>
 File: hgg7TeV/statsPlots/limit-100MeV.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/limit-100MeV.pdf> [39] [40 <./hgg7TeV/statsPlots/qmu_ex
-ample_130.pdf, page is rotated 90 degrees>] [41 <./hgg7TeV/statsPlots/limit-100
-MeV.pdf, page is rotated 90 degrees>] [42]
-<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=2296, 569.12625pt x 502.878
+<use hgg7TeV/statsPlots/limit-100MeV.pdf> [61] [62 <./hgg7TeV/statsPlots/limit-
+100MeV.pdf, page is rotated 90 degrees>]
+<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=2773, 569.12625pt x 502.878
 75pt>
 File: hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf Graphic file (type pdf)
  <use hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf>
-<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=2297, 569.12625pt x 408.52625pt>
+<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=2774, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/pvals-100MeV.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/pvals-100MeV.pdf>
-<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=2298, 569.12625pt x 408.52625pt>
+<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=2775, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/maxlh-100MeV.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/maxlh-100MeV.pdf>
-<hgg7TeV/statsPlots/lee-extrap.pdf, id=2299, 569.12625pt x 552.0625pt>
+<use hgg7TeV/statsPlots/maxlh-100MeV.pdf> [63] [64 <./hgg7TeV/statsPlots/q0_exa
+mple_125_chi2_sqr.pdf, page is rotated 90 degrees>] [65 <./hgg7TeV/statsPlots/p
+vals-100MeV.pdf, page is rotated 90 degrees>]
+<hgg7TeV/statsPlots/lee-extrap.pdf, id=2871, 569.12625pt x 552.0625pt>
 File: hgg7TeV/statsPlots/lee-extrap.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/lee-extrap.pdf> [43 <./hgg7TeV/statsPlots/q0_example_12
-5_chi2_sqr.pdf, page is rotated 90 degrees>] [44 <./hgg7TeV/statsPlots/pvals-10
-0MeV.pdf, page is rotated 90 degrees> <./hgg7TeV/statsPlots/maxlh-100MeV.pdf, p
-age is rotated 90 degrees>] [45 <./hgg7TeV/statsPlots/lee-extrap.pdf, page is r
-otated 90 degrees>]) [46]
-\openout2 = `hgg8TeV/hgg8TeV.aux'.
-
- (./hgg8TeV/hgg8TeV.tex
-<hgg8TeV/model_m124_8TeV.pdf, id=2486, 569.12625pt x 385.44pt>
+<use hgg7TeV/statsPlots/lee-extrap.pdf> [66 <./hgg7TeV/statsPlots/maxlh-100MeV.
+pdf, page is rotated 90 degrees>] [67 <./hgg7TeV/statsPlots/lee-extrap.pdf, pag
+e is rotated 90 degrees>]) (./hgg8TeV/hgg8TeV.tex
+<hgg8TeV/model_m124_8TeV.pdf, id=2966, 569.12625pt x 385.44pt>
 File: hgg8TeV/model_m124_8TeV.pdf Graphic file (type pdf)
 
-<use hgg8TeV/model_m124_8TeV.pdf>
-<hgg8TeV/limcomb.pdf, id=2487, 569.12625pt x 408.52625pt>
+<use hgg8TeV/model_m124_8TeV.pdf> [68] [69 <./hgg8TeV/model_m124_8TeV.pdf, page
+ is rotated 90 degrees>]
+<hgg8TeV/limcomb.pdf, id=3016, 569.12625pt x 408.52625pt>
 File: hgg8TeV/limcomb.pdf Graphic file (type pdf)
 
 <use hgg8TeV/limcomb.pdf>
-<hgg8TeV/pvalcomb.pdf, id=2488, 569.12625pt x 408.52625pt>
+<hgg8TeV/pvalcomb.pdf, id=3017, 569.12625pt x 408.52625pt>
 File: hgg8TeV/pvalcomb.pdf Graphic file (type pdf)
 
-<use hgg8TeV/pvalcomb.pdf>) [47
-
-
-] [48 <./hgg8TeV/model_m124_8TeV.pdf, page is rotated 90 degrees>] [49 <./hgg8T
-eV/limcomb.pdf, page is rotated 90 degrees>]
-[50 <./hgg8TeV/pvalcomb.pdf, page is rotated 90 degrees>]
-\openout2 = `combinations/combinations.aux'.
-
-
-(./combinations/combinations.tex
+<use hgg8TeV/pvalcomb.pdf>) (./combinations/combinations.tex [70 <./hgg8TeV/lim
+comb.pdf, page is rotated 90 degrees>] [71 <./hgg8TeV/pvalcomb.pdf, page is rot
+ated 90 degrees>]
 Chapter 4.
-) [51
+) (./conclusions.tex [72
+
+]
+Chapter 5.
+))
+\openout3 = `comment.cut'.
+
+ (./comment.cut (./detector/appendices_detector.tex [73
+
+]
+Appendix A.
+) (./hgg7TeV/appendices.tex [74
+
+]
+Appendix B.
+
+LaTeX Warning: Reference `escale2011' on page 75 undefined on input line 7.
 
 
+LaTeX Warning: Reference `eres2011' on page 75 undefined on input line 9.
+
+[75
+
+] <hgg7TeV/appendix/minimumtime.pdf, id=3123, 569.12625pt x 385.44pt>
+File: hgg7TeV/appendix/minimumtime.pdf Graphic file (type pdf)
+
+<use hgg7TeV/appendix/minimumtime.pdf>
+<hgg7TeV/appendix/newbinAlgo.pdf, id=3124, 569.12625pt x 385.44pt>
+File: hgg7TeV/appendix/newbinAlgo.pdf Graphic file (type pdf)
+
+<use hgg7TeV/appendix/newbinAlgo.pdf>))
+\openout3 = `comment.cut'.
+
+ [76] [77 <./hgg7TeV/appendix/minimumtime.pdf, page is rotated 90 degrees> <./h
+gg7TeV/appendix/newbinAlgo.pdf, page is rotated 90 degrees>] (./comment.cut (./
+backmatter.tex (./thesis.bbl [78
 
 
 ]
-\openout2 = `conclusions.aux'.
-
- (./conclusions.tex
-Chapter 5.
-) [52
-
-
-
-
-] (./thesis.bbl
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no   in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¼ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ” in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
- [53
 
+Overfull \hbox (54.10948pt too wide) in paragraph at lines 62--65
+[]\OT1/cmr/m/n/12 (-20) CERN.  CMS com-pact muon solenoid,\OT1/cmtt/m/n/12 publ
+ic.web.cern.ch/public/Objects/LHC/CMSnc.jpg\OT1/cmr/m/n/12 (-20) ,
+ []
 
-]) [54]
-\openout2 = `hgg7TeV/appendices.aux'.
+[79
 
- (./hgg7TeV/appendices.tex
-Appendix A.
+] [80]) [81] (./thesis.lof [82
 
-LaTeX Warning: Reference `escale2011' on page 55 undefined on input line 7.
+] [83] [84] [85] [86] [87])
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
 
+ [88] (./thesis.lot)
+\tf@lot=\write7
+\openout7 = `thesis.lot'.
 
-LaTeX Warning: Reference `eres2011' on page 55 undefined on input line 9.
-
-[55
-
-
-] <hgg7TeV/appendix/minimumtime.pdf, id=2648, 569.12625pt x 385.44pt>
-File: hgg7TeV/appendix/minimumtime.pdf Graphic file (type pdf)
-
-<use hgg7TeV/appendix/minimumtime.pdf>
-<hgg7TeV/appendix/newbinAlgo.pdf, id=2649, 569.12625pt x 385.44pt>
-File: hgg7TeV/appendix/newbinAlgo.pdf Graphic file (type pdf)
-
-<use hgg7TeV/appendix/newbinAlgo.pdf>) [56 <./hgg7TeV/appendix/minimumtime.pdf,
- page is rotated 90 degrees>] [57 <./hgg7TeV/appendix/newbinAlgo.pdf, page is r
-otated 90 degrees>] (./thesis.aux (./introduction.aux) (./theory/theory.aux)
-(./detector/detector.aux) (./hgg7TeV/hgg7TeV.aux)
-(./hgg7TeV/signalextraction.aux) (./hgg8TeV/hgg8TeV.aux)
-(./combinations/combinations.aux) (./conclusions.aux) (./hgg7TeV/appendices.aux
 ))
+
+Package natbib Warning: There were undefined citations.
+
+[89
+
+] (./thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 2475 strings out of 493848
- 40585 string characters out of 1152823
- 96672 words of memory out of 3000000
- 5618 multiletter control sequences out of 15000+50000
- 15272 words of font info for 54 fonts, out of 3000000 for 9000
+ 19113 strings out of 493848
+ 323107 string characters out of 1152822
+ 422376 words of memory out of 3000000
+ 21685 multiletter control sequences out of 15000+50000
+ 32428 words of font info for 187 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,11n,32p,742b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib10.p
-fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-msy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (57 pages, 1682414 bytes).
+ 68i,13n,57p,809b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+mi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
+6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
+y6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on thesis.pdf (96 pages, 4209801 bytes).
 PDF statistics:
- 2794 PDF objects out of 2984 (max. 8388607)
+ 3333 PDF objects out of 3580 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 23935 words of extra memory for PDF output out of 24883 (max. 10000000)
 

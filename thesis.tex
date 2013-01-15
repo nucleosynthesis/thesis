@@ -1,19 +1,20 @@
 % Nicholas Wardle - Imperial College 
 % nw709
+\documentclass{mythesis}
+\usepackage{mythesis}
 
-\documentclass[a4paper,12pt,twoside]{report}
-%\documentclass[a4paper,12pt]{report}
-%\documentclass{mythesis}
-%\usepackage{mythesis}
+\usepackage{rotating} % For making a sideways table
+\usepackage{multirow} % For putting a header over more than 1 column
+\usepackage{comment} % Allows you to comment out whole chunks of text
 
+\usepackage{natbib}
 
-\usepackage[margin=1.0in]{geometry}  % -> This seems to be the best margin size
-%\usepackage[margin=1.5in]{geometry}
-\usepackage{graphicx}
-\usepackage{amsmath}
-%\usepackage{natbib}
-\bibliographystyle{plain}
-%\usepackage{morefloats}
+\newcolumntype{A}{>{\centering\arraybackslash}p{1cm}} % allows you to centre columns
+\newcolumntype{B}{>{\centering\arraybackslash}p{2cm}} % allows you to centre columns
+\newcolumntype{C}{>{\centering\arraybackslash}p{3cm}} % allows you to centre columns
+\newcolumntype{D}{>{\centering\arraybackslash}p{4cm}} % allows you to centre columns
+\newcolumntype{E}{>{\centering\arraybackslash}p{5cm}} % allows you to centre columns
+\newcolumntype{F}{>{\centering\arraybackslash}p{6cm}} % allows you to centre columns
 
 % Custom commands -----------------------
 % Processes
@@ -41,83 +42,66 @@
 \newcommand{\pt}{p_{T}}
 \newcommand{\sigieie}{\sigma_{i\eta i\eta}}
 \newcommand{\hoe}{H/E}
+\newcommand{\Lonept}{E_{T}^{L1}}
+\newcommand{\Genpt}{E_{T}^{Gen}}
+\newcommand{\Geneta}{\eta^{Gen}}
+\newcommand{\Loneta}{\eta^{L1}}
 %Stats
 \newcommand{\qmu}{q_{\mu}}
 \newcommand{\muhat}{\hat{\mu}}
 \newcommand{\boldth}{{\boldsymbol{\theta}}}
 \newcommand{\xsbr}{\sigma(\Hgg)/\sigma(\Hgg)_{SM}}
 % ---------------------------------------
-
-% HEP THESIS STYLE --------------------------------------------
-%\makeatletter
-%\@ifpackageloaded{hyperref}{%
-%\hypersetup{%
-%pdftitle = {Observation of a new particle in the search for the 
-%       Standard Model Higgs boson at the CMS detector},
-%pdfsubject = {PhD Thesis},
-%pdfkeywords = {CMS detector, Higgs},
-%pdfauthor = {\textcopyright\ Nicholas Wardle}
-%}
-%}{}
-%\makeatother
-%% Define the thesis title and author
-%\title{Observation of a new particle in the search for the 
-%       Standard Model Higgs boson at the CMS detector}
-%\author{Nicholas Wardle}
-
-%% Start the document
-%\begin{document}
-
-%% Define the un-numbered front matter (cover pages, rubrik and table of contents)
-%\begin{frontmatter}
-%  \input{HepThesis/frontmatter}
-%\end{frontmatter}
-
-%% Start the content body of the thesis
-%\begin{mainmatter}
-%\input{introduction}
-%\input{theory/theory}
-%\input{detector/detector}
-%\input{hgg7TeV/hgg7TeV}
-%\input{combinations/combinations}
-%\input{conclusions}
-%\end{mainmatter}
-
-%% Produce the appendices
-%%\begin{appendices}
-%%  \input{appendices}
-%%\end{appendices}
-
-%% Produce the un-numbered back matter (e.g. colophon,
-%% bibliography, tables of figures etc., index...)
-%\begin{backmatter}
-%  \input{HepThesis/backmatter}
-%\end{backmatter}
-
-%% Close
-%\end{document}
-
-%PLAIN STYLE ---------------------------------------------------------
-\begin{document}
-\title{\LARGE {\bf Observation of a new particle in the search for the 
-Standard Model Higgs boson at the CMS detector}\\
- \vspace*{6mm}
+%% PDF metadata
+\makeatletter
+\@ifpackageloaded{hyperref}{%
+\hypersetup{%
+pdftitle = {},
+pdfsubject = {},
+pdfkeywords = {LHC, CMS, Higgs boson, Higgs to two photons },
+pdfauthor = {\textcopyright\ Nicholas Wardle}
 }
+}{}
+\makeatother
 
+% Define the thesis title and author
+\title{Observation of a new particle in the search for the 
+       Standard Model Higgs boson at the CMS detector}
 \author{Nicholas Wardle}
-\maketitle
-\clearpage\include{introduction}
-\clearpage\include{theory/theory}
-\clearpage\include{detector/detector}
-\clearpage\include{hgg7TeV/hgg7TeV}
-	\include{hgg7TeV/signalextraction}
-	\include{hgg8TeV/hgg8TeV}
-\clearpage\include{combinations/combinations}
-\clearpage\include{conclusions}
 
-\bibliography{thesis}
-%\clearpage\include{appendices}
-\appendix
-\include{hgg7TeV/appendices}
+% Start the document
+\begin{document}
+
+% Define the un-numbered front matter (cover pages, rubrik and table of contents)
+\begin{frontmatter}
+  \input{frontmatter}
+\end{frontmatter}
+
+% Start the content body of the thesis
+\begin{mainmatter}
+\input{introduction}
+\input{theory/theory}
+\input{detector/detector}
+\input{detector/l1trigger}
+\input{hgg7TeV/hgg7TeV}
+	\input{hgg7TeV/signalextraction}
+	\input{hgg8TeV/hgg8TeV}
+\input{combinations/combinations}
+\input{conclusions}
+\end{mainmatter}
+
+% Produce the appendices
+\begin{appendices}
+  \input{detector/appendices_detector}
+  \input{hgg7TeV/appendices}
+\end{appendices}
+
+% Produce the un-numbered back matter (e.g. colophon,
+% bibliography, tables of figures etc., index...)
+\begin{backmatter}
+  \input{backmatter}
+\end{backmatter}
+
+% Close
 \end{document}
-% --------------------------------------------------------------------
+
