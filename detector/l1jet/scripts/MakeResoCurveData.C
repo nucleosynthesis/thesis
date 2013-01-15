@@ -1,0 +1,104 @@
+{
+//=========Macro generated from canvas: can/
+//=========  (Wed Dec 12 03:10:56 2012) by ROOT version5.28/00b
+   TCanvas *can = new TCanvas("can", "",54,44,900,696);
+   gStyle->SetOptStat(0);
+   can->SetHighLightColor(2);
+   can->Range(1.296698,-0.05,177.7715,0.45);
+   can->SetFillColor(0);
+   can->SetBorderMode(0);
+   can->SetBorderSize(2);
+   can->SetGridx();
+   can->SetGridy();
+   can->SetFrameBorderMode(0);
+   can->SetFrameBorderMode(0);
+   
+   TGraphErrors *gre = new TGraphErrors(13);
+   gre->SetName("Graph");
+   gre->SetTitle("");
+   gre->SetFillColor(1);
+   gre->SetMarkerColor(2);
+   gre->SetMarkerStyle(21);
+   gre->SetPoint(0,25.31688,0.181853);
+   gre->SetPointError(0,0,0.0181853);
+   gre->SetPoint(1,39.40789,0.140262);
+   gre->SetPointError(1,0,0.0140262);
+   gre->SetPoint(2,51.68584,0.099572);
+   gre->SetPointError(2,0,0.0099572);
+   gre->SetPoint(3,58.79161,0.104425);
+   gre->SetPointError(3,0,0.0104425);
+   gre->SetPoint(4,71.96856,0.083668);
+   gre->SetPointError(4,0,0.0083668);
+   gre->SetPoint(5,79.52612,0.077073);
+   gre->SetPointError(5,0,0.0077073);
+   gre->SetPoint(6,92.21248,0.075001);
+   gre->SetPointError(6,0,0.0075001);
+   gre->SetPoint(7,99.79989,0.065311);
+   gre->SetPointError(7,0,0.0065311);
+   gre->SetPoint(8,110.0932,0.066179);
+   gre->SetPointError(8,0,0.0066179);
+   gre->SetPoint(9,118.438,0.072654);
+   gre->SetPointError(9,0,0.0072654);
+   gre->SetPoint(10,130.704,0.06238);
+   gre->SetPointError(10,0,0.006238);
+   gre->SetPoint(11,137.9268,0.057462);
+   gre->SetPointError(11,0,0.0057462);
+   gre->SetPoint(12,147.8688,0.058633);
+   gre->SetPointError(12,0,0.0058633);
+   
+   TH1F *Graph1 = new TH1F("Graph1","",100,13.06168,160.124);
+   Graph1->SetMinimum(0);
+   Graph1->SetMaximum(0.4);
+   Graph1->SetDirectory(0);
+   Graph1->SetStats(0);
+   Graph1->GetXaxis()->SetTitle("L1 Jet E_{T}");
+   Graph1->GetXaxis()->SetRange(5,100);
+   Graph1->GetYaxis()->SetTitle("#sigma_{E_{T}}/E_{T}");
+   Graph1->GetYaxis()->SetTitleOffset(1.22);
+   gre->SetHistogram(Graph1);
+   
+   
+   TF1 *func1 = new TF1("func1","([0]/(TMath::Sqrt(x)))+([1])+[2]/x",13.06168,160.124);
+   func1->SetFillColor(19);
+   func1->SetFillStyle(0);
+   func1->SetLineWidth(3);
+   func1->SetChisquare(3.856046);
+   func1->SetNDF(10);
+   func1->SetParameter(0,-0.1347605);
+   func1->SetParError(0,0.6596405);
+   func1->SetParLimits(0,0,0);
+   func1->SetParameter(1,0.03957204);
+   func1->SetParError(1,0.03895146);
+   func1->SetParLimits(1,0,0);
+   func1->SetParameter(2,4.401351);
+   func1->SetParError(2,2.660531);
+   func1->SetParLimits(2,0,0);
+   gre->GetListOfFunctions()->Add(func1);
+   gre->Draw("ap");
+   
+   TLegend *leg = new TLegend(0.4,0.65,0.88,0.8,NULL,"brNDC");
+   leg->SetBorderSize(0);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(10);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("Graph","Data","PE");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(2);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   entry=leg->AddEntry("func1","-0.13 E_{T}^{-1/2} + 0.04 + 4.40 E_{T}^{-1}","L");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(3);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(21);
+   entry->SetMarkerSize(1);
+   leg->Draw();
+   can->Modified();
+   can->cd();
+   can->SetSelected(can);
+}
