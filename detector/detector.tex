@@ -209,11 +209,10 @@ Figure~\ref{fig:hybridclustering} is an illustration of the Hybrid clustering al
 \end{center}
 \end{figure}
 
-In the ECAL endcaps, superclusters are built using the ``Island'' algorithm which connects
-rows of crystals whose energy decrease monotonically from the central seed crystal~\cite{cseez}.
-The flat geometry of the endcaps does not allow for the in-built bremsstrahlung recovery
-of the Hybrid algorithm used in the barrel. Additional information is used from the PS to enhance the 
-energy reconstruction in the endcaps. 
+In the ECAL endcaps, superclusters are built using the ``Multi5$\times$5'' algorithm which 
+connects overlapping 5$\times$5 grids of crystals whose positions lie within 
+0.3 radians in $\phi$~\cite{AN-09-164}. 
+Additional information is used from the PS to enhance the energy reconstruction in the endcaps. 
 
 Superclusters are associated to electron candidates (\texttt{GsfElectrons}) 
 where a track can be reconstructed from

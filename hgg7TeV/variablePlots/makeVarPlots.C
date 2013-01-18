@@ -46,21 +46,31 @@ void makeVarPlots(){
 	double yOFFSET = 1.0;
 	double xOFFSET = 0.8;
 
+	// Signal Scale
+	int scSIGNAL = 100;
+	int scMASS   = 125;
+
 	// Legend Tall
-	/*
+/*	
 	double tX1 = 0.55;
 	double tX2 = 0.88;
 	double tY1 = 0.35;
 	double tY2 = 0.88;
-	*/
+	std::string lSIGNAL = (std::string)Form("#splitline{%d#timesSM Higgs}{m_{H} = %d GeV}",scSIGNAL,scMASS);
+	std::string gCUT    = "weight*(bdtoutput>0.05 && mass < 180 && mass >= 100)";
+*/
+	
 	// Legend Wide
 	double tX1 = 0.35;
 	double tX2 = 0.88;
 	double tY1 = 0.55;
 	double tY2 = 0.88;
+	std::string lSIGNAL = (std::string)Form("%d#timesSM Higgs m_{H} = %d GeV",scSIGNAL,scMASS);
+	std::string gCUT    = "weight*(mass < 180 && mass >= 100)";
+
 
 	// Some Global strings
-	std::string cmsPRE   = "CMS Preliminary";
+	std::string cmsPRE   = "2011 Data";
 	std::string cmsLUMI  = "L = 5.1 fb^{-1}";
 	std::string cmsSQRTS = "#sqrt{s} = 7 TeV L = 5.1 fb^{-1}";
 		
@@ -89,21 +99,14 @@ void makeVarPlots(){
 	double cMSIZE  = 0.8;
 	int cFILL   = 1001;
 	
-	// Signal Scale
-	int scSIGNAL = 100;
-	int scMASS   = 125;
 
 	// Labels
-	//std::string lSIGNAL = (std::string)Form("#splitline{%d#timesSM Higgs}{m_{H} = %d GeV}",scSIGNAL,scMASS);
-	std::string lSIGNAL = (std::string)Form("%d#timesSM Higgs m_{H} = %d GeV",scSIGNAL,scMASS);
 	std::string lPP	    = "prompt-prompt";//"#gamma-#gamma";
 	std::string lPF	    = "prompt-fake";//"#gamma-j";
 	std::string lFF	    = "fake-fake";//"j-j";
 	std::string lDY	    = "Z#rightarrow e^{+}e^{-}";
 	std::string lDATA   = "Data";
 
-//	std::string gCUT    = "weight*(bdtoutput>0.05 && mass < 180 && mass >= 100)";
-	std::string gCUT    = "weight*(mass < 180 && mass >= 100)";
 	// START ------------------------------------//
 	
 	std::string sName = "hgg-trees-2011-sig.root";

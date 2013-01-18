@@ -52,7 +52,7 @@ void makeVarPlots(){
 	double tY2 = 0.88;
 
 	// Some Global strings
-	std::string cmsPRE   = "CMS Preliminary";
+	std::string cmsPRE   = "2011 Data";
 	std::string cmsLUMI  = "L = 5.1 fb^{-1}";
 	std::string cmsSQRTS = "#sqrt{s} = 7 TeV L = 5.1 fb^{-1}";
 		

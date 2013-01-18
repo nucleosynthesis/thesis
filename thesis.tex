@@ -17,9 +17,26 @@
 \newcolumntype{F}{>{\centering\arraybackslash}p{6cm}} % allows you to centre columns
 
 % Custom commands -----------------------
+%General/Detector
+\newcommand{\abs}[1]{|#1|}
+\newcommand{\cmssw}{CMSSW\_4\_2\_X}
+\newcommand{\clumi}{5.1 fb$^{-1}$}
+\newcommand{\clumiichep}{5.3 fb$^{-1}$}
+\newcommand{\clumicomb}{10.4 fb$^{-1}$}
+\newcommand{\rnine}{r_{9}}
+\newcommand{\pt}{p_{T}}
+\newcommand{\sigieie}{\sigma_{i\eta i\eta}}
+\newcommand{\hoe}{H/E}
+\newcommand{\Lonept}{E_{T}^{L1}}
+\newcommand{\Genpt}{E_{T}^{Gen}}
+\newcommand{\Geneta}{\eta^{Gen}}
+\newcommand{\Loneta}{\eta^{L1}}
 % Processes
 \newcommand{\ttbar}{t\bar{t}}
 \newcommand{\Hgg}{H\rightarrow\gamma\gamma}
+\newcommand{\Htt}{H\rightarrow\tau\tau}
+\newcommand{\Hww}{H\rightarrow WW}
+%\newcommand{\Hzzl}{H\rightarrow ZZ \rightarrow 4l}
 % HGG style commands
 \newcommand{\mgg}{m_{\gamma\gamma}}
 \newcommand{\mh}{m_{H}}
@@ -33,24 +50,13 @@
 \newcommand{\ptgg}{p_{T}^{\gamma\gamma}}
 \newcommand{\ptggvec}{\mathbf{p}_{T}^{\gamma\gamma}}
 \newcommand{\ptvec}{\mathbf{p}_{T}}
-%General/Detector
-\newcommand{\cmssw}{CMSSW\_4\_2\_X}
-\newcommand{\clumi}{5.1 fb$^{-1}$}
-\newcommand{\clumiichep}{5.3 fb$^{-1}$}
-\newcommand{\clumicomb}{10.4 fb$^{-1}$}
-\newcommand{\rnine}{r_{9}}
-\newcommand{\pt}{p_{T}}
-\newcommand{\sigieie}{\sigma_{i\eta i\eta}}
-\newcommand{\hoe}{H/E}
-\newcommand{\Lonept}{E_{T}^{L1}}
-\newcommand{\Genpt}{E_{T}^{Gen}}
-\newcommand{\Geneta}{\eta^{Gen}}
-\newcommand{\Loneta}{\eta^{L1}}
 %Stats
 \newcommand{\qmu}{q_{\mu}}
+\newcommand{\call}{\mathcal{L}}
 \newcommand{\muhat}{\hat{\mu}}
 \newcommand{\boldth}{{\boldsymbol{\theta}}}
 \newcommand{\xsbr}{\sigma(\Hgg)/\sigma(\Hgg)_{SM}}
+\newcommand{\xs}{\sigma/\sigma_{SM}}
 % ---------------------------------------
 %% PDF metadata
 \makeatletter
@@ -87,6 +93,7 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 	\input{hgg7TeV/signalextraction}
 	\input{hgg8TeV/hgg8TeV}
 \input{combinations/combinations}
+	\input{combinations/properties}
 \input{conclusions}
 \end{mainmatter}
 
