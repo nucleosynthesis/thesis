@@ -1,4 +1,4 @@
-{
+void makePlot(double low, double up){
 //=========Macro generated from canvas: c/c
 //=========  (Mon Jan 14 12:51:57 2013) by ROOT version5.33/03
    TCanvas *c = new TCanvas("c", "c",1547,51,800,600);
@@ -12,12 +12,14 @@
    c->SetFrameBorderMode(0);
    c->SetFrameBorderMode(0);
    
-   TGraphErrors *gre = new TGraphErrors(27);
+   //TGraphErrors *gre = new TGraphErrors(27);
+   TGraphErrors *gre = (TGraphErrors*)_file0->Get("ak5Intern/L3CorVsJetPt");
    gre->SetName("L3CorVsJetPt");
    gre->SetTitle("");
    gre->SetFillColor(1);
    gre->SetLineWidth(2);
    gre->SetMarkerStyle(20);
+/*
    gre->SetPoint(0,6.175772,2.598312);
    gre->SetPointError(0,0.01286705,0.005066945);
    gre->SetPoint(1,8.027516,2.490255);
@@ -72,10 +74,10 @@
    gre->SetPointError(25,0.2317345,0.00508148);
    gre->SetPoint(26,75.39104,1.564962);
    gre->SetPointError(26,0.2452193,0.005084357);
-   
+  */ 
    TH1F *Graph_L3CorVsJetPt1 = new TH1F("Graph_L3CorVsJetPt1","",100,0,82.58359);
    Graph_L3CorVsJetPt1->SetMinimum(1.5);
-   Graph_L3CorVsJetPt1->SetMaximum(3);
+   Graph_L3CorVsJetPt1->SetMaximum(2.5);
    Graph_L3CorVsJetPt1->SetDirectory(0);
    Graph_L3CorVsJetPt1->SetStats(0);
    Graph_L3CorVsJetPt1->SetFillStyle(0);
@@ -103,9 +105,10 @@
    Graph_L3CorVsJetPt1->GetZaxis()->SetTitleOffset(1.15);
    Graph_L3CorVsJetPt1->GetZaxis()->SetTitleFont(42);
    gre->SetHistogram(Graph_L3CorVsJetPt1);
+   gre->SetLineColor(4);
    
-   
-   TF1 *fitcor = new TF1("fitcor","[0]+[1]/(pow(log10(x),2)+[2])+[3]*exp(-[4]*(log10(x)-[5])*(log10(x)-[5]))",2,75.39104);
+   //TF1 *fitcor = new TF1("fitcor","[0]+[1]/(pow(log10(x),2)+[2])+[3]*exp(-[4]*(log10(x)-[5])*(log10(x)-[5]))",2,75.39104);
+   TF1 *fitcor = ( TF1*)gre->GetFunction("fitcor");
    fitcor->SetFillColor(19);
    fitcor->SetFillStyle(0);
    fitcor->SetMarkerStyle(0);
@@ -122,6 +125,7 @@
    fitcor->GetYaxis()->SetLabelSize(0.035);
    fitcor->GetYaxis()->SetTitleSize(0.035);
    fitcor->GetYaxis()->SetTitleFont(42);
+   /*
    fitcor->SetParameter(0,0.7841565);
    fitcor->SetParError(0,0.124618);
    fitcor->SetParLimits(0,0,0);
@@ -141,6 +145,7 @@
    fitcor->SetParError(5,0.04852769);
    fitcor->SetParLimits(5,0,0);
    gre->GetListOfFunctions()->Add(fitcor);
+*/
    
    TPaveStats *ptstats = new TPaveStats(0.6055276,0.5559441,0.9798995,0.9353147,"brNDC");
    ptstats->SetName("stats");
@@ -148,6 +153,7 @@
    ptstats->SetFillColor(0);
    ptstats->SetTextAlign(12);
    ptstats->SetTextFont(42);
+/*
    TText *text = ptstats->AddText("#chi^{2} / ndf = 21.74 / 21");
    text = ptstats->AddText("Prob  = 0.4145");
    text = ptstats->AddText("p0       = 0.7842 #pm 0.1246 ");
@@ -161,9 +167,12 @@
    ptstats->Draw();
    gre->GetListOfFunctions()->Add(ptstats);
    ptstats->SetParent(gre->GetListOfFunctions());
-   gre->Draw("alp");
+*/
+gStyle->SetOptStat(1111);
+   gre->Draw("ap");
+   gre->GetXaxis()->SetRangeUser(0,60);
    gre->Draw("samep");
-      tex = new TLatex(0.1,0.91,"0.348 < |#eta^{Gen}| < 0.695");
+      tex = new TLatex(0.1,0.91,Form("%.3f < |#eta^{Gen}| < %.3f",low,up));
 tex->SetNDC();
    tex->SetTextFont(42);
    tex->SetTextSize(0.04);
@@ -172,4 +181,5 @@ tex->SetNDC();
    c->Modified();
    c->cd();
    c->SetSelected(c);
+   c->SaveAs(Form("correctionPlots/l3_%.3f_to_%.3f.pdf",low,up));
 }
