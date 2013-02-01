@@ -14,7 +14,7 @@ the search sensitivity is heavily influenced by how well the backgrounds are und
 For this reason, two data-driven background modelling techniques were developed
 The first uses a fully parametric
 description of the background from data designed to incorporate systematic uncertainties as additional degrees of 
-freedom in its functional form~\cite{HIG-11-033}. The second uses a binned model constructed from 
+freedom in its functional form~\citep{HIG-11-033}. The second uses a binned model constructed from 
 sidebands in the $\mgg$ spectrum. The latter of these two serves as an independent cross-check of the former,
 in particular by allowing direct inclusion of the systematic uncertainties in the signal extraction thereby
 building confidence in the understanding of the background. 
@@ -30,7 +30,7 @@ proton-proton collision runs.
 The selection for the dataset used for this analysis is based around dedicated diphoton triggers
 which select events online which satisfy one of two sets of criteria.
 The first set requires two HLT photon candidates, one with $\pt>26$ GeV and the other with 
-$\pt>18$ GeV, which are well isolated in the calorimeter~\cite{AN-12-048}. The second has a lower threshold on
+$\pt>18$ GeV, which are well isolated in the calorimeter~\citep{AN-12-048}. The second has a lower threshold on
 the first photon, $\pt>22$ GeV but requires that both photons have localised showers in the ECAL 
 ($\rnine>0.8$ in 2011A and $\rnine>0.9$ in 2011B). 
 Additionally, the invariant mass of the two trigger objects are required to have an 
@@ -38,25 +38,25 @@ invariant mass greater than 60 (70) GeV in the 2011A(B) datasets.
 Events which would pass the full offline selection but failed to trigger at the HLT lead to an inefficiency, 
 reducing the number of signal events with respect to that expected from an integrated luminosity of \clumi.
 However, the thresholds applied offline are chosen to be much tighter than those of the trigger;
-the trigger efficiency is $>$99\% with respect to the analysis selection~\cite{AN-12-048}. 
+the trigger efficiency is $>$99\% with respect to the analysis selection~\citep{AN-12-048}. 
 
 Signal Monte Carlo (MC) events are generated for a Higgs decaying to two photons via the four main 
 production processes, gluon-gluon fusion ($ggH$), vector boson fusion ($qqH$) and associated $W/Z$ ($VH$) 
 and $\ttbar$ ($ttH$) production.
-The gluon-gluon fusion and vector boson fusion were generated with \texttt{POWHEG}~\cite{powheg} with 
+The gluon-gluon fusion and vector boson fusion were generated with \texttt{POWHEG}~\citep{powheg} with 
 next-to leading order (NLO) contributions whereas
 the two associated production processes were generated to leading order (LO) only.
 The $\pt$ spectrum of the Higgs ($\pt^{H}$) from gluon-gluon fusion was calculated at
-next-to-next-to leading plus next-to leading log resummed order (NNLO+NLL) using the \texttt{HqT} program~\cite{hqt}.
-The production cross-sections and branching ratios are taken from the LHC Cross-section Working Group~\cite{lhcxswg}.
+next-to-next-to leading plus next-to leading log resummed order (NNLO+NLL) using the \texttt{HqT} program~\citep{hqt}.
+The production cross-sections and branching ratios are taken from the LHC Cross-section Working Group~\citep{lhcxswg}.
 
-MC for background processes were generated at LO using \texttt{POWHEG} interfaced with \texttt{PYTHIA}~\cite{pythia}.
+MC for background processes were generated at LO using \texttt{POWHEG} interfaced with \texttt{PYTHIA}~\citep{pythia}.
 The QCD dijet and $\gamma+jet$ samples are filtered by requiring the generated photons, electrons and neutral
 mesons with $\pt>15$ GeV have at most one charged particle in a cone, $\Delta R<0.2$, to increase the 
 production efficiency with respect to the tracker isolation requirements of the full selection.
 The background samples considered for this analysis are summarized in Table~\ref{tab:backgroundmc}.
 A full simulation of the CMS detector is provided in \texttt{GEANT4} which is used for all signal
-and background MC samples~\cite{geant4}. The MC includes a simulation of additional interaction vertices expected in data
+and background MC samples~\citep{geant4}. The MC includes a simulation of additional interaction vertices expected in data
 from pileup. The distribution in the number of reconstructed vertices in MC  is corrected to match that observed
 in data as described in Section~\ref{sec:pileup}.
 
@@ -90,7 +90,7 @@ corresponding equivalent integrated luminosity.}
 \label{sec:objectrecoandid}
 
 The reconstruction of all objects used for this analysis, in both data and MC,
-is based on the standardized CMS reconstruction software \texttt{\cmssw}~\cite{null}. 
+is based on the standardized CMS reconstruction software \texttt{\cmssw}~\citep{null}. 
 Additional sensitivity can be gained by refining the object selection and reconstruction specifically
 to the search for $\Hgg$.
 
@@ -113,7 +113,7 @@ is included for superclusters in the ECAL endcaps. Figure~\ref{fig:mcregrcompari
 in resolution after applying the regression corrections compared to the raw measurement.
 In addition, a similar set of corrections were derived using by fitting an analytical expression 
 of the residual energy difference between the 
-generated and reconstructed photon energy as a funciton of supercluster energy, position and $\rnine$~\cite{AN-11-343}. 
+generated and reconstructed photon energy as a funciton of supercluster energy, position and $\rnine$~\citep{AN-11-343}. 
 The regression technique reduces the effective resolution of the Higgs mass peak ($\sigma_{eff}$) 
 resolution by around 30\% over using the raw supercluster energy compared to the analytic fit which
 improves the resolution by 15\%. 
@@ -136,20 +136,20 @@ first BDT and the true correction to generator level. This second BDT is trained
 set of events to the first. The per-photon resolution is used to calculated an estimate of the 
 per-event mass resolution, $\sigma_{\mgg}$, which is used during the event selection 
 (Section~\ref{sec:eventselection}). An additional regression BDT is trained on $\Zee$ MC which is used
-to compare the supercluster energy scale in data and MC~\cite{AN-12-048}.
+to compare the supercluster energy scale in data and MC~\citep{AN-12-048}.
 
 \subsubsection{Energy Scale Measured in Data}
 Despite correcting the energy of the photons using the regression technique, discrepancies between data and
 MC are still observed. This is due to additional detector effects which may not be simulated, such as the
-time dependence of the ECAL crystal transparency~\cite{null}. Further corrections are
+time dependence of the ECAL crystal transparency~\citep{null}. Further corrections are
 derived based on $\Zee$ events which provide an invariant mass peak with almost no background constructed from 
 electromagnetic objects which are reconstructed using a similar procedure to photons.
 The energy scale of the superclusters is measured by matching the electron
 invariant mass peak in data to that in MC. This is achieved using an analytic fit to the $\Zee$ peak in data and MC
 separately. The natural peak of the $Z$ is described using a Breit-Wigner distribution whose parameters are fixed
-to those given by the Particle Data Group, $m_{Z}=91.188,~\Gamma_{Z} = 2.495$~\cite{pdg}. This is then convoluted 
+to those given by the Particle Data Group, $m_{Z}=91.188,~\Gamma_{Z} = 2.495$~\citep{pdg}. This is then convoluted 
 with a Crystal Ball (CB) which describes the resolution effects of the calorimeter and energy losses from 
-bremsstrahlung before the ECAL~\cite{crystalball}. 
+bremsstrahlung before the ECAL~\citep{crystalball}. 
 The CB parameter $\Delta m$ is a free parameter of the fit giving the 
 offset of the peak position from the $Z$ pole. 
 
@@ -237,7 +237,7 @@ fraction of the events in which the selected vertex is located within 10mm from 
 \label{sec:photonidentification}
 
 A large portion of the fake background in the $\Hgg$ search is due to high momentum neutral mesons
-which decay to two photons where both the photons are combined into the same supercluster~\cite{HIG-11-033}. 
+which decay to two photons where both the photons are combined into the same supercluster~\citep{HIG-11-033}. 
 Information from the shower shape of the photon supercluster can be used, in addition to the 
 energy isolation within the calorimeter, in order to distinguish these from prompt photons
 from the primary interaction point. A BDT was trained on MC events to combine the relevant information
@@ -245,12 +245,12 @@ into a single photon identification (ID) discriminator. The signal used for the 
 simulated $\Hgg$ events with a Higgs boson mass of 121 GeV while the background was 
 taken from non-prompt photons in the Gamma+Jet sample.
 Before training, events are required to pass a loose preselection designed to avoid training 
-where the MC is unable to properly describe the data and to match the variables used in the trigger~\cite{AN-12-048}.
+where the MC is unable to properly describe the data and to match the variables used in the trigger~\citep{AN-12-048}.
 In addition, photon candidates are removed if there is a reconstructed \texttt{GsfElectron} matched to the 
 photon supercluster with no matching conversion reconstruction. This greatly reduces the contribution
 from $\Zee$ faking photons. The same preselection is applied to all MC and data for extracting the signal.
 The efficiency of the preselection for signal was measured in $\Zee$ data and MC using a tag-and-probe 
-method~\cite{AN-12-116}. The results are shown in Table~\ref{tab:sigeffpresel}. 
+method~\citep{AN-12-116}. The results are shown in Table~\ref{tab:sigeffpresel}. 
 
 \begin{table}
 \begin{center}
@@ -278,11 +278,11 @@ $\eta$ and $\phi$ ($\sigma_{\eta},~\sigma_{\phi}$). The $\eta$ of the superclust
 included as the shower shape is dependant on the position within the calorimeter. 
 The second set of input variables describe the
 isolation of the photon in the calorimeter and tracker scaled to account for 
-the additional expected energy density due to pileup, $\rho$~\cite{2011JInst611002C}. 
+the additional expected energy density due to pileup, $\rho$~\citep{2011JInst611002C}. 
 These are the sum of the track isolation, 
 calculated relative to the chosen vertex and the vertex giving the maximum track isolation,
 ECAL isolation and HCAL isolation in a cone with $\Delta R<0.3$ minus $\rho$ times the effective area 
-of the cone~\cite{2011JInst611002C}.
+of the cone~\citep{2011JInst611002C}.
 and the absolute ECAL and HCAL isolations within cones of $\Delta R <0.3$ and $\Delta R<0.4$ 
 respectively. In addition, the number of reconstructed vertices in the bunch crossing is included
 to reduce the pileup dependence of the isolation variables. 
@@ -346,7 +346,7 @@ data and MC. In addition to further separating the contribution to the backgroun
 can discriminate between prompt diphotons in QCD and those from a $\Hgg$ decay. The final events used for 
 the signal extraction are selected as those with a diphoton BDT output greater than 0.05. This cut is chosen
 following an optimization study to minimize the expected exclusion limit in the absence of signal.
-Events below this cut value were found to provide negligible improvement in the expected limit~\cite{AN-12-048}.
+Events below this cut value were found to provide negligible improvement in the expected limit~\citep{AN-12-048}.
 
 \begin{figure}[hbt!]
 \begin{center}
@@ -412,7 +412,7 @@ used for the signal extraction. The MC can be validated using $\Zee$ data-MC
 comparisons by inverting the electron veto and treating the electrons as though they were photons.
 This is done by using the supercluster associated to the electron for the electron's energy measurement 
 and ignoring the track information. In this way, the reconstruction of the electrons is the same as that
-of the photons allowing for validation of the BDT's response to real photons from a resonance decay~\cite{null}. 
+of the photons allowing for validation of the BDT's response to real photons from a resonance decay~\citep{null}. 
 Figure~\ref{fig:zeevaliddiphomva} shows the diphoton BDT distribution in $\Zee$ MC and data after applying
 the full selection using this technique. 
 

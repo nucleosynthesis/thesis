@@ -7,7 +7,7 @@
 \usepackage{multirow} % For putting a header over more than 1 column
 \usepackage{comment} % Allows you to comment out whole chunks of text
 
-\usepackage{natbib}
+\usepackage[sort,numbers]{natbib}
 
 \newcolumntype{A}{>{\centering\arraybackslash}p{1cm}} % allows you to centre columns
 \newcolumntype{B}{>{\centering\arraybackslash}p{2cm}} % allows you to centre columns
@@ -17,6 +17,10 @@
 \newcolumntype{F}{>{\centering\arraybackslash}p{6cm}} % allows you to centre columns
 
 % Custom commands -----------------------
+%Theory
+\makeatletter
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
 %General/Detector
 \newcommand{\abs}[1]{|#1|}
 \newcommand{\cmssw}{CMSSW\_4\_2\_X}
@@ -25,8 +29,8 @@
 \newcommand{\clumicomb}{10.4 fb$^{-1}$}
 \newcommand{\rnine}{r_{9}}
 \newcommand{\pt}{p_{T}}
-\newcommand{\met}{\slash{E_{T}}}
-\newcommand{\metvec}{\slash{\mathbf{E}_{T}}}
+\newcommand{\met}{{E_{T}}^{miss}}
+\newcommand{\metvec}{{\mathbf{E}^{miss}_{T}}}
 \newcommand{\sigieie}{\sigma_{i\eta i\eta}}
 \newcommand{\hoe}{H/E}
 \newcommand{\Lonept}{E_{T}^{L1}}
@@ -60,7 +64,10 @@
 \newcommand{\call}{\mathcal{L}}
 \newcommand{\muhat}{\hat{\mu}}
 \newcommand{\boldth}{{\boldsymbol{\theta}}}
-\newcommand{\boldmu}{{\boldsymbol{\mu}}}
+\newcommand{\boldthmeas}{\tilde{\boldth}}
+\newcommand{\thmeas}{\tilde{\theta}}
+%\newcommand{\boldmu}{{\boldsymbol{\mu}}}
+\newcommand{\boldmu}{{\mathbf{x}}}
 \newcommand{\xsbr}{\sigma(\Hgg)/\sigma(\Hgg)_{SM}}
 \newcommand{\xs}{\sigma/\sigma_{SM}}
 \newcommand{\muqqh}{\mu_{VH+qqH}}
@@ -99,6 +106,7 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 \begin{mainmatter}
 \input{introduction}
 \input{theory/theory}
+	\input{theory/higgs}
 \input{detector/detector}
 \input{detector/l1trigger}
 \input{hgg7TeV/hgg7TeV}
@@ -113,6 +121,7 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 \begin{appendices}
   \input{detector/appendices_detector}
   \input{hgg7TeV/appendices}
+  \input{combinations/appendices_combinations}
 \end{appendices}
 
 % Produce the un-numbered back matter (e.g. colophon,

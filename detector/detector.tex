@@ -90,7 +90,7 @@ Figure~\ref{fig:cms} shows the geometry of the CMS detector and its major compon
 \centering
 	\includegraphics[width=0.8\textwidth]{detector/cmsdetector}
 	\caption{Diagram of the CMS Detector. The arrows indicate the main detector elements. 
-	The figure has been altered from its original source~\cite{cmspub}}
+	The figure has been altered from its original source~\citep{cmspub}}
 	\label{fig:cms}
 \end{figure}
 
@@ -108,7 +108,7 @@ The pixel detector is the closest tracking element to the interaction point.
 It is a composite of 66 million individual silicon pixels, $100\mu m \times 150 \mu m$ in size,
 forming three cylindrical layers around the beam line and two forward disks. 
 %The resolution of the pixel detector is around 10 $\mathrm{\mu}$m in the $\hat{r}$ and $\hat{\phi}$ 
-%direction and 17 $\mathrm{\mu}$m in $\hat{z}$%~\cite{trckAC}. 
+%direction and 17 $\mathrm{\mu}$m in $\hat{z}$%~\citep{trckAC}. 
 Outside the pixel detector, ten cylindrical layers of silicon strip detectors (TIB/TOB) 
 and twelve discs (TID/TEC) extend the tracking system out to a radius of 120cm from the 
 beam line. The tracker geometry, as shown in Figure~\ref{fig:trackergeom}, covers a pseudo-rapidity 
@@ -118,7 +118,7 @@ range $|\eta| < 2.5$.
 	\centering
 	\includegraphics[width=0.9\textwidth]{detector/trcker/tracker_col.jpg}
 	\caption{Cross-section of the pixel and silicon strip detector 
-	components of the CMS tracker~\cite{Weber201159}.}
+	components of the CMS tracker~\citep{Weber201159}.}
    \label{fig:trackergeom}
 \end{figure}
 
@@ -130,7 +130,7 @@ The vertex resolution is dependant both on the number of tracks associated to th
 their average transverse momenta ($\bar{p_{T}}$). The resolution was measured in early data from 2010
 by splitting tracks associated to a vertex randomly into two groups with equal kinematic distributions.
 The difference between the vertex locations calculated from the two groups was used to provide an estimate 
-of the resolution~\cite{TRK-10-005}.
+of the resolution~\citep{TRK-10-005}.
 Figure~\ref{fig:vtxreso} shows the resolution in $z$ as a function of the track multiplicity
 measured in data and simulation. The simulation provides a good description of both the trend with 
 number of associated tracks and the improvement in resolution with $\bar{p_{T}}$ in the data. 
@@ -161,7 +161,7 @@ The ECAL is designed to cover a pseudo-rapidity range of $|\eta | < 3$.
 The crystals are arranged to form modules which surround the beam line in a `non-projective geometry':
 the gaps between crystal modules are offset by 3$^{\circ}$ with respect to particle trajectories originating from 
 the interaction point. Electrons and photons deposit most of their energy within 
-the crystals as the depth of the crystals is equivalent to 25.8 radiation lengths~\cite{TDR1}. 
+the crystals as the depth of the crystals is equivalent to 25.8 radiation lengths~\citep{TDR1}. 
 Electromagnetic showers produced by the interaction of electrons and photons in the ECAL crystals
 produce scintillation light which is collected to measure the energy of the particle. 
 The scintillation output of the crystals is, however, low and temperature dependant 
@@ -184,7 +184,7 @@ electrons radiate bremsstrahlung photons causing deposits which are
 spread over a wide range in $\phi$ while being fairly narrow in $\eta$.
 This characteristic is exploited by the ``Hybrid'' clustering algorithm 
 used to reconstruct high energy electrons and photons in
-the ECAL barrel~\cite{cseez}. The algorithm proceeds as follows;
+the ECAL barrel~\citep{cseez}. The algorithm proceeds as follows;
 \begin{itemize}
  \item Step 1: A seed crystal is determined to be a single crystal in the barrel with the highest
  $E_{T}$ satisfying $E_{T}>1~GeV$.
@@ -197,7 +197,7 @@ the ECAL barrel~\cite{cseez}. The algorithm proceeds as follows;
  The final group of sub-clusters form a supercluster for the electromagnetic object.
 \end{itemize}
 The values of the particular thresholds used for seeding clusters and dominoes were tuned providing
-an efficiency for electrons with $p_{T}>7~GeV$ greater than 99\%~\cite{dfutyan}.
+an efficiency for electrons with $p_{T}>7~GeV$ greater than 99\%~\citep{dfutyan}.
 Figure~\ref{fig:hybridclustering} is an illustration of the Hybrid clustering algorithm.
 
 \begin{figure}
@@ -211,12 +211,12 @@ Figure~\ref{fig:hybridclustering} is an illustration of the Hybrid clustering al
 
 In the ECAL endcaps, superclusters are built using the ``Multi5$\times$5'' algorithm which 
 connects overlapping 5$\times$5 grids of crystals whose positions lie within 
-0.3 radians in $\phi$~\cite{AN-09-164}. 
+0.3 radians in $\phi$~\citep{AN-09-164}. 
 Additional information is used from the PS to enhance the energy reconstruction in the endcaps. 
 
 Superclusters are associated to electron candidates (\texttt{GsfElectrons}) 
 where a track can be reconstructed from
-compatible hits in the tracker using a Gaussian sum filter algorithm~\cite{GSF_Electron_Reconstruction_CMS}.  
+compatible hits in the tracker using a Gaussian sum filter algorithm~\citep{GSF_Electron_Reconstruction_CMS}.  
 This provides an additional measure of the electron's momentum which is used 
 to improve the resolution of the electron energy.
 Aside from this, the reconstruction of photons and electrons is identical which is an 
@@ -229,7 +229,7 @@ electrons such as those described in Chapter~\ref{chap:hgg}.
 ECAL crystals suffer from loss of optical transmission when irradiated through 
 the formation of crystal-lattice defaults which absorb some of the scintillation light. Annealing
 acts to balance the damage from radiation which results in an equilibrium optical 
-transmission which is dose-dependant~\cite{TDR1}. 
+transmission which is dose-dependant~\citep{TDR1}. 
 At the LHC, the dose varies during each run. This requires that the time varying optical transmission of the ECAL 
 crystals be monitored to asses the impact on energy measurements.
 The crystal transparency is monitored by comparing the relative transmission in blue laser light (440 nm), 
@@ -237,7 +237,7 @@ which is close to the scintillation emission peak, to infra-red (796 nm), which 
 peak and relatively unaffected by the radiation damage.
 Figure~\ref{fig:trans} shows the relative response to the blue laser of the monitoring system
 averaged over all the crystals in bins of $|\eta|$ throughout the 2011 data taking 
-runs~\cite{CMS-DP-2012-007}. 
+runs~\citep{CMS-DP-2012-007}. 
 The time dependence of the response has larger variation for higher values of $|\eta|$ due to the larger flux
 of particles along the beam axis.
 
@@ -252,7 +252,7 @@ of particles along the beam axis.
 The response of the crystals measured using the laser monitoring system is used to calibrate 
 the energy reconstruction of the ECAL. These calibrations are validated in $W\rightarrow e\nu$ data events
 by comparing the electron energy ($E$) measured as measured by the ECAL to the momentum 
-($p$) of the electron measured in the tracker~\cite{CMS-DP-2012-007}. 
+($p$) of the electron measured in the tracker~\citep{CMS-DP-2012-007}. 
 Figure~\ref{fig:scaleeop} shows the relative variation in the ratio $E/p$ as a function of time 
 throughout 2011. A stable scale is achieved through application of the laser calibrations.
 

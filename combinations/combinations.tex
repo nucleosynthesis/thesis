@@ -1,41 +1,44 @@
-\chapter{Higgs Combinations and Properties}
+\chapter{Higgs Combination and Properties}
 \label{chap:combinations}
 
 %Careful not to get phillosphical, this section is about
 %combined searches not really about stats.
-\emph{For a particular hypothesis of the SM Higgs boson mass, the sensitivity 
-of the search depends not only on the production cross-section and 
-branching ratio to a particular decay channel, but also on the the efficiency
+\emph{The sensitivity 
+of the search for the SM Higgs boson depends not only on the production cross-section and 
+branching ratio to a particular decay channel, but also on the efficiency
 of the selection, the experimental resolution and the relative proportions of 
-signal to SM background processes. By combining results from searches
-in many decay channels, the overall sensitivity to a SM Higgs is greatly improved.
-This chapter describes the combined search for the SM Higgs 
+signal to background processes. These quantities typically vary greatly as a function of 
+$\mh$. By combining results from searches
+in many decay channels, over a large range in mass, 
+the overall sensitivity is greatly improved.
+This chapter describes the combined searches for the SM Higgs and measurements of its properties. 
 In Section~\ref{sec:combinationmethodology}, a short review on the statistical 
 treatment of data from different analyses used at CMS is provided and a set of diagnostic
 tools developed by the author are discussed.
 The results of the search using the International Conference on
-High Energy Physics (ICHEP) dataset are included 
+High Energy Physics (ICHEP) dataset, 
 which led to the announcement of the discovery of a new particle 
-by Atlas and CMS in June 2012~\cite{HIG-12-028}. 
+by Atlas and CMS in June 2012~\citep{HIG-12-028}, are included.
 Section~\ref{sec:properties} deals with early studies of the 
 properties of the newly discovered particle presented at the Hadron Collider Physics (HCP) 
 symposium in November 2012. This includes a discussion of 
-the Feldman-Cousins teqhnique which was in part implemented and performed
+the Feldman-Cousins technique which was in part implemented and performed
 by the author to extract information on the compatibility of the new 
 state with the SM Higgs boson.}
 
 \section{Combined Higgs Searches}
 \label{sec:combinationmethodology}
 
-In High Energy physics, it is often desireable to search for new physics 
-which has been motivated by some theoretical considerations. 
+When searching for new physics it is often desirable to do so in the context of
+some specific theoretical model or well motivated benchmark scenario.
 Where the theory provides well defined predictions,
 experimental data can be used to verify or reject the theory
 by means of Hypothesis testing. The goal is to use the data 
-to reject one of two hyptotheses,
+to reject one of two hypotheses,
 $H_{0}$ and $H_{1}$, known as the null and alternate hypotheses
 respectively. A function is defined, $t(data)$,
-which characterises the observed data as a single value. The critical
+which characterises the observed data as a single real value. When rejecting 
+and hypothesis, $H_{0}$, the critical
 region, $w$, is defined as the set of possible values of $t$
 which indicate that $H_{0}$ is not true. The probability then 
 to observe $t\in w$ when $H_{0}$ is true ($\alpha$), 
@@ -43,7 +46,6 @@ to observe $t\in w$ when $H_{0}$ is true ($\alpha$),
 \alpha = P(t\in w|H_{0})
 \end{equation}
 is the probability that $H_{0}$ would be rejected even if it was true.
-This is also known as the significance of a test.
 The strength of a test (referred to as its power) is quantified by 
 the probability, $1-\beta$ that $t \in  w$ when $H_{1}$ is true.
 \begin{equation}
@@ -53,55 +55,53 @@ In the case of the search of the SM Higgs boson, the two hypotheses
 can be parameterised in terms of a production cross-section relative
 to that predicted by the SM, $\xs$.  
 The null hypothesis ($H_{0}$) is then that under which no SM Higgs boson exits,
-$\xs=0$, where the alternate ($H_{1}$) is characterized by $\xs=1$.
+$\xs=0$, while the alternate ($H_{1}$) is characterized by $\xs=1$.
 In this case, $H_{0}$ is referred to as the background only hypothesis
 and $H_{1}$ the signal plus background hypothesis.
 The possible outcomes values of $t$ are assumed to be random with a probability density
-function $f(t|\xs)$.  The values of $\alpha$ and $1-\beta$ are then obtained by;
+function (pdf) $f_{\xs}(t)$. The values of $\alpha$ and $1-\beta$ are the integral of the pdfs
+over the critical region;
 \begin{eqnarray}
-1-\beta =  \int_{w}f(t|\xs=1)dt\\ 
-\alpha =  \int_{w}f(t|\xs=0)dt,
+1-\beta =  \int_{w}f_{1}(t)dt\\ 
+\alpha =  \int_{w}f_{0}(t)dt.
 \label{eqn:alpha}
 \end{eqnarray}
 It can be shown that the choice of $w$ which maximises the power of the test for 
-a given level of significance are the set of points for which,
+a given value of $\alpha$ are the set of points for which,
 \begin{equation} 
-	q = \frac {\displaystyle f(t|\xs=1)}{\displaystyle f(t|\xs=0)} \ge c_{\alpha},
+	q = \frac {\displaystyle f_{1}(t)}{\displaystyle f_{0}(t)} \ge c_{\alpha},
+\label{eqn:bestw}
 \end{equation}
-where $c_{\alpha}$ is chosen such that Equation~\ref{eqn:alpha} holds~\cite{null}.
-The quantity $q$, known as the ``test-statistic'', is formed of the 
-ratio of the likelihoods under the two hypotheses. 
-
+where $c_{\alpha}$ is chosen such that Equation~\ref{eqn:alpha} holds~\citep{null}.
 In the search for the SM Higgs boson, the compatibility of the data
-with the presense of a Higgs boson are interpreted in terms of the 
-continuous parameter $\mu$ known as the signal strength relative to that expected
+with the presence of a Higgs boson are interpreted in terms of the 
+continuous parameter, $\mu$, which scales the signal strength relative to that expected
 from the Standard Model. 
 Again, the null hypothesis, $H_{0}$, is characterized by setting $\mu=0$ however,
 an infinite number of alternate hypotheses exist for any value $\mu \ge 0$.
-This is known as a nested set of hypotheses in the sense that the null 
-is contained in the set of alternate hypotheses~\cite{null}.
+The likelihood , $\call(t|\mu)$, is defined as a function of $\mu$ for a fixed 
+realisation of the data and related to each pdf by a constant of proportionality.
+The quantity $q$ in Equation~\ref{eqn:bestw}, known as the ``test-statistic'', is then
+the ratio of the likelihood at the two values $\mu=1$ and $\mu=0$. 
 
-In order combine data from all decay channels relevant in the search for the
+In order to combine data from all decay channels relevant in the search for the
 SM Higgs, the likelihood for a particular outcome of the data given a particular
 value of $\mu$ is the product of the individual likelihoods in each channel $i$,
 \begin{equation}
-\mathcal{L}(data|\mu,\boldth)= \prod_{i}\mathcal{L}_{i}(data_{i}|\mu,\boldth)
-= \prod_{i}P(data|\boldth) \cdot p(\boldth_{0}|\boldth).
-\end{equation},
-where the data are either the real observed data or pseudo-data.
+\mathcal{L}(data|\mu,\boldth)= p(\boldthmeas|\boldth)\cdot\prod_{i}\mathcal{L}_{i}(data_{i}|\mu,\boldth)
+= \prod_{i}P(data|\boldth) .
+\end{equation}
 The relative signal strength $\mu$ is a single parameter which scales the signal
 yield in all sub-channels simultaneously. 
-Each value of $\mu$ represents an hypothesis which can be rejected using the data
-at some confidence level $c\in(0,1)$ in favour of the background only hypothesis.
 Systematic uncertainties in the signal and background models in each channel
 are modelled through the nuisance parameters, $\boldth$. Typically these nuisances
-will be constrained by some external measurements $\theta_{0}$, such as the energy scale
+will be constrained by some external measurements $\boldth_{0}$, such as the energy scale
 measured in $\Zee$ events in the two-photon decay channel described in 
 Section~\ref{sec:superclusterenergyreconstruction}. 
-The probability density function $p(\theta_{0}|\theta)$ is a product of each of the 
-nuisance pdfs, usually Gaussian distributions, from each independant source of systematic
+The pdf, $p(\boldthmeas|\boldth)$ is a product of each of the 
+nuisance pdfs, usually Gaussian distributions, from each independent source of systematic
 uncertainty.
-Although each event observed in data are exlusive to a particular each channel, 
+Although each event observed in data is exclusive to a particular each channel, 
 many sources of systematic uncertainty are common to several analyses. For this
 reason, the nuisance parameters, $\boldth$ are correlated between sub-channels.
 The test-statistic for a given $\mu$ is defined as the ratio 
@@ -117,7 +117,7 @@ of ``profiled'' likelihoods $q_{\mu}$ in Equation~\ref{eqn:llr2}.
 \label{eqn:llr2}
 \end{equation}
 
-An immediate concequence of this definition is that the value attained
+An immediate consequence of this definition is that the value attained
 by the test statistic is always positive. Small values of the test
 statistic indicate outcomes which are in favour of the signal plus background 
 hypothesis, where large values indicate outcomes which disfavour it.
@@ -128,47 +128,53 @@ w = \left\{ q_{\mu} : q_{mu} \in (c_{\alpha},+\infty) \right\},
 \end{equation}
 Commonly the integral of $f(q_{\mu}|\mu)$ above the observed value of the 
 test-statistic in data $(q_{\mu}^{obs})$, known as a $p$-value, is calculated
-to provide a measure of how well the data disfavours a value of $\mu$. 
+to provide a measure of how much the data disfavours a value of $\mu$. 
 
-For each specific value of $\mu$, the $p$-value $CL_{s+b}$ (Equation~\ref{eqn:cls}) 
-is calculated. The largest value of $\mu$ for which $CL_{s+b}<\alpha$,
-at a fixed value of $\alpha$ is quoted as the upper limit on $\mu$ with confidence level 
-$1-\alpha$. 
-An additional constraint of $\muhat \le \mu$ is imposed in Equation~\ref{eqn:llr2} 
+An upper limit ($\mu_{up}$) can be determined for $\mu$ such that
+the hypotheses represented by the set $\left\{ \mu:\mu>\mu_{up} \right\}$
+are nested within the hypothesis represented by $\xs=\mu=>\mu_{up}$.
+For the special case when $\mu_{up}=1$, the presence of a SM Higgs boson is excluded
+(at some confidence level $c\in(0,1)$) in favour of the background only hypothesis.
+Practically, at each specific value of $\mu$, the $p$-value $CL_{s+b}$ 
+(Equation~\ref{eqn:clsplusb}) 
+is calculated and the largest value of $\mu$ for which $CL_{s+b}<\alpha$,
+at a fixed value of $\alpha$, is quoted as the upper limit on $\mu$ with confidence level 
+$1-\alpha$. An additional constraint of $\muhat \le \mu$ is imposed in Equation~\ref{eqn:llr2} 
 when calculating upper limits which forces the limit on $\mu$ to be one-sided.
 At CMS, the upper limit on $\mu$ is determined using the $CL_{s}$
 procedure described in Section~\ref{sec:statisticalinterpretations}, which is
-desiged to provide weaker exclusion limits in analyses which are less sensitive
-to signal~\cite{clspaper}. 
+desired to provide less stringent exclusion limits in analyses which are less sensitive
+to signal~\citep{cls}. 
 
 In the presence of a sizeable excess in data, the background only hypothesis
 can be rejected in favour of an SM like one. Specifically, the excess 
 will be compatible with the presence of a SM Higgs excepting in the rate
 at which it is produced. In order to quantify the excess, the test-statistic
 is replaced with $q_{0}$ by setting $\mu=0$ in Equation~\ref{llr2}.
+The constraint $\muhat>0$ ensures that only excesses in the data are considered significant.
 The background only hypothesis is rejected in favour of a signal plus background one
-when the $p$-value $p_{0}$, given in Equation~\ref{eqn:pval},
+when the $p$-value $p_{0}$, given in Equation~\ref{eqn:plocal},
 is less than some pre-determined critical level $\alpha$.
 Since $p_{0}$ is uniformly distributed between 0 and 1 under the background hypothesis,
 $p_{0}$ is exactly the probability $\alpha$ of falsely rejecting the background only hypothesis.
-The critcical value for $\alpha$ is typically $2.87\times10^{-7}$ (corresponding 
+The critical value for $\alpha$ is typically $2.87\times10^{-7}$ (corresponding 
 to a significance of $5\sigma$) when searching for new physics.  
-The procedures used at CMS for determining the distributions, $f(q_{0}$ and $f(q_{\mu})$
-to calculate $p$-vales was discussed in Secion~\ref{sec:statisticalinterpretations}.
+The procedures used at CMS for determining the distributions, $f(q_{0})$ and $f(q_{\mu})$
+to calculate $p$-vales was discussed in Section~\ref{sec:statisticalinterpretations}.
 
 The likelihood is coded using the \texttt{C++} based 
-statistical packages \texttt{RooFit/RooStats} version \texttt{5.3.0}. 
+statistical package \texttt{RooFit/RooStats} version \texttt{5.3.0}~\citep{roofit}. 
 A framework for automating the procedure of combining datasets, generating toys
-and evalutating likelihoods in the context of the combined search for the SM Higgs boson
+and evaluating likelihoods in the context of the combined search for the SM Higgs boson
 was developed within \texttt{CMSSW} 
-under the package \texttt{HiggsAnalysis/CombinedLimit}. %~\cite{combinationstwiki}.
-All of the results shown in the following sections are obtained with this package.
+under the package \texttt{HiggsAnalysis/CombinedLimit}~\citep{combinationstwiki}.
+All of the results shown in the following sections were obtained using this package.
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Diagnostics with Toy Datasets}
-Frequentest statistical techniques often involve generating many pesudo-datsets (toys)
-in order to build the distribution of a test-statistic. As described in Chaper~\ref{chap:hgg},
-these distributions are used to set confidance intervals or determine the significance of
+Frequentest statistical techniques often involve generating many pseudo-datasets (toys)
+in order to build the distribution of a test-statistic. 
+These distributions are used to set confidence intervals or determine the significance of
 some observed excess in experimental data. The combined Higgs searches at CMS employs the
 profiled likelihood test-statistic (Equation~\ref{eqn:llr}) in which the nuisance parameters,
 $\boldth$, are profiled (fit) from the data. 
@@ -178,26 +184,26 @@ The procedure for determining this distribution proceeds as follows;
 
 \begin{itemize}
 \item{Fit the observed data fixing $\mu=0$. The values of the nuisance parameters 
-at which the likelihood attains its maximum are denoted $\boldth_{obs}$ and will represent 
-the expectation value of the nuisance parameters in the likelihood.}
+at which the likelihood attains its maximum are denoted $\boldth_{obs}$.}
 \item{Generate a toy dataset under the background only hypothesis. For the purposes of
 generating data, the nuisance parameters are fixed to $\boldth=\boldth_{obs}$.}
 \item{Fit the toy dataset twice, once fixing $\mu=0$, $\call(data|0,\hat{\boldth}_{0})$ 
 and once more letting 
 $\mu$ float freely, $\call(data|\hat{\mu},\hat{\boldth})$. When 
-evaluating the likelihood, the values $\boldth_{obs}$ are re-generated in order to 
-model the systematic uncertainties.}
+evaluating the likelihood, the values of $\boldthmeas$ are re-generated 
+(producing ``pseudo-measurements'') in order to model the systematic uncertainties.}
 \end{itemize}
 
 A realistic example of a search for an hypothesised particle, $H$, 
 decaying to two $\tau$ leptons was produced in the form 
 of a simple counting experiment. The search is performed as a combination of 
 three channels arising from the possible subsequent 
-decays of the two $\tau$ leptons; $\tau_{h}-e$, $\tau_{h}-\mu$ and $e-\mu$. 
-In each channel the expected background is estimated
+decays of the two tau-leptons; $\tau_{h}e$, $\tau_{h}\mu$ and $e\mu$, where $t_{h}$
+denotes a hadronically decaying tau-lepton. 
+Events are categorised according to the channel in which they are reconstructed.
+In each category, the expected background is estimated
 either from simulation or some control region in data. 
-The observed data in each channel is represented by a simple count of events 
-falling in that category.
+The data is represented by the number of events falling observed in each category.
 Several sources of systematic uncertainty are included which effect the
 expected signal and background in one or more of the channels. 
 Systematics are incorporated into the likelihood in the form of nuisance 
@@ -206,7 +212,7 @@ Table~\ref{tab:realanalysis} which details the number of expected events
 from each background and signal process in each channel as well as the 
 observed count in data. 
 The analysis is available from the \texttt{CMSSW} package \texttt{HiggsAnalysis/CombinedLimit}\\
-under the directory \texttt{data/tutorials/realistic-counting-experiment.txt}~\cite{null}.
+under the directory \texttt{data/tutorials/realistic-counting-experiment.txt}~\citep{null}.
 
 \begin{table}
 \centering
@@ -236,16 +242,15 @@ process or channel. \label{tab:realanalysis}}
 \end{table}
 
 Around 90,000 toy datasets were generated under the background only hypothesis as is 
-appropriate to determine the distribution of $q_{0}$ (setting the value of $\mu$ of 
-Equation~\ref{eqn:llr} to zero). Each toy dataset was fit twice, once fixing the signal 
-strength, $\mu$, to zero and a second allowing $\mu$ to float freely.
-The results of the fits can be used to diagnose the fits and highlight 
+appropriate for determining the distribution of $q_{0}$. 
+Each toy dataset was fit twice, once fixing $\mu$ to zero and a second allowing $\mu$ to float freely.
+The results of the fits are used to diagnose the fits and highlight 
 potentially problematic channels or nuisance parameters. 
 Figure~\ref{fig:real_lumi_s} shows a summary of the fit results 
 in the nuisance parameter \texttt{lumi}, 
-which models the systematic associated to uncertainty of the total luminosity of the dataset.
-The upper left panel shows two pull distributions of the values from the fit defined as the 
-difference between the value of the fitted parameter
+which models the systematic uncertainty associated to the total luminosity measurement.
+The upper left panel shows two pull distributions of the values from the fit. The entries are
+calculated as the difference between the value of the fitted parameter
 and the value from the best fit to data, $\theta_{obs}$, divided by 
 the $1\sigma$ uncertainty on the parameter before fitting to the data. 
 The blue histogram includes all toys while the red shows the results
@@ -255,23 +260,22 @@ it is important to check that nuisance parameters correlated to the signal
 strength are well behaved.
 
 The pull distributions are fitted with a Gaussian and the width and mean 
-are reported in the upper right panel. Since the constrain terms in the 
-likelihood for nuisances are generated around the best fit to data, 
-the pulls are expected to be centered around 0.
-In general, nuisance parameters
+are reported in the upper right panel. Since the pseudo-measurements 
+are generated around the best fit to data, the pull distributions
+are expected to be centered around 0. In general, nuisance parameters
 are constrained from external measurements so it is expected that the 
 width of the pull distribution is 1. Nuisance parameters which are further
 constrained by the observed data will typically have a pull distribution with width less
 than unity. The parameter \texttt{lumi} does not show signs of being constrained
 by the data. 
 This is reflected in the lower left panel which shows the correlation between
-the nusiance parameter and the value generated for the expectation
+the nuisance parameter and the value generated for the pseudo-measurement
 of this parameter (\texttt{lumi\_In}) in each toy.
 This behaviour is expected since this nuisance parameter mostly effects the signal process and 
 is correlated across all channels so that only the overall
 normalization is altered. Since these fits allow $\mu$ to float freely, 
-any parameter which alters only the overall normalization of the signal should achieve its 
-expectation value at the maximum of the likelihood. 
+any parameter which alters only the overall normalization of the signal should 
+achieve the value generated for its pseudo-measurement at the maximum of the likelihood. 
 The lower right panel shows the shape of the negative log-likelihood
 as a function of the nuisance parameter ($\theta$),
 \begin{equation}
@@ -286,26 +290,26 @@ minima present.
 Degenerate minima, which can cause instabilities in the fitting procedure, will be visible in the 
 shape of the negative log-likelihood. The diagnostic tools described here were applied
 to the ICHEP 2012 combination as documented in a CMS Analysis note by the 
-author~\cite{diagnostics}. The full set of diagnostic summary plots can be found 
-here~\cite{onlinediag}.
+author~\citep{AN-12-317}. The full set of diagnostic summary plots can be found 
+online~\citep{onlinediag}.
 
-\begin{figure*}[hbtp]
+\begin{figure}
   \begin{center}
     \includegraphics[width=\textwidth]{combinations/diagnostics/tree_fit_sb_lumi.pdf}
     \caption{Summary plots for the parameter \texttt{lumi} of the realistic counting experiment. 
 	The entries in the histograms are for fits to toys generated under the background only
 	hypothesis letting $\mu$ float freely. The bottom, left panel shows the correlation
-	between the value generated for the expectation value of the nuisance 
+	between the value generated for the pseudo-measurement of the nuisance 
 	\texttt{lumi\_In} and the fitted value of the parameter. 
 	The lower right panel shows the shape of the 
 	negative log-likelihood (NLL) as a function of the nuisance parameter.
-	The the parameters of the fitted Gaussian for each histogram is given as 
+	The parameters of the fitted Gaussian for each histogram is given as 
 	Mean and Sigma. The value and error of the nuisance are given before fitting
 	to the data (Pre-fit), followed by the best fit value of the parameter 
 	under the background only and signal plus background hypotheses.}
     \label{fig:real_lumi_s}
   \end{center}
-\end{figure*}
+\end{figure}
 
 \subsection{Higgs Search Combination}
 \label{combinedsearchresults}
@@ -317,27 +321,43 @@ integrated luminosities of $4.9-5.1~fb^{-1}$ and $5.1-5.3~fb^{-1}$
 from the 2011 and 2012 data taking periods of the LHC respectively.
 The search is performed across a wide range in Higgs mass hypothesis ($\mh$) 
 from 110 to 600 GeV. For $\mh>150$, the $\Hgg,~\Htt$ and $\Hbb$ decay modes are nor used
-as their expected sensitivites are no longer sensitive compared to the $\Hww$ and
-$\Hzz$ channels. The exclusive final state decays from each of the five modes used 
+as their expected sensitivities are no longer sensitive compared to the $\Hww$ and
+$\Hzz$ channels. Figure~\ref{fig:expectedlimits} shows the relative sensitivities of 
+each decay channel in terms of the expected exclusion limit for the size of the dataset 
+used. The exclusive final state topologies in each of the five modes used
 in the combination, including the size of the dataset used and the mass range to
 which they are sensitive, are given in Table~\ref{tab:channelsummary}.
+
+\begin{figure}
+\begin{center}
+	\includegraphics[width=0.49\textwidth]{combinations/ichep2012/Figure_001-a.pdf}
+	\includegraphics[width=0.49\textwidth]{combinations/ichep2012/Figure_001-b.pdf}
+	\caption{Median expected 95\% CL upper limits on $\mu=\xs$ 
+	for the five Higgs boson decay channels and their combination in the absence
+	of a Higgs boson as a function of $\mh$. The limits are given in the range 
+	110-600 GeV (left) and 110-145 GeV (right). A channel which falls below 1,
+	indicated by the dashed line, for some range is expected to exclude a Higgs 
+	in that range at the 95\% CL using this dataset.}
+	\label{fig:expectedlimits}
+\end{center}
+\end{figure}
 
 \subsubsection{Combined Search Channels}
 The $\Hgg$ analysis is one of the most sensitive channels at low $\mh$. The 
 analysis is that described in Chapter~\ref{chap:hgg} with the exception of
-the signal extraction. Events are categorized using the diphoton BDT into 
+the signal extraction method. Events are categorized using the diphoton BDT into 
 four classes chosen so as to optimise the search in terms of the expected limit
 at $\mh=125~GeV$. The diphoton invariant mass spectrum in each category is fit 
 with polynomial functions whose order is determined following a procedure designed
 to reduce any potential bias to less than 20\% of the statistical uncertainty on 
-the background~\cite{HIG-12-15}. The dijet selected events are 
+the background~\citep{HIG-12-015}. The dijet selected events are 
 categorised separately and treated in the same way as the inclusive events.
 
-Due to the exptremely high cross-section of $b\bar{b}$ production in 
+Due to the extremely high cross-section of $b\bar{b}$ production in 
 p-p collisions, the $\Hbb$ search focuses on Higgs boson production in association
 with a $W$ or $Z$, which are identified by the presence of leptons or, in the case 
 of neutrino final states such as $Z\rightarrow \nu\nu$, by requiring large $\met$ 
-in the event~\cite{HIG-12-019}. The Higgs candidate itself is reconstructed by looking for two 
+in the event~\citep{HIG-12-019}. The Higgs candidate itself is reconstructed by looking for two 
 $b$-tagged jets indicated by their production at secondary vertices. Events are 
 categorized into those where the 
 $W$ or $Z$ boson is recoiling away from the $b\bar{b}$ system with high momentum.
@@ -346,22 +366,22 @@ in which the $Z$ decays to a pair of $b$-quarks. The backgrounds are suppressed
 by use of a multivariate analysis technique trained on MC simulation.
 The search is also performed in events in which the Higgs is produced in association
 with a pair of top-quarks ($ttH$) categorized into either lepton plus jet or dilepton 
-final states~\cite{HIG-12-019}. This mode was not included in the 8 TeV dataset
+final states~\citep{HIG-12-019}. This mode was not included in the 8 TeV dataset
 for the ICHEP 2012 combination.
 
 In the $\Htt$ decay channel, the search is performed using events with leptonic
 final states and events in which one of the tau-leptons decays hadronically 
-($\tau_{h}$)~\cite{HIG-12-018}.
+($\tau_{h}$)~\citep{HIG-12-018}.
 Events are divided into categories based on the number and type of jets in the event
 and by transverse momentum of the visible part of the tau decay.
 A signal in this channel will be visible as a broad excess in the invariant mass
 of the $\tau\tau$ system ($m_\tau\tau$). The main backgrounds are from
 $Z\rightarrow\tau\tau$ events and $W+$jet production. The $VH$ modes are
-eploited by selecting events which have one or more additional leptons 
+exploited by selecting events which have one or more additional leptons 
 consistent with a $W$ or $Z$ boson decay.
 
-The $\Hww$ analysis is one of the most senstitive analyses at CMS for
-values of $\mh$ between 150 and 200 GeV~\cite{HIG-12-017}. 
+The $\Hww$ analysis is one of the most sensitive analyses at CMS for
+values of $\mh$ between 150 and 200 GeV~\citep{HIG-12-017}. 
 The $WW\rightarrow2l2\nu$ sub-channel consists of events with 
 two opposite charged leptons, a large $\met$ and up 
 to two jets (to target $qqH$ production).
@@ -372,18 +392,18 @@ an MVA classifier was trained on signal and background
 MC to separate signal from background. The search is conducted by looking 
 for an excess of events in the output distribution of the MVA.
 In the $WW\rightarrow l\nu 2q$ sub-channel, a broad excess is searched
-for in the four-body invariant mass~\cite{HIG-12-021}. 
+for in the four-body invariant mass~\citep{HIG-12-021}. 
 The invariant mass is reconstructed from the lepton four-vector and $\metvec$ 
 assuming the mass of the $l\nu$ is that of a $W$ boson and 
 choosing the neutrino's longitudinal component to be that which minimises 
-the tranvserse momentum of the $l\nu$ system.
+the transverse momentum of the $l\nu$ system.
 Associated production of the Higgs with a $W$ boson is searched for 
 by looking for an excess of events with three leptons and large 
-$\met$~\cite{HIG-11-034}.
+$\met$~\citep{HIG-11-034}.
 
 The $\Hzz$ analysis focuses on four final state topologies.
 The $ZZ\rightarrow 4l$ is a search for a narrow four-lepton invariant mass 
-peak over a small background~\cite{HIG-12-016}. The kinematics of the $4l$ system are used
+peak over a small background~\citep{HIG-12-016}. The kinematics of the $4l$ system are used
 to assign a probability that the event is from either a signal or background 
 process to improve the sensitivity. For the lower mass region ($m_{H}<180$),
 only one of the lepton pairs is required to have a mass consistent with an 
@@ -392,13 +412,13 @@ The $4e$, $4\mu$ and $2e2\mu$ sub-channels are categorised separately as the
 mass resolutions and the background rates differ between between the three 
 final states. In the $ZZ\rightarrow 2l2\tau$ and $ZZ\rightarrow 2l2q$, 
 a broader peak is searched for in the dilepton-ditau and dilepton-dijet
-mass resepectively~\cite{HIG-12-016,HIG-11-027}. 
+mass respectively~\citep{HIG-12-016,HIG-11-027}. 
 The limited resolution in jet energy reconstruction
 and the effect of the neutrino escaping detection in leptonic tau decays
 reduces the mass resolution in these channels compared to the $4l$ decay.
 The $ZZ\rightarrow 2l2\nu$ search looks for a leptonic $Z$ decay
-and a large $\met$~\cite{HIG-12-023}. A broad excess of events in the $m_{T}$ distribution
-is used to signal the presence of a SM Higg boson.
+and a large $\met$~\citep{HIG-12-023}. A broad excess of events in the $m_{T}$ distribution
+is used to signal the presence of a SM Higgs boson.
 
 
 \begin{sidewaystable}
@@ -456,10 +476,10 @@ $ $ & $qqH$-tag
 	& 2 & 200-600 & $4.9/5.1$ \\
 \hline
 \end{tabular}
-\caption{Summary of analyses included in the ICHEP 2012 combination~\cite{HIG-12-020}. 
-The column for $H$ prod indicates the production process targetted by the sub-channel.
+\caption{Summary of analyses included in the ICHEP 2012 combination~\citep{HIG-12-020}. 
+The column for $H$ prod indicates the production process targeted by the sub-channel.
 A label ``untagged'' indicates that the main contribution is from the $ggH$ production process.
-The final states for each channel are exlusive (no events lie in more than one sub-channel.
+The final states for each channel are exclusive (no events lie in more than one sub-channel.
 The notations used here are: $jj$ indicating a dijet pair whether from a $W,Z$ decay or 
 being consistent the vector-boson fusion process; $j_{b}$ denotes a jet which is 
 identified as a $b$-jet; 
@@ -469,6 +489,7 @@ opposite flavour ($e\mu$) and same flavour ($ee$ or $\mu\mu$) respectively.}
 \end{sidewaystable}
 
 \subsubsection{Combined Results}
+\label{sec:combinedsearchresults}
 The 95\% upper limits on the signal strength $\mu=\xs$ as a function 
 of the hypothesised Higgs boson mass, $\mh$, are shown in 
 Figure~\ref{fig:combinedexcl}. The right hand figure is an enlargement of
@@ -480,9 +501,9 @@ observed line lies within the 68\% or 95\% quantiles. However an
 excess of events is observed at low mass in the range $122.5  < \mh < 127 GeV$
 so that exclusion of a SM Higgs boson with a mass in that range cannot be excluded
 at the 95\% confidence level. The significance of the excess is quantified as a function
-of $\mh$ by calculating the local $p$-value, $p_{0}$ as shown n Figure~\ref{fig:combinedpval}. 
+of $\mh$ by calculating the local $p$-value, $p_{0}$ as shown in Figure~\ref{fig:combinedpval}. 
 For the overall combination, the local $p_{0}$ is around $5.5\times10^{-7}$, 
-equavalent to a significance of $4.9\sigma$. The test indicates that the observed excess 
+equivalent to a significance of $4.9\sigma$. The test indicates that the observed excess 
 is incompatible with the background only hypothesis indicating the presence of 
 a new state with a mass near 125 GeV.
 The largest contributions to the excess are
@@ -496,25 +517,25 @@ The overall global $p$-value in the range 115-130 GeV is calculated by
 generating 10,000 pseudo-datasets and fitting for the constant $C$ in 
 the relationship to the local $p$-value given in Equation~\ref{eqn:lee}. The
 look-elsewhere effect, calculated as the ratio between the local and global $p_{0}$, 
-is around 11 such that the global signficiance remains high at $4.4\sigma$.
+is around 11 such that the global significance remains high at $4.4\sigma$.
 
-\begin{figure}[hbt!]
+\begin{figure}
 \begin{center}
-\includegraphics[width=.49\textwidth]{combinations/ichep2012/Figure_004-a.pdf}
-\includegraphics[width=.49\textwidth]{combinations/ichep2012/Figure_004-b.pdf}
-\caption{Combined 95\% upper limits on the production cross-section of Higgs boson
+ \includegraphics[width=.49\textwidth]{combinations/ichep2012/Figure_004-a.pdf}
+ \includegraphics[width=.49\textwidth]{combinations/ichep2012/Figure_004-b.pdf}
+ \caption{Combined 95\% upper limits on the production cross-section of Higgs boson
 production relative to that of the Standard Model in the $\mh$ ranges 110-600 GeV (left)
 and 110-145 GeV (right). The median upper limits expected in the absence of a SM Higgs
 is indicated by the dashed black line and the 68\% and 95\% quantiles by the green and yellow
 bands respectively.
 The observed upper limits from the combined ICHEP 2012 dataset is shown by the black solid line.
-Where the observed limit is lower than 1 (red line) A SM Higgs boson with that $mh$ 
+Where the observed limit is lower than 1 (red line) A SM Higgs boson with that $\mh$ 
 is excluded at the 95\% confidence level.}
 \label{fig:combinedexcl}
 \end{center}
-
 \end{figure}
-\begin{figure}[hbt!]
+
+\begin{figure}
 \begin{center}
 \includegraphics[width=.49\textwidth]{combinations/ichep2012/sqr_pvala_all_byresol.pdf}
 \includegraphics[width=.49\textwidth]{combinations/ichep2012/lee-combination-115-130.pdf}
