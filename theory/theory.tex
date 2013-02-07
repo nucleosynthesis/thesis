@@ -11,53 +11,231 @@ Now will talk about each section.
 
 The Standard Model (SM) in unparalleled in terms of success as 
 a well tested, precision model of fundamental particle physics. 
-The SM provides a description of the electromagnetic, weak
-and strong interactions in quantum field theoretic prescriptions,
-incorperating both both relativistic and quantum mechanical effects.
+The SM provides a description of the electromagnetic, weak-nuclear
+and strong-nuclear interactions in quantum field theoretic prescriptions,
+incorporating both both relativistic and quantum mechanical effects.
 
-Within this prescription, the fundamental constituents of matter of matter 
-\ldots fermions quarks and leptons\ldots
+\subsection{Fundamental Matter Particles}
+All of the known fundamental constituents of matter
+are spin-$\frac{1}{2}$ fermions. 
+The free-particle equation of motion for a spin-$\frac{1}{2}$ particle with mass $m$, 
+given in Equation~\ref{eqn:Dirac}, was provided by Dirac~\cite{null}.
+\begin{equation}
+(i\gamma^{\mu}\partial_{\mu} - m)\psi = 0
+\end{equation}
+The matrices, $\gamma^{\mu},~\mu\in{0,1,2,3}$, of Equation~\ref{eqn:Dirac} are
+defined by the anti commutator relation 
+$\gamma^{\mu}\gamma^{\nu}+\gamma^{\mu}\gamma^{\nu} = 2\eta_{\mu\nu}I_{4}$ where
+$\eta_{\mu\nu}$ is the flat space-time metric $(+,-,-,-)$ and $I_{4}$ is the $4\times4$
+identity matrix.
+The solutions, $\psi$, to Dirac's equation yield the particle and anti-particle
+states which satisfy the relativistic expression, 
+$E^{2} = \mathbf{p}\cdot\mathbf{p} + m^{2}$. Here, $p^{\mu} = (E,\mathbf{p})$ 
+denotes the four-momentum of a 
+massive particle with momentum $\mathbf{p}$ and energy $E$.
 
-\begin{table}
+lightest are \ldots heaviest are \ldots most matter made of blah.
+The strong 
+ 
+A summary of the known fundamental fermions in their three generations is given 
+in Table~\ref{tab:fermions}.
+These are separated into those particles which
+do (quarks) and do not (leptons) interact with the strong-nuclear force.
+The quarks are not seen free in nature \ldots confinement
+\begin{table}[htbp!]
 \begin{tabular}{|l|l c|l c|l c| c|}
 \hline 
 	& \textbf{\Rmnum{1} } & & \textbf{\Rmnum{2}} & & \textbf{\Rmnum{3}} & & \textbf{Charge} \\
 \hline
 Leptons & electron & $e$ & muon & $\mu$ & tau  & $\tau$  & -1 \\
-	& electron neutrino & $\nu_{e}$ & muon neutrino & $\nu_{\mu}$ & tau neuntrino & $\nu_{\tau}$  & 0 \\
+	& electron neutrino & $\nu_{e}$ & muon neutrino & $\nu_{\mu}$ & tau neutrino & $\nu_{\tau}$  & 0 \\
 \hline
 Quarks  & up 	& $u$ & charm 	& $c$ & top 	&$t$  & $+\frac{2}{3}$  \\
 	& down 	& $d$ & strange & $s$ & bottom 	&$b$  & $-\frac{1}{3}$	\\
 \hline
 \end{tabular}
-\caption{Fundamental fermions in the Standard Model. Their anti-fermion counterparts are not listed.}
+\caption{Fundamental fermions in the Standard Model. All of the fundamental 
+fermions are spin-$\frac{1}{2}$ particles. The anti-fermion counterparts are not listed
+here.}
 \label{tab:fermions}
 \end{table}
 
+\subsection{Fundamental Forces}
+say something about each of the four forces, EM, strong and weak, ranges,
+strengths etc\ldots
+% -------------------
+The range of the interactions depends on the inverse of the masses of the gauge bosons
+that mediate them. For that, the range of the Electromagnetic interaction, mediated
+% --------------------------
 
-Fundamental forces are bosons, also summary table.
-
-\begin{table}
+The fundamental forces of nature are mediated by the exchange of gauge bosons
+with total spin quantum number of 1.   
+These gauge bosons arise from consideration of the symmetries which 
+the relevant theory possesses. The theories of electromagnetism 
+and the strong-nuclear force, Quantum Electro-dynamics (QED) and 
+Quantum Chromo-dynamics (QCD) yield massless mediator bosons, the photon
+and the gluons which are a direct consequence of the gauge invariance of those
+theories. The mediators of the weak-nuclear force arise only through 
+the unification of the weak and electromagnetic interactions and the mixing
+of their gauge fields (See Section~\ref{sec:ewksymmetry}). 
+The weak gauge bosons, $W^{\pm}$ and $Z$, unlike the photon and gluons 
+have a finite mass which has been measured experimentally~\citep{combinedWmass,pdg}.
+A summary of the fundamental gauge bosons of the Standard Model is given in 
+Table~\ref{tab:bosons}. A quantum description of gravity is not included in the Standard Model.
+This is a reasonable approximation as the strength of this interaction 
+is much smaller than the other three.
+\begin{table}[htbp!]
 \begin{tabular}{|l|l c|c|c|}
 \hline 
-	& \textbf{Mediator Particle} & & \textbf{Charge} & \textbf{Spin} \\
+	& \textbf{Mediator Particle} & & \textbf{Charge} & \textbf{Mass (GeV)} \\
 \hline
-Electromagnetism & photon & $\gamma$ 			& 0 & 1   \\
+Electromagnetism & photon & $\gamma$ 			& 0 & 0   \\
 \hline
-Strong Nuclear   & gluon  & $g_{j},$ $j\in\left\{1,\cdots8\right\}$ 	& 0 & 1   \\
+Strong Nuclear   & gluon  & $g_{j},$ $j\in\left\{1,\cdots8\right\}$ 	& 0 & 0   \\
 \hline
-Weak Nuclear 	 &  &  $W^{+}$ & +1 & 1 \\
-	 	 &  &  $W^{-}$ & -1 & 1 \\
-	 	 &  &  $Z$     & 0  & 1 \\
+Weak Nuclear 	 &  &  $W^{+}$ & +1 & 80.39 \\
+	 	 &  &  $W^{-}$ & -1 & 80.39 \\
+	 	 &  &  $Z$     & 0  & 91.19 \\
 \hline
 \end{tabular}
-\caption{Fundamental gauge-bosons in the Standard Model.}
+\caption{Fundamental gauge bosons in the Standard Model.
+All of the gauge-bosons are spin-1 particles.
+The masses of the $W^{\pm}$ and $Z$ bosons are taken from 
+Refs~\citep{combinedWmass} and~\citep{pdg} respectively.}
 \label{tab:bosons}
 \end{table}
 
-\subsection{Electroweak Unification}
-How the W and Z arise, why no mass is allowed.
-implies Higgs.
+\subsection{Electroweak Gauge Symmetry}
+\label{sec:ewksymmetry}
+
+Symmetries in nature are often found to relate to some underlying physical principle 
+or fundamental law. It was first shown by Emmy Noether 
+that for any physical system which can be described in the Lagrangian formalism,
+any symmetry of the Lagrangian has an associated conserved quantity~\cite{null}.
+In the context of dynamical quantum theories, the particular characteristics of 
+particle interactions can be used to construct the appropriate Lagrangian 
+by means of identifying the appropriate group of transformations under which 
+the Lagrangian should be symmetric (invariant). 
+
+One of the major achievements of the twentieth century in 
+the development of the Standard Model was the unification of the electromagnetic 
+and weak interactions. The original proposal, by Glashow in 1961, was
+to construct a theory which incorporates the characteristics of 
+the weak and electromagnetic interactions by associating them 
+with a particular symmetry group.
+The physical nature of electroweak interactions are encoded into a Lagrangian which 
+is invariant under transformations of the group $\sutwol\times\uone$. 
+This group has three generators for the $\sutwol$ group, $\frac{1}{2}\tau_{i}$ 
+where $\tau_{i},~i\in \{1,2,3 \}$ are the Pauli-spin matrices, and one
+additional generator for $\uone$. The associated gauge fields are 
+$\hat{\mathbf{W}}_{\mu} = \left(\hat{W}_{\mu}^{1},\hat{W}_{\mu}^{2},\hat{W}_{\mu}^{3}\right)$
+ and $\hat{B}_{\mu}$.
+An example Lagrangian for electron-neutrino interactions is 
+given in Equation~\ref{eqn:ewklagrangianeg}.
+\begin{eqnarray}
+\lagr_{\nu_{e},e} & =& \bar{\chi}_{L}\gamma^{\mu}\left[i\partial_{\mu} 
+		   - g\frac{1}{2}\boldsymbol{\tau}\cdot\hat{\mathbf{W}_{\mu}}
+		   - g^{\prime}\left(-\frac{1}{2}\right)\hat{B}_{\mu}\right] \chi_{L}
+\nonumber \\
+& &		   + \bar{e}_{R}\gamma^{\mu}\left[i\partial_{\mu} 
+		   - g^{\prime}(-1)\hat{B}_{\mu}\right]{e}_{R}
+		     -\frac{1}{4}
+		     \hat{\mathbf{W}}_{\mu\nu}\cdot\hat{\mathbf{W}}^{\mu\nu} 
+		     -\frac{1}{4}
+		     \hat{B}_{\mu\nu}\hat{B}^{\mu\nu}
+\label{eqn:ewklagrangianeg}
+\end{eqnarray}
+where the field tensors, $\hat{\mathbf{W}}_{\mu\nu}$ and $\hat{B}_{\mu\nu}$ given in 
+Equations~\ref{eqn:wmunu} and~\ref{eqn:bmunu},
+describe the kinematics of the gauge fields.
+\begin{equation}
+\hat{\mathbf{W}}_{\mu\nu} = \partial_{\mu}\hat{\mathbf{W}}_{\nu} - \partial_{\nu}\hat{\mathbf{W}}_{\mu} - g \hat{\mathbf{W}}_{\mu}\wedge\hat{\mathbf{W}}_{\nu}
+\label{eqn:wmunu}
+\end{equation}
+\begin{equation}
+\hat{B}_{\mu\nu} = \partial_{\mu}\hat{B}_{\nu} - \partial_{\nu}\hat{B}_{\mu}.
+\label{eqn:bmunu}
+\end{equation}
+
+Experimentally, it has been verified that weak nuclear force explicitly violates
+parity, that is transformations under spatial inversions $x\rightarrow -x$~\citep{null}.
+A fermion field, $\psi$, can be projected into its left and right handed components 
+$\psi_{L}$ and $\psi_{R}$ using the operators $\frac{1}{2}(1\mp\gamma^{5})$ respectively 
+where $\gamma^{5} = \gamma^{0}\gamma^{1}\gamma^{2}\gamma^{3}$.  
+As the weak nuclear force only interacts with left-handed fermions, 
+right-handed components of the fermion fields remain invariant under $\sutwol$ transformations.
+The right-handed component therefore does not appear in the Lagrangian since it interacts with
+neither the electromagnetic or weak interactions.
+Under the $\sutwol\times\uone$ group, 
+the left handed components of the leptonic fermion fields, 
+$\chi_{L}$ of Equation~\ref{eqn:ewklagrangianeg}, transform as a doublet
+\begin{equation}
+\chi_{L}  =   
+\everymath{\displaystyle} \begin{pmatrix}
+\nu_{e} \\ 
+e
+\end{pmatrix}_{L}
+ \longrightarrow 
+\exp(-i\boldsymbol\alpha\cdot\frac{\boldsymbol\tau}{2} - i\alpha) 
+\begin{pmatrix}
+\nu_{e} \\ 
+e
+\end{pmatrix}_{L}
+\end{equation}
+\label{eqn:doublettrans}
+whereas the right-handed component of the electron field transforms as a singlet.  
+\begin{equation}
+e_{R}
+ \longrightarrow 
+\exp(-2i{\alpha}) 
+e_{R}.
+\end{equation}
+The transformations are ``local'' in the sense that the coefficients  
+$\boldsymbol{\alpha}$ and $\alpha$ are functions of space-time. 
+To maintain the symmetry under local transformations of this type, the gauge fields
+transform as follows, 
+\begin{eqnarray}
+\hat{\mathbf{W}}_{\mu} & 
+ \longrightarrow & 
+\hat{\mathbf{W}}_{\mu} - \frac{1}{g}\partial_{\mu}\boldsymbol{\alpha} 
+	- \boldsymbol{\alpha}\wedge\hat{\mathbf{W}}_{\mu} \\
+\hat{{B}}_{\mu} & 
+ \longrightarrow & 
+\hat{{B}}_{\mu} - \frac{1}{g^{\prime}}\partial_{\mu}{\alpha} 
+\end{eqnarray}
+
+The Lagrangian of Equation~\ref{eqn:ewklagrangianeg} contains no explicit terms which 
+relate to the mass of the electron ($m_{e}$). Including the electron's mass directly would 
+result in the addition of the term,
+\begin{eqnarray}
+-m_{e}\bar{e}e  &=& -m_{e}\bar{e}\left[\frac{1}{2}\left(1-\gamma^{5}\right) 
+		    + \frac{1}{2}\left(1+\gamma^{5}\right)\right]e \nonumber \\
+		&=& -m_{e}\left(\bar{e}_{R}e_{L} + \bar{e}_{L}e_{R}\right).
+\end{eqnarray}
+As $e_{L}$ transforms as a member of a doublet and $e_{R}$ as a singlet, 
+the addition of this term to Equation~\ref{eqn:ewklagrangianeg} 
+would break the symmetry of the Lagrangian which motivated its construction, 
+namely under transformations of the $\sutwol$ group.
+
+The physical electroweak boson fields, $W_{\mu}^{\pm}$, $Z_{\mu}$ and photon field, 
+$A_{\mu}$, are obtained through a mixture of the electroweak gauge fields as,
+\begin{eqnarray}
+W_{\mu}^{\pm} & = &  \sqrt{\frac{1}{2}} \left( W_{\mu}^{1} \mp i W_{\mu}^{2} \right) \nonumber \\
+Z_{\mu} &  = & \cos\theta_{w} W_{\mu}^{3} - \sin\theta_{w} B_{\mu} \nonumber \\
+A_{\mu} &  = & \sin\theta_{w} W_{\mu}^{3} + \cos\theta_{w} B_{\mu},
+\label{eqn:ewkbosons}
+\end{eqnarray}
+where the mixing angle, $\theta_{w} = \tan^{-1}{\frac{g^{\prime}}{g}}$, relates
+the couplings of the weak neutral and electromagnetic interactions.
+As expected, there is no term which corresponds to the mass of the photon, however,
+the same is true for the $W$ and $Z$ bosons. The masses of the $W$ and $Z$ bosons, 
+given in Table~\ref{tab:bosons}, have been measured experimentally and found to be 
+non-zero. The inclusion of mass terms in Equation~\ref{eqn:ewklagrangianeg} would also
+break the symmetry of the Lagrangian. Furthermore, it has been shown that the inclusion
+of these mass terms results in a loss of re normalizability of the theory making it  
+less effective at predicting observables such as cross-sections and decay rates.
+Instead, these masses can be generated via a spontaneous, rather than explicit
+symmetry breaking.
 
 \subsection{Spontaneous Symmetry Breaking: The Higgs Mechanism}
 $\approx 2-3$ pages
