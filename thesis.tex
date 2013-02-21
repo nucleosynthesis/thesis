@@ -6,7 +6,7 @@
 \usepackage{rotating} % For making a sideways table
 \usepackage{multirow} % For putting a header over more than 1 column
 \usepackage{comment} % Allows you to comment out whole chunks of text
-
+\usepackage{setspace}
 \usepackage[sort,numbers]{natbib}
 
 \newcolumntype{A}{>{\centering\arraybackslash}p{1cm}} % allows you to centre columns
@@ -48,7 +48,7 @@
 \newcommand{\Hww}{H\rightarrow WW}
 \newcommand{\Hbb}{H\rightarrow bb}
 \newcommand{\Hzz}{H\rightarrow ZZ}
-%\newcommand{\Hzzl}{H\rightarrow ZZ \rightarrow 4l}
+\newcommand{\Hzzl}{H\rightarrow ZZ \rightarrow 4l}
 % HGG style commands
 \newcommand{\mgg}{m_{\gamma\gamma}}
 \newcommand{\mh}{m_{H}}
@@ -60,6 +60,7 @@
 \newcommand{\Zee}{Z\rightarrow e^{+}e^{-}}
 \newcommand{\Zmumu}{Z\rightarrow \mu^{+}\mu^{-}}
 \newcommand{\ptgg}{p_{T}^{\gamma\gamma}}
+\newcommand{\pth}{p_{T}^{H}}
 \newcommand{\ptggvec}{\mathbf{p}_{T}^{\gamma\gamma}}
 \newcommand{\ptvec}{\mathbf{p}_{T}}
 %Stats/Properties
@@ -79,6 +80,7 @@
 \newcommand{\kf}{\kappa_{f}}
 \newcommand{\kh}{\kappa_{H}}
 \newcommand{\khf}{\kappa_{H}(\kf,\kv)}
+\newcommand{\hwidth}{\Gamma_{H}}
 % ---------------------------------------
 %% PDF metadata
 \makeatletter
@@ -86,15 +88,15 @@
 \hypersetup{%
 pdftitle = {},
 pdfsubject = {},
-pdfkeywords = {LHC, CMS, Higgs boson, Higgs to two photons },
+pdfkeywords = {LHC, CMS, Higgs boson, Higgs to two photons, Combinations },
 pdfauthor = {\textcopyright\ Nicholas Wardle}
 }
 }{}
 \makeatother
 
 % Define the thesis title and author
-\title{Observation of a new particle in the search for the 
-       Standard Model Higgs boson at the CMS detector}
+\title{Observation of a New Particle in the Search for the 
+       Standard Model Higgs Boson at the CMS Detector}
 \author{Nicholas Wardle}
 
 % Start the document
@@ -105,6 +107,7 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
   \input{frontmatter}
 \end{frontmatter}
 
+%\doublespacing
 %$ Start the content body of the thesis
 \begin{mainmatter}
 \input{introduction}

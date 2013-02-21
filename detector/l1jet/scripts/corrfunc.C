@@ -168,7 +168,7 @@ void makePlot(double low, double up){
    gre->GetListOfFunctions()->Add(ptstats);
    ptstats->SetParent(gre->GetListOfFunctions());
 */
-gStyle->SetOptStat(1111);
+gStyle->SetOptFit(0111);
    gre->Draw("ap");
    gre->GetXaxis()->SetRangeUser(0,60);
    gre->Draw("samep");

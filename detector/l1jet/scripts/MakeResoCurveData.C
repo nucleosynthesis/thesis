@@ -51,7 +51,7 @@
    Graph1->SetMaximum(0.4);
    Graph1->SetDirectory(0);
    Graph1->SetStats(0);
-   Graph1->GetXaxis()->SetTitle("L1 Jet E_{T}");
+   Graph1->GetXaxis()->SetTitle("E_{T}");
    Graph1->GetXaxis()->SetRange(5,100);
    Graph1->GetYaxis()->SetTitle("#sigma_{E_{T}}/E_{T}");
    Graph1->GetYaxis()->SetTitleOffset(1.22);
@@ -59,7 +59,8 @@
    
    
    TF1 *func1 = new TF1("func1","([0]/(TMath::Sqrt(x)))+([1])+[2]/x",13.06168,160.124);
-   func1->SetFillColor(19);
+   func1->SetFillColor(1);
+   func1->SetLineColor(1);
    func1->SetFillStyle(0);
    func1->SetLineWidth(3);
    func1->SetChisquare(3.856046);
@@ -77,6 +78,7 @@
    gre->Draw("ap");
    
    TLegend *leg = new TLegend(0.4,0.65,0.88,0.8,NULL,"brNDC");
+   leg->SetTextFont(42);
    leg->SetBorderSize(0);
    leg->SetLineColor(1);
    leg->SetLineStyle(1);

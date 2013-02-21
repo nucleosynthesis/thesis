@@ -355,9 +355,16 @@ categorised separately and treated in the same way as the inclusive events.
 
 Due to the extremely high cross-section of $b\bar{b}$ production in 
 p-p collisions, the $\Hbb$ search focuses on Higgs boson production in association
-with a $W$ or $Z$, which are identified by the presence of leptons or, in the case 
-of neutrino final states such as $Z\rightarrow \nu\nu$, by requiring large $\met$ 
-in the event~\citep{HIG-12-019}. The Higgs candidate itself is reconstructed by looking for two 
+with a $W$ or $Z$, which are identified by the presence of leptons. In the case 
+of neutrino final states such as $Z\rightarrow \nu\nu$, the missing transverse energy 
+($\met$) of the event is requred to be large indicating momentum proagated out of the detector by the neutrinos~\citep{HIG-12-019}. 
+This quantity is defined as the magnitude of the negative vector sum over all energy deposits, 
+$E_{k}$, in the calorimeters projected into the transverse plane 
+ ($\hat{\mathbf{i}},\hat{\mathbf{j}}$),
+\begin{equation}
+\met = |\metvec| =|\sum_{deposits} -\sin\theta_{k}\left(E_{k}\cos(\phi_{k})\hat{\mathbf{i}}+E_{k}\sin(\phi_{k})\hat{\mathbf{j}}\right)|
+\end{equation}
+The Higgs candidate itself is reconstructed by looking for two 
 $b$-tagged jets indicated by their production at secondary vertices. Events are 
 categorized into those where the 
 $W$ or $Z$ boson is recoiling away from the $b\bar{b}$ system with high momentum.
@@ -375,7 +382,7 @@ final states and events in which one of the tau-leptons decays hadronically
 Events are divided into categories based on the number and type of jets in the event
 and by transverse momentum of the visible part of the tau decay.
 A signal in this channel will be visible as a broad excess in the invariant mass
-of the $\tau\tau$ system ($m_\tau\tau$). The main backgrounds are from
+of the $\tau\bar{\tau}$ system ($m_{\tau\tau}$). The main backgrounds are from
 $Z\rightarrow\tau\tau$ events and $W+$jet production. The $VH$ modes are
 exploited by selecting events which have one or more additional leptons 
 consistent with a $W$ or $Z$ boson decay.
@@ -417,8 +424,17 @@ The limited resolution in jet energy reconstruction
 and the effect of the neutrino escaping detection in leptonic tau decays
 reduces the mass resolution in these channels compared to the $4l$ decay.
 The $ZZ\rightarrow 2l2\nu$ search looks for a leptonic $Z$ decay
-and a large $\met$~\citep{HIG-12-023}. A broad excess of events in the $m_{T}$ distribution
-is used to signal the presence of a SM Higgs boson.
+and a large $\met$~\citep{HIG-12-023}.
+In this channel, the decay is not fully reconstructable and so a measure of the mass
+is given by the transverse mass, $m_{T}$ defined as,
+\begin{equation}
+m_{T} = \left[2 p_{T}^{Z}\met(1-\cos(\Delta\phi))\right]^{\frac{1}{2}},
+\end{equation}
+where $p_{T}^{Z}$ is the tranvsere momentum of the di-lepton system and 
+$\Delta\phi$ is the angle in the tranvserse plain between that momentum vector and 
+$\metvec$.
+A broad excess of events in the $m_{T}$ distribution is used to signal the presence 
+of a SM Higgs boson.
 
 
 \begin{sidewaystable}
