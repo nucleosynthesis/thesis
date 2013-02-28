@@ -87,7 +87,6 @@ primary vertices being reconstructed. The distribution in the number of reconstr
 MC is corrected to match that observed in data.
 
 \begin{table}
-\begin{center}
 \begin{tabular}{|l r|c|c|}
 \hline
 \textbf{Process}  & &  \textbf{Cross-section} ($pb$) & \textbf{Luminosity} ($pb^{-1}$)\\
@@ -111,7 +110,6 @@ comprises events from the DiphotonJets and Diphoton Box samples. Both the QCD di
  contain prompt-fake ($\gamma j$) events. The samples are filtered to avoid double counting
 of this background. Fake-fake ($jj$) events are taken from the QCD Dijet sample.}
 \label{tab:backgroundmc}
-\end{center}
 \end{table}
 
 \section{Object Reconstruction and Identification}
@@ -208,16 +206,14 @@ resolution by around 30\% over using the raw supercluster energy
 compared to the analytic fit which improves the resolution by 15\%. 
 
 \begin{figure}
-\begin{center}
 \includegraphics[width=.6\textwidth]{hgg7TeV/generalPlots/regrresall.pdf}
-\label{fig:mcregrcomparison}
 \caption{Comparison of the diphoton mass peak in MC Higgs with a mass of 120 GeV using different 
 measurements of the photon energy. The black line 
 is from using the raw energy of the supercluster, the blue is from using the analytic fit method 
 (Standard + IC Residual) 
 and the red from using the regression method (Raw + Regression). The quantity $\sigma_{eff}$,
 the narrowest range in $\mgg$ which contains 68\% of the distribution, is given for each peak.}
-\end{center}
+\label{fig:mcregrcomparison}
 \end{figure}
 
 An estimate of the per-photon energy resolution, $\sigma_{E}$, is obtained by training a second 
@@ -277,14 +273,12 @@ Since photons do not leave tracks, computing the angle between the two photons
 depends strongly on determining the interaction in which they were produced.
 
 \begin{figure}
-\begin{center}
 \includegraphics[width=.8\textwidth]{hgg7TeV/generalPlots/rightwrongvtxpeak.pdf}
-\label{fig:higgsrightwrongvertex}
 \caption{Invariant mass peak in $\Hgg$ MC with $\mh=125$ GeV. The blue histogram is from events in which 
 the generated vertex is within 10mm of the vertex assigned to the diphoton pair. The red histogram is 
 from events in which the incorrect vertex is assigned. Both distributions are normalised to unit area for
 ease of comparison.}
-\end{center}
+\label{fig:higgsrightwrongvertex}
 \end{figure} 
 
 A BDT was trained to rank the standard collection of reconstructed vertices.
@@ -305,12 +299,10 @@ is included as an input variable. The BDT was trained on $\Hgg$ MC with a mass o
 Figure~\ref{fig:vtxeffhmc} shows the fraction of events in a gluon-gluon MC sample in which 
 the vertex with the highest BDT score is within 10mm of the true vertex as a function of $\pt^{H}$.
 \begin{figure}
-\begin{center}
 \includegraphics[width=.8\textwidth]{hgg7TeV/generalPlots/vtxEffHMC.pdf}
 \caption{Fraction of simulated gluon-gluon fusion events in which the $z$ position of the selected vertex
 is within 10mm of the true vertex as a function of Higgs $\pt$. The red histogram is the average 
 probability to select the correct vertex in each bin estimated from the per-event BDT.}
-\end{center}
 \label{fig:vtxeffhmc}
 \end{figure} 
 The fraction of events in which this occurs in data is measured using $\Zmumu$ events
@@ -361,7 +353,6 @@ in four probe categories depending on the $\rnine$ and $|\eta|$ of its superclus
 The results are shown in Table~\ref{tab:sigeffpresel}. 
 
 \begin{table}
-\begin{center}
 \begin{tabular}{| l | c | c | c |}
 \hline
 \textbf{Category} & \textbf{Data} & \textbf{MC} & \textbf{Data/MC} \\
@@ -376,7 +367,6 @@ EE $\rnine<0.9$ & 0.8639 $\pm$ 0.0010 & 0.8517 $\pm$ 0.0011 &1.014 $\pm$ 0.0015 
 $\Zee$ events. The ratio Data/MC are applied as corrections to the signal MC for the purposes
 of signal modelling. The uncertainties listed here are statistical only.}
 \label{tab:sigeffpresel}
-\end{center}
 \end{table}
 
 The input variables are chosen to be insensitive to the kinematics of the diphoton system itself
@@ -465,50 +455,42 @@ Events below this cut value were found to provide negligible improvement in the 
 
 
 \begin{figure}[hbt!]
-\begin{center}
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/pt_1om}
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/pt_2om}\\
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoeta_1}
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoeta_2}\\
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/cosdphi}
- \label{fig:diphotonbdtvars1}
  \caption{Kinematic inputs to the diphoton BDT in data and MC. 
 	  The distributions are for events which pass the full selection 
 	  including a cut on the diphoton BDT output of 0.05.
  	  The expectation from a SM Higgs with 125 GeV is shown in red.}
-\end{center}
+ \label{fig:diphotonbdtvars1}
 \end{figure}
 
 \begin{figure}[hbt!]
-\begin{center}
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoid_1}
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/phoid_2}\\
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/sigmrv}
   \includegraphics[width=0.48\textwidth]{hgg7TeV/variablePlots/sigmwv}
- \label{fig:diphotonbdtvars2}
  \caption{Additional input variables to the diphoton BDT in data and MC. 
 	  The distributions are for events which pass the full selection 
 	  including a cut on the diphoton BDT output of 0.05.
  	  The expectation from a SM Higgs with 125 GeV is shown in red.}
-\end{center}
+ \label{fig:diphotonbdtvars2}
 \end{figure}
 
 \begin{figure}[hbt!]
-\begin{center}
   \includegraphics[width=0.8\textwidth]{hgg7TeV/variablePlots/mass}
  \caption{Invariant mass distrobution in data and MC after applying the full event selection in the
  range 100 to 180 GeV. The contribution expected from a SM Higgs with mass 125 GeV, scaled by 10, 
  is shown in red. }
  \label{fig:massmcdata}
-\end{center}
 \end{figure}
 \begin{figure}[hbt!]
-\begin{center}
  \includegraphics[width=0.8\textwidth]{hgg7TeV/variablePlots/bdtoutput}
  \caption{Diphoton BDT distribution in data and MC. The contribution expected from a SM Higgs with mass 125 GeV, 
  scaled by 100, is shown in red. }
  \label{fig:diphotonBDT}
-\end{center}
 \end{figure}
 
 \subsubsection{Diphoton BDT Validation with $\Zee$ Data}
@@ -526,13 +508,11 @@ the full selection using this technique. The discrepancies between MC and data a
 systematic uncertainties on the photon ID BDT output and $\sigma_{E}$ which are included in the final signal model. 
 
 \begin{figure}
-\begin{center}
   \includegraphics[width=.6\textwidth]{hgg7TeV/zeeValidation/zeevalidationdipho.pdf}
-\label{fig:zeevaliddiphomva}
 \caption{Diphoton BDT output distribution in $\Zee$ MC and data after the full selection 
 treating the electrons as photons for the purposes of energy reconstruction. The electron 
 veto is inverted to preferentially select electrons.}
-\end{center}
+\label{fig:zeevaliddiphomva}
 \end{figure}
 
 Both the photon ID and regression BDT rely on a detailed simulation of electromagnetic showering  
@@ -548,27 +528,23 @@ These uncertainties are propagated through the diphoton BDT and included in the 
 Section~\ref{sec:signalmodel}.
 
 \begin{figure}
-\begin{center}
   \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/sigmaE_EB.pdf}
   \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/sigmaE_EE.pdf}
-\label{fig:zeevalidsigmaE}
 \caption{Per-photon resolution estimator, $\sigma_{E}$, relative to the measured energy in $\Zee$ 
 MC and data 
 treating the electrons as photons in the barrel (left) and endcaps (right). 
 The red lines show the $\pm 1\sigma$ systematic error envelope obtained by scaling the value of 
 $\sigma_{E}$ by $\pm 10\%$.}
-\end{center}
+\label{fig:zeevalidsigmaE}
 \end{figure}
 
 \begin{figure}
-\begin{center}
   \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/phoID_EB.pdf}
   \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/phoID_EE.pdf}
-\label{fig:zeevalidphoidmva}
 \caption{Photon ID BDT output in $\Zee$ MC and data 
 treating the electrons as photons in the barrel (left) and endcaps (right). 
 The red lines show the $\pm 1\sigma$ systematic error envelope obtained by shifting the output value by $\pm 0.025\%$.}
-\end{center}
+\label{fig:zeevalidphoidmva}
 \end{figure}
 
 \subsection{Dijet Tagging}
@@ -588,7 +564,6 @@ the remaining events, thereby exploiting their high signal to background ratio f
 extraction. 
 
 \begin{table}
-\begin{center}
 \begin{tabular*}{0.5\textwidth}{@{\extracolsep{\fill}}|l|c|}
 \hline
 \textbf{Variable} & \textbf{Cut Value} \\
@@ -602,19 +577,16 @@ $|\phi_{jj} - \phi_{\gamma\gamma}|$ & $>$ 2.6 \\
 $|\frac{1}{2}(\eta_{j^{1}} + \eta_{j^{2}}) - \eta_{\gamma\gamma}|$ & $<$ 2.5 \\
 \hline
 \end{tabular*}
-\label{tab:vbfcuts}
 \caption{Dijet selection criteria for the two $qqH$ jets. The leading and sub-leading $E_{T}$ jets
 are denoted $j^{1}$ and $j^{2}$ respectively.}
-\end{center}
+\label{tab:vbfcuts}
 \end{table}
 
 \begin{figure}
-\begin{center}
 \includegraphics[width=0.8\textwidth]{hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf}
-\label{fig:vbfdeta}
 \caption{Separation in $\eta$ between two identified jets in data and MC. 
 The expectation from a SM Higgs produced via vector boson fusion ($qqH$), scaled by 100,
 is shown in red. All cuts other than the one on $\Delta\eta(Jet 1, Jet2)$ are applied to these distributions.} 
-\end{center}
+\label{fig:vbfdeta}
 \end{figure}
 
