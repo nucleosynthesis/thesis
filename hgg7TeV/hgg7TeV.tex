@@ -116,7 +116,7 @@ of this background. Fake-fake ($jj$) events are taken from the QCD Dijet sample.
 \label{sec:objectrecoandid}
 
 The reconstruction of all objects used for this analysis, in both data and MC,
-is based on the standardized CMS reconstruction software \texttt{\cmssw}~\citep{null}. 
+is based on the standardized CMS reconstruction software \texttt{\cmssw}~\citep{cmssw}. 
 Additional sensitivity can be gained by refining the object selection and reconstruction specifically
 to the search for $\Hgg$.
 
@@ -226,7 +226,7 @@ per-event mass resolution, $\sigma_{\mgg}$, which is used during the event selec
 \subsubsection{Energy Scale Measured in Data}
 Despite correcting the energy of the photons using the regression technique, discrepancies between data and
 MC are still observed. This is due to additional detector effects which may not be simulated, such as the
-time dependence of the ECAL crystal transparency~\citep{null}. Further corrections are
+time dependence of the ECAL crystal transparency~\citep{CMS-DP-2012-007}. Further corrections are
 derived based on $\Zee$ events which provide an invariant mass peak with almost no background constructed from 
 electromagnetic objects reconstructed using a similar procedure to photons.
 An additional regression BDT is trained on $\Zee$ MC which is used
@@ -254,7 +254,7 @@ as the product of the two corrections. The relative correction,
 1-\Delta P = 1 - \frac {\displaystyle \Delta m_{data} - \Delta m_{MC} }{\displaystyle m_{Z} },
 \end{equation}
 is applied to the photons in data. The values for the scale in each category, $\Delta P$, are given in 
-Table~\ref{tab:escale2011} of Appendix~\ref{app:escaleandresolutiontabs}. 
+Tables~\ref{tab:escale2011eb} and~\ref{tab:escale2011ee} of Appendix~\ref{app:escaleandresolutiontabs}. 
 The uncertainties on these measurements are primarily due to 
 the difference in the $\rnine$ distribution of electrons and photons. In addition, smaller systematics
 are included due to the variation of the measurements when changing the electron selection and
@@ -306,7 +306,7 @@ probability to select the correct vertex in each bin estimated from the per-even
 \label{fig:vtxeffhmc}
 \end{figure} 
 The fraction of events in which this occurs in data is measured using $\Zmumu$ events
-as a function of the $\pt$ of the $Z$ boson~\ref{AN-11-048}. This is used to correct the Higgs signal MC for 
+as a function of the $\pt$ of the $Z$ boson~\citep{AN-12-048}. This is used to correct the Higgs signal MC for 
 the purpose of signal modelling. 
 
 A second, per-event BDT is trained using the output of the first, to identify 
@@ -520,7 +520,7 @@ in MC to correctly describe the data. Due to imperfections of this simulation, s
 uncertainties are included in the signal model to cover the residual difference observed between MC and data
 for high $\pt$ photons. 
 These uncertainties are validated using $\Zee$ data in the same way as the diphoton BDT. 
-Figures~\ref{fig:zeevalidsigmaE} and~\ref{fig:zeevailidphoidmva} show the distributions of the 
+Figures~\ref{fig:zeevalidsigmaE} and~\ref{fig:zeevalidphoidmva} show the distributions of the 
 per photon energy resolution estimator $\sigma_{E}$ relative to the photon energy and the output of the 
 photon ID BDT in $\Zee$ MC and data treating the electrons as photons. The red lines
 show the $\pm 1\sigma$ error envelope attributed to the systematic uncertainty on the shower simulation 
