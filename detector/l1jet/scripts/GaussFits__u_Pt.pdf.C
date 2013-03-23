@@ -1,25 +1,25 @@
 {
 //=========Macro generated from canvas: GaussFits__u_Pt.pdf/d_can
 //=========  (Wed Dec 12 03:00:29 2012) by ROOT version5.28/00b
-   TCanvas *GaussFits__u_Pt.pdf = new TCanvas("GaussFits__u_Pt.pdf", "d_can",0,0,1600,1200);
+   TCanvas *GaussFits__u_Pt = new TCanvas("GaussFits__u_Pt.pdf", "d_can",0,0,1600,1200);
    gStyle->SetOptFit(1);
    gStyle->SetOptStat(0);
-   GaussFits__u_Pt.pdf->Range(0,0,1,1);
-   GaussFits__u_Pt.pdf->SetFillColor(0);
-   GaussFits__u_Pt.pdf->SetBorderMode(0);
-   GaussFits__u_Pt.pdf->SetBorderSize(2);
-   GaussFits__u_Pt.pdf->SetFrameBorderMode(0);
+   GaussFits__u_Pt->Range(0,0,1,1);
+   GaussFits__u_Pt->SetFillColor(0);
+   GaussFits__u_Pt->SetBorderMode(0);
+   GaussFits__u_Pt->SetBorderSize(2);
+   GaussFits__u_Pt->SetFrameBorderMode(0);
   
 // ------------>Primitives in pad: GaussFits__u_Pt.pdf_1
-   TPad *GaussFits__u_Pt.pdf_1 = new TPad("GaussFits__u_Pt.pdf_1", "GaussFits__u_Pt.pdf_1",0.01,0.81,0.24,0.99);
-   GaussFits__u_Pt.pdf_1->Draw();
-   GaussFits__u_Pt.pdf_1->cd();
-   GaussFits__u_Pt.pdf_1->Range(-0.25,-0.01475219,2.25,0.093496);
-   GaussFits__u_Pt.pdf_1->SetFillColor(0);
-   GaussFits__u_Pt.pdf_1->SetBorderMode(0);
-   GaussFits__u_Pt.pdf_1->SetBorderSize(2);
-   GaussFits__u_Pt.pdf_1->SetFrameBorderMode(0);
-   GaussFits__u_Pt.pdf_1->SetFrameBorderMode(0);
+   TPad *GaussFits__u_Pt_1 = new TPad("GaussFits__u_Pt.pdf_1", "GaussFits__u_Pt.pdf_1",0.01,0.81,0.24,0.99);
+   GaussFits__u_Pt_1->Draw();
+   GaussFits__u_Pt_1->cd();
+   GaussFits__u_Pt_1->Range(-0.25,-0.01475219,2.25,0.093496);
+   GaussFits__u_Pt_1->SetFillColor(0);
+   GaussFits__u_Pt_1->SetBorderMode(0);
+   GaussFits__u_Pt_1->SetBorderSize(2);
+   GaussFits__u_Pt_1->SetFrameBorderMode(0);
+   GaussFits__u_Pt_1->SetFrameBorderMode(0);
    
    TH1F *a = new TH1F("a","rsp2",50,0,2);
    a->SetBinContent(1,7.56853e-08);
