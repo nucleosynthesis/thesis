@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.30)  23 MAR 2013 15:56
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.30)  25 MAR 2013 18:16
 entering extended mode
  %&-line parsing enabled.
 **thesis
@@ -774,11 +774,7 @@ Package array Warning: Column D is already defined on input line 15.
 LaTeX Warning: Unused global option(s):
     [noroman].
 
-(./thesis.aux
-
-LaTeX Warning: Label `eqn:llr2' multiply defined.
-
-)
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
@@ -918,7 +914,7 @@ Overfull \hbox (7.45966pt too wide) in paragraph at lines 95--111
  [] 
  []
 
-[6] [7] [8] [9]) (./theory/higgs.tex [10]
+[6] [7] [8] [9] [10]) (./theory/higgs.tex
 
 pdfTeX warning: pdflatex (file ./theory/pheno/tevsmbayes_june2012_withleplhc.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
@@ -943,175 +939,205 @@ File: theory/pheno/Higgs_XS_7TeV.pdf Graphic file (type pdf)
 File: theory/pheno/Higgs_XS_8TeV_lx.pdf Graphic file (type pdf)
 
 <use theory/pheno/Higgs_XS_8TeV_lx.pdf> [13 <./theory/pheno/w12_blueband.jpg>]
-[14 <./theory/pheno/allprods.pdf>]
-<theory/pheno/YRHXS_BR_fig3.pdf, id=120, 569.12625pt x 546.04pt>
+[14 <./theory/pheno/allprods.pdf>] [15 <./theory/pheno/Higgs_XS_7TeV.pdf> <./th
+eory/pheno/Higgs_XS_8TeV_lx.pdf, page is rotated 90 degrees>]
+<theory/pheno/YRHXS_BR_fig3.pdf, id=177, 569.12625pt x 546.04pt>
 File: theory/pheno/YRHXS_BR_fig3.pdf Graphic file (type pdf)
 
 <use theory/pheno/YRHXS_BR_fig3.pdf>
-<theory/pheno/YRHXS_BR_fig2.pdf, id=121, 569.12625pt x 546.04pt>
+<theory/pheno/YRHXS_BR_fig2.pdf, id=178, 569.12625pt x 546.04pt>
 File: theory/pheno/YRHXS_BR_fig2.pdf Graphic file (type pdf)
 
-<use theory/pheno/YRHXS_BR_fig2.pdf>) (./detector/detector.tex [15] [16 <./theo
-ry/pheno/Higgs_XS_7TeV.pdf> <./theory/pheno/Higgs_XS_8TeV_lx.pdf, page is rotat
-ed 90 degrees>] [17 <./theory/pheno/YRHXS_BR_fig3.pdf> <./theory/pheno/YRHXS_BR
-_fig2.pdf>]
+<use theory/pheno/YRHXS_BR_fig2.pdf>) (./detector/detector.tex [16 <./theory/ph
+eno/YRHXS_BR_fig3.pdf> <./theory/pheno/YRHXS_BR_fig2.pdf>]
 Chapter 2.
-[18
+[17
 
-] <detector/CERN.jpg, id=212, 997.7275pt x 637.38126pt>
+] <detector/CERN.jpg, id=209, 997.7275pt x 637.38126pt>
 File: detector/CERN.jpg Graphic file (type jpg)
 
-<use detector/CERN.jpg> [19 <./detector/CERN.jpg>] [20]
-<detector/cmsdetector.pdf, id=220, 796.9775pt x 597.23125pt>
+<use detector/CERN.jpg> [18 <./detector/CERN.jpg>] [19]
+<detector/cmsdetector.pdf, id=217, 796.9775pt x 597.23125pt>
 File: detector/cmsdetector.pdf Graphic file (type pdf)
 
-<use detector/cmsdetector.pdf> [21 <./detector/cmsdetector.pdf>]
-<detector/trcker/tracker_col.jpg, id=237, 324.89522pt x 211.05399pt>
+<use detector/cmsdetector.pdf> [20 <./detector/cmsdetector.pdf>]
+<detector/trcker/tracker_col.jpg, id=234, 324.89522pt x 211.05399pt>
 File: detector/trcker/tracker_col.jpg Graphic file (type jpg)
 
 <use detector/trcker/tracker_col.jpg>
-<detector/trcker/zresotrcker.png, id=238, 598.235pt x 574.145pt>
+<detector/trcker/zresotrcker.png, id=235, 598.235pt x 574.145pt>
 File: detector/trcker/zresotrcker.png Graphic file (type png)
 
-<use detector/trcker/zresotrcker.png> [22 <./detector/trcker/tracker_col.jpg>]
-[23 <./detector/trcker/zresotrcker.png (PNG copy)>] [24]
-<detector/ecal/clustering.png, id=248, 892.33376pt x 423.5825pt>
+<use detector/trcker/zresotrcker.png> [21 <./detector/trcker/tracker_col.jpg>]
+[22 <./detector/trcker/zresotrcker.png (PNG copy)>] [23]
+<detector/ecal/clustering.png, id=245, 892.33376pt x 423.5825pt>
 File: detector/ecal/clustering.png Graphic file (type png)
 
-<use detector/ecal/clustering.png> [25 <./detector/ecal/clustering.png (PNG cop
-y)>] <detector/ecal/laser.pdf, id=253, 361.35pt x 252.945pt>
+<use detector/ecal/clustering.png> [24 <./detector/ecal/clustering.png (PNG cop
+y)>] <detector/ecal/laser.pdf, id=249, 361.35pt x 252.945pt>
 File: detector/ecal/laser.pdf Graphic file (type pdf)
 
 <use detector/ecal/laser.pdf>
-<detector/ecal/scaleeop.pdf, id=254, 569.12625pt x 270.00874pt>
+<detector/ecal/scaleeop.pdf, id=250, 569.12625pt x 270.00874pt>
 File: detector/ecal/scaleeop.pdf Graphic file (type pdf)
 
-<use detector/ecal/scaleeop.pdf> [26 <./detector/ecal/laser.pdf>] [27 <./detect
+<use detector/ecal/scaleeop.pdf> [25 <./detector/ecal/laser.pdf>] [26 <./detect
 or/ecal/scaleeop.pdf, page is rotated 90 degrees>]
-<detector/r9eg.pdf, id=313, 569.12625pt x 546.04pt>
+<detector/r9eg.pdf, id=310, 569.12625pt x 546.04pt>
 File: detector/r9eg.pdf Graphic file (type pdf)
  <use detector/r9eg.pdf>
-<detector/sieieeg.pdf, id=314, 569.12625pt x 546.04pt>
+<detector/sieieeg.pdf, id=311, 569.12625pt x 546.04pt>
 File: detector/sieieeg.pdf Graphic file (type pdf)
 
-<use detector/sieieeg.pdf>) (./detector/l1trigger.tex [28 <./detector/r9eg.pdf,
+<use detector/sieieeg.pdf>) (./detector/l1trigger.tex [27 <./detector/r9eg.pdf,
  page is rotated 90 degrees> <./detector/sieieeg.pdf, page is rotated 90 degree
-s>] <detector/l1jet/bias.pdf, id=404, 569.12625pt x 385.44pt>
+s>] <detector/l1jet/bias.pdf, id=401, 569.12625pt x 385.44pt>
 File: detector/l1jet/bias.pdf Graphic file (type pdf)
 
-<use detector/l1jet/bias.pdf> [29]
-<detector/l1jet/egcorrfunc.pdf, id=408, 569.12625pt x 408.52625pt>
+<use detector/l1jet/bias.pdf> [28]
+
+Package caption Warning: \label before \caption on input line 88.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:egcorrfunc' on page 29 undefined on input line 77
+.
+
+<detector/l1jet/egcorrfunc.pdf, id=405, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcorrfunc.pdf Graphic file (type pdf)
 
-<use detector/l1jet/egcorrfunc.pdf> [30 <./detector/l1jet/bias.pdf, page is rot
-ated 90 degrees>] <detector/l1jet/rspvspt.pdf, id=455, 569.12625pt x 546.04pt>
+<use detector/l1jet/egcorrfunc.pdf> [29 <./detector/l1jet/bias.pdf, page is rot
+ated 90 degrees>]
+
+Package caption Warning: \label before \caption on input line 112.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:closure' on page 30 undefined on input line 94.
+
+
+Package caption Warning: \label before \caption on input line 121.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:mcresolutionl1' on page 30 undefined on input lin
+e 99.
+
+<detector/l1jet/rspvspt.pdf, id=452, 569.12625pt x 546.04pt>
 File: detector/l1jet/rspvspt.pdf Graphic file (type pdf)
 
 <use detector/l1jet/rspvspt.pdf>
-<detector/l1jet/rspvseta.pdf, id=456, 569.12625pt x 546.04pt>
+<detector/l1jet/rspvseta.pdf, id=453, 569.12625pt x 546.04pt>
 File: detector/l1jet/rspvseta.pdf Graphic file (type pdf)
 
 <use detector/l1jet/rspvseta.pdf>
-<detector/l1jet/MCresolution.pdf, id=457, 569.12625pt x 408.52625pt>
+<detector/l1jet/MCresolution.pdf, id=454, 569.12625pt x 408.52625pt>
 File: detector/l1jet/MCresolution.pdf Graphic file (type pdf)
 
-<use detector/l1jet/MCresolution.pdf> [31 <./detector/l1jet/egcorrfunc.pdf, pag
-e is rotated 90 degrees>] [32 <./detector/l1jet/rspvspt.pdf, page is rotated 90
+<use detector/l1jet/MCresolution.pdf> [30 <./detector/l1jet/egcorrfunc.pdf, pag
+e is rotated 90 degrees>] [31 <./detector/l1jet/rspvspt.pdf, page is rotated 90
  degrees> <./detector/l1jet/rspvseta.pdf, page is rotated 90 degrees> <./detect
 or/l1jet/MCresolution.pdf, page is rotated 90 degrees>]
-<detector/l1jet/DataResolution.pdf, id=637, 569.12625pt x 424.58624pt>
+
+Package caption Warning: \label before \caption on input line 156.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:l1dataresolution' on page 32 undefined on input l
+ine 140.
+
+<detector/l1jet/DataResolution.pdf, id=634, 569.12625pt x 424.58624pt>
 File: detector/l1jet/DataResolution.pdf Graphic file (type pdf)
 
-<use detector/l1jet/DataResolution.pdf>) (./hgg7TeV/hgg7TeV.tex [33 <./detector
-/l1jet/DataResolution.pdf, page is rotated 90 degrees>]
+<use detector/l1jet/DataResolution.pdf>) (./hgg7TeV/hgg7TeV.tex [32] [33 <./det
+ector/l1jet/DataResolution.pdf, page is rotated 90 degrees>]
 Chapter 3.
 [34
 
-]
-<hgg7TeV/generalPlots/manalysisflow.pdf, id=689, 2108.87875pt x 1323.94624pt>
-File: hgg7TeV/generalPlots/manalysisflow.pdf Graphic file (type pdf)
+] <hgg7TeV/generalPlots/mvaflowchart.pdf, id=689, 1941.2525pt x 728.7225pt>
+File: hgg7TeV/generalPlots/mvaflowchart.pdf Graphic file (type pdf)
 
-<use hgg7TeV/generalPlots/manalysisflow.pdf> [35 <./hgg7TeV/generalPlots/manaly
-sisflow.pdf>] [36] [37] [38]
-<hgg7TeV/generalPlots/regrresall.pdf, id=706, 569.12625pt x 549.05125pt>
+<use hgg7TeV/generalPlots/mvaflowchart.pdf> [35 <./hgg7TeV/generalPlots/mvaflow
+chart.pdf>] [36] [37] [38]
+<hgg7TeV/generalPlots/regrresall.pdf, id=709, 569.12625pt x 549.05125pt>
 File: hgg7TeV/generalPlots/regrresall.pdf Graphic file (type pdf)
 
 <use hgg7TeV/generalPlots/regrresall.pdf> [39 <./hgg7TeV/generalPlots/regrresal
 l.pdf>] [40]
-<hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, id=722, 569.12625pt x 408.52625pt>
+<hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, id=725, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/rightwrongvtxpeak.pdf Graphic file (type pdf)
 <use hgg7TeV/generalPlots/rightwrongvtxpeak.pdf>
-<hgg7TeV/generalPlots/vtxEffHMC.pdf, id=723, 569.12625pt x 408.52625pt>
+<hgg7TeV/generalPlots/vtxEffHMC.pdf, id=726, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/vtxEffHMC.pdf Graphic file (type pdf)
 
 <use hgg7TeV/generalPlots/vtxEffHMC.pdf> [41] [42 <./hgg7TeV/generalPlots/right
 wrongvtxpeak.pdf, page is rotated 90 degrees>] [43 <./hgg7TeV/generalPlots/vtxE
 ffHMC.pdf, page is rotated 90 degrees>] [44] [45] [46]
-<hgg7TeV/variablePlots/pt_1om.pdf, id=829, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/pt_1om.pdf, id=832, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_1om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_1om.pdf>
-<hgg7TeV/variablePlots/pt_2om.pdf, id=830, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/pt_2om.pdf, id=833, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_2om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_2om.pdf>
-<hgg7TeV/variablePlots/phoeta_1.pdf, id=831, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_1.pdf, id=834, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_1.pdf>
-<hgg7TeV/variablePlots/phoeta_2.pdf, id=832, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_2.pdf, id=835, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_2.pdf>
-<hgg7TeV/variablePlots/cosdphi.pdf, id=833, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/cosdphi.pdf, id=836, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/cosdphi.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/cosdphi.pdf>
-<hgg7TeV/variablePlots/phoid_1.pdf, id=834, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoid_1.pdf, id=837, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_1.pdf>
-<hgg7TeV/variablePlots/phoid_2.pdf, id=835, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoid_2.pdf, id=838, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_2.pdf>
-<hgg7TeV/variablePlots/sigmrv.pdf, id=836, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmrv.pdf, id=839, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmrv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmrv.pdf>
-<hgg7TeV/variablePlots/sigmwv.pdf, id=837, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmwv.pdf, id=840, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmwv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmwv.pdf>
-<hgg7TeV/variablePlots/mass.pdf, id=838, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/mass.pdf, id=841, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/mass.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/mass.pdf>
-<hgg7TeV/variablePlots/bdtoutput.pdf, id=839, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/bdtoutput.pdf, id=842, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/bdtoutput.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/bdtoutput.pdf>
-<hgg7TeV/zeeValidation/zeevalidationdipho.pdf, id=840, 569.12625pt x 408.52625p
+<hgg7TeV/zeeValidation/zeevalidationdipho.pdf, id=843, 569.12625pt x 408.52625p
 t>
 File: hgg7TeV/zeeValidation/zeevalidationdipho.pdf Graphic file (type pdf)
- <use hgg7TeV/zeeValidation/zeevalidationdipho.pdf> [47]
-<hgg7TeV/zeeValidation/sigmaE_EB.pdf, id=847, 569.12625pt x 546.04pt>
+ <use hgg7TeV/zeeValidation/zeevalidationdipho.pdf> [47] [48 <./hgg7TeV/variabl
+ePlots/pt_1om.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/pt_2om.
+pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/phoeta_1.pdf, page is
+ rotated 90 degrees> <./hgg7TeV/variablePlots/phoeta_2.pdf, page is rotated 90 
+degrees> <./hgg7TeV/variablePlots/cosdphi.pdf, page is rotated 90 degrees>]
+<hgg7TeV/zeeValidation/sigmaE_EB.pdf, id=1068, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/sigmaE_EB.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/sigmaE_EB.pdf>
-<hgg7TeV/zeeValidation/sigmaE_EE.pdf, id=848, 569.12625pt x 546.04pt>
+<hgg7TeV/zeeValidation/sigmaE_EE.pdf, id=1069, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/sigmaE_EE.pdf Graphic file (type pdf)
 
-<use hgg7TeV/zeeValidation/sigmaE_EE.pdf> [48 <./hgg7TeV/variablePlots/pt_1om.p
-df, page is rotated 90 degrees> <./hgg7TeV/variablePlots/pt_2om.pdf, page is ro
-tated 90 degrees> <./hgg7TeV/variablePlots/phoeta_1.pdf, page is rotated 90 deg
-rees> <./hgg7TeV/variablePlots/phoeta_2.pdf, page is rotated 90 degrees> <./hgg
-7TeV/variablePlots/cosdphi.pdf, page is rotated 90 degrees>]
-<hgg7TeV/zeeValidation/phoID_EB.pdf, id=1067, 569.12625pt x 546.04pt>
+<use hgg7TeV/zeeValidation/sigmaE_EE.pdf>
+<hgg7TeV/zeeValidation/phoID_EB.pdf, id=1070, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/phoID_EB.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EB.pdf>
-<hgg7TeV/zeeValidation/phoID_EE.pdf, id=1068, 569.12625pt x 546.04pt>
+<hgg7TeV/zeeValidation/phoID_EE.pdf, id=1071, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/phoID_EE.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EE.pdf> [49 <./hgg7TeV/variablePlots/phoid_1.p
@@ -1126,7 +1152,7 @@ ariablePlots/bdtoutput.pdf, page is rotated 90 degrees>] [51 <./hgg7TeV/zeeVali
 dation/zeevalidationdipho.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValida
 tion/sigmaE_EB.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValidation/sigmaE
 _EE.pdf, page is rotated 90 degrees>]
-<hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, id=1466, 569.12625pt x
+<hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, id=1469, 569.12625pt x
  408.52625pt>
 File: hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf Graphic file (type
  pdf)
@@ -1135,202 +1161,197 @@ File: hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf Graphic file (type
  is rotated 90 degrees> <./hgg7TeV/zeeValidation/phoID_EE.pdf, page is rotated 
 90 degrees>] [53 <./hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, pag
 e is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/fom.pdf, id=1602, 569.12625pt x 408.52625pt>
+<hgg7TeV/sidebandMvaPlots/fom.pdf, id=1605, 569.12625pt x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/fom.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/fom.pdf> [54 <./hgg7TeV/sidebandMvaPlots/fom.pdf,
  page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=1649, 930.47626pt x 661.47125pt>
+<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=1652, 930.47626pt x 661.47125pt>
 File: hgg7TeV/sidebandMvaPlots/bdt2dplot.png Graphic file (type png)
 
-<use hgg7TeV/sidebandMvaPlots/bdt2dplot.png>
-<hgg7TeV/sidebandMvaPlots/roc.pdf, id=1650, 569.12625pt x 408.52625pt>
+<use hgg7TeV/sidebandMvaPlots/bdt2dplot.png> [55 <./hgg7TeV/sidebandMvaPlots/bd
+t2dplot.png (PNG copy)>]
+<hgg7TeV/sidebandMvaPlots/roc.pdf, id=1657, 569.12625pt x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/roc.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/roc.pdf> [55 <./hgg7TeV/sidebandMvaPlots/bdt2dplo
-t.png (PNG copy)>]
-<hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf, id=1655, 569.12625pt x 480.
+<use hgg7TeV/sidebandMvaPlots/roc.pdf>
+<hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf, id=1658, 569.12625pt x 480.
 79625pt>
 File: hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf Graphic file (type pdf)
 
  <use hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf>
-<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=1656, 569.12625pt 
+<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=1659, 569.12625pt 
 x 480.79625pt>
 File: hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf Graphic file (typ
 e pdf)
  <use hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf>
-<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, id=1657, 569.12625pt x 408.5
+[56 <./hgg7TeV/sidebandMvaPlots/roc.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, id=1706, 569.12625pt x 408.5
 2625pt>
 File: hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf> [56 <./hgg7TeV/sideband
-MvaPlots/roc.pdf, page is rotated 90 degrees>] [57 <./hgg7TeV/sidebandMvaPlots/
-testvstrain_nolegend.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlo
-ts/testvstrain-finalbins-neat.pdf, page is rotated 90 degrees> <./hgg7TeV/sideb
-andMvaPlots/data-mc-sbsum-mh125.pdf, page is rotated 90 degrees>]
-[58]
-<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=1839, 569.12625pt x 385.44pt>
+ <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf> [57 <./hgg7TeV/sideband
+MvaPlots/testvstrain_nolegend.pdf, page is rotated 90 degrees> <./hgg7TeV/sideb
+andMvaPlots/testvstrain-finalbins-neat.pdf, page is rotated 90 degrees>] [58 <.
+/hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, page is rotated 90 degrees>]
+
+<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=1842, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/binningscheme.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf> [59 <./hgg7TeV/sidebandMvaPlot
-s/binningscheme.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/fits/massfit.pdf, id=1886, 555.41983pt x 370.28209pt>
+<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf> [59]
+<hgg7TeV/sidebandMvaPlots/fits/massfit.pdf, id=1846, 555.41983pt x 370.28209pt>
 File: hgg7TeV/sidebandMvaPlots/fits/massfit.pdf Graphic file (type pdf)
-<use hgg7TeV/sidebandMvaPlots/fits/massfit.pdf> [60] [61 <./hgg7TeV/sidebandMva
-Plots/fits/massfit.pdf>]
-<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=1940, 569.12625pt x 385.44pt
+<use hgg7TeV/sidebandMvaPlots/fits/massfit.pdf> [60 <./hgg7TeV/sidebandMvaPlots
+/binningscheme.pdf, page is rotated 90 degrees>] [61 <./hgg7TeV/sidebandMvaPlot
+s/fits/massfit.pdf>]
+<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=1943, 569.12625pt x 385.44pt
 >
 File: hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf> [62 <./hgg7TeV/sidebandMva
-Plots/fits/totalErrors.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=1987, 569.12625pt x 54
+ <use hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf> [62]
+<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=1947, 569.12625pt x 54
 6.04pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=1988, 569.12625pt x 546.04
+<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=1948, 569.12625pt x 546.04
 pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=1989, 569.12625pt x 40
+ <use hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf> [63 <./hgg7TeV/sidebandM
+vaPlots/fits/totalErrors.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=1995, 569.12625pt x 40
 8.52625pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf Graphic file (type pd
 f)
- <use hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf> [63]
-[64 <./hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, page is rotated 90 
-degrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, page is rotated 90
- degrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, page is rotat
-ed 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=2125, 569.12625pt x 37
+ <use hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf> [64 <./hgg7TeV/sideb
+andMvaPlots/datasidebands_diphobdt.pdf, page is rotated 90 degrees> <./hgg7TeV/
+sidebandMvaPlots/datasidebands_dmom.pdf, page is rotated 90 degrees> <./hgg7TeV
+/sidebandMvaPlots/datasidebands_finalbdt.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=2128, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=2126, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=2129, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=2127, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=2130, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=2128, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=2131, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=2129, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=2132, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=2130, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=2133, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=2131, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=2134, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=2132, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=2135, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=2133, 569.12625pt x 552.
+<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=2136, 569.12625pt x 552.
 0625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf Graphic file (type pdf)
 
- <use hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=2134, 569.12625pt 
+ <use hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf> [65] [66 <./hgg7TeV/si
+debandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is rotated 90 degrees> <./hgg7T
+eV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, page is rotated 90 degrees> <./
+hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, page is rotated 90 degrees
+> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, page is rotated 90 de
+grees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, page is rotated 
+90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, page is rot
+ated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, page i
+s rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, p
+age is rotated 90 degrees>] [67 <./hgg7TeV/sidebandMvaPlots/fits/covariance_m12
+4.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=2534, 569.12625pt 
 x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf Graphic file (typ
 e pdf)
  <use hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf>
-[65] [66 <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is rotate
-d 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, page is r
-otated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, page
- is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf,
- page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5
-.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_
-bin_6.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg
-_bdt_bin_7.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m1
-24_bg_bdt_bin_8.pdf, page is rotated 90 degrees>] [67 <./hgg7TeV/sidebandMvaPlo
-ts/fits/covariance_m124.pdf, page is rotated 90 degrees>] [68 <./hgg7TeV/sideba
-ndMvaPlots/fits/fracErrorvsNsidebands.pdf, page is rotated 90 degrees>]
+[68 <./hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, page is rotated
+ 90 degrees>]
 Missing character: There is no â in font cmr8!
 Missing character: There is no ˆ in font cmr8!
 Missing character: There is no ’ in font cmr8!
-
-[69]
-<hgg7TeV/generalPlots/vtxReweight.pdf, id=2581, 569.12625pt x 408.52625pt>
+ [69]
+<hgg7TeV/generalPlots/vtxReweight.pdf, id=2584, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/vtxReweight.pdf Graphic file (type pdf)
 
-<use hgg7TeV/generalPlots/vtxReweight.pdf> [70 <./hgg7TeV/generalPlots/vtxRewei
-ght.pdf, page is rotated 90 degrees>]
+<use hgg7TeV/generalPlots/vtxReweight.pdf> [70]
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale.pdf
-, id=2628, 569.12625pt x 552.0625pt>
+, id=2588, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scal
 e.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale
 .pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.pdf, 
-id=2629, 569.12625pt x 552.0625pt>
+id=2589, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.
 pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.p
 df>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_sc
-ale.pdf, id=2630, 569.12625pt x 552.0625pt>
+ale.pdf, id=2590, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_scale.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_
 E_scale.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_re
-s.pdf, id=2631, 569.12625pt x 552.0625pt>
+s.pdf, id=2591, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_res.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_
 E_res.pdf>
-<hgg7TeV/generalPlots/effAcc_vs_mass.pdf, id=2632, 569.12625pt x 385.44pt>
+<hgg7TeV/generalPlots/effAcc_vs_mass.pdf, id=2592, 569.12625pt x 385.44pt>
 File: hgg7TeV/generalPlots/effAcc_vs_mass.pdf Graphic file (type pdf)
 
-<use hgg7TeV/generalPlots/effAcc_vs_mass.pdf>
+<use hgg7TeV/generalPlots/effAcc_vs_mass.pdf> [71 <./hgg7TeV/generalPlots/vtxRe
+weight.pdf, page is rotated 90 degrees>] [72 <./hgg7TeV/sidebandMvaPlots/signal
+Model/systematic_interpolation_test_E_scale.pdf, page is rotated 90 degrees> <.
+/hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.pdf, 
+page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_
+interpolation_test_curves_E_scale.pdf, page is rotated 90 degrees> <./hgg7TeV/s
+idebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_res.pdf, pag
+e is rotated 90 degrees>]
 Overfull \hbox (0.78737pt too wide) in paragraph at lines 564--647
  [] 
  []
 
-[71] [72 <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_
-E_scale.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalMode
-l/systematic_interpolation_test_E_res.pdf, page is rotated 90 degrees> <./hgg7T
-eV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_scale.pd
-f, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systemat
-ic_interpolation_test_curves_E_res.pdf, page is rotated 90 degrees>] [73]
-<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=2815, 569.12625p
+[73 <./hgg7TeV/generalPlots/effAcc_vs_mass.pdf, page is rotated 90 degrees>]
+[74]
+<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=2864, 569.12625p
 t x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf Graphic file (t
 ype pdf)
 
-<use hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf> [74 <./hgg7TeV/
-generalPlots/effAcc_vs_mass.pdf, page is rotated 90 degrees>] [75 <./hgg7TeV/si
-debandMvaPlots/signalModel/sigInterpTest135.pdf, page is rotated 90 degrees>]
-<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=2908, 569.12625pt x 217.81375pt>
+<use hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf> [75 <./hgg7TeV/
+sidebandMvaPlots/signalModel/sigInterpTest135.pdf, page is rotated 90 degrees>]
+<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=2911, 569.12625pt x 217.81375pt>
 File: hgg7TeV/zeeValidation/zeebdtoutput.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/zeebdtoutput.pdf>
-
-Package natbib Warning: Citation `onlineresulsts' on page 76 undefined on input
- line 732.
-
-
-<hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf, id=2909, 569.12625pt x
+<hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf, id=2912, 569.12625pt x
  385.44pt>
 File: hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf Graphic file (type
  pdf)
@@ -1338,40 +1359,64 @@ File: hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf Graphic file (type
 [76 <./hgg7TeV/zeeValidation/zeebdtoutput.pdf, page is rotated 90 degrees>]
 [77 <./hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf, page is rotated 
 90 degrees>] [78]
-<hgg7TeV/statsPlots/qmu_example_130.pdf, id=3005, 569.12625pt x 524.96124pt>
+<hgg7TeV/statsPlots/qmu_example_130.pdf, id=3008, 569.12625pt x 524.96124pt>
 File: hgg7TeV/statsPlots/qmu_example_130.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/qmu_example_130.pdf> [79] [80 <./hgg7TeV/statsPlots/qmu
 _example_130.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=3056, 569.12625pt x 529.98p
+<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=3059, 569.12625pt x 529.98p
 t>
 File: hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf Graphic file (type pdf)
  <use hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf> [81 <./hgg7TeV/statsPlots
 /q0_example_125_chi2_sqr.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/limit-100MeV.pdf, id=3103, 569.12625pt x 467.7475pt>
+<hgg7TeV/statsPlots/limit-100MeV.pdf, id=3106, 569.12625pt x 467.7475pt>
 File: hgg7TeV/statsPlots/limit-100MeV.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/limit-100MeV.pdf>
-<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=3104, 569.12625pt x 408.52625pt>
+<use hgg7TeV/statsPlots/limit-100MeV.pdf> [82] [83 <./hgg7TeV/statsPlots/limit-
+100MeV.pdf, page is rotated 90 degrees>]
+<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=3156, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/pvals-100MeV.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/pvals-100MeV.pdf>
-<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=3105, 569.12625pt x 408.52625pt>
+<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=3157, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/maxlh-100MeV.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/maxlh-100MeV.pdf> [82] [83] [84 <./hgg7TeV/statsPlots/l
-imit-100MeV.pdf, page is rotated 90 degrees>] [85 <./hgg7TeV/statsPlots/pvals-1
-00MeV.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/lee-extrap.pdf, id=3205, 569.12625pt x 552.0625pt>
+<use hgg7TeV/statsPlots/maxlh-100MeV.pdf> [84 <./hgg7TeV/statsPlots/pvals-100Me
+V.pdf, page is rotated 90 degrees>]
+<hgg7TeV/statsPlots/lee-extrap.pdf, id=3204, 569.12625pt x 552.0625pt>
 File: hgg7TeV/statsPlots/lee-extrap.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/lee-extrap.pdf>) (./hgg8TeV/hgg8TeV.tex [86 <./hgg7TeV/
-statsPlots/maxlh-100MeV.pdf, page is rotated 90 degrees>] [87 <./hgg7TeV/statsP
+<use hgg7TeV/statsPlots/lee-extrap.pdf>) (./hgg8TeV/hgg8TeV.tex [85 <./hgg7TeV/
+statsPlots/maxlh-100MeV.pdf, page is rotated 90 degrees>] [86 <./hgg7TeV/statsP
 lots/lee-extrap.pdf, page is rotated 90 degrees>]
+
+Package caption Warning: \label before \caption on input line 46.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:results8TeV' on page 87 undefined on input line 3
+4.
+
 <hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf, id=3298, 569.12625pt x 385.44pt>
 File: hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf Graphic file (type pdf)
 
-<use hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf> [88]
+<use hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf> [87]
+
+Package caption Warning: \label before \caption on input line 84.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:limits8TeV' on page 88 undefined on input line 57
+.
+
+
+Package caption Warning: \label before \caption on input line 84.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:limits8TeV' on page 88 undefined on input line 60
+.
+
 <hgg8TeV/hgg_MassWindowLimit.pdf, id=3302, 569.12625pt x 546.04pt>
 File: hgg8TeV/hgg_MassWindowLimit.pdf Graphic file (type pdf)
 
@@ -1380,23 +1425,32 @@ File: hgg8TeV/hgg_MassWindowLimit.pdf Graphic file (type pdf)
 File: hgg8TeV/hgg_MassWindowPValue.pdf Graphic file (type pdf)
 
 <use hgg8TeV/hgg_MassWindowPValue.pdf>) (./combinations/combinations.tex
-[89 <./hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf, page is rotated 90 degrees>]
-[90 <./hgg8TeV/hgg_MassWindowLimit.pdf, page is rotated 90 degrees> <./hgg8TeV/
+[88 <./hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf, page is rotated 90 degrees>]
+[89 <./hgg8TeV/hgg_MassWindowLimit.pdf, page is rotated 90 degrees> <./hgg8TeV/
 hgg_MassWindowPValue.pdf, page is rotated 90 degrees>]
 Chapter 4.
-[91
+[90
 
-] [92] [93] [94]
+] [91] [92] [93]
 Overfull \hbox (9.60313pt too wide) in paragraph at lines 233--255
  [] 
  []
 
-[95] [96]
+[94] [95]
 <combinations/diagnostics/tree_fit_sb_lumi.pdf, id=3458, 569.12625pt x 459.7175
 pt>
 File: combinations/diagnostics/tree_fit_sb_lumi.pdf Graphic file (type pdf)
- <use combinations/diagnostics/tree_fit_sb_lumi.pdf> [97] [98 <./combinations/d
-iagnostics/tree_fit_sb_lumi.pdf, page is rotated 90 degrees>]
+ <use combinations/diagnostics/tree_fit_sb_lumi.pdf>
+
+Package caption Warning: \label before \caption on input line 356.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:expectedlimits' on page 96 undefined on input lin
+e 339.
+
+[96] [97 <./combinations/diagnostics/tree_fit_sb_lumi.pdf, page is rotated 90 d
+egrees>]
 <combinations/ichep2012/Figure_001-a.pdf, id=3510, 569.12625pt x 546.04pt>
 File: combinations/ichep2012/Figure_001-a.pdf Graphic file (type pdf)
 
@@ -1404,14 +1458,38 @@ File: combinations/ichep2012/Figure_001-a.pdf Graphic file (type pdf)
 <combinations/ichep2012/Figure_001-b.pdf, id=3511, 569.12625pt x 546.04pt>
 File: combinations/ichep2012/Figure_001-b.pdf Graphic file (type pdf)
 
-<use combinations/ichep2012/Figure_001-b.pdf> [99 <./combinations/ichep2012/Fig
+<use combinations/ichep2012/Figure_001-b.pdf> [98 <./combinations/ichep2012/Fig
 ure_001-a.pdf, page is rotated 90 degrees> <./combinations/ichep2012/Figure_001
--b.pdf, page is rotated 90 degrees>] [100]
-Overfull \hbox (32.0528pt too wide) in paragraph at lines 457--518
+-b.pdf, page is rotated 90 degrees>] [99]
+Overfull \hbox (32.0528pt too wide) in paragraph at lines 458--519
  [][] 
  []
 
-[101] [102]
+
+Package caption Warning: \label before \caption on input line 568.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:combinedexcl' on page 100 undefined on input line
+ 527.
+
+
+Package caption Warning: \label before \caption on input line 578.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:combinedpval' on page 100 undefined on input line
+ 536.
+
+
+Package caption Warning: \label before \caption on input line 589.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:leecombination' on page 100 undefined on input li
+ne 551.
+
+[100] [101]
 <combinations/ichep2012/Figure_004-a.pdf, id=3611, 569.12625pt x 546.04pt>
 File: combinations/ichep2012/Figure_004-a.pdf Graphic file (type pdf)
 
@@ -1429,10 +1507,10 @@ File: combinations/ichep2012/sqr_pvala_all_byresol.pdf Graphic file (type pdf)
 File: combinations/ichep2012/lee-combination-115-130.pdf Graphic file (type pdf
 )
  <use combinations/ichep2012/lee-combination-115-130.pdf>)
-(./combinations/properties.tex [103 <./combinations/ichep2012/Figure_004-a.pdf,
+(./combinations/properties.tex [102 <./combinations/ichep2012/Figure_004-a.pdf,
  page is rotated 90 degrees> <./combinations/ichep2012/Figure_004-b.pdf, page i
-s rotated 90 degrees>] [104 <./combinations/ichep2012/sqr_pvala_all_byresol.pdf
-, page is rotated 90 degrees>] [105 <./combinations/ichep2012/lee-combination-1
+s rotated 90 degrees>] [103 <./combinations/ichep2012/sqr_pvala_all_byresol.pdf
+, page is rotated 90 degrees>] [104 <./combinations/ichep2012/lee-combination-1
 15-130.pdf, page is rotated 90 degrees>]
 <combinations/fceg_htt_2.pdf, id=3797, 569.12625pt x 546.04pt>
 File: combinations/fceg_htt_2.pdf Graphic file (type pdf)
@@ -1445,7 +1523,7 @@ File: combinations/fceg_htt_1.pdf Graphic file (type pdf)
 <combinations/confcurve_htt.pdf, id=3799, 569.12625pt x 546.04pt>
 File: combinations/confcurve_htt.pdf Graphic file (type pdf)
 
-<use combinations/confcurve_htt.pdf> [106] [107]
+<use combinations/confcurve_htt.pdf> [105] [106]
 <combinations/Figure_007-b.pdf, id=3806, 569.12625pt x 546.04pt>
 File: combinations/Figure_007-b.pdf Graphic file (type pdf)
 
@@ -1453,126 +1531,158 @@ File: combinations/Figure_007-b.pdf Graphic file (type pdf)
 <combinations/Figure_007-a.pdf, id=3807, 569.12625pt x 546.04pt>
 File: combinations/Figure_007-a.pdf Graphic file (type pdf)
 
-<use combinations/Figure_007-a.pdf> [108 <./combinations/fceg_htt_2.pdf, page i
+<use combinations/Figure_007-a.pdf> [107 <./combinations/fceg_htt_2.pdf, page i
 s rotated 90 degrees> <./combinations/fceg_htt_1.pdf, page is rotated 90 degree
-s>] [109 <./combinations/confcurve_htt.pdf, page is rotated 90 degrees>]
+s>] [108 <./combinations/confcurve_htt.pdf, page is rotated 90 degrees>]
+
+Package caption Warning: \label before \caption on input line 195.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:fc1d' on page 109 undefined on input line 174.
+
+<combinations/sqr_fc_ccc.pdf, id=3943, 569.12625pt x 546.04pt>
+File: combinations/sqr_fc_ccc.pdf Graphic file (type pdf)
+
+<use combinations/sqr_fc_ccc.pdf>
 <combinations/sqr_mlz_ccc_mH125.pdf, id=3944, 569.12625pt x 546.04pt>
 File: combinations/sqr_mlz_ccc_mH125.pdf Graphic file (type pdf)
 
-<use combinations/sqr_mlz_ccc_mH125.pdf>
-<combinations/sqr_fc_ccc.pdf, id=3945, 569.12625pt x 546.04pt>
-File: combinations/sqr_fc_ccc.pdf Graphic file (type pdf)
+<use combinations/sqr_mlz_ccc_mH125.pdf> [109 <./combinations/Figure_007-b.pdf,
+ page is rotated 90 degrees> <./combinations/Figure_007-a.pdf, page is rotated 
+90 degrees>]
 
-<use combinations/sqr_fc_ccc.pdf> [110 <./combinations/Figure_007-b.pdf, page i
-s rotated 90 degrees> <./combinations/Figure_007-a.pdf, page is rotated 90 degr
-ees>] [111 <./combinations/sqr_mlz_ccc_mH125.pdf, page is rotated 90 degrees> <
-./combinations/sqr_fc_ccc.pdf, page is rotated 90 degrees>]
-<combinations/sqr_rvrf_scan_2d_all_68.pdf, id=4124, 569.12625pt x 546.04pt>
-File: combinations/sqr_rvrf_scan_2d_all_68.pdf Graphic file (type pdf)
+Package caption Warning: \label before \caption on input line 235.
+See the caption package documentation for explanation.
 
-<use combinations/sqr_rvrf_scan_2d_all_68.pdf>
-<combinations/sqr_rvrf_fc_2d.pdf, id=4125, 569.12625pt x 546.04pt>
+
+LaTeX Warning: Reference `fig:fc2d' on page 110 undefined on input line 214.
+
+[110 <./combinations/sqr_fc_ccc.pdf, page is rotated 90 degrees> <./combination
+s/sqr_mlz_ccc_mH125.pdf, page is rotated 90 degrees>]
+<combinations/sqr_rvrf_fc_2d.pdf, id=4124, 569.12625pt x 546.04pt>
 File: combinations/sqr_rvrf_fc_2d.pdf Graphic file (type pdf)
 
-<use combinations/sqr_rvrf_fc_2d.pdf> [112 <./combinations/sqr_rvrf_scan_2d_all
-_68.pdf, page is rotated 90 degrees> <./combinations/sqr_rvrf_fc_2d.pdf, page i
-s rotated 90 degrees>] [113]
-<combinations/Figure_014-b.pdf, id=4218, 569.12625pt x 552.0625pt>
+<use combinations/sqr_rvrf_fc_2d.pdf>
+<combinations/sqr_rvrf_scan_2d_all_68.pdf, id=4125, 569.12625pt x 546.04pt>
+File: combinations/sqr_rvrf_scan_2d_all_68.pdf Graphic file (type pdf)
+
+<use combinations/sqr_rvrf_scan_2d_all_68.pdf> [111 <./combinations/sqr_rvrf_fc
+_2d.pdf, page is rotated 90 degrees> <./combinations/sqr_rvrf_scan_2d_all_68.pd
+f, page is rotated 90 degrees>]
+<combinations/Figure_014-b.pdf, id=4215, 569.12625pt x 552.0625pt>
 File: combinations/Figure_014-b.pdf Graphic file (type pdf)
 
-<use combinations/Figure_014-b.pdf>) (./conclusions.tex [114] [115 <./combinati
+<use combinations/Figure_014-b.pdf> [112]) (./conclusions.tex [113 <./combinati
 ons/Figure_014-b.pdf, page is rotated 90 degrees>]
 Chapter 5.
-[116
+[114
 
 ]))
 \openout3 = `comment.cut'.
 
- (./comment.cut (./detector/appendices_detector.tex [117]
+ (./comment.cut (./detector/appendices_detector.tex [115]
 Appendix A.
-<detector/l1jet/egcor0.pdf, id=4275, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor0.pdf, id=4272, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor0.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor0.pdf>
-<detector/l1jet/egcor1.pdf, id=4276, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor1.pdf, id=4273, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor1.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor1.pdf>
-<detector/l1jet/egcor2.pdf, id=4277, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor2.pdf, id=4274, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor2.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor2.pdf>
-<detector/l1jet/egcor3.pdf, id=4278, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor3.pdf, id=4275, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor3.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor3.pdf>
-<detector/l1jet/egcor4.pdf, id=4279, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor4.pdf, id=4276, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor4.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor4.pdf>
-<detector/l1jet/egcor5.pdf, id=4280, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor5.pdf, id=4277, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor5.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor5.pdf>
-<detector/l1jet/egcor6.pdf, id=4281, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor6.pdf, id=4278, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor6.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor6.pdf>
 
 LaTeX Warning: Float too large for page by 36.78645pt on input line 51.
 
-<detector/l1jet/egcor7.pdf, id=4282, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor7.pdf, id=4279, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor7.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor7.pdf>
-<detector/l1jet/egcor8.pdf, id=4283, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor8.pdf, id=4280, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor8.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor8.pdf>
-<detector/l1jet/egcor9.pdf, id=4284, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor9.pdf, id=4281, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor9.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor9.pdf>
-<detector/l1jet/egcor10.pdf, id=4285, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor10.pdf, id=4282, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor10.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor10.pdf>
-<detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf, id=4286, 569.12625pt x 546.04pt
+
+Package caption Warning: \label before \caption on input line 121.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:mcresolutionl1' on page 116 undefined on input li
+ne 71.
+
+
+Package caption Warning: \label before \caption on input line 121.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:mcresolutionl1' on page 116 undefined on input li
+ne 75.
+
+
+<detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf, id=4283, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf, id=4287, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf, id=4284, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf, id=4288, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf, id=4285, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf, id=4289, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf, id=4286, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf, id=4290, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf, id=4287, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf, id=4291, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf, id=4288, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf, id=4292, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf, id=4289, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf Graphic file (type pdf)
- <use detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf> [118
+ <use detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf> [116
 
-] [119 <./detector/l1jet/egcor0.pdf, page is rotated 90 degrees> <./detector/l1
+] [117 <./detector/l1jet/egcor0.pdf, page is rotated 90 degrees> <./detector/l1
 jet/egcor1.pdf, page is rotated 90 degrees> <./detector/l1jet/egcor2.pdf, page 
 is rotated 90 degrees> <./detector/l1jet/egcor3.pdf, page is rotated 90 degrees
 > <./detector/l1jet/egcor4.pdf, page is rotated 90 degrees> <./detector/l1jet/e
 gcor5.pdf, page is rotated 90 degrees> <./detector/l1jet/egcor6.pdf, page is ro
 tated 90 degrees>]
-[120 <./detector/l1jet/egcor7.pdf, page is rotated 90 degrees> <./detector/l1je
+[118 <./detector/l1jet/egcor7.pdf, page is rotated 90 degrees> <./detector/l1je
 t/egcor8.pdf, page is rotated 90 degrees> <./detector/l1jet/egcor9.pdf, page is
  rotated 90 degrees> <./detector/l1jet/egcor10.pdf, page is rotated 90 degrees>
 ]
@@ -1580,27 +1690,27 @@ t/egcor8.pdf, page is rotated 90 degrees> <./detector/l1jet/egcor9.pdf, page is
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf, id=4775, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf, id=4772, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf, id=4776, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf, id=4773, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf, id=4777, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf, id=4774, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf, id=4778, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf, id=4775, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf, id=4779, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf, id=4776, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf, id=4780, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf, id=4777, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf>
@@ -1608,31 +1718,31 @@ File: detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf Graphic file (type pdf)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf, id=4781, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf, id=4778, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf, id=4782, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf, id=4779, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf, id=4783, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf, id=4780, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf, id=4784, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf, id=4781, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf, id=4785, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf, id=4782, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf, id=4786, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf, id=4783, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf, id=4787, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf, id=4784, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf>
@@ -1640,54 +1750,54 @@ File: detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf Graphic file (type pdf)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf, id=4788, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf, id=4785, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf, id=4789, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf, id=4786, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf, id=4790, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf, id=4787, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf, id=4791, 569.12625pt x 546.04
+<detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf, id=4788, 569.12625pt x 546.04
 pt>
 File: detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf, id=4792, 569.12625pt x 546.04
+<detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf, id=4789, 569.12625pt x 546.04
 pt>
 File: detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf, id=4793, 569.12625pt x 546.04
+<detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf, id=4790, 569.12625pt x 546.04
 pt>
 File: detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./hgg7TeV/appendices.tex [121] [122 <./detector/l1jet/gaussfits//ptBin_0_PtA
+) (./hgg7TeV/appendices.tex [119] [120 <./detector/l1jet/gaussfits//ptBin_0_PtA
 ll_u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_1_PtAl
 l_u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_2_PtAll
 _u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_3_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_4_PtAll_u
 .pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_5_PtAll_u.
 pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_6_PtAll_u.p
-df, page is rotated 90 degrees>] [123 <./detector/l1jet/gaussfits//ptBin_7_PtAl
+df, page is rotated 90 degrees>] [121 <./detector/l1jet/gaussfits//ptBin_7_PtAl
 l_u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_8_PtAll
 _u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_9_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_10_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_11_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_12_PtAll_
-u.pdf, page is rotated 90 degrees>] [124 <./detector/l1jet/gaussfits//ptBin_0_P
+u.pdf, page is rotated 90 degrees>] [122 <./detector/l1jet/gaussfits//ptBin_0_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_1_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_2_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_3_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_4_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_5_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_6_P
-tAll_pf.pdf, page is rotated 90 degrees>] [125 <./detector/l1jet/gaussfits//ptB
+tAll_pf.pdf, page is rotated 90 degrees>] [123 <./detector/l1jet/gaussfits//ptB
 in_7_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptB
 in_8_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptB
 in_9_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptB
@@ -1695,62 +1805,86 @@ in_10_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//pt
 Bin_11_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//p
 tBin_12_PtAll_pf.pdf, page is rotated 90 degrees>]
 Appendix B.
-[126
+[124
 
-] [127] [128]
-<hgg7TeV/appendix/minimumtime.pdf, id=5938, 569.12625pt x 385.44pt>
+] [125] [126]
+
+Package caption Warning: \label before \caption on input line 166.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:pmin' on page 127 undefined on input line 152.
+
+<hgg7TeV/appendix/minimumtime.pdf, id=5934, 569.12625pt x 385.44pt>
 File: hgg7TeV/appendix/minimumtime.pdf Graphic file (type pdf)
 
 <use hgg7TeV/appendix/minimumtime.pdf>
-<hgg7TeV/appendix/newbinAlgo.pdf, id=5939, 569.12625pt x 385.44pt>
+
+Package caption Warning: \label before \caption on input line 182.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:binningopt' on page 127 undefined on input line 1
+70.
+
+<hgg7TeV/appendix/newbinAlgo.pdf, id=5935, 569.12625pt x 385.44pt>
 File: hgg7TeV/appendix/newbinAlgo.pdf Graphic file (type pdf)
 
-<use hgg7TeV/appendix/newbinAlgo.pdf> [129
+<use hgg7TeV/appendix/newbinAlgo.pdf> [127
 
-] [130 <./hgg7TeV/appendix/minimumtime.pdf, page is rotated 90 degrees> <./hgg7
+] [128 <./hgg7TeV/appendix/minimumtime.pdf, page is rotated 90 degrees> <./hgg7
 TeV/appendix/newbinAlgo.pdf, page is rotated 90 degrees>]
+
+Package caption Warning: \label before \caption on input line 237.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fig:additionalsignalsys' on page 129 undefined on inp
+ut line 219.
+
+
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_idEff.pdf, 
-id=6032, 569.12625pt x 552.0625pt>
+id=6029, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_idEff.
 pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_idEff.p
 df>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_kFactor.pdf
-, id=6033, 569.12625pt x 552.0625pt>
+, id=6030, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_kFacto
 r.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_kFactor
 .pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_phoIdMva.pd
-f, id=6034, 569.12625pt x 552.0625pt>
+f, id=6031, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_phoIdM
 va.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_phoIdMv
 a.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_regSig.pdf,
- id=6035, 569.12625pt x 552.0625pt>
+ id=6032, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_regSig
 .pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_regSig.
 pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_triggerEff.
-pdf, id=6036, 569.12625pt x 552.0625pt>
+pdf, id=6033, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_trigge
 rEff.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_trigger
 Eff.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_vtxEff.pdf,
- id=6037, 569.12625pt x 552.0625pt>
+ id=6034, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_vtxEff
 .pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_vtxEff.
-pdf>) (./combinations/appendices_combinations.tex [131] [132 <./hgg7TeV/sideban
+pdf>) (./combinations/appendices_combinations.tex [129] [130 <./hgg7TeV/sideban
 dMvaPlots/signalModel/systematic_interpolation_test_idEff.pdf, page is rotated 
 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_te
 st_kFactor.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalM
@@ -1761,90 +1895,198 @@ _interpolation_test_triggerEff.pdf, page is rotated 90 degrees> <./hgg7TeV/side
 bandMvaPlots/signalModel/systematic_interpolation_test_vtxEff.pdf, page is rota
 ted 90 degrees>]
 Appendix C.
-<combinations/perEvLLR_hgg8TeV.pdf, id=6302, 569.12625pt x 546.04pt>
+[131
+
+] <combinations/perEvLLR_hgg8TeV.pdf, id=6302, 569.12625pt x 546.04pt>
 File: combinations/perEvLLR_hgg8TeV.pdf Graphic file (type pdf)
 
 <use combinations/perEvLLR_hgg8TeV.pdf>
 <combinations/perEvLLR_hZZ4l.pdf, id=6303, 569.12625pt x 546.04pt>
 File: combinations/perEvLLR_hZZ4l.pdf Graphic file (type pdf)
 
-<use combinations/perEvLLR_hZZ4l.pdf> [133
-
-]
-<combinations/compare-fc-lh.pdf, id=6308, 569.12625pt x 546.04pt>
+<use combinations/perEvLLR_hZZ4l.pdf> [132 <./combinations/perEvLLR_hgg8TeV.pdf
+, page is rotated 90 degrees> <./combinations/perEvLLR_hZZ4l.pdf, page is rotat
+ed 90 degrees>]
+<combinations/compare-fc-lh.pdf, id=6393, 569.12625pt x 546.04pt>
 File: combinations/compare-fc-lh.pdf Graphic file (type pdf)
 
-<use combinations/compare-fc-lh.pdf> [134 <./combinations/perEvLLR_hgg8TeV.pdf,
- page is rotated 90 degrees> <./combinations/perEvLLR_hZZ4l.pdf, page is rotate
-d 90 degrees>]))
+<use combinations/compare-fc-lh.pdf>))
 \openout3 = `comment.cut'.
 
- [135 <./combinations/compare-fc-lh.pdf, page is rotated 90 degrees>] (./commen
-t.cut (./backmatter.tex (./thesis.bbl [136
+ [133 <./combinations/compare-fc-lh.pdf, page is rotated 90 degrees>] (./commen
+t.cut (./backmatter.tex (./thesis.bbl
+[134
 
 
 ]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
+Underfull \hbox (badness 1810) in paragraph at lines 23--28
+\OT1/cmr/m/n/12 (+20) son.  Ex-per-i-men-tal Test of Par-ity Con-ser-va-tion in
+ Beta De-cay.  \OT1/cmr/m/it/12 (+20) Phys.
+ []
+
+
+Underfull \hbox (badness 1783) in paragraph at lines 23--28
+\OT1/cmr/m/it/12 (+20) Rev.\OT1/cmr/m/n/12 (+20) , 105:1413--1415, Feb 1957.  d
+oi: 10.1103/Phys-Rev.105.1413.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--61
+[]\OT1/cmr/m/n/12 (+20) Steven Wein-berg.  A model of lep-tons.  \OT1/cmr/m/it/
+12 (+20) Phys. Rev. Lett.\OT1/cmr/m/n/12 (+20) , 19:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--61
+\OT1/cmr/m/n/12 (+20) 1264--1266, Nov 1967.  doi: 10.1103/Phys-RevLett.19.1264.
+  URL
+ []
+
+[135
+
+]
+Underfull \hbox (badness 1540) in paragraph at lines 89--94
+\OT1/cmr/m/it/12 (+20) Rev.\OT1/cmr/m/n/12 (+20) , 155:1554--1561, Mar 1967.  d
+oi: 10.1103/Phys-Rev.155.1554.  URL
+ []
+
+[136]
+Underfull \hbox (badness 10000) in paragraph at lines 188--193
+[]\OT1/cmr/m/n/12 (+20) The AL-ICE Col-lab-o-ra-tion.  The al-ice ex-per-i-ment
+ at the cern
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--193
+\OT1/cmr/m/n/12 (+20) lhc.  \OT1/cmr/m/it/12 (+20) Jour-nal of In-stru-men-ta-t
+ion\OT1/cmr/m/n/12 (+20) , 3(08):S08002, 2008.  URL
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 195--200
+[]\OT1/cmr/m/n/12 (+20) The AT-LAS Col-lab-o-ra-tion.  The at-las ex-per-i-ment
+ at the cern large
+ []
+
+
+Underfull \hbox (badness 1565) in paragraph at lines 195--200
+\OT1/cmr/m/n/12 (+20) hadron col-lider.  \OT1/cmr/m/it/12 (+20) Jour-nal of In-
+stru-men-ta-tion\OT1/cmr/m/n/12 (+20) , 3(08):S08003, 2008.  URL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--219
+[]\OT1/cmr/m/n/12 (+20) CERN.  CMS Com-pact Muon Solenoid.  Feb 2010.  URL
+ []
+
+
+Underfull \hbox (badness 4543) in paragraph at lines 221--228
+[]\OT1/cmr/m/n/12 (+20) Alessia Tri-comi.  Per-for-mances of the at-las and cms
+ sil-i-con tracker.
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 221--228
+\OT1/cmr/m/it/12 (+20) The Eu-ro-pean Phys-i-cal Jour-nal C - Par-ti-cles and F
+ields\OT1/cmr/m/n/12 (+20) , 33:s1023--s1025,
+ []
+
+
+Underfull \hbox (badness 4072) in paragraph at lines 221--228
+\OT1/cmr/m/n/12 (+20) 2004.  ISSN 1434-6044.  doi: 10.1140/epjcd/s2004-03-1801-
+1.  URL
+ []
+
+[137]
+Underfull \hbox (badness 10000) in paragraph at lines 230--242
+\OT1/cmtt/m/n/12 http://www.sciencedirect.com/science/article/pii/S016890021001
+4749\OT1/cmr/m/n/12 (+20) .
+ []
+
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ” in font cmr12!
- [137
 
-]
+Underfull \hbox (badness 1728) in paragraph at lines 284--290
+\OT1/cmr/m/it/12 (+20) nal of Physics G: Nu-clear and Par-ti-cle Physics\OT1/cm
+r/m/n/12 (+20) , 31(9):N9, 2005.  URL
+ []
+
+[138]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ” in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--124
+Underfull \hbox (badness 2970) in paragraph at lines 378--387
+[]\OT1/cmr/m/n/12 (+20) S. Agostinelli, J. Al-li-son, and K. Amako et al.  Gean
+t4a sim-u-la-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--392
 []\OT1/cmr/m/n/12 (+20) CMS Col-lab-o-ra-tion.  PCMS Soft-ware Page.  https://c
 ms-cpt-
  []
 
-[138] [139]
-Missing character: There is no Â in font cmr12!
-Missing character: There is no ¡ in font cmr12!
- [140]
-Underfull \hbox (badness 10000) in paragraph at lines 344--347
-[]\OT1/cmr/m/n/12 (+20) LEPEWWG.  The LEP Elec-troweak Work-ing Group.
+[139]
+Underfull \hbox (badness 4634) in paragraph at lines 394--399
+[]\OT1/cmr/m/n/12 (+20) Jerome H. Fried-man.  Greedy Func-tion Ap-prox-i-ma-tio
+n: A Gra-di-ent
  []
 
-[141] [142]) [143] (./thesis.lof [144
 
-] [145] [146] [147] [148] [149] [150]
-[151] [152] [153] [154])
+Underfull \hbox (badness 4441) in paragraph at lines 394--399
+\OT1/cmr/m/n/12 (+20) Boost-ing Ma-chine.  \OT1/cmr/m/it/12 (+20) An-nals of St
+atis-tics\OT1/cmr/m/n/12 (+20) , 29:1189--1232, 2000.  URL
+ []
+
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+
+Underfull \hbox (badness 1072) in paragraph at lines 460--465
+[]\OT1/cmr/m/n/12 (+20) A. L. Read.  Pre-sen-ta-tion of search re-sults: the CL
+s tech-nique.  \OT1/cmr/m/it/12 (+20) Jour-
+ []
+
+[140] [141]) [142] (./thesis.lof [143
+
+] [144] [145] [146] [147] [148] [149]
+[150] [151] [152] [153]
+Overfull \hbox (14.98808pt too wide) in paragraph at lines 88--88
+ [][] []\OT1/cmr/m/n/12 (-20) Per-event delta neg-a-tive log-likelihood ($^^A\O
+ML/cmm/m/it/12 nll$\OT1/cmr/m/n/12 (-20) ) dis-tri-bu-tions for the background-
+ 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
- [155] (./thesis.lot [156
+ [154] (./thesis.lot [155
 
-] [157])
+] [156])
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
-))
+)) [157] (./thesis.aux)
 
-Package natbib Warning: There were undefined citations.
-
-[158] (./thesis.aux)
-
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19770 strings out of 493848
- 342822 string characters out of 1152822
- 432906 words of memory out of 3000000
- 22235 multiletter control sequences out of 15000+50000
- 31418 words of font info for 191 fonts, out of 3000000 for 9000
+ 19772 strings out of 493848
+ 342879 string characters out of 1152822
+ 436462 words of memory out of 3000000
+ 22237 multiletter control sequences out of 15000+50000
+ 31244 words of font info for 191 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 68i,17n,57p,1064b,776s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,17n,57p,1076b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/sh
 are/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive
@@ -1867,7 +2109,7 @@ sy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
 sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/te
 xmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-texlive
 /fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (164 pages, 7043142 bytes).
+Output written on thesis.pdf (163 pages, 6906757 bytes).
 PDF statistics:
  6600 PDF objects out of 7423 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

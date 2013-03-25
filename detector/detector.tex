@@ -3,26 +3,25 @@
 
 One of the many physics goals of the LHC is the establishment of the mechanism by which 
 the fundamental fermions and bosons acquire mass in the SM. The discovery of the new particle 
-announced by the ATLAS and CMS collaborations in July 2012, if found to be the Higgs boson, will have provided 
+announced by the ATLAS and CMS Collaborations in July 2012, if found to be the Higgs boson, will have provided 
 a major step towards this goal. This of course could not have been achieved without the use
-of the particle detectors designed by those collaborations. This Chapter is intended to serve as an 
+of the particle detectors designed by those Collaborations. This Chapter is intended to serve as an 
 introduction to the CMS detector, being the experiment the author worked at. Section~\ref{sec:cmsdetector}
 provides an overview of the components of the CMS detector, paying attention in particular to those 
 which are the most relevant for the search for the Higgs boson in the two photon decay mode. 
-Section~\ref{sec:l1trigger} will cover work performed by the author, as service to the CMS collaboration, 
-on improving the jet resolution in the GCT component of the L1 trigger. A set of calibrations
-to be used online during CMS data-taking are described in this section which were derived by 
-the author.
+Section~\ref{sec:l1trigger} will cover work performed by the author, as service to the CMS Collaboration, 
+on improving the jet resolution in the GCT component of the L1 trigger. A set of calibrations (derived by 
+the author) to be used online during CMS data-taking are described.
 
 \section{The LHC}
-The Large Hadron Collider (LHC) at CERN is currently the leading collider experiment designed 
-to study physics at the TeV scale. The collider is an octagonal 
+The Large Hadron Collider (LHC) at CERN is the only collider experiment, currently in operation, 
+designed to study physics at the TeV scale. The collider is an octagonal 
 ring, 27 km in circumference, hosted in the former LEP tunnel in France/Switzerland.  
-Both proton-proton (p-p) and heavy ion (Pb-Pb) collisions are
+Both proton-proton (pp) and heavy ion (PbPb) collisions are
 studied as part of the LHC physics programme with the former used 
-for direct searches for new physics. Proton beams are formed inside the proton synchrotron (PS)
+for direct searches for new physics. Proton beams are formed inside the proton synchrotron
 from bunches of protons 50 ns apart with an energy of 26 GeV. The protons are then accelerated in the 
-super proton synchrotron (SPS) to 450 GeV before being injected into the LHC. 
+super proton synchrotron to 450 GeV before being injected into the LHC. 
 Around 1200 superconducting dipole magnets maintain two beams of protons accelerating around 
 the ring in opposite directions before being collided at one of the sites of the four major experiments;
 ALICE~\citep{aliceexperiment}, ATLAS~\citep{atlasexperiment}, CMS~\citep{cmsexperiment}
@@ -41,10 +40,10 @@ are indicated along with their points of access to the beam.}
 The first major physics run began in May 2010 with a centre of mass energy 
 $\sqrt{s}=7~TeV$ and continued until November providing a dataset of $44pb^{-1}$.
 The LHC resumed collisions in April 2011 delivering a further $6fb^{-1}$ by the end
-of October. The centre of mass energy was increased to $\sqrt{s}=8~TeV$ for the 2012 p-p 
+of October. The centre of mass energy was increased to $\sqrt{s}=8~TeV$ for the 2012 pp 
 collision run, improving the sensitivity of searches for new physics. A total of
 $6fb^{-1}$ of 8 TeV data were taken by July 2012 which were combined with earlier data resulting
-in the discovery of the new boson reported by ATLAS and CMS collaborations at the ICHEP conference that year. 
+in the discovery of the new boson reported by ATLAS and CMS Collaborations at the ICHEP conference that year. 
 
 \section{The CMS Detector}
 \label{sec:cmsdetector}
@@ -53,23 +52,23 @@ the LHC designed to search for new physics.
 Among the wide range of physics programs at CMS, the search for the SM Higgs boson 
 has a high priority. The decay rates of the SM Higgs boson in different 
 channels vary dramatically as a function of its mass ($\mh$). A key feature of the experiment's design
-was therefore the necessity to maintain a high sensitivity to the SM Higgs for a wide range of masses in as many 
+was, therefore, the necessity to maintain a high sensitivity to the SM Higgs for a wide range of masses in as many 
 decay channels as possible. To achieve this, several detector components are layered around 
-the beam axis to reconstruct almost any known particle produced at the interaction point.
+the beam axis to reconstruct many types of particle produced at the interaction point.
 Each component consists of a cylindrical barrel section and two endcaps 
 to provide an almost hermetic coverage of the outgoing particle flux.
 
 
 The tracker, providing measurements of the momentum of charged particles and the location of 
 primary and secondary vertices (from decays of heavy flavour mesons), is the first layer of detection.
-This is followed by the electromagnetic calorimeter (ECAL) which is used to measure
-the energy deposited as electromagnetic showers from interacting electrons and photons. 
+This is followed by the electromagnetic calorimeter which is used to measure
+energy deposited in electromagnetic showers from particles such as electrons and photons. 
 The hadronic calorimeter (HCAL) complements this by providing energy measurements of 
 sprays of hadrons, known as jets, which deposit energy through nuclear interactions. 
 The HCAL is a sampling calorimeter in that the active material (plastic scintillators)
 are sandwiched between dense absorbing material to increase the depth of the calorimeter to
 around 11 radiation lengths. The addition of the forward calorimeter (HF) extends the HCAL
-coverage to roughly $|\eta|=5$.  
+coverage in the forward regions.  
 The tracker and calorimeters are situated within a 4T axial magnetic field 
 provided by the superconducting magnet surrounding them.
 The magnetic flux return is implemented within the  muon detector systems which lie outside 
@@ -83,7 +82,7 @@ with cathode strip chambers as the higher flux of particles along the beam line
 requires the use of radiation hard components.
 % ------------------------------------------------------------------------------------
 
-CMS uses a Cartesian coordinate system with the origin at the 
+CMS uses a right-handed Cartesian coordinate system with the origin at the 
 interaction point and the $z$-axis pointing along the beam axis. The $x$-axis points towards 
 the centre of the LHC ring and the $y$-axis points vertically upwards. The azimuthal angle, 
 $\phi~\epsilon~[-\pi,\pi]$, is defined with respect to the $x$-axis in the 
@@ -136,12 +135,12 @@ range $|\eta| < 2.5$.
    \label{fig:trackergeom}
 \end{figure}
 
-By making multiple precise measurements throughout the tracker system,the trajectories (tracks) of charged 
+By making multiple precise measurements throughout the tracker system, the trajectories (tracks) of charged 
 particles can be reconstructed.
 Tracks are associated to a common point of origin (primary vertex) by grouping those which are separated
 by less than 1cm in the $z$ coordinate of the point of closest approach to the beam line.
 The vertex resolution is dependant both on the number of tracks associated to the vertex and
-their average transverse momenta ($\bar{p_{T}}$). The resolution was measured in early data from 2010
+their average transverse momenta ($\bar{p}_{T}$). The resolution was measured in early data from 2010
 by splitting tracks associated to a vertex randomly into two groups with equal kinematic distributions.
 The difference between the vertex locations calculated from the two groups was used to provide an estimate 
 of the resolution~\citep{TRK-10-005}.
@@ -161,34 +160,37 @@ number of associated tracks and the improvement in resolution with $\bar{p_{T}}$
 \end{figure}
 
 \subsection{Electromagnetic Calorimeter}
-The electromagnetic calorimeter (ECAL) is used to reconstruct the energies of electromagnetically 
-interacting particles such as electrons and photons. 
+The electromagnetic calorimeter (ECAL) is used to reconstruct energy deposits in electromagnetic showers 
+from particles such as electrons and photons. 
 It is constructed from high density lead tungstate (PbWO$_{4}$) crystals which
 form a barrel section (EB) and two endcaps (EE) outside the tracker. 
 Two lead plates in front of a fine grained silicon strip detector are situated just before the 
 endcaps forming the ECAL pre-shower (PS). 
 Photons travelling at high $\eta$ will convert in the lead and the resulting electron-positron pair
-will produce tracks which can be used to pinpoint the position of the incoming photon. This additional
-spatial resolution can be used to distinguish prompt photons from those produced
+will produce tracks which can be used to pinpoint the position of the incoming photon. The additional
+information obtained using the two layers can be used to distinguish prompt photons from those produced
 in neutral pion decays.
 
 The ECAL is designed to cover a pseudo-rapidity range of $|\eta | < 3$. 
-The crystals are arranged to form modules which surround the beam line in a `non-projective geometry':
-the gaps between crystal modules are offset by 3$^{\circ}$ with respect to particle trajectories originating from 
-the interaction point. Electrons and photons deposit most of their energy within 
+The crystals are arranged to form modules which surround the beam line in a non-projective geometry:
+the gaps between crystal modules are offset by 3$^{\circ}$, beyond the interaction point, with respect to 
+the trajectories of particles which produced at the centre of the interaction point. 
+Electrons and photons deposit most of their energy within 
 the crystals as the depth of the crystals is equivalent to 25.8 radiation lengths~\citep{TDR1}. 
 Electromagnetic showers produced by the interaction of electrons and photons in the ECAL crystals
 produce scintillation light which is collected to measure the energy of the particle. 
 The scintillation output of the crystals is, however, low and temperature dependant 
 ($\sim$ 2.1\%/K at the ECAL operating temperature of 291 K). 
-To overcome this low yield, avalanche photo-diodes (APDs) and vacuum 
+Avalanche photo-diodes (APDs) and vacuum 
 photo-triodes (VPTs) are used to collect the scintillation light and amplify the signal in the 
-calorimeter barrel and endcaps respectively. Around 4.5 photo-electrons per MeV are produced in both 
-APD's and VPT's. 
+calorimeter barrel and endcaps respectively. 
+These technologies are chosen to withstand the high magnetic field inside CMS.
+For the endcaps, VPTs are used as they are less sensitive to the high radiation conditions  
+in the forward regions. Around 4.5 photo-electrons per MeV are produced in both APDs and VPTs. 
 
 The energy resolution of the ECAL can be parametrised as the combination of three 
 uncorrelated sources as given in equation~\ref{eqn:resofit}.
-The constants $a$, $b$ and $c$ are the stochastic, noise and constant contributions respectively. 
+The parameters $a$, $b$ and $c$ are the stochastic, noise and constant contributions respectively. 
 These constants have been derived from test-beam data~\citep{AN-06-140}.
 The stochastic term ($a=2.83\pm0.3\%$) is very low for lead tungstate since the shower 
 can be mostly contained within the crystals.
@@ -196,7 +198,7 @@ As the noise term ($b=$124 MeV) is determined by the electronics,
 it is mostly the constant term ($c=0.26\pm0.04\%$) which will limit the ECAL accuracy at 
 high energies. Maintaining a high resolution 
 over the long term running of the LHC will allow for reconstruction of high energy photons, 
-such as those produced from $H \rightarrow \gamma\gamma$ decays.
+such as those produced by $H \rightarrow \gamma\gamma$ decays.
 \begin{eqnarray}
 \left( \frac{\displaystyle \sigma_{E}}{\displaystyle E} \right)^ 2 
 	& = & \left( \frac{\displaystyle a}{\displaystyle \sqrt{E}} \right)^ 2 
@@ -210,15 +212,15 @@ such as those produced from $H \rightarrow \gamma\gamma$ decays.
 Electron and photon candidates are formed by clustering deposits of 
 energy caused by electromagnetic showers in the ECAL. For unconverted 
 photons, these clusters will likely be well localised in $\eta$ and $\phi$
-around the incident photon. However, for photons which convert in the tracker,
-the resulting electron-positron pair will deposit energy across several regions
+around the incident photon. However, for photons which convert in the material in front of the 
+calorimeter, the resulting electron-positron pair will deposit energy across several regions
 of the calorimeter. In the presence of the axial magnetic field, 
 electrons radiate bremsstrahlung photons causing deposits which are 
 spread over a wide range in $\phi$ while being fairly narrow in $\eta$.
 This characteristic is exploited by the ``Hybrid'' clustering algorithm 
 used to reconstruct high energy electrons and photons in
 the ECAL barrel~\citep{cseez}. 
-The values of the particular thresholds used for seeding clusters and dominoes were tuned providing
+The values of the particular thresholds used for seeding clusters were tuned providing
 an efficiency for electrons with $p_{T}>7~GeV$ greater than 99\%~\citep{dfutyan}.
 Figure~\ref{fig:hybridclustering} is an illustration of the Hybrid clustering algorithm.
 The algorithm proceeds as follows;
@@ -248,7 +250,7 @@ connects overlapping 5$\times$5 grids of crystals whose positions lie within
 0.3 radians in $\phi$~\citep{AN-09-164}. 
 Additional information is used from the PS to enhance the energy reconstruction in the endcaps. 
 
-Superclusters are associated to electron candidates (GsfElectrons) 
+Superclusters are associated to electron candidates 
 where a track can be reconstructed from
 compatible hits in the tracker using a Gaussian sum filter algorithm~\citep{GSF_Electron_Reconstruction_CMS}.  
 This provides an additional measure of the electron's momentum which is used 
@@ -261,7 +263,7 @@ electrons such as those described in Chapter~\ref{chap:hgg}.
 \subsubsection{Laser Calibration}
 
 ECAL crystals suffer from loss of optical transmission when irradiated through 
-the formation of crystal-lattice defaults which absorb some of the scintillation light. Annealing
+the formation of crystal-lattice defects which absorb some of the scintillation light. Annealing
 acts to balance the damage from radiation which results in an equilibrium optical 
 transmission which is dose-dependant~\citep{TDR1}. 
 At the LHC, the dose varies during each run. This requires that the time varying optical transmission of the ECAL 
@@ -279,13 +281,13 @@ of particles along the beam axis.
 	\centering
 	\includegraphics[width=0.8\textwidth]{detector/ecal/laser.pdf}
 	\caption{Relative ECAL crystal response to blue laser light (440 nm) in bins of pseudo-rapidity, 
-	for the 2011 data taking period runs. The grey bands indicate periods during which there was no beam.}
+	for the 2011 data taking period. The grey bands indicate periods during which there was no beam.}
 	\label{fig:trans}
 \end{figure}
 
 The response of the crystals measured using the laser monitoring system is used to calibrate 
 the energy reconstruction of the ECAL. These calibrations are validated in $W\rightarrow e\nu$ data events
-by comparing the electron energy ($E$) measured as measured by the ECAL to the momentum 
+by comparing the electron energy ($E$) as measured by the ECAL to the momentum 
 ($p$) of the electron measured in the tracker~\citep{CMS-DP-2012-007}. 
 Figure~\ref{fig:scaleeop} shows the relative variation in the ratio $E/p$ as a function of time 
 throughout 2011. A stable scale is achieved through application of the laser calibrations.
@@ -307,7 +309,7 @@ the ECAL's fine granularity provides additional information which can be used to
 the supercluster and distinguish prompt electrons and photons from fakes.  
 The shape of the electromagnetic shower can be described by the ratio of the energy contained
 in the central $3\times3$ cluster surrounding the seed crystal to the total energy of the supercluster
-($\rnine$). Superclusters associated to real unconverted photons will typically have larger value of 
+($\rnine$). Superclusters associated with real unconverted photons will typically have larger value of 
 $\rnine$ than those which are in reality due to narrow $\pi^{0}$ decays. Another common variable used
 for identification is the energy weighted crystal width of the sub-cluster used to seed the supercluster  
 $\sigieie$, 
@@ -327,7 +329,7 @@ used in the barrel and endcaps.
 	\includegraphics[width=0.49\textwidth]{detector/r9eg.pdf}
 	\includegraphics[width=0.49\textwidth]{detector/sieieeg.pdf}
 	\caption{Shower shape variable $\rnine$ (left) and $\sigieie$ (right) distributions 
-	for superclusters associated to simulated real and fake photons. The real photon is taken
+	for superclusters associated with simulated real and fake photons. The real photon is taken
 	from simulated $\Hgg$ events while the fake photon is taken from a $\gamma+jet$ sample
 	where the photon candidate is matched to a generated quark leg. In the right hand plot,
 	two distributions can be distinguished. The narrower is from photons in the barrel and
@@ -341,9 +343,11 @@ isolated in the detector. A cone is defined around the candidate with radius $\D
 \begin{equation}
 \Delta R = \sqrt{(\Delta\phi)^{2}+(\Delta\eta)^{2}}
 \end{equation}
-where $\Delta\phi$ and $\Delta\eta$ are positions relative the supercluster position.
+where $\Delta\phi$ and $\Delta\eta$ are defined as the $\phi$ and $\eta$ co-ordinates relative to the 
+weighted centre of the supercluster.
+
 The sum of $E_{T}$ for each crystal inside the cone, after removing those associated 
 to the supercluster itself, quantifies the isolation of the electron or photon candidate.
-Similar isolation variables are defined for the HCAL and tracker detector elements by
+Similar isolation variables are defined for the HCAL and tracker by
 summing over the $E_{T}$ and $p_{T}$ of HCAL deposits and tracks respectively.
 
