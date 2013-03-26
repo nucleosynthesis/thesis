@@ -12,8 +12,7 @@ $\mh$. By combining results from searches
 in many decay channels, over a large range in mass, 
 the overall sensitivity is greatly improved.
 This chapter describes the combined searches for the SM Higgs boson and measurements of its properties. 
-In Section~\ref{sec:combinationmethodology}, a short review on the frequentist statistical 
-interpretation of data from different analyses used at CMS is provided and a set of diagnostic
+In Section~\ref{sec:combinationmethodology}, a short review on the techniques used for statistical combination of data from different analyses at CMS is provided and a set of diagnostic
 tools developed by the author are discussed.
 The results of the search using the ICHEP 2012 dataset, 
 which led to the announcement of the discovery of a new particle 
@@ -27,61 +26,6 @@ state with the SM Higgs boson.
 
 \section{Combined Higgs Searches}
 \label{sec:combinationmethodology}
-
-When searching for new physics it is often desirable to do so in the context of
-some specific theoretical model or well motivated benchmark scenario.
-Where the theory provides well defined predictions,
-experimental data can be used to verify or reject the theory
-by means of hypothesis testing. The goal is to use the data 
-to reject one of two hypotheses,
-$H_{0}$ and $H_{1}$, known as the null and alternate hypotheses
-respectively. A function is defined, $t(data)$,
-which characterises the observed data as a single real value. When rejecting 
-the hypothesis, $H_{0}$, the critical
-region, $w$, is defined as the set of possible values of $t$
-which indicate that $H_{0}$ is not true. The probability then 
-to observe $t\in w$ when $H_{0}$ is true ($\alpha$), 
-\begin{equation}
-\alpha = P(t\in w|H_{0})
-\end{equation}
-is the probability that $H_{0}$ would be rejected even if it was true.
-The strength of a test (referred to as its power) is quantified by 
-the probability, $1-\beta$ that $t \in  w$ when $H_{1}$ is true.
-\begin{equation}
-1-\beta = P(t\in w|H_{1})
-\end{equation}
-In the case of the search of the SM Higgs boson, the two hypotheses
-can be parameterised in terms of a production cross-section relative
-to that predicted by the SM, $\xs$.  
-The null hypothesis ($H_{0}$) is then that under which no SM Higgs boson exits,
-$\xs=0$, while the alternate ($H_{1}$) is characterized by $\xs=1$.
-In this case, $H_{0}$ is referred to as the background-only hypothesis
-and $H_{1}$ the signal-plus-background hypothesis.
-The possible outcomes of $t$ are assumed to be random with a probability density
-function (pdf) $f_{\xs}(t)$. The values of $\alpha$ and $1-\beta$ are the integral of the pdfs
-over the critical region;
-\begin{eqnarray}
-1-\beta =  \int_{w}f_{1}(t)dt\\ 
-\alpha =  \int_{w}f_{0}(t)dt.
-\label{eqn:alpha}
-\end{eqnarray}
-It can be shown that the choice of $w$ which maximises the power of the test for 
-a given value of $\alpha$ are the set of points for which,
-\begin{equation} 
-	q = \frac {\displaystyle f_{1}(t)}{\displaystyle f_{0}(t)} \ge c_{\alpha},
-\label{eqn:bestw}
-\end{equation}
-where $c_{\alpha}$ is chosen such that Equation~\ref{eqn:alpha} holds~\citep{statsbook}.
-In the search for the SM Higgs boson, the compatibility of the data
-with the presence of a Higgs boson is interpreted in terms of the 
-continuous parameter, $\mu$, which scales the signal strength relative to that expected
-from the Standard Model. 
-Again, the null hypothesis, $H_{0}$, is characterized by setting $\mu=0$ however,
-an infinite number of alternate hypotheses exist for any value $\mu \ge 0$.
-The likelihood , $\call(t|\mu)$, is defined as a function of $\mu$ for a fixed 
-realisation of the data and related to each pdf by a constant of proportionality.
-The quantity $q$ in Equation~\ref{eqn:bestw}, known as the ``test-statistic'', is then
-the ratio of the likelihood at the two values $\mu=1$ and $\mu=0$. 
 
 In order to combine data from all decay channels relevant in the search for the
 SM Higgs boson, the likelihood for a particular outcome of the data given a particular
@@ -104,80 +48,11 @@ uncertainty.
 Although each event observed in data is exclusive to a particular channel, 
 many sources of systematic uncertainty are common to several analyses. For this
 reason, some of the nuisance parameters are correlated between sub-channels.
-The test-statistic for a given $\mu$ is defined as the ratio 
-of likelihoods, $q_{\mu}$, in which the values for the nuisance parameters are taken from fits to the data (profiled), 
-as given in Equation~\ref{eqn:llr2}. 
-\begin{equation}
-\qmu = 
-	\begin {cases} 
-	-2\ln\frac{\displaystyle \mathcal{L}(data | \mu,\hat{\boldth}_{\mu})}
-	{\displaystyle \mathcal{L}(data | \muhat,\hat{\boldth})} 
-		&  0 \le \muhat \le \mu \\
-	 0 	&  \muhat < 0
-	\end{cases}
-\label{eqn:llr2}
-\end{equation}
-The values $\hat{\boldth}_{\mu}$ and $\hat{\boldth}$ are the values of 
-the nuisance parameters for which the likelihood attains its maximum 
-given a particular value of $\mu$ and letting $\mu$ to float freely in the fit ($\mu=\muhat$).
-An immediate consequence of this definition is that the value attained
-by the test statistic is always positive. Small values of the test
-statistic indicate outcomes which are in favour of the signal-plus-background 
-hypothesis, where large values indicate outcomes which disfavour it.
-Due to this, the critical region $w$ can always be defined as the right
-hand tail of the normalized distribution of the test-statistic $f(q_{\mu}|\mu)$, 
-\begin{equation}
-w = \left\{ q_{\mu} : q_{mu} \in (c_{\alpha},+\infty) \right\},
-%\label{eqn:llr2}
-\end{equation}
-Commonly the integral of $f(q_{\mu}|\mu)$ above the observed value of the 
-test-statistic in data $(q_{\mu}^{obs})$, known as a $p$-value, is calculated
-to provide a measure of how much the data disfavour a particular value of $\mu$. 
 
-An upper limit ($\mu_{up}$) can be determined for $\mu$ such that
-the hypotheses represented by the set $\left\{ \mu:\mu>\mu_{up} \right\}$
-are nested within the hypothesis represented by $\xs=\mu=>\mu_{up}$.
-For the special case when $\mu_{up}=1$, the presence of a SM Higgs boson is excluded
-(at some confidence level $c\in(0,1)$) in favour of the background-only hypothesis.
-Practically, at each specific value of $\mu$, the $p$-value $CL_{s+b}$ 
-(Equation~\ref{eqn:clsplusb}) 
-is calculated and the largest value of $\mu$ for which $CL_{s+b}<\alpha$,
-at a fixed value of $\alpha$, is quoted as the upper limit on $\mu$ with confidence level 
-$1-\alpha$. An additional constraint of $\muhat \le \mu$ is imposed in Equation~\ref{eqn:llr2} 
-when calculating upper limits which forces the limit on $\mu$ to be one-sided.
-At CMS, the upper limit on $\mu$ is determined using the $CL_{s}$
-procedure described in Section~\ref{sec:statisticalinterpretations}, which is
-desired to provide less stringent exclusion limits in analyses which are less sensitive
-to signal~\citep{cls}. 
-
-In the presence of a sizeable excess in data, the background-only hypothesis
-can be rejected in favour of an SM like one. Specifically, the excess 
-will be compatible with the presence of a SM Higgs boson up to the rate
-at which it is produced. This is due to the inclusion of the signal model 
-in the definition of the likelihood which typically includes the shape of 
-the expected signal in some discriminating variable and the relative populations
-expected in different channels.
-In order to quantify the excess, the test-statistic
-is replaced with $q_{0}$ by setting $\mu=0$ in Equation~\ref{eqn:llr2}.
-The constraint $\muhat>0$ ensures that only excesses in the data are considered significant.
-The background-only hypothesis is rejected in favour of a signal-plus-background one
-when the $p$-value $p_{0}$, given in Equation~\ref{eqn:plocal},
-is less than some pre-determined critical level $\alpha$.
-Since $p_{0}$ is uniformly distributed between 0 and 1 under the hypothesis $\mu=0$,
-$p_{0}$ is exactly the probability $\alpha$ of falsely rejecting the background-only hypothesis.
-The critical value for $\alpha$ is typically $2.87\times10^{-7}$ (corresponding 
-to a significance of $5\sigma$) when searching for new physics.  
-The procedures used at CMS for determining the distributions, $f(q_{0})$ and $f(q_{\mu})$
-to calculate $p$-vales was discussed in Section~\ref{sec:statisticalinterpretations}.
-
-The likelihood is coded using the \texttt{C++} based 
-statistical package \texttt{RooFit/RooStats} version \texttt{5.3.0}~\citep{roofit}. 
-A framework for automating the procedure of combining datasets, generating toys
-and evaluating likelihoods in the context of the combined search for the SM Higgs boson
-was developed within \texttt{CMSSW} 
-under the package \\
+The likelihood was coded using the \texttt{C++} based statistical package \texttt{RooFit/RooStats} version \texttt{5.3.0}~\citep{roofit}. As with those shown in 
+Chapter~\ref{chap:statistics}, all of the results in the following sections were 
+obtained using the \texttt{CMSSW} package\\
 \texttt{HiggsAnalysis/CombinedLimit}~\citep{combinationstwiki}.
-All of the results shown in the following sections were obtained using this package.
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \subsection{Diagnostics with Toy Datasets}

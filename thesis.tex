@@ -101,9 +101,11 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 
 % Start the document
 \begin{document}
+\pagenumbering{arabic}
 
 % Define the un-numbered front matter (cover pages, rubrik and table of contents)
 \begin{frontmatter}
+\pagenumbering{arabic}
   \input{frontmatter}
 \end{frontmatter}
 
@@ -117,7 +119,8 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 \input{detector/l1trigger}
 \input{hgg7TeV/hgg7TeV}
 	\input{hgg7TeV/signalextraction}
-	\input{hgg8TeV/hgg8TeV}
+%	\input{hgg8TeV/hgg8TeV}
+\input{statistics/statistics}
 \input{combinations/combinations}
 	\input{combinations/properties}
 \input{conclusions}
@@ -135,6 +138,7 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 \begin{backmatter}
   \input{backmatter}
 \end{backmatter}
+
 
 % Close
 \end{document}
