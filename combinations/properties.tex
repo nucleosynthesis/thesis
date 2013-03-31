@@ -21,8 +21,8 @@ attains its maximum in data. This can be extended where more than one signal par
 is of interest by generalising to the profiled likelihood ratio,
 \begin{equation}
 q_{\boldmu} = 
-	-2\ln\frac{\displaystyle \mathcal{L}(data | \mu,\hat{\boldth}_{\boldmu})}
-	{\displaystyle \mathcal{L}(data | \hat{\boldmu},\hat{\boldth})}, 
+	-2\ln\frac{\displaystyle \mathcal{L}(\mathrm{data} | \mu,\hat{\boldth}_{\boldmu})}
+	{\displaystyle \mathcal{L}(\mathrm{data} | \hat{\boldmu},\hat{\boldth})}, 
 \label{eqn:llrNd}
 \end{equation}
 where $\boldmu=x_{1},x_{2},\cdots$$,x_{N}$ represents the $N$ parameters
@@ -70,6 +70,7 @@ $q_\mu^{obs}$ obtained from the observed data.
 \begin{center}
 \includegraphics[width=.49\textwidth]{combinations/fceg_htt_2.pdf}
 \includegraphics[width=.49\textwidth]{combinations/fceg_htt_1.pdf}
+\end{center}
 \caption{Distributions of the test statistic $q_{\mu}$ for the 0/1 jet bin 
 of the $H\rightarrow \tau\tau$ analysis at the combined best fit mass, $m_{H} = 125.8$ GeV.
 The green and yellow filled regions indicate the 68\% and 95\% quantiles of the 
@@ -80,7 +81,6 @@ while the right distribution is generated at $\mu=1.34$ which lies inside the
 68\% confidence interval. The values of the test statistic obtained from the observed data, 
 $q_{\mu}^{obs}$, are indicated by the solid vertical lines.}
 \label{fig:fcegtoys}
-\end{center}
 \end{figure}
 The 68\% confidence interval for $\mu$ is determined as the union of all values of $\mu$ for 
 which $1-CL_{s+b}<0.68$.
@@ -92,6 +92,7 @@ interval for $\mu$.
 \begin{figure}
 \begin{center}
 \includegraphics[width=.7\textwidth]{combinations/confcurve_htt.pdf}
+\end{center}
 \caption{Confidence level evaluation curve for the $\Htt$ analysis in the (0/1) jet bin. 
 At each point, pseudo-data are generated with signal injected at the given value of $\mu$
 and its confidence level (CL) calculated.
@@ -99,7 +100,6 @@ Linear interpolation between the generated points is used to determine the 68\% 
 interval; the two values of $\mu$ (horizontal lines) which cross the curve at $1-CL_{s+b}=0.68$
 (vertical red line).}
 \label{fig:confcontour}
-\end{center}
 \end{figure}
 The procedure is easily extended to a higher number of dimensions
 by exchanging the test-statistic for $q_{\boldmu}$, given in Equation~\ref{eqn:llrNd}.
@@ -147,7 +147,7 @@ and 95\% confidence intervals for $m_{X}$ are determined as the values at
 which the curves cross the horizontal red lines. Right: 68\% confidence
 contours in $m_{X}$ and $\xs$ for the $\Hgg$ and $\Hzz$ channels and their
 combination. For this combination, the relative signal strengths of the 
-channels are kept fixed to the SM expectation.}
+channels are kept fixed to the SM expectation~\citep{HIG-12-045}.}
 \label{fig:mass}
 \end{figure}
 \subsection{Compatibility with the Standard Model}
@@ -184,14 +184,14 @@ a SM Higgs boson.
 \begin{center}
 \includegraphics[width=.49\textwidth]{combinations/sqr_fc_ccc.pdf}
 \includegraphics[width=.49\textwidth]{combinations/sqr_mlz_ccc_mH125.pdf}
+\end{center}
 \caption{68\% confidence intervals for $\mu=\xs$ for individual 
 channels or combination of sub-channels determined using the Feldman-Cousins procedure (left) 
 and by scanning the likelihood (right). The value of $\xs$ denotes
 the production cross-section times the relevant branching fraction for a given 
 channel, relative to the SM. The green band indicates the 68\% confidence interval
 on $\xs$ for all channels combined. The intervals are determined at the best fit 
-mass, $m_{H}=125.8$ GeV.}
-\end{center}
+mass, $m_{H}=125.8$ GeV~\citep{HIG-12-045}.}
 \label{fig:fc1d}
 \end{figure}
 
@@ -223,6 +223,7 @@ exception of $\Hgg$.
 \begin{center}
 \includegraphics[width=.49\textwidth]{combinations/sqr_rvrf_fc_2d.pdf}
 \includegraphics[width=.49\textwidth]{combinations/sqr_rvrf_scan_2d_all_68.pdf}
+\end{center}
 \caption{68\% confidence contours for the production cross-section in 
 $ggH$ and $ttH$ modes ($\muggh$), and $VH$ and $qqH$ modes ($\muqqh$), 
 relative to the SM determined using the Feldman-Cousins procedure (left) and 
@@ -230,8 +231,7 @@ by scanning the likelihood (right).
 Each colour indicates the result by combining all sub-channels in a particular
 decay mode. The crosses indicate the best fit values of the two parameters.
 The yellow diamond at $(1,1)$ indicates the SM values. 
-The contours are determined at the best fit mass, $m_{H}=125.8$ GeV.}
-\end{center}
+The contours are determined at the best fit mass, $m_{H}=125.8$ GeV~\citep{HIG-12-045}.}
 \label{fig:fc2d}
 \end{figure}
 
@@ -310,6 +310,6 @@ point ($\kv=\kf=1$) lies within the 95\% confidence contour defined by the data.
 individual decay channels (coloured regions) and the full 
 combination (solid line). The yellow square shows the SM value, while
 the fermiophobic and background-only scenarios are indicated
-by the pink dot and red diamond respectively.}
+by the pink dot and red diamond respectively~\citep{HIG-12-045}.}
 \label{fig:kvkf}
 \end{figure}
