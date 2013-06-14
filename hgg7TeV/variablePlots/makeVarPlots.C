@@ -51,22 +51,21 @@ void makeVarPlots(){
 	int scMASS   = 125;
 
 	// Legend Tall
-/*	
 	double tX1 = 0.55;
 	double tX2 = 0.88;
 	double tY1 = 0.35;
 	double tY2 = 0.88;
 	std::string lSIGNAL = (std::string)Form("#splitline{%d#timesSM Higgs}{m_{H} = %d GeV}",scSIGNAL,scMASS);
 	std::string gCUT    = "weight*(bdtoutput>0.05 && mass < 180 && mass >= 100)";
-*/
 	
-	// Legend Wide
+/*	// Legend Wide
 	double tX1 = 0.35;
 	double tX2 = 0.88;
 	double tY1 = 0.55;
 	double tY2 = 0.88;
 	std::string lSIGNAL = (std::string)Form("%d#timesSM Higgs m_{H} = %d GeV",scSIGNAL,scMASS);
 	std::string gCUT    = "weight*(mass < 180 && mass >= 100)";
+*/
 
 
 	// Some Global strings
@@ -169,20 +168,20 @@ void makeVarPlots(){
 	struct_histo v_phoeta_2; v_phoeta_2.name = "phoeta_2"; v_phoeta_2.xLabel = "#eta^{2}"; v_phoeta_2.yLabel = "Events"; v_phoeta_2.nBins = 50 ; v_phoeta_2.xMin=-2.5;v_phoeta_2.xMax = 5;v_phoeta_2.isLog=false;v_phoeta_2.yMin=-10;v_phoeta_2.yMax=1600;
 	struct_histo v_cosdphi; v_cosdphi.name = "cosdphi"; v_cosdphi.xLabel = "cos(#Delta#phi)"; v_cosdphi.yLabel = "Events"; v_cosdphi.nBins = 50 ; v_cosdphi.xMin=-1;v_cosdphi.xMax = 1;v_cosdphi.isLog=true;v_cosdphi.yMin=-10;v_cosdphi.yMax=-10;
 	struct_histo v_phoid_1; v_phoid_1.name = "phoid_1"; v_phoid_1.xLabel = "#gamma^{1} ID BDT Output"; v_phoid_1.yLabel = "Events"; v_phoid_1.nBins = 65 ; v_phoid_1.xMin=-.3;v_phoid_1.xMax = 1;v_phoid_1.isLog=false;v_phoid_1.yMin=-10;v_phoid_1.yMax=-2;
-	struct_histo v_phoid_2; v_phoid_2.name = "phoid_2"; v_phoid_2.xLabel = "#gamma^{1} ID BDT Output"; v_phoid_2.yLabel = "Events"; v_phoid_2.nBins = 65 ; v_phoid_2.xMin=-.3;v_phoid_2.xMax = 1;v_phoid_2.isLog=false;v_phoid_2.yMin=-10;v_phoid_2.yMax=-2;
+	struct_histo v_phoid_2; v_phoid_2.name = "phoid_2"; v_phoid_2.xLabel = "#gamma^{2} ID BDT Output"; v_phoid_2.yLabel = "Events"; v_phoid_2.nBins = 65 ; v_phoid_2.xMin=-.3;v_phoid_2.xMax = 1;v_phoid_2.isLog=false;v_phoid_2.yMin=-10;v_phoid_2.yMax=-2;
 	struct_histo v_sigmrv; v_sigmrv.name = "sigmrv"; v_sigmrv.xLabel = "#sigma_{m_{#gamma#gamma}}/m_{#gamma#gamma} right-vtx GeV"; v_sigmrv.yLabel = "Events"; v_sigmrv.nBins = 80; v_sigmrv.xMin=0;v_sigmrv.xMax = 0.06; v_sigmrv.isLog=false;v_sigmrv.yMin=-10;v_sigmrv.yMax=-10;
 	
 	struct_histo v_sigmwv; v_sigmwv.name = "sigmwv"; v_sigmwv.xLabel = "#sigma_{m_{#gamma#gamma}}/m_{#gamma#gamma} wrong-vtx GeV"; v_sigmwv.yLabel = "Events"; v_sigmwv.nBins = 80; v_sigmwv.xMin=0;v_sigmwv.xMax = 0.1; v_sigmwv.isLog=false;v_sigmwv.yMin=-10;v_sigmwv.yMax=-10;
 
 	// Add the variables
 	//vars.push_back(v_mass);
-	vars.push_back(v_bdtoutput);
+	//vars.push_back(v_bdtoutput);
 	//vars.push_back(v_pt_1om);
 	//vars.push_back(v_pt_2om);
 	//vars.push_back(v_phoeta_1);
 	//vars.push_back(v_phoeta_2);
 	//vars.push_back(v_phoid_1);
-	//vars.push_back(v_phoid_2);
+	vars.push_back(v_phoid_2);
 	//vars.push_back(v_cosdphi);
 	//vars.push_back(v_sigmrv);
 	//vars.push_back(v_sigmwv);

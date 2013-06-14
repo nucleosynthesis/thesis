@@ -6,26 +6,26 @@ the search for the SM Higgs boson at the LHC.
 Despite having a relatively small branching ratio, the decay $\Hgg$ 
 provides a very clean final state in which the kinematics of the Higgs boson are 
 fully reconstructed. It is, therefore,
-one of the most sensitive channels at low mass.
+one of the most sensitive channels at low $\mh$.
 The dominant source of background is from real, prompt diphoton events from QCD 
 processes, $pp\rightarrow\gamma\gamma$ (prompt-prompt).
 In addition, there are contributions from $pp\rightarrow\gamma+jet$ (prompt-fake) and 
-$pp\rightarrow jet+jet$ (fake-fake) in which jets are mis-identified as photons. 
+$pp\rightarrow jet+jet$ (fake-fake) in which jets are misidentified as photons. 
 In high-priority analyses such as the search for the Higgs boson, cross-checking of analysis
-techniques is essential to ensure a robust result. At CMS, it is the policy to designed at least two 
+techniques is essential to ensure a robust result. At CMS, it is the policy to design at least two 
 different techniques for the same analysis ideally implemented in independent code bases.
 In particular, as the signal rate in the $\Hgg$ decay mode is small compared to the background rates,
 the sensitivity of the search is heavily influenced by how well the backgrounds are understood.
 For these reasons, two data-driven techniques for extracting the signal were developed.
-The first (method A) uses a fully parametric description of the background which is fit to the data. 
+The first (method A) uses a fully parametric description of the background which is fitted to the data. 
 The type of parameterisation and the number of parameters are chosen so that the systematic uncertainty 
 introduced by potentially choosing the wrong functional form is less than $\frac{\displaystyle 1}{\displaystyle 5}$ 
 of the statistical uncertainty in the fit~\citep{HIG-11-033}.
 The second (method B) uses a binned model constructed from 
 sidebands in the diphoton invariant mass spectrum. 
 Method B was developed by the author and serves as an independent 
-cross-check of the former. In particular, this is achieved though allowing direct 
-inclusion of the background modelling systematic uncertainties in the signal extraction thereby building 
+cross-check of method A. In particular, this is achieved by allowing direct 
+inclusion of the background modelling systematic uncertainties in the signal extraction, thereby building 
 confidence in the understanding of the background. 
 This chapter describes a search for a Higgs boson decaying to two photons
 which was performed on the full 2011 dataset corresponding to \clumi of proton-proton collisions 
@@ -117,15 +117,29 @@ of this background. Fake-fake ($jj$) events are taken from the QCD Dijet sample.
 \label{sec:objectrecoandid}
 
 The reconstruction of all objects used for this analysis, in both data and MC,
-is based on the standardized CMS reconstruction software \texttt{\cmssw}~\citep{cmssw}. 
+is based on the standard CMS reconstruction software \texttt{\cmssw}~\citep{cmssw}. 
 Additional sensitivity can be gained by refining the object selection and reconstruction specifically
 to the search for $\Hgg$.
 
 \subsection{Boosted Decision Trees}
 \label{sec:bdts}
-Boosted decision trees (BDT) are used in the $\Hgg$ search described in this
+Multivariate analysis (MVA) techniques are often used in high energy physics analyses
+which suffer from the presence of large background rates. These techniques provide
+greater distinction between signal and background than traditional selection 
+techniques. This is due to the fact that the full information from each event 
+can be utilised by describing the event with a set of measurable quantities. 
+The distributions of these quantities and correlations between them can be 
+exploited to provide the maximum separation between signal and background.
+Of the many MVA techniques available, Boosted Decision Trees (BDT) are commonly used 
+in high energy physics as they are robust against the inclusion of non-informative variables; 
+the performance will not degrade due to the addition of information which offers little or no 
+separation power~\citep{tmva}.
+ 
+
+BDTs are used in the $\Hgg$ search described in this
 chapter in order to achieve the maximum sensitivity to a potential signal.
-For most of the BDTs used in this analysis, the BDT is used to provide separation between signal and background processes. 
+For most of the BDTs used in this analysis, the BDT is used to provide 
+separation between signal and background processes. 
 The first step in producing a BDT of this type is to identify a list of ``input'' 
 variables which describe the event objects and provide discrimination 
 between signal and background.  
@@ -146,7 +160,7 @@ p = \frac{N_{s}}{N_{s}+N_{b}},
 where $N_{s}$ and $N_{b}$ are the sum of weights for the signal and background samples.
 A separation criterion is defined to decide whether or not to further sub-divide
 that subset. A number of criterion definitions exist, though commonly the 
-Gini index, $p(1-p)$ is used. Values which are close to one indicate 
+Gini index~\citep{tmva}, $p(1-p)$ is used. Values which are close to one indicate 
 the sample is polluted by background, so above some configurable threshold, 
 the sub-sample is further split and the process continues. 
 This continues until either all sub-samples are below the threshold or the
@@ -234,17 +248,17 @@ to compare the supercluster energy scale in data and MC~\citep{AN-12-048}.
 The energy scale of the superclusters is measured by matching the electron
 invariant mass peak in data to that in MC. This is achieved using an analytic fit to the $\Zee$ peak in data and MC
 separately. The natural peak of the $Z$ is described using a Breit-Wigner distribution whose parameters are fixed
-to those given by the Particle Data Group, $m_{Z}=91.188,~\Gamma_{Z} = 2.495$~\citep{pdg}. This is then convoluted 
-with a Crystal Ball (CB) which describes the resolution effects of the calorimeter and energy losses from 
+to those given by the Particle Data Group, $m_{Z}=91.188~\textrm{GeV},~\Gamma_{Z} = 2.495~\textrm{GeV}$~\citep{pdg}. This is then convoluted 
+with a Crystal Ball (CB) function which describes the resolution effects of the calorimeter and energy losses from 
 bremsstrahlung before the ECAL~\citep{crystalball}. 
 The CB parameter $\Delta m$ is a free parameter of the fit giving the 
 offset of the peak position from the $Z$ pole. 
 
-The values of these fitted parameters varies with the position of the supercluster ($|\eta|$). Moreover the
-variation in data is strongly dependant on the run during which the data were taken. The scale is extracted in 
+The values of these fitted parameters vary with the position of the supercluster ($|\eta|$). Moreover the
+variation in data is strongly dependent on the run during which the data were taken. The scale is extracted in 
 six run ranges and four $|\eta|$ regions to account for this effect, providing a first set of corrections. 
 The difference between MC and data is dependent on whether the electron showered in the material before the calorimeter
- or not which is characterised by the $\rnine$ of the supercluster. 
+ or not, which is characterised by the $\rnine$ of the supercluster. 
 The data-MC difference in each $|\eta|$ region is therefore measured
 a second time after applying the first set of corrections to the data and obtaining the residual difference
 for electrons with $\rnine<0.94$ and $\rnine>0.94$ separately. This dependency, 
@@ -291,10 +305,10 @@ and the $\pt$-asymmetry calculated as,
 \begin{eqnarray}
 	\frac{\displaystyle |\sum_{all tracks} \ptvec^{track}| - \ptgg }{ \displaystyle|\sum_{all tracks} \ptvec^{track}|}.
 \end{eqnarray}
-In addition, the sum of the square of the transverse momenta of all the tracks associated 
+In addition, the sum of the squares of the transverse momenta of all the tracks associated 
 to a given vertex is included to preferentially select hard interactions. If at least one of the 
 photons converts to an $e^{+}e^{-}$ pair, the difference between the position in $z$ as calculated 
-using the electron-positron pair and that from the standard vertex, relative to the resolution in $z$
+using the electron-positron pair and that from the standard vertex, relative to the resolution in $z$, 
 is included as an input variable. The BDT was trained on $\Hgg$ MC with a mass of 120 GeV. 
 Figure~\ref{fig:vtxeffhmc} shows the fraction of events in a gluon-gluon MC sample in which 
 the vertex with the highest BDT score is within 10mm of the true vertex as a function of $\pt^{H}$.
@@ -306,8 +320,23 @@ probability to select the correct vertex in each bin estimated from the per-even
 \label{fig:vtxeffhmc}
 \end{figure} 
 The fraction of events in which this occurs in data is measured using $\Zmumu$ events
-as a function of the $\pt$ of the $Z$ boson~\citep{AN-12-048}. This is used to correct the Higgs signal MC for 
-the purpose of signal modelling. 
+as a function of the $\pt$ of the $Z$ boson~\citep{AN-12-048}. 
+Figure~\ref{fig:vtxzmumu} shows the fraction of events for which the chosen 
+vertex is within 10mm of the 
+true vertex as measured in $\Zmumu$ data and MC. 
+The BDT (MVA) selection method described is compared with the standard CMS vertex ranking 
+algorithm (RANK)~\citep{IN-11-014} which is less efficient for low $\pt^{Z}$.
+The measurements in data are used to correct the Higgs signal MC for the purpose of signal modelling. 
+
+\begin{figure}
+\includegraphics[width=.49\textwidth]{hgg7TeV/generalPlots/PT_vtx_z_2011A.png}
+\includegraphics[width=.49\textwidth]{hgg7TeV/generalPlots/PT_vtx_z_2011B.png}
+\caption{Fraction of $\Zmumu$ events in which the selected vertex is with 10mm of the 
+true vertex in Run 2011A (left) and Run 2011B (right) data and MC as a function of $\pt^{Z}$. 
+The BDT selection, labelled MVA, is shown by the open circles where the ranking method, labelled RANK 
+is shown as points.}
+\label{fig:vtxzmumu}
+\end{figure} 
 
 A second, per-event, BDT is trained using the output of the first to identify 
 under which conditions the correct vertex is selected. The output of this BDT is then used to 
@@ -338,7 +367,7 @@ method~\citep{AN-12-116}.
 The measurement is made using events which are selected using a dielectron
 trigger with supercluster transverse energies of at least 20 GeV. The two objects are then 
 randomly assigned as either the ``tag'' or ``probe'' candidate. The tags are then required to 
-pass a tight electron selection based on its isolation and supercluster shower shape.
+pass a tight electron selection based on their isolation and supercluster shower shape.
 Events are then split into those in which the probe candidate passes or fails the pre-selection
 and the ratio of signal events, after background subtraction, in each class provides the 
 efficiency measurement of the pre-selection. For the pre-selection efficiency measurement, 
@@ -375,7 +404,7 @@ including the diphoton invariant mass. The first set of variables describe the s
 supercluster: $\hoe$ (the ratio of energy deposited in the HCAL behind the ECAL to that of the supercluster), 
 $\sigieie$, $\rnine$ and the energy weighted widths of the supercluster in
 $\eta$ and $\phi$ ($\sigma_{\eta},~\sigma_{\phi}$). The $\eta$ of the supercluster is 
-included as the shower shape is dependant on the position within the calorimeter. 
+included as the shower shape is dependent on the position within the calorimeter. 
 The second set of input variables describe the
 isolation of the photon in the calorimeter and tracker scaled to account for 
 the additional expected energy density due to pileup, $\rho$~\citep{2011JInst611002C}. 
@@ -397,7 +426,7 @@ event selection (diphoton BDT) as described in Section~\ref{sec:diphotonbdt}.
 \section{Event Selection}
 \label{sec:eventselection}
 
-In addition to passing the pre-selection, the two photons are required to pass mass-dependant transverse 
+In addition to passing the pre-selection, the two photons are required to pass mass-dependent transverse 
 momenta cuts, $p_{T}/\mgg > 1/3, ~1/4$ for the leading and sub-leading photon respectively.
 Where more than one diphoton pair in an event satisfies these criteria, the pair which has the largest
 sum of photon transverse momenta is selected as the Higgs boson candidate.
@@ -478,17 +507,17 @@ Events below this cut value were found to provide negligible improvement in the 
 \end{figure}
 
 \begin{figure}[hbt!]
+ \includegraphics[width=0.8\textwidth]{hgg7TeV/variablePlots/bdtoutput}
+ \caption{Diphoton BDT distribution in data and MC. The contribution expected from a SM Higgs boson with mass 125 GeV, 
+ scaled by 100, is shown in red. }
+ \label{fig:diphotonBDT}
+\end{figure}
+\begin{figure}[hbt!]
   \includegraphics[width=0.8\textwidth]{hgg7TeV/variablePlots/mass}
  \caption{Invariant mass distribution in data and MC after applying the full event selection in the
  range 100 to 180 GeV. The contribution expected from a SM Higgs boson with mass 125 GeV, scaled by 10, 
  is shown in red. }
  \label{fig:massmcdata}
-\end{figure}
-\begin{figure}[hbt!]
- \includegraphics[width=0.8\textwidth]{hgg7TeV/variablePlots/bdtoutput}
- \caption{Diphoton BDT distribution in data and MC. The contribution expected from a SM Higgs boson with mass 125 GeV, 
- scaled by 100, is shown in red. }
- \label{fig:diphotonBDT}
 \end{figure}
 
 \subsubsection{Diphoton BDT Validation with $\Zee$ Data}
@@ -506,10 +535,11 @@ the full selection using this technique. The discrepancies between MC and data a
 systematic uncertainties on the photon ID BDT output and $\sigma_{E}$ which are included in the final signal model. 
 
 \begin{figure}
-  \includegraphics[width=.8\textwidth]{hgg7TeV/zeeValidation/zeevalidationdipho.pdf}
+  \includegraphics[width=.8\textwidth]{hgg7TeV/zeeValidation/zeevalidationdipho.pdf}\\
+  \includegraphics[width=.8\textwidth]{hgg7TeV/zeeValidation/zeevalidationdipho_ratio.pdf}
 \caption{Diphoton BDT output distribution in $\Zee$ MC and data after the full selection 
 treating the electrons as photons for the purposes of energy reconstruction. The electron 
-veto is inverted to preferentially select electrons.}
+veto is inverted to preferentially select electrons. The lower panel show the data/MC ratio.}
 \label{fig:zeevaliddiphomva}
 \end{figure}
 
@@ -527,21 +557,26 @@ Section~\ref{sec:signalmodel}.
 
 \begin{figure}
   \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/sigmaE_EB.pdf}
-  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/sigmaE_EE.pdf}
+  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/sigmaE_EE.pdf}\\
+  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/sigmaE_EB_ratio.pdf}
+  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/sigmaE_EE_ratio.pdf}
 \caption{Per-photon resolution estimator, $\sigma_{E}$, relative to the measured energy in $\Zee$ 
 MC and data 
 treating the electrons as photons in the barrel (left) and endcaps (right). 
 The red lines show the $\pm 1\sigma$ systematic error envelope obtained by scaling the value of 
-$\sigma_{E}$ by $\pm 10\%$.}
+$\sigma_{E}$ by $\pm 10\%$. The lower panels show the ratios to the nominal MC distributions.}
 \label{fig:zeevalidsigmaE}
 \end{figure}
 
 \begin{figure}
   \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/phoID_EB.pdf}
-  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/phoID_EE.pdf}
+  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/phoID_EE.pdf}\\
+  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/phoID_EB_ratio.pdf}
+  \includegraphics[width=.48\textwidth]{hgg7TeV/zeeValidation/phoID_EE_ratio.pdf}\\
 \caption{Photon ID BDT output in $\Zee$ MC and data 
 treating the electrons as photons in the barrel (left) and endcaps (right). 
-The red lines show the $\pm 1\sigma$ systematic error envelope obtained by shifting the output value by $\pm 0.025\%$.}
+The red lines show the $\pm 1\sigma$ systematic error envelope obtained by shifting the output value by $\pm 0.025\%$.
+The lower panels show the ratios to the nominal MC distributions.}
 \label{fig:zeevalidphoidmva}
 \end{figure}
 
@@ -550,7 +585,7 @@ The red lines show the $\pm 1\sigma$ systematic error envelope obtained by shift
 
 The contribution to Higgs boson production from vector boson fusion is around a factor ten smaller than that
 of gluon-gluon fusion. However, additional information from the two jets associated 
-with $qqH$ production allows for further reduction of the diphoton background~\citep{HIG-11-033}.
+with $qqH$ production allows further reduction of the diphoton background~\citep{HIG-11-033}.
 Events containing two jets which pass the full selection and in addition
 satisfy a series of criteria designed to target the specific dijet topology are 
 tagged as likely to have originated from $qqH$ production. For example, Figure~\ref{fig:vbfdeta} shows the 

@@ -42,7 +42,7 @@ are modelled through the nuisance parameters, $\boldth$. Typically these nuisanc
 will be constrained by some external measurements $\boldthmeas$, such as the energy scale
 measured in $\Zee$ events in the two-photon decay channel described in 
 Section~\ref{sec:superclusterenergyreconstruction}. 
-The pdf, $p(\boldthmeas|\boldth)$, is a product of the pdfs of each nuisance parameter, 
+The term $p(\boldthmeas|\boldth)$ is a product of the pdfs of each nuisance parameter, 
 which are usually Gaussian distributions, for each independent source of systematic
 uncertainty.
 Although each event observed in data is exclusive to a particular channel, 
@@ -93,7 +93,7 @@ Events are categorised according to the channel in which they are reconstructed.
 In each category, the expected background is estimated
 either from simulation or some control region in data. 
 The data are represented by the number of events observed in each category.
-Several sources of systematic uncertainty are included which effect the
+Several sources of systematic uncertainty are included which affect the
 expected signal and background in one or more of the channels. 
 Systematics are incorporated into the likelihood in the form of nuisance 
 parameters as described previously. The analysis is summarized in 
@@ -188,10 +188,11 @@ The full set of diagnostic summary plots can be found online~\citep{onlinediag}.
   \end{center}
     \caption{Summary plots for the parameter \texttt{lumi} of the realistic counting experiment. 
 	The entries in the histograms are for fits to toys generated under the background-only
-	hypothesis letting $\mu$ float freely. The bottom, left panel shows the correlation
+	hypothesis letting $\mu$ float freely. The red histogram includes only toys in which a positive signal strength is fitted.
+	The bottom left panel shows the correlation
 	between the value generated for the pseudo-measurement of the nuisance 
 	\texttt{lumi\_In} and the fitted value of the parameter. 
-	The lower right panel shows the shape of the 
+	The bottom right panel shows the shape of the 
 	negative log-likelihood (NLL) as a function of the nuisance parameter.
 	The parameters of the fitted Gaussian for each histogram are given as the
 	Mean and Sigma. The value and error of the nuisance parameter are given before fitting
@@ -246,7 +247,7 @@ Due to the extremely high cross-section of $b\bar{b}$ production in
 p-p collisions, the $\Hbb$ search focuses on Higgs boson production in association
 with a $W$ or $Z$ boson, which are identified by the presence of leptons. In the case 
 of neutrino final states such as $Z\rightarrow \nu\nu$, the missing transverse energy 
-($\met$) of the event is required to be large indicating momentum propagated out of the detector by the neutrinos~\citep{HIG-12-019}. 
+($\met$) of the event is required to be large, indicating momentum propagated out of the detector by the neutrinos~\citep{HIG-12-019}. 
 This quantity is defined as the magnitude of the negative vector sum over all energy deposits, 
 $E_{k}$, in the calorimeters projected into the transverse plane 
  ($\hat{\mathbf{i}},\hat{\mathbf{j}}$),
@@ -307,7 +308,7 @@ process to improve the sensitivity. For the lower mass region ($m_{H}<180$ GeV),
 only one of the lepton pairs is required to have a mass consistent with an 
 on-shell $Z$ boson.
 The $4e$, $4\mu$ and $2e2\mu$ sub-channels are categorised separately as the 
-mass resolutions and the background rates differ between between the three 
+mass resolutions and the background rates differ between the three 
 final states. In the $ZZ\rightarrow 2l2\tau$ and $ZZ\rightarrow 2l2q$ channels, 
 a broader peak is searched for in the dilepton-ditau and dilepton-dijet
 mass spectrum respectively~\citep{HIG-12-016,HIG-11-027}. 
@@ -317,7 +318,7 @@ degrades the mass resolution in these channels compared to the $4l$ decay.
 The $ZZ\rightarrow 2l2\nu$ search looks for a leptonic $Z$ decay
 and a large $\met$~\citep{HIG-12-023}.
 In this channel, the decay is not fully reconstructible and so a measure of the mass
-is given by the transverse mass, $m_{T}$ defined as,
+is given by the transverse mass, $m_{T}$, defined as
 \begin{equation}
 m_{T} = \left[2 p_{T}^{Z}\met(1-\cos(\Delta\phi))\right]^{\frac{1}{2}},
 \end{equation}

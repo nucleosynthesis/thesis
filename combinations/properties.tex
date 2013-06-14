@@ -21,14 +21,14 @@ attains its maximum in data. This can be extended where more than one signal par
 is of interest by generalising to the profiled likelihood ratio,
 \begin{equation}
 q_{\boldmu} = 
-	-2\ln\frac{\displaystyle \mathcal{L}(\mathrm{data} | \mu,\hat{\boldth}_{\boldmu})}
+	-2\ln\frac{\displaystyle \mathcal{L}(\mathrm{data} | \boldmu,\hat{\boldth}_{\boldmu})}
 	{\displaystyle \mathcal{L}(\mathrm{data} | \hat{\boldmu},\hat{\boldth})}, 
 \label{eqn:llrNd}
 \end{equation}
 where $\boldmu=x_{1},x_{2},\cdots$$,x_{N}$ represents the $N$ parameters
 of interest in the signal model. The values of the nuisance parameters 
-which maximise the value of the likelihood first 
-fixing the values of $\mu$ and then letting them float freely are
+which maximise the value of the likelihood, first 
+fixing the values of $\mu$ and then letting them float freely, are
 denoted $\hat{\boldth}_{\boldmu}$ and $\hat{\boldth}$ respectively.
 The values for which $q_{\boldmu}=0$ in the observed data are the best fit values.
 The contour defined by the set of points for which $C_{N}(q_{\boldmu})=0.68$,
@@ -103,7 +103,7 @@ interval; the two values of $\mu$ (horizontal lines) which cross the curve at $1
 \end{figure}
 The procedure is easily extended to a higher number of dimensions
 by exchanging the test-statistic for $q_{\boldmu}$, given in Equation~\ref{eqn:llrNd}.
-Pseudo-datasets are generated and fit as before and the union of points for which
+Pseudo-datasets are generated and fit as before and the boundary of the union of points for which
 $1-CL_{s+b}<0.68$ defines a confidence-contour in an $n$-dimensional parameter space.
 
 
@@ -117,7 +117,7 @@ To measure the mass, $m_{X}$, of the particle in a model-independent way,
 the signal strengths for the $gg\rightarrow \Hgg$, $qq\rightarrow \Hgg$
 and $\Hzz\rightarrow 4l$ processes are assumed to be independent and thus are treated as 
 nuisance parameters in the likelihood. Each of the signals in these channels
-are assumed to be due to the presence of a single state with mass $m_{X}$.
+is assumed to be due to the presence of a single state with mass $m_{X}$.
 Figure~\ref{fig:mass} (left) shows the value of the test-statistic 
 $q_{m_{X}}$ for the $\Hgg$, $\Hzz$ channels and their combination near the
 best fit points. From the combination, the mass is determined to be $m_{X}=125.8 \pm 0.5$ GeV.
@@ -130,7 +130,7 @@ the branching ratio of $\Hzz \rightarrow 4l$, and hence the expected signal yiel
 as a function of $\mh$.
 Figure~\ref{fig:mass} (right) shows the two-dimensional 68\% confidence intervals
 in $m_{X}$ and $\xs$ for the $\Hzz\rightarrow 4l$, $\Hgg$ and their combination.
-For this combination, the ratio signal strengths between the two channels is
+For this combination, the ratio of signal strengths between the two channels is
 kept fixed to the SM expectation; only the overall signal strength is left as a 
 free parameter.  The best fit value of $m_{X}$ is consistent with the 
 value determined in the one-dimensional case. 

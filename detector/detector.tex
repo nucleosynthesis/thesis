@@ -5,8 +5,8 @@ One of the many physics goals of the LHC is the establishment of the mechanism b
 the fundamental fermions and bosons acquire mass in the SM. The discovery of the new particle 
 announced by the ATLAS and CMS Collaborations in July 2012, if found to be the Higgs boson, will have provided 
 a major step towards this goal. This of course could not have been achieved without the use
-of the particle detectors designed by those Collaborations. This Chapter is intended to serve as an 
-introduction to the CMS detector, being the experiment the author worked at. Section~\ref{sec:cmsdetector}
+of the particle detectors designed by those Collaborations. This chapter is intended to serve as an 
+introduction to the CMS detector, being the experiment the author worked on. Section~\ref{sec:cmsdetector}
 provides an overview of the components of the CMS detector, paying attention in particular to those 
 which are the most relevant for the search for the Higgs boson in the two photon decay mode. 
 Section~\ref{sec:l1trigger} will cover work performed by the author, as service to the CMS Collaboration, 
@@ -14,14 +14,14 @@ on improving the jet resolution in the GCT component of the L1 trigger. A set of
 the author) to be used online during CMS data-taking are described.
 
 \section{The LHC}
-The Large Hadron Collider (LHC) at CERN is the only collider experiment, currently in operation, 
+The Large Hadron Collider (LHC) at CERN is the only collider, currently in operation, 
 designed to study physics at the TeV scale. The collider is an octagonal 
 ring, 27 km in circumference, hosted in the former LEP tunnel in France/Switzerland.  
 Both proton-proton (pp) and heavy ion (PbPb) collisions are
 studied as part of the LHC physics programme with the former used 
-for direct searches for new physics. Proton beams are formed inside the proton synchrotron
+for direct searches for new physics. Proton beams are formed inside the Proton Synchrotron (PS)
 from bunches of protons 50 ns apart with an energy of 26 GeV. The protons are then accelerated in the 
-super proton synchrotron to 450 GeV before being injected into the LHC. 
+Super Proton Synchrotron(SPS) to 450 GeV before being injected into the LHC. 
 Around 1200 superconducting dipole magnets maintain two beams of protons accelerating around 
 the ring in opposite directions before being collided at one of the sites of the four major experiments;
 ALICE~\citep{aliceexperiment}, ATLAS~\citep{atlasexperiment}, CMS~\citep{cmsexperiment}
@@ -49,7 +49,7 @@ in the discovery of the new boson reported by ATLAS and CMS Collaborations at th
 \label{sec:cmsdetector}
 The Compact Muon Solenoid (CMS) detector is one of two general purpose detectors at 
 the LHC designed to search for new physics. 
-Among the wide range of physics programs at CMS, the search for the SM Higgs boson 
+Among the wide range of physics programmes at CMS, the search for the SM Higgs boson 
 has a high priority. The decay rates of the SM Higgs boson in different 
 channels vary dramatically as a function of its mass ($\mh$). A key feature of the experiment's design
 was, therefore, the necessity to maintain a high sensitivity to the SM Higgs for a wide range of masses in as many 
@@ -79,7 +79,7 @@ resistive plate chambers. The combination of the two provides high resolution
 timing and hit positions which are used to determine the trajectory of muons both from
 p-p collisions and cosmic sources for calibration. For the endcaps, the DTs are replaced
 with cathode strip chambers as the higher flux of particles along the beam line
-requires the use of radiation hard components.
+requires the use of components which can operate under high levels of radiation.
 % ------------------------------------------------------------------------------------
 
 CMS uses a right-handed Cartesian coordinate system with the origin at the 
@@ -139,7 +139,7 @@ By making multiple precise measurements throughout the tracker system, the traje
 particles can be reconstructed.
 Tracks are associated to a common point of origin (primary vertex) by grouping those which are separated
 by less than 1cm in the $z$ coordinate of the point of closest approach to the beam line.
-The vertex resolution is dependant both on the number of tracks associated to the vertex and
+The vertex resolution is dependent both on the number of tracks associated to the vertex and
 their average transverse momenta ($\bar{p}_{T}$). The resolution was measured in early data from 2010
 by splitting tracks associated to a vertex randomly into two groups with equal kinematic distributions.
 The difference between the vertex locations calculated from the two groups was used to provide an estimate 
@@ -174,12 +174,12 @@ in neutral pion decays.
 The ECAL is designed to cover a pseudo-rapidity range of $|\eta | < 3$. 
 The crystals are arranged to form modules which surround the beam line in a non-projective geometry:
 the gaps between crystal modules are offset by 3$^{\circ}$, beyond the interaction point, with respect to 
-the trajectories of particles which produced at the centre of the interaction point. 
+the trajectories of particles produced at the centre of the interaction point. 
 Electrons and photons deposit most of their energy within 
 the crystals as the depth of the crystals is equivalent to 25.8 radiation lengths~\citep{TDR1}. 
 Electromagnetic showers produced by the interaction of electrons and photons in the ECAL crystals
 produce scintillation light which is collected to measure the energy of the particle. 
-The scintillation output of the crystals is, however, low and temperature dependant 
+The scintillation output of the crystals is, however, low and temperature dependent 
 ($\sim$ 2.1\%/K at the ECAL operating temperature of 291 K). 
 Avalanche photo-diodes (APDs) and vacuum 
 photo-triodes (VPTs) are used to collect the scintillation light and amplify the signal in the 
@@ -197,7 +197,7 @@ can be mostly contained within the crystals.
 As the noise term ($b=$124 MeV) is determined by the electronics, 
 it is mostly the constant term ($c=0.26\pm0.04\%$) which will limit the ECAL accuracy at 
 high energies. Maintaining a high resolution 
-over the long term running of the LHC will allow for reconstruction of high energy photons, 
+over the long term running of the LHC will allow accurate reconstruction of high energy photons, 
 such as those produced by $H \rightarrow \gamma\gamma$ decays.
 \begin{eqnarray}
 \left( \frac{\displaystyle \sigma_{E}}{\displaystyle E} \right)^ 2 
@@ -251,11 +251,11 @@ connects overlapping 5$\times$5 grids of crystals whose positions lie within
 Additional information is used from the PS to enhance the energy reconstruction in the endcaps. 
 
 Superclusters are associated to electron candidates 
-where a track can be reconstructed from
+where a compatible track can be reconstructed from
 compatible hits in the tracker using a Gaussian sum filter algorithm~\citep{GSF_Electron_Reconstruction_CMS}.  
 This provides an additional measure of the electron's momentum which is used 
 to improve the resolution of the electron energy.
-Aside from this, the reconstruction of photons and electrons is identical which is an 
+Apart from this, the reconstruction of photons and electrons is identical which is an 
 important feature allowing for data driven calibrations and validations of photons using 
 electrons such as those described in Chapter~\ref{chap:hgg}.
 
@@ -264,10 +264,10 @@ electrons such as those described in Chapter~\ref{chap:hgg}.
 
 ECAL crystals suffer from loss of optical transmission when irradiated through 
 the formation of crystal-lattice defects which absorb some of the scintillation light. Annealing
-acts to balance the damage from radiation which results in an equilibrium optical 
-transmission which is dose-dependant~\citep{TDR1}. 
+acts to recover from damage due to radiation which results in an equilibrium optical 
+transmission which is dose-dependent~\citep{TDR1}. 
 At the LHC, the dose varies during each run. This requires that the time varying optical transmission of the ECAL 
-crystals be monitored to asses the impact on energy measurements.
+crystals be monitored to assess the impact on energy measurements.
 The crystal transparency is monitored by comparing the relative transmission in blue laser light (440 nm), 
 which is close to the scintillation emission peak, to infra-red (796 nm), which is far from the 
 peak and relatively unaffected by the radiation damage.
@@ -290,7 +290,7 @@ the energy reconstruction of the ECAL. These calibrations are validated in $W\ri
 by comparing the electron energy ($E$) as measured by the ECAL to the momentum 
 ($p$) of the electron measured in the tracker~\citep{CMS-DP-2012-007}. 
 Figure~\ref{fig:scaleeop} shows the relative variation in the ratio $E/p$ as a function of time 
-throughout 2011. A stable scale is achieved through application of the laser calibrations.
+throughout 2011. A stable energy scale is achieved through application of the laser calibrations.
 
 \begin{figure}
 	\centering
@@ -309,7 +309,7 @@ the ECAL's fine granularity provides additional information which can be used to
 the supercluster and distinguish prompt electrons and photons from fakes.  
 The shape of the electromagnetic shower can be described by the ratio of the energy contained
 in the central $3\times3$ cluster surrounding the seed crystal to the total energy of the supercluster
-($\rnine$). Superclusters associated with real unconverted photons will typically have larger value of 
+($\rnine$). Superclusters associated with real unconverted photons will typically have a larger value of 
 $\rnine$ than those which are in reality due to narrow $\pi^{0}$ decays. Another common variable used
 for identification is the energy weighted crystal width of the sub-cluster used to seed the supercluster  
 $\sigieie$, 
@@ -339,7 +339,7 @@ used in the barrel and endcaps.
 \end{figure}
 
 Hard interaction processes tend to produce electromagnetic particles which are well
-isolated in the detector. A cone is defined around the candidate with radius $\Delta R$ defined as,
+isolated in the detector. A cone is defined around the candidate with radius $\Delta R$ defined as 
 \begin{equation}
 \Delta R = \sqrt{(\Delta\phi)^{2}+(\Delta\eta)^{2}}
 \end{equation}
