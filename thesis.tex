@@ -100,6 +100,8 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 \author{Nicholas Wardle}
 
 % Start the document
+%\bibliographystyle{unsrt}
+
 \begin{document}
 \pagenumbering{arabic}
 
@@ -126,6 +128,11 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 \input{conclusions}
 \end{mainmatter}
 
+\bibliographystyle{unsrt}
+
+\bibliography{thesis}
+%\printbibliography
+
 % Produce the appendices
 \begin{appendices}
   \input{detector/appendices_detector}
@@ -135,10 +142,10 @@ pdfauthor = {\textcopyright\ Nicholas Wardle}
 
 % Produce the un-numbered back matter (e.g. colophon,
 % bibliography, tables of figures etc., index...)
-\begin{backmatter}
-  \input{backmatter}
-\end{backmatter}
+%\begin{backmatter}
+%  \input{backmatter}
 
+%\end{backmatter}
 
 % Close
 \end{document}

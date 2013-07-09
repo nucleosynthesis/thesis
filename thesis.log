@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.30)  14 JUN 2013 16:17
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.30)  9 JUL 2013 11:02
 entering extended mode
  %&-line parsing enabled.
 **thesis
@@ -771,26 +771,26 @@ LaTeX Warning: Unused global option(s):
 (./thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 103.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 105.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 105.
 
  (/usr/share/texmf-texlive/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 103.
-LaTeX Info: Redefining \microtypecontext on input line 103.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Info: Redefining \microtypecontext on input line 105.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -825,7 +825,7 @@ Package caption Info: End \AtBeginDocument code.
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
 
-LaTeX Info: Redefining \micro on input line 103.
+LaTeX Info: Redefining \micro on input line 105.
 \openout3 = `comment.cut'.
 
 (./comment.cut (./frontmatter.tex
@@ -836,15 +836,19 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 (/usr/share/texmf-texlive/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-) [1
+) (./cpright.tex
+[1
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) [2
 
-] [3] [4
+] [3
 
-] [5] [6
+] [4
+
+] [5]
+[6
 
 ] [7] [8
 
@@ -857,63 +861,119 @@ Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)            on input line 4.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 15.
+(scrbook)            on input line 5.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 27.
-
-[9]
+(scrbook)            on input line 6.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 53.
+(scrbook)            on input line 17.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 62.
+(scrbook)            on input line 29.
+ [9]
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 75.
+(scrbook)            on input line 55.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 76.
+(scrbook)            on input line 64.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 77.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 78.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 79.
  [10]
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 83.
+(scrbook)            on input line 82.
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 86.
-Class scrbook Info: You've told me to use the font selection of the element
-(scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 87.
-Class scrbook Info: You've told me to use the font selection of the element
-(scrbook)           `sectioning' that is an alias of element `disposition'
-(scrbook)            on input line 88.
 )
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
  [11] [12
 
+] (./thesis.lof [13] [14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+Overfull \hbox (14.98808pt too wide) in paragraph at lines 92--92
+ [][] []\OT1/cmr/m/n/12 (-20) Per-event delta neg-a-tive log-likelihood ($^^A\O
+ML/cmm/m/it/12 nll$\OT1/cmr/m/n/12 (-20) ) dis-tri-bu-tions for the background-
+ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24])
+\tf@lof=\write6
+\openout6 = `thesis.lof'.
+
+
+[25] [26
+
+] (./thesis.lot
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+\tf@lot=\write7
+\openout7 = `thesis.lot'.
+
+
+[29] [30
+
 ]))
 \openout3 = `comment.cut'.
 
- (./comment.cut (./introduction.tex [13] [14
+ (./comment.cut (./introduction.tex [31] [32
 
 ]
 Chapter 1.
 
 Underfull \vbox (badness 5431) has occurred while \output is active []
 
- [15])
-(./theory/theory.tex [16]
+ [33])
+(./theory/theory.tex [34]
 Chapter 2.
 
 Underfull \vbox (badness 1968) has occurred while \output is active []
 
- [17
+ [35
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
@@ -923,312 +983,312 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
- [18]
+ [36]
 Overfull \hbox (7.45966pt too wide) in paragraph at lines 95--111
  [] 
  []
 
-[19]
+[37]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
+ [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21]
+ [39]
 Underfull \vbox (badness 1968) has occurred while \output is active []
 
- [22]
+ [40]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
+ [41])
 (./theory/higgs.tex
 
 pdfTeX warning: pdflatex (file ./theory/pheno/tevsmbayes_june2012_withleplhc.pd
 f): PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
 
-<theory/pheno/tevsmbayes_june2012_withleplhc.pdf, id=93, 569.12625pt x 426.5937
-5pt>
+<theory/pheno/tevsmbayes_june2012_withleplhc.pdf, id=153, 569.12625pt x 426.593
+75pt>
 File: theory/pheno/tevsmbayes_june2012_withleplhc.pdf Graphic file (type pdf)
- <use theory/pheno/tevsmbayes_june2012_withleplhc.pdf> [24]
-<theory/pheno/w12_blueband.jpg, id=98, 569.4876pt x 625.8582pt>
+ <use theory/pheno/tevsmbayes_june2012_withleplhc.pdf> [42]
+<theory/pheno/w12_blueband.jpg, id=158, 569.4876pt x 625.8582pt>
 File: theory/pheno/w12_blueband.jpg Graphic file (type jpg)
 
 <use theory/pheno/w12_blueband.jpg>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 <./theory/pheno/tevsmbayes_june2012_withleplhc.pdf>]
+ [43 <./theory/pheno/tevsmbayes_june2012_withleplhc.pdf>]
 
 pdfTeX warning: pdflatex (file ./theory/pheno/allprods_new.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<theory/pheno/allprods_new.pdf, id=119, 666.77904pt x 465.81229pt>
+<theory/pheno/allprods_new.pdf, id=179, 666.77904pt x 465.81229pt>
 File: theory/pheno/allprods_new.pdf Graphic file (type pdf)
 
 <use theory/pheno/allprods_new.pdf>
-<theory/pheno/Higgs_XS_7TeV.pdf, id=121, 569.12625pt x 408.52625pt>
+<theory/pheno/Higgs_XS_7TeV.pdf, id=181, 569.12625pt x 408.52625pt>
 File: theory/pheno/Higgs_XS_7TeV.pdf Graphic file (type pdf)
 
 <use theory/pheno/Higgs_XS_7TeV.pdf>
-<theory/pheno/Higgs_XS_8TeV_lx.pdf, id=122, 569.12625pt x 408.52625pt>
+<theory/pheno/Higgs_XS_8TeV_lx.pdf, id=182, 569.12625pt x 408.52625pt>
 File: theory/pheno/Higgs_XS_8TeV_lx.pdf Graphic file (type pdf)
 
 <use theory/pheno/Higgs_XS_8TeV_lx.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26 <./theory/pheno/w12_blueband.jpg>] [27 <./theory/pheno/allprods_new.pdf>] 
-[28 <./theory/pheno/Higgs_XS_7TeV.pdf> <./theory/pheno/Higgs_XS_8TeV_lx.pdf, pa
+ [44 <./theory/pheno/w12_blueband.jpg>] [45 <./theory/pheno/allprods_new.pdf>] 
+[46 <./theory/pheno/Higgs_XS_7TeV.pdf> <./theory/pheno/Higgs_XS_8TeV_lx.pdf, pa
 ge is rotated 90 degrees>]
-<theory/pheno/YRHXS_BR_fig3.pdf, id=194, 569.12625pt x 546.04pt>
+<theory/pheno/YRHXS_BR_fig3.pdf, id=254, 569.12625pt x 546.04pt>
 File: theory/pheno/YRHXS_BR_fig3.pdf Graphic file (type pdf)
 
 <use theory/pheno/YRHXS_BR_fig3.pdf>
-<theory/pheno/YRHXS_BR_fig2.pdf, id=195, 569.12625pt x 546.04pt>
+<theory/pheno/YRHXS_BR_fig2.pdf, id=255, 569.12625pt x 546.04pt>
 File: theory/pheno/YRHXS_BR_fig2.pdf Graphic file (type pdf)
 
-<use theory/pheno/YRHXS_BR_fig2.pdf>) (./detector/detector.tex [29 <./theory/ph
-eno/YRHXS_BR_fig3.pdf> <./theory/pheno/YRHXS_BR_fig2.pdf>] [30
+<use theory/pheno/YRHXS_BR_fig2.pdf>) (./detector/detector.tex [47 <./theory/ph
+eno/YRHXS_BR_fig3.pdf> <./theory/pheno/YRHXS_BR_fig2.pdf>] [48
 
 ]
 Chapter 3.
-[31] <detector/CERN.jpg, id=230, 997.7275pt x 637.38126pt>
+[49] <detector/CERN.jpg, id=290, 997.7275pt x 637.38126pt>
 File: detector/CERN.jpg Graphic file (type jpg)
 
-<use detector/CERN.jpg> [32 <./detector/CERN.jpg>]
+<use detector/CERN.jpg> [50 <./detector/CERN.jpg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33]
-<detector/cmsdetector.pdf, id=237, 796.9775pt x 597.23125pt>
+ [51]
+<detector/cmsdetector.pdf, id=297, 796.9775pt x 597.23125pt>
 File: detector/cmsdetector.pdf Graphic file (type pdf)
 
-<use detector/cmsdetector.pdf> [34 <./detector/cmsdetector.pdf>]
-<detector/trcker/trcker.pdf, id=254, 253.94875pt x 172.645pt>
+<use detector/cmsdetector.pdf> [52 <./detector/cmsdetector.pdf>]
+<detector/trcker/trcker.pdf, id=314, 253.94875pt x 172.645pt>
 File: detector/trcker/trcker.pdf Graphic file (type pdf)
 
 <use detector/trcker/trcker.pdf>
 
 pdfTeX warning: pdflatex (file ./detector/trcker/zresotrcker.pdf): PDF inclusio
 n: found PDF version <1.5>, but at most version <1.4> allowed
-<detector/trcker/zresotrcker.pdf, id=255, 204.86136pt x 196.61455pt>
+<detector/trcker/zresotrcker.pdf, id=315, 204.86136pt x 196.61455pt>
 File: detector/trcker/zresotrcker.pdf Graphic file (type pdf)
 
 <use detector/trcker/zresotrcker.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35 <./detector/trcker/trcker.pdf>]
+ [53 <./detector/trcker/trcker.pdf>]
 Underfull \vbox (badness 5954) has occurred while \output is active []
 
- [36 <./detector/trcker/zresotrcker.pdf>] [37]
-<detector/ecal/clustering.png, id=273, 892.33376pt x 423.5825pt>
+ [54 <./detector/trcker/zresotrcker.pdf>] [55]
+<detector/ecal/clustering.png, id=333, 892.33376pt x 423.5825pt>
 File: detector/ecal/clustering.png Graphic file (type png)
 
 <use detector/ecal/clustering.png>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38 <./detector/ecal/clustering.png (PNG copy)>]
-<detector/ecal/laser.pdf, id=277, 361.35pt x 252.945pt>
+ [56 <./detector/ecal/clustering.png (PNG copy)>]
+<detector/ecal/laser.pdf, id=337, 361.35pt x 252.945pt>
 File: detector/ecal/laser.pdf Graphic file (type pdf)
 
 <use detector/ecal/laser.pdf>
-<detector/ecal/scaleeop.pdf, id=278, 569.12625pt x 270.00874pt>
+<detector/ecal/scaleeop.pdf, id=338, 569.12625pt x 270.00874pt>
 File: detector/ecal/scaleeop.pdf Graphic file (type pdf)
 
-<use detector/ecal/scaleeop.pdf> [39 <./detector/ecal/laser.pdf>]
+<use detector/ecal/scaleeop.pdf> [57 <./detector/ecal/laser.pdf>]
 Underfull \vbox (badness 6094) has occurred while \output is active []
 
- [40 <./detector/ecal/scaleeop.pdf, page is rotated 90 degrees>]
-<detector/r9eg.pdf, id=337, 569.12625pt x 546.04pt>
+ [58 <./detector/ecal/scaleeop.pdf, page is rotated 90 degrees>]
+<detector/r9eg.pdf, id=397, 569.12625pt x 546.04pt>
 File: detector/r9eg.pdf Graphic file (type pdf)
  <use detector/r9eg.pdf>
-<detector/sieieeg.pdf, id=338, 569.12625pt x 546.04pt>
+<detector/sieieeg.pdf, id=398, 569.12625pt x 546.04pt>
 File: detector/sieieeg.pdf Graphic file (type pdf)
 
-<use detector/sieieeg.pdf>) (./detector/l1trigger.tex [41 <./detector/r9eg.pdf,
+<use detector/sieieeg.pdf>) (./detector/l1trigger.tex [59 <./detector/r9eg.pdf,
  page is rotated 90 degrees> <./detector/sieieeg.pdf, page is rotated 90 degree
-s>] <detector/l1jet/bias.pdf, id=428, 569.12625pt x 385.44pt>
+s>] <detector/l1jet/bias.pdf, id=488, 569.12625pt x 385.44pt>
 File: detector/l1jet/bias.pdf Graphic file (type pdf)
 
-<use detector/l1jet/bias.pdf> [42]
-<detector/l1jet/egcorrfunc.pdf, id=432, 569.12625pt x 408.52625pt>
+<use detector/l1jet/bias.pdf> [60]
+<detector/l1jet/egcorrfunc.pdf, id=492, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcorrfunc.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcorrfunc.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 <./detector/l1jet/bias.pdf, page is rotated 90 degrees>]
-<detector/l1jet/rspvspt.pdf, id=480, 569.12625pt x 546.04pt>
+ [61 <./detector/l1jet/bias.pdf, page is rotated 90 degrees>]
+<detector/l1jet/rspvspt.pdf, id=540, 569.12625pt x 546.04pt>
 File: detector/l1jet/rspvspt.pdf Graphic file (type pdf)
 
 <use detector/l1jet/rspvspt.pdf>
-<detector/l1jet/rspvseta.pdf, id=481, 569.12625pt x 546.04pt>
+<detector/l1jet/rspvseta.pdf, id=541, 569.12625pt x 546.04pt>
 File: detector/l1jet/rspvseta.pdf Graphic file (type pdf)
 
 <use detector/l1jet/rspvseta.pdf>
-<detector/l1jet/MCresolution.pdf, id=482, 569.12625pt x 408.52625pt>
+<detector/l1jet/MCresolution.pdf, id=542, 569.12625pt x 408.52625pt>
 File: detector/l1jet/MCresolution.pdf Graphic file (type pdf)
 
 <use detector/l1jet/MCresolution.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44 <./detector/l1jet/egcorrfunc.pdf, page is rotated 90 degrees>] [45 <./dete
+ [62 <./detector/l1jet/egcorrfunc.pdf, page is rotated 90 degrees>] [63 <./dete
 ctor/l1jet/rspvspt.pdf, page is rotated 90 degrees> <./detector/l1jet/rspvseta.
 pdf, page is rotated 90 degrees> <./detector/l1jet/MCresolution.pdf, page is ro
-tated 90 degrees>] <detector/l1jet/DataResolution.pdf, id=661, 569.12625pt x 42
+tated 90 degrees>] <detector/l1jet/DataResolution.pdf, id=721, 569.12625pt x 42
 4.58624pt>
 File: detector/l1jet/DataResolution.pdf Graphic file (type pdf)
 
-<use detector/l1jet/DataResolution.pdf>) (./hgg7TeV/hgg7TeV.tex [46] [47 <./det
-ector/l1jet/DataResolution.pdf, page is rotated 90 degrees>] [48
+<use detector/l1jet/DataResolution.pdf>) (./hgg7TeV/hgg7TeV.tex [64] [65 <./det
+ector/l1jet/DataResolution.pdf, page is rotated 90 degrees>] [66
 
 ]
 Chapter 4.
-[49] <hgg7TeV/generalPlots/mvaflowchart.pdf, id=720, 1941.2525pt x 728.7225pt>
+[67] <hgg7TeV/generalPlots/mvaflowchart.pdf, id=779, 1941.2525pt x 728.7225pt>
 File: hgg7TeV/generalPlots/mvaflowchart.pdf Graphic file (type pdf)
 
-<use hgg7TeV/generalPlots/mvaflowchart.pdf> [50 <./hgg7TeV/generalPlots/mvaflow
+<use hgg7TeV/generalPlots/mvaflowchart.pdf> [68 <./hgg7TeV/generalPlots/mvaflow
 chart.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
+ [69]
 Underfull \vbox (badness 1248) has occurred while \output is active []
 
- [52]
+ [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
+ [71]
 
 pdfTeX warning: pdflatex (file ./hgg7TeV/generalPlots/regrresall.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<hgg7TeV/generalPlots/regrresall.pdf, id=739, 569.12625pt x 549.05125pt>
+<hgg7TeV/generalPlots/regrresall.pdf, id=797, 569.12625pt x 549.05125pt>
 File: hgg7TeV/generalPlots/regrresall.pdf Graphic file (type pdf)
 
-<use hgg7TeV/generalPlots/regrresall.pdf> [54] [55 <./hgg7TeV/generalPlots/regr
+<use hgg7TeV/generalPlots/regrresall.pdf> [72] [73 <./hgg7TeV/generalPlots/regr
 resall.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-<hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, id=764, 569.12625pt x 408.52625pt>
+ [74]
+<hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, id=822, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/rightwrongvtxpeak.pdf Graphic file (type pdf)
 <use hgg7TeV/generalPlots/rightwrongvtxpeak.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, page is rotated 90 degrees>
+ [75 <./hgg7TeV/generalPlots/rightwrongvtxpeak.pdf, page is rotated 90 degrees>
 ]
-<hgg7TeV/generalPlots/vtxEffHMC.pdf, id=811, 569.12625pt x 408.52625pt>
+<hgg7TeV/generalPlots/vtxEffHMC.pdf, id=869, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/vtxEffHMC.pdf Graphic file (type pdf)
 
 <use hgg7TeV/generalPlots/vtxEffHMC.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./hgg7TeV/generalPlots/vtxEffHMC.pdf, page is rotated 90 degrees>]
-<hgg7TeV/generalPlots/PT_vtx_z_2011A.png, id=858, 614.295pt x 562.1pt>
+ [76 <./hgg7TeV/generalPlots/vtxEffHMC.pdf, page is rotated 90 degrees>]
+<hgg7TeV/generalPlots/PT_vtx_z_2011A.png, id=916, 614.295pt x 562.1pt>
 File: hgg7TeV/generalPlots/PT_vtx_z_2011A.png Graphic file (type png)
 
 <use hgg7TeV/generalPlots/PT_vtx_z_2011A.png>
-<hgg7TeV/generalPlots/PT_vtx_z_2011B.png, id=859, 617.30624pt x 567.11874pt>
+<hgg7TeV/generalPlots/PT_vtx_z_2011B.png, id=917, 617.30624pt x 567.11874pt>
 File: hgg7TeV/generalPlots/PT_vtx_z_2011B.png Graphic file (type png)
 
-<use hgg7TeV/generalPlots/PT_vtx_z_2011B.png> [59 <./hgg7TeV/generalPlots/PT_vt
+<use hgg7TeV/generalPlots/PT_vtx_z_2011B.png> [77 <./hgg7TeV/generalPlots/PT_vt
 x_z_2011A.png (PNG copy)> <./hgg7TeV/generalPlots/PT_vtx_z_2011B.png (PNG copy)
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60]
-[61]
+ [78]
+[79]
 Underfull \vbox (badness 1831) has occurred while \output is active []
 
- [62]
-<hgg7TeV/variablePlots/pt_1om.pdf, id=873, 569.12625pt x 408.52625pt>
+ [80]
+<hgg7TeV/variablePlots/pt_1om.pdf, id=931, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_1om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_1om.pdf>
-<hgg7TeV/variablePlots/pt_2om.pdf, id=874, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/pt_2om.pdf, id=932, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/pt_2om.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/pt_2om.pdf>
-<hgg7TeV/variablePlots/phoeta_1.pdf, id=875, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_1.pdf, id=933, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_1.pdf>
-<hgg7TeV/variablePlots/phoeta_2.pdf, id=876, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoeta_2.pdf, id=934, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoeta_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoeta_2.pdf>
-<hgg7TeV/variablePlots/cosdphi.pdf, id=877, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/cosdphi.pdf, id=935, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/cosdphi.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/cosdphi.pdf>
-<hgg7TeV/variablePlots/phoid_1.pdf, id=878, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoid_1.pdf, id=936, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_1.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_1.pdf>
-<hgg7TeV/variablePlots/phoid_2.pdf, id=879, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/phoid_2.pdf, id=937, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/phoid_2.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/phoid_2.pdf>
-<hgg7TeV/variablePlots/sigmrv.pdf, id=880, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmrv.pdf, id=938, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmrv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmrv.pdf>
-<hgg7TeV/variablePlots/sigmwv.pdf, id=881, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/sigmwv.pdf, id=939, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/sigmwv.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/sigmwv.pdf>
-<hgg7TeV/variablePlots/bdtoutput.pdf, id=882, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/bdtoutput.pdf, id=940, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/bdtoutput.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/bdtoutput.pdf>
-<hgg7TeV/variablePlots/mass.pdf, id=883, 569.12625pt x 408.52625pt>
+<hgg7TeV/variablePlots/mass.pdf, id=941, 569.12625pt x 408.52625pt>
 File: hgg7TeV/variablePlots/mass.pdf Graphic file (type pdf)
 
 <use hgg7TeV/variablePlots/mass.pdf>
-<hgg7TeV/zeeValidation/zeevalidationdipho.pdf, id=884, 569.12625pt x 408.52625p
+<hgg7TeV/zeeValidation/zeevalidationdipho.pdf, id=942, 569.12625pt x 408.52625p
 t>
 File: hgg7TeV/zeeValidation/zeevalidationdipho.pdf Graphic file (type pdf)
  <use hgg7TeV/zeeValidation/zeevalidationdipho.pdf>
-<hgg7TeV/zeeValidation/zeevalidationdipho_ratio.pdf, id=885, 569.12625pt x 164.
+<hgg7TeV/zeeValidation/zeevalidationdipho_ratio.pdf, id=943, 569.12625pt x 164.
 615pt>
 File: hgg7TeV/zeeValidation/zeevalidationdipho_ratio.pdf Graphic file (type pdf
 )
- <use hgg7TeV/zeeValidation/zeevalidationdipho_ratio.pdf> [63]
-<hgg7TeV/zeeValidation/sigmaE_EB.pdf, id=892, 569.12625pt x 546.04pt>
+ <use hgg7TeV/zeeValidation/zeevalidationdipho_ratio.pdf> [81]
+<hgg7TeV/zeeValidation/sigmaE_EB.pdf, id=949, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/sigmaE_EB.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/sigmaE_EB.pdf>
-<hgg7TeV/zeeValidation/sigmaE_EE.pdf, id=893, 569.12625pt x 546.04pt>
+<hgg7TeV/zeeValidation/sigmaE_EE.pdf, id=950, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/sigmaE_EE.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/sigmaE_EE.pdf>
-<hgg7TeV/zeeValidation/sigmaE_EB_ratio.pdf, id=894, 569.12625pt x 164.615pt>
+<hgg7TeV/zeeValidation/sigmaE_EB_ratio.pdf, id=951, 569.12625pt x 164.615pt>
 File: hgg7TeV/zeeValidation/sigmaE_EB_ratio.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/sigmaE_EB_ratio.pdf>
-<hgg7TeV/zeeValidation/sigmaE_EE_ratio.pdf, id=895, 569.12625pt x 164.615pt>
+<hgg7TeV/zeeValidation/sigmaE_EE_ratio.pdf, id=952, 569.12625pt x 164.615pt>
 File: hgg7TeV/zeeValidation/sigmaE_EE_ratio.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/sigmaE_EE_ratio.pdf>
-<hgg7TeV/zeeValidation/phoID_EB.pdf, id=896, 569.12625pt x 546.04pt>
+<hgg7TeV/zeeValidation/phoID_EB.pdf, id=953, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/phoID_EB.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EB.pdf>
-<hgg7TeV/zeeValidation/phoID_EE.pdf, id=897, 569.12625pt x 546.04pt>
+<hgg7TeV/zeeValidation/phoID_EE.pdf, id=954, 569.12625pt x 546.04pt>
 File: hgg7TeV/zeeValidation/phoID_EE.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EE.pdf>
-<hgg7TeV/zeeValidation/phoID_EB_ratio.pdf, id=898, 569.12625pt x 164.615pt>
+<hgg7TeV/zeeValidation/phoID_EB_ratio.pdf, id=955, 569.12625pt x 164.615pt>
 File: hgg7TeV/zeeValidation/phoID_EB_ratio.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EB_ratio.pdf>
-<hgg7TeV/zeeValidation/phoID_EE_ratio.pdf, id=899, 569.12625pt x 164.615pt>
+<hgg7TeV/zeeValidation/phoID_EE_ratio.pdf, id=956, 569.12625pt x 164.615pt>
 File: hgg7TeV/zeeValidation/phoID_EE_ratio.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/phoID_EE_ratio.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64 <./hgg7TeV/variablePlots/pt_1om.pdf, page is rotated 90 degrees> <./hgg7Te
+ [82 <./hgg7TeV/variablePlots/pt_1om.pdf, page is rotated 90 degrees> <./hgg7Te
 V/variablePlots/pt_2om.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlot
 s/phoeta_1.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/phoeta_2.p
 df, page is rotated 90 degrees> <./hgg7TeV/variablePlots/cosdphi.pdf, page is r
 otated 90 degrees>]
-<hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, id=1118, 569.12625pt x
+<hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, id=1175, 569.12625pt x
  408.52625pt>
 File: hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf Graphic file (type
  pdf)
@@ -1236,206 +1296,206 @@ File: hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf Graphic file (type
 (./hgg7TeV/signalextraction.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65 <./hgg7TeV/variablePlots/phoid_1.pdf, page is rotated 90 degrees> <./hgg7T
+ [83 <./hgg7TeV/variablePlots/phoid_1.pdf, page is rotated 90 degrees> <./hgg7T
 eV/variablePlots/phoid_2.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePl
 ots/sigmrv.pdf, page is rotated 90 degrees> <./hgg7TeV/variablePlots/sigmwv.pdf
 , page is rotated 90 degrees>]
 
-LaTeX Warning: Text page 66 contains only floats.
+LaTeX Warning: Text page 84 contains only floats.
 
-[66 <./hgg7TeV/variablePlots/bdtoutput.pdf, page is rotated 90 degrees> <./hgg7
-TeV/variablePlots/mass.pdf, page is rotated 90 degrees>] [67 <./hgg7TeV/zeeVali
+[84 <./hgg7TeV/variablePlots/bdtoutput.pdf, page is rotated 90 degrees> <./hgg7
+TeV/variablePlots/mass.pdf, page is rotated 90 degrees>] [85 <./hgg7TeV/zeeVali
 dation/zeevalidationdipho.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValida
-tion/zeevalidationdipho_ratio.pdf, page is rotated 90 degrees>] [68 <./hgg7TeV/
+tion/zeevalidationdipho_ratio.pdf, page is rotated 90 degrees>] [86 <./hgg7TeV/
 zeeValidation/sigmaE_EB.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValidati
 on/sigmaE_EE.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValidation/sigmaE_E
 B_ratio.pdf, page is rotated 90 degrees> <./hgg7TeV/zeeValidation/sigmaE_EE_rat
-io.pdf, page is rotated 90 degrees>] [69 <./hgg7TeV/zeeValidation/phoID_EB.pdf,
+io.pdf, page is rotated 90 degrees>] [87 <./hgg7TeV/zeeValidation/phoID_EB.pdf,
  page is rotated 90 degrees> <./hgg7TeV/zeeValidation/phoID_EE.pdf, page is rot
 ated 90 degrees> <./hgg7TeV/zeeValidation/phoID_EB_ratio.pdf, page is rotated 9
 0 degrees> <./hgg7TeV/zeeValidation/phoID_EE_ratio.pdf, page is rotated 90 degr
 ees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, page is rotated
- 90 degrees>] <hgg7TeV/sidebandMvaPlots/fom.pdf, id=1869, 569.12625pt x 408.526
+ [88 <./hgg7TeV/variablePlots/cut_VBF_dEta_sequential_cat0.pdf, page is rotated
+ 90 degrees>] <hgg7TeV/sidebandMvaPlots/fom.pdf, id=1926, 569.12625pt x 408.526
 25pt>
 File: hgg7TeV/sidebandMvaPlots/fom.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/fom.pdf> [71 <./hgg7TeV/sidebandMvaPlots/fom.pdf,
+<use hgg7TeV/sidebandMvaPlots/fom.pdf> [89 <./hgg7TeV/sidebandMvaPlots/fom.pdf,
  page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=1916, 934.49126pt x 686.565pt>
+<hgg7TeV/sidebandMvaPlots/bdt2dplot.png, id=1973, 934.49126pt x 686.565pt>
 File: hgg7TeV/sidebandMvaPlots/bdt2dplot.png Graphic file (type png)
 
 <use hgg7TeV/sidebandMvaPlots/bdt2dplot.png>
 Underfull \vbox (badness 1117) has occurred while \output is active []
 
- [72 <./hgg7TeV/sidebandMvaPlots/bdt2dplot.png (PNG copy)>]
-<hgg7TeV/sidebandMvaPlots/roc.pdf, id=1920, 569.12625pt x 408.52625pt>
+ [90 <./hgg7TeV/sidebandMvaPlots/bdt2dplot.png (PNG copy)>]
+<hgg7TeV/sidebandMvaPlots/roc.pdf, id=1977, 569.12625pt x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/roc.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/roc.pdf>
-<hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf, id=1921, 569.12625pt x 480.
+<hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf, id=1978, 569.12625pt x 480.
 79625pt>
 File: hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf Graphic file (type pdf)
 
  <use hgg7TeV/sidebandMvaPlots/testvstrain_nolegend.pdf>
-<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=1922, 569.12625pt 
+<hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf, id=1979, 569.12625pt 
 x 480.79625pt>
 File: hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf Graphic file (typ
 e pdf)
  <use hgg7TeV/sidebandMvaPlots/testvstrain-finalbins-neat.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73 <./hgg7TeV/sidebandMvaPlots/roc.pdf, page is rotated 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, id=1970, 569.12625pt x 408.5
+ [91 <./hgg7TeV/sidebandMvaPlots/roc.pdf, page is rotated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, id=2027, 569.12625pt x 408.5
 2625pt>
 File: hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf> [74 <./hgg7TeV/sideband
+ <use hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf> [92 <./hgg7TeV/sideband
 MvaPlots/testvstrain_nolegend.pdf, page is rotated 90 degrees> <./hgg7TeV/sideb
 andMvaPlots/testvstrain-finalbins-neat.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75 <./hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, page is rotated 90 de
+ [93 <./hgg7TeV/sidebandMvaPlots/data-mc-sbsum-mh125.pdf, page is rotated 90 de
 grees>]
-<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=2106, 569.12625pt x 385.44pt>
+<hgg7TeV/sidebandMvaPlots/binningscheme.pdf, id=2163, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/binningscheme.pdf Graphic file (type pdf)
 
-<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf> [76]
-<hgg7TeV/sidebandMvaPlots/fits/massfit.pdf, id=2110, 555.41983pt x 370.28209pt>
+<use hgg7TeV/sidebandMvaPlots/binningscheme.pdf> [94]
+<hgg7TeV/sidebandMvaPlots/fits/massfit.pdf, id=2167, 555.41983pt x 370.28209pt>
 File: hgg7TeV/sidebandMvaPlots/fits/massfit.pdf Graphic file (type pdf)
 <use hgg7TeV/sidebandMvaPlots/fits/massfit.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77 <./hgg7TeV/sidebandMvaPlots/binningscheme.pdf, page is rotated 90 degrees>
+ [95 <./hgg7TeV/sidebandMvaPlots/binningscheme.pdf, page is rotated 90 degrees>
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78 <./hgg7TeV/sidebandMvaPlots/fits/massfit.pdf>]
-<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=2206, 569.12625pt x 385.44pt
+ [96 <./hgg7TeV/sidebandMvaPlots/fits/massfit.pdf>]
+<hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, id=2263, 569.12625pt x 385.44pt
 >
 File: hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf Graphic file (type pdf)
- <use hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf> [79]
-<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=2211, 569.12625pt x 54
+ <use hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf> [97]
+<hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, id=2268, 569.12625pt x 54
 6.04pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=2212, 569.12625pt x 546.04
+<hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, id=2269, 569.12625pt x 546.04
 pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf Graphic file (type pdf)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf>
-<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=2213, 569.12625pt x 40
+<hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, id=2270, 569.12625pt x 40
 8.52625pt>
 File: hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, page is rotated 90 degre
+ [98 <./hgg7TeV/sidebandMvaPlots/fits/totalErrors.pdf, page is rotated 90 degre
 es>]
-[81 <./hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, page is rotated 90 
+[99 <./hgg7TeV/sidebandMvaPlots/datasidebands_diphobdt.pdf, page is rotated 90 
 degrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_dmom.pdf, page is rotated 90
  degrees> <./hgg7TeV/sidebandMvaPlots/datasidebands_finalbdt.pdf, page is rotat
 ed 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=2392, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, id=2449, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=2393, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, id=2450, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=2394, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, id=2451, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=2395, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, id=2452, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=2396, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf, id=2453, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=2397, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf, id=2454, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=2398, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf, id=2455, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_7.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=2399, 569.12625pt x 37
+<hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf, id=2456, 569.12625pt x 37
 3.395pt>
 File: hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf Graphic file (type pd
 f)
  <use hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_8.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=2400, 569.12625pt x 552.
+<hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf, id=2457, 569.12625pt x 552.
 0625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf Graphic file (type pdf)
 
  <use hgg7TeV/sidebandMvaPlots/fits/covariance_m124.pdf>
-<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=2401, 569.12625pt 
+<hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, id=2458, 569.12625pt 
 x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf Graphic file (typ
 e pdf)
  <use hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
-[83 <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is rotated 90 
-degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, page is rotate
-d 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, page is r
-otated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, page
- is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf,
- page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_6
-.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_
-bin_7.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg
-_bdt_bin_8.pdf, page is rotated 90 degrees>] [84 <./hgg7TeV/sidebandMvaPlots/fi
-ts/covariance_m124.pdf, page is rotated 90 degrees>]
+ [100]
+[101 <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_1.pdf, page is rotated 90
+ degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_2.pdf, page is rotat
+ed 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_3.pdf, page is 
+rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_4.pdf, pag
+e is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_5.pdf
+, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt_bin_
+6.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_bg_bdt
+_bin_7.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/fits/m124_b
+g_bdt_bin_8.pdf, page is rotated 90 degrees>] [102 <./hgg7TeV/sidebandMvaPlots/
+fits/covariance_m124.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 3302) has occurred while \output is active []
 
- [85 <./hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, page is rotate
-d 90 degrees>]
+ [103 <./hgg7TeV/sidebandMvaPlots/fits/fracErrorvsNsidebands.pdf, page is rotat
+ed 90 degrees>]
 Missing character: There is no ‚ in font cmr8!
 Missing character: There is no à in font cmr8!
 Missing character: There is no í in font cmr8!
- [86]
-<hgg7TeV/generalPlots/vtxReweight.pdf, id=2848, 569.12625pt x 408.52625pt>
+ [104]
+<hgg7TeV/generalPlots/vtxReweight.pdf, id=2905, 569.12625pt x 408.52625pt>
 File: hgg7TeV/generalPlots/vtxReweight.pdf Graphic file (type pdf)
 
 <use hgg7TeV/generalPlots/vtxReweight.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale.pdf
-, id=2849, 569.12625pt x 552.0625pt>
+, id=2906, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scal
 e.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale
 .pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.pdf, 
-id=2850, 569.12625pt x 552.0625pt>
+id=2907, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.
 pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_res.p
 df>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_sc
-ale.pdf, id=2851, 569.12625pt x 552.0625pt>
+ale.pdf, id=2908, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_scale.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_
 E_scale.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves_E_re
-s.pdf, id=2852, 569.12625pt x 552.0625pt>
+s.pdf, id=2909, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_curves
 _E_res.pdf Graphic file (type pdf)
 
@@ -1443,8 +1503,8 @@ _E_res.pdf Graphic file (type pdf)
 E_res.pdf>
 Underfull \vbox (badness 1946) has occurred while \output is active []
 
- [87]
-<hgg7TeV/generalPlots/effAcc_vs_mass.pdf, id=2856, 569.12625pt x 385.44pt>
+ [105]
+<hgg7TeV/generalPlots/effAcc_vs_mass.pdf, id=2913, 569.12625pt x 385.44pt>
 File: hgg7TeV/generalPlots/effAcc_vs_mass.pdf Graphic file (type pdf)
 
 <use hgg7TeV/generalPlots/effAcc_vs_mass.pdf>
@@ -1455,120 +1515,120 @@ Overfull \hbox (0.78737pt too wide) in paragraph at lines 555--638
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88 <./hgg7TeV/generalPlots/vtxReweight.pdf, page is rotated 90 degrees>] [89 
-<./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale.p
-df, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systema
-tic_interpolation_test_E_res.pdf, page is rotated 90 degrees> <./hgg7TeV/sideba
-ndMvaPlots/signalModel/systematic_interpolation_test_curves_E_scale.pdf, page i
-s rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interp
-olation_test_curves_E_res.pdf, page is rotated 90 degrees>] [90 <./hgg7TeV/gene
-ralPlots/effAcc_vs_mass.pdf, page is rotated 90 degrees>] [91]
-<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=3128, 569.12625p
+ [106 <./hgg7TeV/generalPlots/vtxReweight.pdf, page is rotated 90 degrees>] [10
+7 <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_E_scale
+.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/syste
+matic_interpolation_test_E_res.pdf, page is rotated 90 degrees> <./hgg7TeV/side
+bandMvaPlots/signalModel/systematic_interpolation_test_curves_E_scale.pdf, page
+ is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_inte
+rpolation_test_curves_E_res.pdf, page is rotated 90 degrees>] [108 <./hgg7TeV/g
+eneralPlots/effAcc_vs_mass.pdf, page is rotated 90 degrees>] [109]
+<hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, id=3185, 569.12625p
 t x 408.52625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf Graphic file (t
 ype pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf>
-<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=3129, 569.12625pt x 217.81375pt>
+<hgg7TeV/zeeValidation/zeebdtoutput.pdf, id=3186, 569.12625pt x 217.81375pt>
 File: hgg7TeV/zeeValidation/zeebdtoutput.pdf Graphic file (type pdf)
 
 <use hgg7TeV/zeeValidation/zeebdtoutput.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92 <./hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, page is rota
-ted 90 degrees>]
-<hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf, id=3176, 569.12625pt x
+ [110 <./hgg7TeV/sidebandMvaPlots/signalModel/sigInterpTest135.pdf, page is rot
+ated 90 degrees>]
+<hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf, id=3233, 569.12625pt x
  385.44pt>
 File: hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf Graphic file (type
  pdf)
  <use hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf>
-<hgg7TeV/sidebandMvaPlots/soverb_m125.pdf, id=3177, 569.12625pt x 385.44pt>
+<hgg7TeV/sidebandMvaPlots/soverb_m125.pdf, id=3234, 569.12625pt x 385.44pt>
 File: hgg7TeV/sidebandMvaPlots/soverb_m125.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/soverb_m125.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93 <./hgg7TeV/zeeValidation/zeebdtoutput.pdf, page is rotated 90 degrees>] [9
-4 <./hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf, page is rotated 90
- degrees> <./hgg7TeV/sidebandMvaPlots/soverb_m125.pdf, page is rotated 90 degre
-es>])
-(./statistics/statistics.tex [95] [96
+ [111 <./hgg7TeV/zeeValidation/zeebdtoutput.pdf, page is rotated 90 degrees>] [
+112 <./hgg7TeV/sidebandMvaPlots/hgg_MassWindow_model_m125.pdf, page is rotated 
+90 degrees> <./hgg7TeV/sidebandMvaPlots/soverb_m125.pdf, page is rotated 90 deg
+rees>])
+(./statistics/statistics.tex [113] [114
 
 ]
 Chapter 5.
-[97]
+[115]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98]
+ [116]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99]
-<hgg7TeV/statsPlots/qmu_example_130.pdf, id=3329, 569.12625pt x 524.96124pt>
+ [117]
+<hgg7TeV/statsPlots/qmu_example_130.pdf, id=3386, 569.12625pt x 524.96124pt>
 File: hgg7TeV/statsPlots/qmu_example_130.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/qmu_example_130.pdf>
 Underfull \vbox (badness 4084) has occurred while \output is active []
 
- [100]
-[101 <./hgg7TeV/statsPlots/qmu_example_130.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=3379, 569.12625pt x 529.98p
+ [118]
+[119 <./hgg7TeV/statsPlots/qmu_example_130.pdf, page is rotated 90 degrees>]
+<hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, id=3436, 569.12625pt x 529.98p
 t>
 File: hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf Graphic file (type pdf)
  <use hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf>
 Underfull \vbox (badness 1931) has occurred while \output is active []
 
- [102]
-[103 <./hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, page is rotated 90 degr
-ees>] <hgg7TeV/statsPlots/limit-100MeV.pdf, id=3430, 569.12625pt x 467.7475pt>
+ [120]
+[121 <./hgg7TeV/statsPlots/q0_example_125_chi2_sqr.pdf, page is rotated 90 degr
+ees>] <hgg7TeV/statsPlots/limit-100MeV.pdf, id=3487, 569.12625pt x 467.7475pt>
 File: hgg7TeV/statsPlots/limit-100MeV.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/limit-100MeV.pdf> [104] [105 <./hgg7TeV/statsPlots/limi
+<use hgg7TeV/statsPlots/limit-100MeV.pdf> [122] [123 <./hgg7TeV/statsPlots/limi
 t-100MeV.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=3480, 569.12625pt x 408.52625pt>
+<hgg7TeV/statsPlots/pvals-100MeV.pdf, id=3537, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/pvals-100MeV.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/pvals-100MeV.pdf>
-<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=3481, 569.12625pt x 408.52625pt>
+<hgg7TeV/statsPlots/maxlh-100MeV.pdf, id=3538, 569.12625pt x 408.52625pt>
 File: hgg7TeV/statsPlots/maxlh-100MeV.pdf Graphic file (type pdf)
 
-<use hgg7TeV/statsPlots/maxlh-100MeV.pdf> [106 <./hgg7TeV/statsPlots/pvals-100M
+<use hgg7TeV/statsPlots/maxlh-100MeV.pdf> [124 <./hgg7TeV/statsPlots/pvals-100M
 eV.pdf, page is rotated 90 degrees>]
-<hgg7TeV/statsPlots/lee-extrap.pdf, id=3528, 569.12625pt x 552.0625pt>
+<hgg7TeV/statsPlots/lee-extrap.pdf, id=3585, 569.12625pt x 552.0625pt>
 File: hgg7TeV/statsPlots/lee-extrap.pdf Graphic file (type pdf)
 
 <use hgg7TeV/statsPlots/lee-extrap.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [107 <./hgg7TeV/statsPlots/maxlh-100MeV.pdf, page is rotated 90 degrees>] [108
+ [125 <./hgg7TeV/statsPlots/maxlh-100MeV.pdf, page is rotated 90 degrees>] [126
  <./hgg7TeV/statsPlots/lee-extrap.pdf, page is rotated 90 degrees>]
-<hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf, id=3621, 569.12625pt x 385.44pt>
+<hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf, id=3678, 569.12625pt x 385.44pt>
 File: hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf Graphic file (type pdf)
 
 <use hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109]
-<hgg8TeV/hgg_MassWindowLimit.pdf, id=3626, 569.12625pt x 546.04pt>
+ [127]
+<hgg8TeV/hgg_MassWindowLimit.pdf, id=3683, 569.12625pt x 546.04pt>
 File: hgg8TeV/hgg_MassWindowLimit.pdf Graphic file (type pdf)
 
 <use hgg8TeV/hgg_MassWindowLimit.pdf>
-<hgg8TeV/hgg_MassWindowPValue.pdf, id=3627, 569.12625pt x 546.04pt>
+<hgg8TeV/hgg_MassWindowPValue.pdf, id=3684, 569.12625pt x 546.04pt>
 File: hgg8TeV/hgg_MassWindowPValue.pdf Graphic file (type pdf)
 
 <use hgg8TeV/hgg_MassWindowPValue.pdf>) (./combinations/combinations.tex
-[110 <./hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf, page is rotated 90 degrees>
-] [111 <./hgg8TeV/hgg_MassWindowLimit.pdf, page is rotated 90 degrees> <./hgg8T
-eV/hgg_MassWindowPValue.pdf, page is rotated 90 degrees>] [112
+[128 <./hgg8TeV/hgg_MassWindow_model_m125_8TeV.pdf, page is rotated 90 degrees>
+] [129 <./hgg8TeV/hgg_MassWindowLimit.pdf, page is rotated 90 degrees> <./hgg8T
+eV/hgg_MassWindowPValue.pdf, page is rotated 90 degrees>] [130
 
 ]
 Chapter 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [113]
+ [131]
 Underfull \vbox (badness 2443) has occurred while \output is active []
 
- [114]
+ [132]
 Overfull \hbox (9.60313pt too wide) in paragraph at lines 108--130
  [] 
  []
@@ -1576,51 +1636,51 @@ Overfull \hbox (9.60313pt too wide) in paragraph at lines 108--130
 
 Underfull \vbox (badness 1231) has occurred while \output is active []
 
- [115]
-<combinations/diagnostics/tree_fit_sb_lumi.pdf, id=3776, 569.12625pt x 459.7175
+ [133]
+<combinations/diagnostics/tree_fit_sb_lumi.pdf, id=3833, 569.12625pt x 459.7175
 pt>
 File: combinations/diagnostics/tree_fit_sb_lumi.pdf Graphic file (type pdf)
  <use combinations/diagnostics/tree_fit_sb_lumi.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [116]
-<combinations/ichep2012/Figure_001-a.pdf, id=3780, 569.12625pt x 546.04pt>
+ [134]
+<combinations/ichep2012/Figure_001-a.pdf, id=3837, 569.12625pt x 546.04pt>
 File: combinations/ichep2012/Figure_001-a.pdf Graphic file (type pdf)
 
 <use combinations/ichep2012/Figure_001-a.pdf>
-<combinations/ichep2012/Figure_001-b.pdf, id=3781, 569.12625pt x 546.04pt>
+<combinations/ichep2012/Figure_001-b.pdf, id=3838, 569.12625pt x 546.04pt>
 File: combinations/ichep2012/Figure_001-b.pdf Graphic file (type pdf)
 
 <use combinations/ichep2012/Figure_001-b.pdf>
 Underfull \vbox (badness 1281) has occurred while \output is active []
 
- [117]
-[118 <./combinations/diagnostics/tree_fit_sb_lumi.pdf, page is rotated 90 degre
+ [135]
+[136 <./combinations/diagnostics/tree_fit_sb_lumi.pdf, page is rotated 90 degre
 es>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [119 <./combinations/ichep2012/Figure_001-a.pdf, page is rotated 90 degrees> <
+ [137 <./combinations/ichep2012/Figure_001-a.pdf, page is rotated 90 degrees> <
 ./combinations/ichep2012/Figure_001-b.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [120]
+ [138]
 Overfull \hbox (32.0528pt too wide) in paragraph at lines 334--395
  [][] 
  []
 
-<combinations/ichep2012/Figure_004-a.pdf, id=3924, 569.12625pt x 546.04pt>
+<combinations/ichep2012/Figure_004-a.pdf, id=3981, 569.12625pt x 546.04pt>
 File: combinations/ichep2012/Figure_004-a.pdf Graphic file (type pdf)
 
 <use combinations/ichep2012/Figure_004-a.pdf>
-<combinations/ichep2012/Figure_004-b.pdf, id=3925, 569.12625pt x 546.04pt>
+<combinations/ichep2012/Figure_004-b.pdf, id=3982, 569.12625pt x 546.04pt>
 File: combinations/ichep2012/Figure_004-b.pdf Graphic file (type pdf)
 
 <use combinations/ichep2012/Figure_004-b.pdf>
-<combinations/ichep2012/sqr_pvala_all_byresol.pdf, id=3926, 569.12625pt x 546.0
+<combinations/ichep2012/sqr_pvala_all_byresol.pdf, id=3983, 569.12625pt x 546.0
 4pt>
 File: combinations/ichep2012/sqr_pvala_all_byresol.pdf Graphic file (type pdf)
  <use combinations/ichep2012/sqr_pvala_all_byresol.pdf>
-<combinations/ichep2012/lee-combination-115-130.pdf, id=3927, 569.12625pt x 552
+<combinations/ichep2012/lee-combination-115-130.pdf, id=3984, 569.12625pt x 552
 .0625pt>
 File: combinations/ichep2012/lee-combination-115-130.pdf Graphic file (type pdf
 )
@@ -1628,163 +1688,215 @@ File: combinations/ichep2012/lee-combination-115-130.pdf Graphic file (type pdf
 (./combinations/properties.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [121]
-[122] [123 <./combinations/ichep2012/Figure_004-a.pdf, page is rotated 90 degre
+ [139]
+[140] [141 <./combinations/ichep2012/Figure_004-a.pdf, page is rotated 90 degre
 es> <./combinations/ichep2012/Figure_004-b.pdf, page is rotated 90 degrees>]
-[124 <./combinations/ichep2012/sqr_pvala_all_byresol.pdf, page is rotated 90 de
-grees>] [125 <./combinations/ichep2012/lee-combination-115-130.pdf, page is rot
+[142 <./combinations/ichep2012/sqr_pvala_all_byresol.pdf, page is rotated 90 de
+grees>] [143 <./combinations/ichep2012/lee-combination-115-130.pdf, page is rot
 ated 90 degrees>]
-<combinations/fceg_htt_2.pdf, id=4117, 569.12625pt x 546.04pt>
+<combinations/fceg_htt_2.pdf, id=4174, 569.12625pt x 546.04pt>
 File: combinations/fceg_htt_2.pdf Graphic file (type pdf)
 
 <use combinations/fceg_htt_2.pdf>
-<combinations/fceg_htt_1.pdf, id=4118, 569.12625pt x 546.04pt>
+<combinations/fceg_htt_1.pdf, id=4175, 569.12625pt x 546.04pt>
 File: combinations/fceg_htt_1.pdf Graphic file (type pdf)
 
 <use combinations/fceg_htt_1.pdf>
-<combinations/confcurve_htt.pdf, id=4119, 569.12625pt x 546.04pt>
+<combinations/confcurve_htt.pdf, id=4176, 569.12625pt x 546.04pt>
 File: combinations/confcurve_htt.pdf Graphic file (type pdf)
 
 <use combinations/confcurve_htt.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [126]
-[127] <combinations/Figure_007-b.pdf, id=4127, 569.12625pt x 546.04pt>
+ [144]
+[145] <combinations/Figure_007-b.pdf, id=4184, 569.12625pt x 546.04pt>
 File: combinations/Figure_007-b.pdf Graphic file (type pdf)
 
 <use combinations/Figure_007-b.pdf>
-<combinations/Figure_007-a.pdf, id=4128, 569.12625pt x 546.04pt>
+<combinations/Figure_007-a.pdf, id=4185, 569.12625pt x 546.04pt>
 File: combinations/Figure_007-a.pdf Graphic file (type pdf)
 
 <use combinations/Figure_007-a.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [128 <./combinations/fceg_htt_2.pdf, page is rotated 90 degrees> <./combinatio
-ns/fceg_htt_1.pdf, page is rotated 90 degrees>] [129 <./combinations/confcurve_
+ [146 <./combinations/fceg_htt_2.pdf, page is rotated 90 degrees> <./combinatio
+ns/fceg_htt_1.pdf, page is rotated 90 degrees>] [147 <./combinations/confcurve_
 htt.pdf, page is rotated 90 degrees>]
-<combinations/sqr_fc_ccc.pdf, id=4264, 569.12625pt x 546.04pt>
+<combinations/sqr_fc_ccc.pdf, id=4321, 569.12625pt x 546.04pt>
 File: combinations/sqr_fc_ccc.pdf Graphic file (type pdf)
 
 <use combinations/sqr_fc_ccc.pdf>
-<combinations/sqr_mlz_ccc_mH125.pdf, id=4265, 569.12625pt x 546.04pt>
+<combinations/sqr_mlz_ccc_mH125.pdf, id=4322, 569.12625pt x 546.04pt>
 File: combinations/sqr_mlz_ccc_mH125.pdf Graphic file (type pdf)
 
-<use combinations/sqr_mlz_ccc_mH125.pdf> [130 <./combinations/Figure_007-b.pdf,
+<use combinations/sqr_mlz_ccc_mH125.pdf> [148 <./combinations/Figure_007-b.pdf,
  page is rotated 90 degrees> <./combinations/Figure_007-a.pdf, page is rotated 
-90 degrees>] [131 <./combinations/sqr_fc_ccc.pdf, page is rotated 90 degrees> <
+90 degrees>] [149 <./combinations/sqr_fc_ccc.pdf, page is rotated 90 degrees> <
 ./combinations/sqr_mlz_ccc_mH125.pdf, page is rotated 90 degrees>]
-<combinations/sqr_rvrf_fc_2d.pdf, id=4444, 569.12625pt x 546.04pt>
+<combinations/sqr_rvrf_fc_2d.pdf, id=4501, 569.12625pt x 546.04pt>
 File: combinations/sqr_rvrf_fc_2d.pdf Graphic file (type pdf)
 
 <use combinations/sqr_rvrf_fc_2d.pdf>
-<combinations/sqr_rvrf_scan_2d_all_68.pdf, id=4445, 569.12625pt x 546.04pt>
+<combinations/sqr_rvrf_scan_2d_all_68.pdf, id=4502, 569.12625pt x 546.04pt>
 File: combinations/sqr_rvrf_scan_2d_all_68.pdf Graphic file (type pdf)
 
-<use combinations/sqr_rvrf_scan_2d_all_68.pdf> [132 <./combinations/sqr_rvrf_fc
+<use combinations/sqr_rvrf_scan_2d_all_68.pdf> [150 <./combinations/sqr_rvrf_fc
 _2d.pdf, page is rotated 90 degrees> <./combinations/sqr_rvrf_scan_2d_all_68.pd
 f, page is rotated 90 degrees>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
-<combinations/Figure_014-b.pdf, id=4539, 569.12625pt x 552.0625pt>
+ [151]
+<combinations/Figure_014-b.pdf, id=4596, 569.12625pt x 552.0625pt>
 File: combinations/Figure_014-b.pdf Graphic file (type pdf)
 
-<use combinations/Figure_014-b.pdf>) (./conclusions.tex [134 <./combinations/Fi
+<use combinations/Figure_014-b.pdf>) (./conclusions.tex [152 <./combinations/Fi
 gure_014-b.pdf, page is rotated 90 degrees>]
 Chapter 7.
-[135
+[153
 
-]))
+])) (./thesis.bbl [154]
+Underfull \hbox (badness 10000) in paragraph at lines 10--14
+[]\OT1/cmr/m/n/12 (+20) LEPEWWG.  The LEP Elec-troweak Work-ing Group.  2012.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--33
+[]\OT1/cmr/m/n/12 (+20) CERN.  CMS Com-pact Muon Solenoid.  Feb 2010.
+ []
+
+
+Underfull \vbox (badness 1484) has occurred while \output is active []
+
+ [155
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [156]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [157]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+
+Underfull \hbox (badness 1242) in paragraph at lines 323--327
+[]\OT1/cmr/m/n/12 (+20) The CMS Col-lab-o-ra-tion.  CMS Soft-ware Page.  2013. 
+ https://cms-cpt-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [158]
+Underfull \hbox (badness 10000) in paragraph at lines 405--411
+[]\OT1/cmr/m/n/12 (+20) G. Petruc-ciani.  Doc-u-men-ta-tion of the RooStats-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--411
+\OT1/cmr/m/n/12 (+20) based statis-tics tools for Higgs PAG.  2013.
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [159]
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Å in font cmr12!
+)
 \openout3 = `comment.cut'.
 
- (./comment.cut (./detector/appendices_detector.tex [136]
+
+(./comment.cut (./detector/appendices_detector.tex [160]
 Appendix A.
-<detector/l1jet/egcor0.pdf, id=4592, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor0.pdf, id=4669, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor0.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor0.pdf>
-<detector/l1jet/egcor1.pdf, id=4593, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor1.pdf, id=4670, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor1.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor1.pdf>
-<detector/l1jet/egcor2.pdf, id=4594, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor2.pdf, id=4671, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor2.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor2.pdf>
-<detector/l1jet/egcor3.pdf, id=4595, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor3.pdf, id=4672, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor3.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor3.pdf>
-<detector/l1jet/egcor4.pdf, id=4596, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor4.pdf, id=4673, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor4.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor4.pdf>
-<detector/l1jet/egcor5.pdf, id=4597, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor5.pdf, id=4674, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor5.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor5.pdf>
-<detector/l1jet/egcor6.pdf, id=4598, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor6.pdf, id=4675, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor6.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor6.pdf>
 
 LaTeX Warning: Float too large for page by 36.78645pt on input line 51.
 
-<detector/l1jet/egcor7.pdf, id=4599, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor7.pdf, id=4676, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor7.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor7.pdf>
-<detector/l1jet/egcor8.pdf, id=4600, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor8.pdf, id=4677, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor8.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor8.pdf>
-<detector/l1jet/egcor9.pdf, id=4601, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor9.pdf, id=4678, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor9.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor9.pdf>
-<detector/l1jet/egcor10.pdf, id=4602, 569.12625pt x 408.52625pt>
+<detector/l1jet/egcor10.pdf, id=4679, 569.12625pt x 408.52625pt>
 File: detector/l1jet/egcor10.pdf Graphic file (type pdf)
 
 <use detector/l1jet/egcor10.pdf>
-<detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf, id=4603, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf, id=4680, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_0_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf, id=4604, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf, id=4681, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_1_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf, id=4605, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf, id=4682, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_2_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf, id=4606, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf, id=4683, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_3_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf, id=4607, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf, id=4684, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_4_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf, id=4608, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf, id=4685, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_5_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf, id=4609, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf, id=4686, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_6_PtAll_u.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137
+ [161
 
 ]
-[138 <./detector/l1jet/egcor0.pdf, page is rotated 90 degrees> <./detector/l1je
+[162 <./detector/l1jet/egcor0.pdf, page is rotated 90 degrees> <./detector/l1je
 t/egcor1.pdf, page is rotated 90 degrees> <./detector/l1jet/egcor2.pdf, page is
  rotated 90 degrees> <./detector/l1jet/egcor3.pdf, page is rotated 90 degrees> 
 <./detector/l1jet/egcor4.pdf, page is rotated 90 degrees> <./detector/l1jet/egc
 or5.pdf, page is rotated 90 degrees> <./detector/l1jet/egcor6.pdf, page is rota
-ted 90 degrees>] [139 <./detector/l1jet/egcor7.pdf, page is rotated 90 degrees>
+ted 90 degrees>] [163 <./detector/l1jet/egcor7.pdf, page is rotated 90 degrees>
  <./detector/l1jet/egcor8.pdf, page is rotated 90 degrees> <./detector/l1jet/eg
 cor9.pdf, page is rotated 90 degrees> <./detector/l1jet/egcor10.pdf, page is ro
 tated 90 degrees>]
@@ -1792,27 +1904,27 @@ tated 90 degrees>]
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf, id=5093, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf, id=5170, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_7_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf, id=5094, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf, id=5171, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_8_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf, id=5095, 569.12625pt x 546.04pt
+<detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf, id=5172, 569.12625pt x 546.04pt
 >
 File: detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_9_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf, id=5096, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf, id=5173, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_10_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf, id=5097, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf, id=5174, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_11_PtAll_u.pdf>
-<detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf, id=5098, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf, id=5175, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf>
@@ -1820,31 +1932,31 @@ File: detector/l1jet/gaussfits//ptBin_12_PtAll_u.pdf Graphic file (type pdf)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf, id=5099, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf, id=5176, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_0_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf, id=5100, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf, id=5177, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_1_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf, id=5101, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf, id=5178, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_2_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf, id=5102, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf, id=5179, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_3_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf, id=5103, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf, id=5180, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_4_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf, id=5104, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf, id=5181, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_5_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf, id=5105, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf, id=5182, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf>
@@ -1852,54 +1964,54 @@ File: detector/l1jet/gaussfits//ptBin_6_PtAll_pf.pdf Graphic file (type pdf)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf, id=5106, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf, id=5183, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_7_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf, id=5107, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf, id=5184, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_8_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf, id=5108, 569.12625pt x 546.04p
+<detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf, id=5185, 569.12625pt x 546.04p
 t>
 File: detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_9_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf, id=5109, 569.12625pt x 546.04
+<detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf, id=5186, 569.12625pt x 546.04
 pt>
 File: detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_10_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf, id=5110, 569.12625pt x 546.04
+<detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf, id=5187, 569.12625pt x 546.04
 pt>
 File: detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_11_PtAll_pf.pdf>
-<detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf, id=5111, 569.12625pt x 546.04
+<detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf, id=5188, 569.12625pt x 546.04
 pt>
 File: detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf Graphic file (type pdf)
  <use detector/l1jet/gaussfits//ptBin_12_PtAll_pf.pdf>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./hgg7TeV/appendices.tex [140] [141 <./detector/l1jet/gaussfits//ptBin_0_PtA
+) (./hgg7TeV/appendices.tex [164] [165 <./detector/l1jet/gaussfits//ptBin_0_PtA
 ll_u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_1_PtAl
 l_u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_2_PtAll
 _u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_3_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_4_PtAll_u
 .pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_5_PtAll_u.
 pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_6_PtAll_u.p
-df, page is rotated 90 degrees>] [142 <./detector/l1jet/gaussfits//ptBin_7_PtAl
+df, page is rotated 90 degrees>] [166 <./detector/l1jet/gaussfits//ptBin_7_PtAl
 l_u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_8_PtAll
 _u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_9_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_10_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_11_PtAll_
 u.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_12_PtAll_
-u.pdf, page is rotated 90 degrees>] [143 <./detector/l1jet/gaussfits//ptBin_0_P
+u.pdf, page is rotated 90 degrees>] [167 <./detector/l1jet/gaussfits//ptBin_0_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_1_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_2_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_3_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_4_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_5_P
 tAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptBin_6_P
-tAll_pf.pdf, page is rotated 90 degrees>] [144 <./detector/l1jet/gaussfits//ptB
+tAll_pf.pdf, page is rotated 90 degrees>] [168 <./detector/l1jet/gaussfits//ptB
 in_7_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptB
 in_8_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptB
 in_9_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//ptB
@@ -1907,66 +2019,66 @@ in_10_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//pt
 Bin_11_PtAll_pf.pdf, page is rotated 90 degrees> <./detector/l1jet/gaussfits//p
 tBin_12_PtAll_pf.pdf, page is rotated 90 degrees>]
 Appendix B.
-[145
+[169
 
-] [146] [147]
-<hgg7TeV/appendix/minimumtime.pdf, id=6255, 569.12625pt x 385.44pt>
+] [170] [171]
+<hgg7TeV/appendix/minimumtime.pdf, id=6332, 569.12625pt x 385.44pt>
 File: hgg7TeV/appendix/minimumtime.pdf Graphic file (type pdf)
 
 <use hgg7TeV/appendix/minimumtime.pdf>
-<hgg7TeV/appendix/newbinAlgo.pdf, id=6256, 569.12625pt x 385.44pt>
+<hgg7TeV/appendix/newbinAlgo.pdf, id=6333, 569.12625pt x 385.44pt>
 File: hgg7TeV/appendix/newbinAlgo.pdf Graphic file (type pdf)
 
 <use hgg7TeV/appendix/newbinAlgo.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [148
+ [172
 
 ]
-[149 <./hgg7TeV/appendix/minimumtime.pdf, page is rotated 90 degrees> <./hgg7Te
+[173 <./hgg7TeV/appendix/minimumtime.pdf, page is rotated 90 degrees> <./hgg7Te
 V/appendix/newbinAlgo.pdf, page is rotated 90 degrees>]
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_idEff.pdf, 
-id=6349, 569.12625pt x 552.0625pt>
+id=6426, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_idEff.
 pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_idEff.p
 df>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_kFactor.pdf
-, id=6350, 569.12625pt x 552.0625pt>
+, id=6427, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_kFacto
 r.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_kFactor
 .pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_phoIdMva.pd
-f, id=6351, 569.12625pt x 552.0625pt>
+f, id=6428, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_phoIdM
 va.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_phoIdMv
 a.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_regSig.pdf,
- id=6352, 569.12625pt x 552.0625pt>
+ id=6429, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_regSig
 .pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_regSig.
 pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_triggerEff.
-pdf, id=6353, 569.12625pt x 552.0625pt>
+pdf, id=6430, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_trigge
 rEff.pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_trigger
 Eff.pdf>
 <hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_vtxEff.pdf,
- id=6354, 569.12625pt x 552.0625pt>
+ id=6431, 569.12625pt x 552.0625pt>
 File: hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_vtxEff
 .pdf Graphic file (type pdf)
 
 <use hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_test_vtxEff.
-pdf>) (./combinations/appendices_combinations.tex [150] [151 <./hgg7TeV/sideban
+pdf>) (./combinations/appendices_combinations.tex [174] [175 <./hgg7TeV/sideban
 dMvaPlots/signalModel/systematic_interpolation_test_idEff.pdf, page is rotated 
 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic_interpolation_te
 st_kFactor.pdf, page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalM
@@ -1975,283 +2087,63 @@ odel/systematic_interpolation_test_phoIdMva.pdf, page is rotated 90 degrees> <.
  page is rotated 90 degrees> <./hgg7TeV/sidebandMvaPlots/signalModel/systematic
 _interpolation_test_triggerEff.pdf, page is rotated 90 degrees> <./hgg7TeV/side
 bandMvaPlots/signalModel/systematic_interpolation_test_vtxEff.pdf, page is rota
-ted 90 degrees>] [152
+ted 90 degrees>] [176
 
 ]
 Appendix C.
 
 Underfull \vbox (badness 4378) has occurred while \output is active []
 
- [153]
-<combinations/perEvLLR_hgg8TeV.pdf, id=6626, 569.12625pt x 546.04pt>
+ [177]
+<combinations/perEvLLR_hgg8TeV.pdf, id=6703, 569.12625pt x 546.04pt>
 File: combinations/perEvLLR_hgg8TeV.pdf Graphic file (type pdf)
 
 <use combinations/perEvLLR_hgg8TeV.pdf>
-<combinations/perEvLLR_hZZ4l.pdf, id=6627, 569.12625pt x 546.04pt>
+<combinations/perEvLLR_hZZ4l.pdf, id=6704, 569.12625pt x 546.04pt>
 File: combinations/perEvLLR_hZZ4l.pdf Graphic file (type pdf)
 
-<use combinations/perEvLLR_hZZ4l.pdf> [154 <./combinations/perEvLLR_hgg8TeV.pdf
+<use combinations/perEvLLR_hZZ4l.pdf> [178 <./combinations/perEvLLR_hgg8TeV.pdf
 , page is rotated 90 degrees> <./combinations/perEvLLR_hZZ4l.pdf, page is rotat
 ed 90 degrees>]
-<combinations/compare-fc-lh.pdf, id=6717, 569.12625pt x 546.04pt>
+<combinations/compare-fc-lh.pdf, id=6794, 569.12625pt x 546.04pt>
 File: combinations/compare-fc-lh.pdf Graphic file (type pdf)
 
-<use combinations/compare-fc-lh.pdf>))
-\openout3 = `comment.cut'.
-
- [155 <./combinations/compare-fc-lh.pdf, page is rotated 90 degrees>] [156
-
-
-] (./comment.cut (./backmatter.tex
-(./thesis.bbl [157] [158
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
-[]\OT1/cmr/m/n/12 (+20) S. Wein-berg.  A Model of Lep-tons.  \OT1/cmr/m/it/12 (
-+20) Phys. Rev. Lett.\OT1/cmr/m/n/12 (+20) , 19:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
-\OT1/cmr/m/n/12 (+20) 1264--1266, Nov 1967.  doi: 10.1103/Phys-RevLett.19.1264.
-  URL
- []
-
-
-Underfull \hbox (badness 1810) in paragraph at lines 62--67
-\OT1/cmr/m/n/12 (+20) son.  Ex-per-i-men-tal Test of Par-ity Con-ser-va-tion in
- Beta De-cay.  \OT1/cmr/m/it/12 (+20) Phys.
- []
-
-
-Underfull \hbox (badness 1783) in paragraph at lines 62--67
-\OT1/cmr/m/it/12 (+20) Rev.\OT1/cmr/m/n/12 (+20) , 105:1413--1415, Feb 1957.  d
-oi: 10.1103/Phys-Rev.105.1413.  URL
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [159]
-Underfull \hbox (badness 1540) in paragraph at lines 90--95
-\OT1/cmr/m/it/12 (+20) Rev.\OT1/cmr/m/n/12 (+20) , 155:1554--1561, Mar 1967.  d
-oi: 10.1103/Phys-Rev.155.1554.  URL
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [160]
-Underfull \hbox (badness 10000) in paragraph at lines 157--161
-[]\OT1/cmr/m/n/12 (+20) LEPEWWG.  The LEP Elec-troweak Work-ing Group.  2012.
- []
-
-
-Underfull \hbox (badness 6775) in paragraph at lines 180--185
-[]\OT1/cmr/m/n/12 (+20) The AL-ICE Col-lab-o-ra-tion.  The AL-ICE ex-per-i-ment
- at the CERN
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--185
-\OT1/cmr/m/n/12 (+20) LHC.  \OT1/cmr/m/it/12 (+20) Jour-nal of In-stru-men-ta-t
-ion\OT1/cmr/m/n/12 (+20) , 3(08):S08002, 2008.  URL
- []
-
-
-Underfull \hbox (badness 1132) in paragraph at lines 187--192
-\OT1/cmr/m/n/12 (+20) Hadron Col-lider.  \OT1/cmr/m/it/12 (+20) Jour-nal of In-
-stru-men-ta-tion\OT1/cmr/m/n/12 (+20) , 3(08):S08003, 2008.  URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--212
-[]\OT1/cmr/m/n/12 (+20) CERN.  CMS Com-pact Muon Solenoid.  Feb 2010.
- []
-
-
-Underfull \hbox (badness 5050) in paragraph at lines 214--221
-[]\OT1/cmr/m/n/12 (+20) A. Tri-comi.  Per-for-mances of the AT-LAS and CMS sil-
-i-con tracker.
- []
-
-
-Underfull \hbox (badness 1728) in paragraph at lines 214--221
-\OT1/cmr/m/it/12 (+20) The Eu-ro-pean Phys-i-cal Jour-nal C - Par-ti-cles and F
-ields\OT1/cmr/m/n/12 (+20) , 33:s1023--s1025,
- []
-
-
-Underfull \hbox (badness 4072) in paragraph at lines 214--221
-\OT1/cmr/m/n/12 (+20) 2004.  ISSN 1434-6044.  doi: 10.1140/epjcd/s2004-03-1801-
-1.  URL
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 223--235
-\OT1/cmtt/m/n/12 http://www.sciencedirect.com/science/article/pii/S016890021001
-4749\OT1/cmr/m/n/12 (+20) .
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [161]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [162]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ì in font cmr12!
-
-Underfull \hbox (badness 3019) in paragraph at lines 371--380
-[]\OT1/cmr/m/n/12 (+20) S. Agostinelli, J. Al-li-son, K. Amako, et al.  Geant4 
-- a sim-u-la-tion
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 382--386
-[]\OT1/cmr/m/n/12 (+20) The CMS Col-lab-o-ra-tion.  CMS Soft-ware Page.  2013. 
- https://cms-cpt-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 393--398
-[]\OT1/cmr/m/n/12 (+20) J. H. Fried-man.  Greedy Func-tion Ap-prox-i-ma-tion: A
- Gra-di-ent
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 393--398
-\OT1/cmr/m/n/12 (+20) Boost-ing Ma-chine.  \OT1/cmr/m/it/12 (+20) An-nals of St
-atis-tics\OT1/cmr/m/n/12 (+20) , 29:1189--1232, 2000.  URL
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [163]
-Underfull \hbox (badness 1072) in paragraph at lines 473--478
-[]\OT1/cmr/m/n/12 (+20) A. L. Read.  Pre-sen-ta-tion of search re-sults: the CL
-s tech-nique.  \OT1/cmr/m/it/12 (+20) Jour-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [164]
-Underfull \hbox (badness 10000) in paragraph at lines 485--491
-[]\OT1/cmr/m/n/12 (+20) G. Petruc-ciani.  Doc-u-men-ta-tion of the RooStats-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 485--491
-\OT1/cmr/m/n/12 (+20) based statis-tics tools for Higgs PAG.  2013.
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [165]
-Missing character: There is no Ô in font cmr12!
-Missing character: There is no ¨ in font cmr12!
-Missing character: There is no Å in font cmr12!
-)
-[166] (./thesis.lof [167
-
-] [168]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [169]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [170]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [171]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [172]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [173]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [174]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [175]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [176]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [177]
-Overfull \hbox (14.98808pt too wide) in paragraph at lines 92--92
- [][] []\OT1/cmr/m/n/12 (-20) Per-event delta neg-a-tive log-likelihood ($^^A\O
-ML/cmm/m/it/12 nll$\OT1/cmr/m/n/12 (-20) ) dis-tri-bu-tions for the background-
- 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [178])
-\tf@lof=\write6
-\openout6 = `thesis.lof'.
-
-
-[179] [180
-
-] (./thesis.lot
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [181]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [182])
-\tf@lot=\write7
-\openout7 = `thesis.lot'.
-
-))
-[183] (./thesis.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+<use combinations/compare-fc-lh.pdf>)) [179 <./combinations/compare-fc-lh.pdf, 
+page is rotated 90 degrees>] (./thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 19828 strings out of 493848
- 344886 string characters out of 1152822
- 435645 words of memory out of 3000000
- 22284 multiletter control sequences out of 15000+50000
- 32613 words of font info for 196 fonts, out of 3000000 for 9000
+ 19837 strings out of 493848
+ 344945 string characters out of 1152822
+ 432921 words of memory out of 3000000
+ 22280 multiletter control sequences out of 15000+50000
+ 33376 words of font info for 203 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 68i,17n,57p,1097b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/sh
-are/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-mi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
-usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/
-fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texmf-texlive/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb
-></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-sy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/te
-xmf-texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-texlive
-/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on thesis.pdf (183 pages, 7294779 bytes).
+ 68i,17n,57p,1099b,689s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cmextra/cmbsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr
+/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmib
+10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texli
+ve/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/typ
+e1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsl
+12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmtt10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmtt12.pfb></usr/share/texmf-texlive/fonts/type1/public/rsfs/rsfs10.pfb>
+
+Output written on thesis.pdf (179 pages, 7289497 bytes).
 PDF statistics:
- 6937 PDF objects out of 7423 (max. 8388607)
+ 6923 PDF objects out of 7423 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21785 words of extra memory for PDF output out of 24883 (max. 10000000)
 
