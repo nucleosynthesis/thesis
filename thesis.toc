@@ -1,0 +1,88 @@
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{List of Figures}{13}
+\contentsline {chapter}{List of Tables}{27}
+\contentsline {chapter}{\numberline {1}Introduction}{33}
+\contentsline {chapter}{\numberline {2}Theory and Motivations}{35}
+\contentsline {section}{\numberline {2.1}The Standard Model of Particle Physics}{35}
+\contentsline {subsection}{\numberline {2.1.1}Fundamental Matter Particles}{35}
+\contentsline {subsection}{\numberline {2.1.2}Fundamental Forces}{36}
+\contentsline {subsection}{\numberline {2.1.3}Electroweak Gauge Symmetry}{37}
+\contentsline {subsection}{\numberline {2.1.4}Spontaneous Symmetry Breaking: The Higgs Mechanism}{40}
+\contentsline {section}{\numberline {2.2}The SM Higgs Boson}{42}
+\contentsline {subsection}{\numberline {2.2.1}Constraints and Previous Searches}{42}
+\contentsline {subsubsection}{Direct Searches}{42}
+\contentsline {subsubsection}{Precision Measurements}{44}
+\contentsline {subsection}{\numberline {2.2.2}Higgs Boson Production and Decay at the LHC}{45}
+\contentsline {chapter}{\numberline {3}The LHC and the CMS Detector}{49}
+\contentsline {section}{\numberline {3.1}The LHC}{49}
+\contentsline {section}{\numberline {3.2}The CMS Detector}{50}
+\contentsline {subsection}{\numberline {3.2.1}Tracker}{52}
+\contentsline {subsection}{\numberline {3.2.2}Electromagnetic Calorimeter}{54}
+\contentsline {subsubsection}{Electron and Photon Reconstruction}{55}
+\contentsline {subsubsection}{Laser Calibration}{57}
+\contentsline {subsection}{\numberline {3.2.3}Shower-shape and Isolation}{58}
+\contentsline {section}{\numberline {3.3}Level-1 Trigger}{60}
+\contentsline {subsection}{\numberline {3.3.1}Jet Energy Calibration}{60}
+\contentsline {subsection}{\numberline {3.3.2}Calibration Performance}{62}
+\contentsline {subsubsection}{Performance in Data}{64}
+\contentsline {chapter}{\numberline {4}Higgs Boson Decay to Two Photons}{67}
+\contentsline {section}{\numberline {4.1}Data Samples}{68}
+\contentsline {section}{\numberline {4.2}Object Reconstruction and Identification}{69}
+\contentsline {subsection}{\numberline {4.2.1}Boosted Decision Trees}{70}
+\contentsline {subsection}{\numberline {4.2.2}Supercluster Energy Correction}{72}
+\contentsline {subsubsection}{Energy Scale Measured in Data}{72}
+\contentsline {subsection}{\numberline {4.2.3}Vertex Selection}{75}
+\contentsline {subsection}{\numberline {4.2.4}Photon Identification}{77}
+\contentsline {section}{\numberline {4.3}Event Selection}{79}
+\contentsline {subsection}{\numberline {4.3.1}Diphoton BDT}{80}
+\contentsline {subsubsection}{Diphoton BDT Validation with $Z\rightarrow e^{+}e^{-}$ Data}{81}
+\contentsline {subsection}{\numberline {4.3.2}Dijet Tagging}{83}
+\contentsline {section}{\numberline {4.4}Signal Extraction}{88}
+\contentsline {subsection}{\numberline {4.4.1}Definition of the Signal Region}{89}
+\contentsline {subsection}{\numberline {4.4.2}Event Categorisation BDT}{90}
+\contentsline {subsection}{\numberline {4.4.3}Binning of the BDT Output Distribution}{92}
+\contentsline {subsection}{\numberline {4.4.4}Background Model}{94}
+\contentsline {subsubsection}{Obtaining the Normalisation of the Background}{96}
+\contentsline {subsubsection}{Obtaining the Shape of the Background}{97}
+\contentsline {subsection}{\numberline {4.4.5}Signal Model}{104}
+\contentsline {subsubsection}{Photon Level Corrections}{104}
+\contentsline {subsubsection}{Diphoton Level Corrections}{105}
+\contentsline {subsubsection}{Systematic Uncertainties}{105}
+\contentsline {subsubsection}{Interpolation to Intermediate Mass Points}{108}
+\contentsline {subsubsection}{Validation with $Z\rightarrow e^{+}e^{-}$ data}{110}
+\contentsline {subsection}{\numberline {4.4.6}Likelihood Model for Signal Extraction}{111}
+\contentsline {chapter}{\numberline {5}Statistical Interpretations of the Data}{115}
+\contentsline {section}{\numberline {5.1}Hypothesis Testing}{115}
+\contentsline {subsection}{\numberline {5.1.1}Exclusion Limits}{117}
+\contentsline {subsection}{\numberline {5.1.2}Quantifying Excesses in the Observed Data}{118}
+\contentsline {section}{\numberline {5.2}$H\rightarrow \gamma \gamma $ Statistical Results}{120}
+\contentsline {subsubsection}{The Look-Elsewhere Effect}{124}
+\contentsline {subsection}{\numberline {5.2.1}Inclusion of 2012 Data}{127}
+\contentsline {subsection}{\numberline {5.2.2}Updates for the 8 TeV Analysis}{127}
+\contentsline {subsection}{\numberline {5.2.3}Results from the Combined Datasets}{128}
+\contentsline {chapter}{\numberline {6}Higgs Combination and Properties}{131}
+\contentsline {section}{\numberline {6.1}Combined Higgs Searches}{131}
+\contentsline {subsection}{\numberline {6.1.1}Diagnostics with Toy Datasets}{132}
+\contentsline {subsection}{\numberline {6.1.2}Higgs Search Combination}{135}
+\contentsline {subsubsection}{Combined Search Channels}{135}
+\contentsline {subsubsection}{Combined Results}{139}
+\contentsline {section}{\numberline {6.2}Higgs Properties}{144}
+\contentsline {subsection}{\numberline {6.2.1}Extracting Signal Parameters}{144}
+\contentsline {subsubsection}{The Feldman-Cousins Procedure for Evaluating Confidence Intervals}{145}
+\contentsline {subsection}{\numberline {6.2.2}Combined Mass Measurement}{145}
+\contentsline {subsection}{\numberline {6.2.3}Compatibility with the Standard Model}{148}
+\contentsline {subsubsection}{Channel Compatibility}{148}
+\contentsline {subsubsection}{Coupling Measurements}{150}
+\contentsline {chapter}{\numberline {7}Conclusions and Outlook}{153}
+\contentsline {chapter}{Bibliography}{155}
+\contentsline {chapter}{\numberline {A}}{161}
+\contentsline {section}{\numberline {A.1}L1 Jet Energy Correction Fits}{161}
+\contentsline {section}{\numberline {A.2}L1 Jet Resolution}{164}
+\contentsline {chapter}{\numberline {B}}{169}
+\contentsline {section}{\numberline {B.1}Energy Scale and Resolution Measurements}{169}
+\contentsline {section}{\numberline {B.2}Binning Algorithm Optimisation}{172}
+\contentsline {section}{\numberline {B.3}Signal Systematics}{174}
+\contentsline {chapter}{\numberline {C}}{177}
+\contentsline {section}{\numberline {C.1}Per-event Log-likelihood Ratio}{177}
+\contentsline {section}{\numberline {C.2}Feldman-Cousins Boundary Effects}{178}

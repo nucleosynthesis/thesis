@@ -1,0 +1,74 @@
+\ProvidesPackage{mythesis}[07/11/2011] 
+
+\RequirePackage{hepnicenames,hepunits}
+
+%%text stuff
+\DeclareRobustCommand{\superscript}[1]{\ensuremath{^{\textrm{#1}}}}
+\DeclareRobustCommand{\subscript}[1]{\ensuremath{_{\textrm{#1}}}}
+\DeclareRobustCommand{\th}{\superscript{th}\xspace}
+\DeclareRobustCommand{\rd}{\superscript{rd}\xspace}
+\DeclareRobustCommand{\fquotes}{``}
+
+%% Maths 
+\DeclareRobustCommand{\thesismath}[1]{\ensuremath{\maybebmsf{#1}}} 
+\DeclareRobustCommand{\parenths}[1]{\mymath{\left({#1}\right)}} 
+\DeclareRobustCommand{\braces}[1]{\mymath{\left\{{#1}\right\}}} 
+\DeclareRobustCommand{\angles}[1]{\mymath{\left\langle{#1}\right\rangle}} 
+\DeclareRobustCommand{\sqbracs}[1]{\mymath{\left[{#1}\right]}} 
+\DeclareRobustCommand{\mods}[1]{\mymath{\left\lvert{#1}\right\rvert}} 
+\DeclareRobustCommand{\modsq}[1]{\mymath{\mods{#1}^2}} 
+\DeclareRobustCommand{\dblmods}[1]{\mymath{\left\lVert{#1}\right\rVert}} 
+\DeclareRobustCommand{\expOf}[1]{\mymath{\exp{\!\parenths{#1}}}} 
+\DeclareRobustCommand{\eexp}[1]{\mymath{e^{#1}}} 
+\DeclareRobustCommand{\plusquad}{\mymath{\oplus}} 
+\DeclareRobustCommand{\logOf}[1]{\log\!\parenths{#1}} 
+\DeclareRobustCommand{\lnOf}[1]{\ln\!\parenths{#1}} 
+\DeclareRobustCommand{\ofOrder}[1]{\mymath{ \mathcal{O}\parenths{#1} }}
+\DeclareRobustCommand{\degrees}[0]{^{\circ}}
+
+%%units
+\DeclareRobustCommand{\mev}{MeV\xspace}
+\DeclareRobustCommand{\mevc}{MeV/$c$\xspace}
+\DeclareRobustCommand{\mevcsq}{MeV/$c^{2}$\xspace}
+\DeclareRobustCommand{\gev}{GeV\xspace}
+\DeclareRobustCommand{\gevc}{GeV/$c$\xspace}
+\DeclareRobustCommand{\gevcsq}{GeV/$c^{2}$\xspace}
+
+
+%% General utility defns 
+\DeclareRobustCommand{\arXivCode}[1]{arXiv:#1} 
+\DeclareRobustCommand{\pot}[2]{$#1 \times 10^{#2}~\mathrm{POT}$\xspace}
+\DeclareRobustCommand{\CPviolation}{\CP-violation\xspace} 
+\DeclareRobustCommand{\CPv}{\CPviolation} 
+\DeclareRobustCommand{\superk}{Super-Kamiokande\xspace} 
+\DeclareRobustCommand{\numu}{$\nu_{\mu}$\xspace}
+\DeclareRobustCommand{\nue}{$\nu_{e}$\xspace} 
+\DeclareRobustCommand{\nubar}{$\bar{\nu}$\xspace} 
+\DeclareRobustCommand{\nuebar}{$\bar{\nu}_{e}$\xspace} 
+\DeclareRobustCommand{\numubar}{$\bar{\nu}_{\mu}$\xspace} 
+\DeclareRobustCommand{\piplus}{$\pi^{+}$\xspace} 
+\DeclareRobustCommand{\piminus}{$\pi^{-}$\xspace} 
+\DeclareRobustCommand{\pizero}{$\pi^{0}$\xspace} 
+\DeclareRobustCommand{\ncpizero}{$\mathrm{NC}~1\pi^{0}$\xspace}
+\DeclareRobustCommand{\kplus}{$K^{+}$\xspace} 
+\DeclareRobustCommand{\xsec}{cross-section\xspace}
+\DeclareRobustCommand{\xsecs}{cross-sections\xspace}
+\DeclareRobustCommand{\ecal}{ECAL\xspace}
+\DeclareRobustCommand{\pod}{P0D\xspace}
+\DeclareRobustCommand{\enu}{$E_{\nu}$\xspace}
+\DeclareRobustCommand{\nuind}{neutrino-induced\xspace}
+\DeclareRobustCommand{\pairproduced}{pair-produced\xspace}
+\DeclareRobustCommand{\pairproduce}{pair-produce\xspace}
+\DeclareRobustCommand{\pairproduction}{pair-production\xspace}
+
+
+%% Basic rate formalisms
+\DeclareRobustCommand{\Rate}{\thesismath{\Gamma}\xspace}
+\DeclareRobustCommand{\RateOf}[1]{\thesismath{\Gamma}\parenths{#1}\xspace}
+
+
+%some commands for table drawing
+\newcommand{\tcol}[1]{\multicolumn{1}{c|}{#1}}
+\newcommand{\tdcol}[1]{\multicolumn{1}{c||}{#1}}
+\newcommand{\dtcol}[1]{\multicolumn{1}{|c}{#1}}
+\newcommand\tstrut{\rule{0pt}{2.4ex}}

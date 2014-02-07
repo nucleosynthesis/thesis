@@ -1,0 +1,44 @@
+\documentclass[a4paper,12pt,twoside]{report}
+%\documentclass[a4paper,12pt]{report}
+%\documentclass{mythesis}
+%\usepackage{mythesis}
+\setcounter{secnumdepth}{2}
+
+\usepackage[margin=1.0in]{geometry}  % -> This seems to be the best margin size
+%\usepackage[margin=1.5in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[font={small}]{caption}
+%\usepackage{caption}
+%\usepackage{subcaption}
+%\usepackage{natbib}
+\bibliographystyle{plain}
+%\usepackage{morefloats}
+
+
+%PLAIN STYLE ---------------------------------------------------------
+\begin{document}
+\title{\LARGE {\bf Observation of a new particle in the search for the 
+Standard Model Higgs boson at the CMS detector}\\
+ \vspace*{6mm}
+}
+
+\author{Nicholas Wardle}
+\maketitle
+\clearpage\include{introduction}
+\clearpage\include{theory/theory}
+\clearpage\include{detector/detector}
+	\include{detector/l1trigger}
+\clearpage\include{hgg7TeV/hgg7TeV}
+	\include{hgg7TeV/signalextraction}
+	\include{hgg8TeV/hgg8TeV}
+\clearpage\include{combinations/combinations}
+\clearpage\include{conclusions}
+
+\bibliography{thesis}
+%\clearpage\include{appendices}
+\appendix
+\include{detector/appendices_detector}
+\include{hgg7TeV/appendices}
+\end{document}
+% --------------------------------------------------------------------

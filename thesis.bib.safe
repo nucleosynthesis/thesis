@@ -1,0 +1,653 @@
+@article{friedmanbdt,
+    author = {Friedman, Jerome H.},
+    citeulike-article-id = {3338157},
+    citeulike-linkout-0 = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.29.9093},
+    journal = {Annals of Statistics},
+    pages = {1189--1232},
+    posted-at = {2009-01-06 23:59:18},
+    priority = {2},
+    title = {{Greedy Function Approximation: A Gradient Boosting Machine}},
+    url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.29.9093},
+    volume = {29},
+    year = {2000}
+}
+
+
+@ARTICLE{tevhiggscombinations,
+   author = {{The TEVNPH Working Group} and {CDF}, f.~t. and {D0 Collaborations}},
+    title = {Combined CDF and D0 Search for Standard Model Higgs Boson Production with up to 10.0 fb^{-1} of Data},
+  journal = {ArXiv e-prints},
+archivePrefix = {arXiv},
+   eprint = {1203.3774},
+ primaryClass = {hep-ex},
+ keywords = {High Energy Physics - Experiment},
+     year = 2012,
+    month = mar,
+   adsurl = {http://adsabs.harvard.edu/abs/2012arXiv1203.3774T},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@ARTICLE{searchesreview,
+   author = {{Bernardi}, G. and {Herndon}, M.},
+    title = {Searches for the Standard Model Higgs Boson at Hadron Colliders at sqrt(s)=2, 7 and 8 TeV until the Discovery of the 125 GeV Boson},
+  journal = {ArXiv e-prints},
+archivePrefix = {arXiv},
+   eprint = {1210.0021},
+ primaryClass = {hep-ex},
+ keywords = {High Energy Physics - Experiment},
+     year = 2012,
+    month = sep,
+   adsurl = {http://adsabs.harvard.edu/abs/2012arXiv1210.0021B},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{ellisHiggsReview,
+      author         = {Ellis, John and Gaillard, Mary K. and Nanopoulos, Dimitri V.},
+      title          = {A Historical Profile of the Higgs Boson},
+      year           = {2012},
+      eprint         = {1201.6045},
+      archivePrefix  = {arXiv},
+      primaryClass   = {hep-ph},
+      reportNumber   = {KCL-PH-TH-2012-04, LCTS-2012-01, CERN-PH-TH-2012-009,
+                        LBNL, UCB-PTH-12-01, ACT-1-12, MIFPA-12-01},
+}
+
+@article{muondecay,
+  title = {Measurement of the Positive Muon Lifetime and Determination of the Fermi Constant to Part-per-Million Precision},
+  author = {Webber, D. M. and Tishchenko, V. and Peng, Q. and Battu, S. and Carey, R. M. and Chitwood, D. B. and Crnkovic, J. and Debevec, P. T. and Dhamija, S. and Earle, W. and Gafarov, A. and Giovanetti, K. and Gorringe, T. P. and Gray, F. E. and Hartwig, Z. and Hertzog, D. W. and Johnson, B. and Kammel, P. and Kiburg, B. and Kizilgul, S. and Kunkle, J. and Lauss, B. and Logashenko, I. and Lynch, K. R. and McNabb, R. and Miller, J. P. and Mulhauser, F. and Onderwater, C. J. G. and Phillips, J. and Rath, S. and Roberts, B. L. and Winter, P. and Wolfe, B.},
+  collaboration = {MuLan Collaboration},
+  journal = {Phys. Rev. Lett.},
+  volume = {106},
+  issue = {4},
+  pages = {041803},
+  numpages = {5},
+  year = {2011},
+  month = {Jan},
+  doi = {10.1103/PhysRevLett.106.041803},
+  url = {http://link.aps.org/doi/10.1103/PhysRevLett.106.041803},
+  publisher = {American Physical Society}
+}
+
+
+@book{aitchison,
+    author = {Aitchison, I. J. R. and Hey, A. J. G.},
+    day = {01},
+    edition = {3},
+    howpublished = {Paperback},
+    isbn = {0750309822},
+    month = jan,
+    posted-at = {2009-07-20 00:55:42},
+    priority = {2},
+    publisher = {Taylor \& Francis},
+    title = {{Gauge Theories in Particle Physics, 2 Volume Set}},
+    url = {http://www.worldcat.org/isbn/0750309822},
+    year = {2004}
+}
+
+
+
+@book{halzen,
+    author = {Halzen, Francis and Martin, Alan D.},
+    day = {22},
+    howpublished = {Paperback},
+    isbn = {0471887412},
+    keywords = {particles},
+    month = feb,
+    posted-at = {2007-05-07 19:27:19},
+    priority = {2},
+    publisher = {Wiley},
+    title = {{Quarks and Leptons: An Introductory Course in Modern Particle Physics}},
+    url = {http://www.worldcat.org/isbn/0471887412},
+    year = {1984}
+}
+
+@article{combinedWmass,
+      author         = {Lopes de Sa, Rafael C.},
+      title          = {Precise measurements of the $W$ mass at the Tevatron and
+                        indirect constraints on the Higgs mass},
+      collaboration  = {CDF Collaboration, D0 Collaboration},
+      year           = {2012},
+      eprint         = {1204.3260},
+      archivePrefix  = {arXiv},
+      primaryClass   = {hep-ex},
+      reportNumber   = {FERMILAB-CONF-12-103-E},
+      SLACcitation   = {%%CITATION = ARXIV:1204.3260;%%},
+} 
+
+
+@article{higgswidth,
+year={2012},
+journal={Journal of High Energy Physics},
+volume={2012},
+issue={8},
+doi={10.1007/JHEP08(2012)116},
+title={Inadequacy of zero-width approximation for a light Higgs boson signal},
+url={http://dx.doi.org/10.1007/JHEP08%282012%29116},
+publisher={Springer-Verlag},
+keywords={Higgs Physics; Standard Model; QCD},
+author={Kauer, Nikolas and Passarino, Giampiero},
+pages={1-27},
+language={English}
+}
+
+
+@article{lhcxswg2011,
+      author  = ``{LHC Higgs Cross Section Working Group} and Dittmaier, S. and Mariotti, C. and Passarino, G. and Tanaka (Eds.), R.'',
+      title   = ``{Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables}'',
+      journal = ``CERN-2011-002'',
+      year    = ``CERN, Geneva, 2011'',
+      eprint  = ``1101.0593'',
+      archivePrefix = ``arXiv'',
+      primaryClass  = ``hep-ph'',
+      SLACcitation   = ``%%CITATION = ARXIV:1101.0593;%%'',
+}
+
+@article{lhcxswg2012,
+      author  = ``{LHC Higgs Cross Section Working Group} and Dittmaier, S. and Mariotti, C. and Passarino, G. and Tanaka (Eds.), R.'',
+      title          = ``{Handbook of LHC Higgs Cross Sections: 2. Differential Distributions}'',
+      journal = ``CERN-2012-002'',
+      year    = ``CERN, Geneva, 2012'',
+      eprint         = ``1201.3084'',
+      archivePrefix  = ``arXiv'',
+      primaryClass   = ``hep-ph'',
+      SLACcitation   = ``%%CITATION = ARXIV:1201.3084;%%'',
+}
+
+
+@article{fc,
+  title = {Unified approach to the classical statistical analysis of small signals},
+  author = {Feldman, Gary J. and Cousins, Robert D.},
+  journal = {Phys. Rev. D},
+  volume = {57},
+  issue = {7},
+  pages = {3873--3889},
+  year = {1998},
+  month = {Apr},
+  doi = {10.1103/PhysRevD.57.3873},
+  url = {http://link.aps.org/doi/10.1103/PhysRevD.57.3873},
+  publisher = {American Physical Society}
+}
+
+@article{AN-12-317,
+	author = {Davies~G. and Hays~J. and Wardle~N.},
+	title = {Diagnostic tools for {Higgs} searches and properties measurements at {CMS}},
+	year = {2012},
+}	
+
+
+@article{AN-09-164,
+      author	   = {Adam W. and S. Baffioni and F. Beaudette and D. Benedetti and C. Broutin and D. Chamont and
+	C. Charlot and  
+	E. DiMarco  and 
+	D. Futyan  and  
+	S. Harper  and  
+	D. Lelas g and  
+	A. Martelli and  
+	P. Meridiani  and  
+	M. Pioppi  and  
+	I. Puljak  and 
+	D. Sabes  and  
+	R. Salerno and  
+	M. Sani  and  
+	C. Seez  and  
+	Y. Sirois  and  
+	P. Vanlaer  and  
+	D. Wardrope },
+      title        = {Electron reconstruction in {CMS}},
+      year         = {2009}
+}
+
+@ARTICLE{l1,
+     AUTHOR       = ``{CMS Collaboration}'', 
+     TITLE        = ``The Trigger and Data Acquisition Project Technical Design Report, Volume 1, The Level-1 Trigger'',
+     JOURNAL      = ``CERN/LHCC 2000-038, CMS TDR 6.1'',
+     YEAR         = 2000
+}
+@ARTICLE{hlt,
+     AUTHOR       = ``{CMS Collaboration}'',
+     TITLE        = ``The Trigger and Data Acquisition Project Technical Design Report, Volume 2: Data Acquisition and High-Level Trigger'',
+     JOURNAL      = ``CERN/LHCC 2002-026, CMS TDR 6.2'',
+     YEAR         = 2002}
+
+
+@article{CMS-DP-2012-007,
+      title        = ``ECAL Detector Performance, 2011 Data'',
+      month        = ``May'',
+      year         = ``2012'',
+}
+
+
+@article{GSF_Electron_Reconstruction_CMS,
+  added-at = {2012-11-18T15:18:39.000+0100},
+  author = {Adam, W and Frühwirth, R and Strandlie, A and Todorov, T},
+  biburl = {http://www.bibsonomy.org/bibtex/213e072d9f70364952c586cecd33cdab4/kreczko},
+  interhash = {7d0e93aa384d7bb5bdee515fa3ffced3},
+  intrahash = {13e072d9f70364952c586cecd33cdab4},
+  journal = {Journal of Physics G: Nuclear and Particle Physics},
+  keywords = {cms electrons filter gaussian reconstruction sum},
+  number = 9,
+  pages = {N9},
+  timestamp = {2012-11-18T15:18:39.000+0100},
+  title = {Reconstruction of electrons with the Gaussian-sum filter in the CMS tracker at the LHC},
+  url = {http://stacks.iop.org/0954-3899/31/i=9/a=N01},
+  volume = 31,
+  year = 2005
+}
+
+@article{Weber201159,
+title = ``Calibration, alignment and tracking performance of the CMS silicon strip tracker'',
+journal = ``Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment'',
+volume = ``628'',
+number = ``1'',
+pages = ``59 - 63'',
+year = ``2011'',
+note = ``<ce:title>VCI 2010</ce:title> <ce:subtitle>Proceedings of the 12th International Vienna Conference on Instrumentation</ce:subtitle>'',
+issn = ``0168-9002'',
+doi = ``10.1016/j.nima.2010.06.284'',
+url = ``http://www.sciencedirect.com/science/article/pii/S0168900210014749'',
+author = ``Martin Weber'',
+keywords = ``Silicon detectors'',
+keywords = ``Calibration'',
+keywords = ``Lorentz angle'',
+keywords = ``Tracking'',
+keywords = ``Alignment''
+}
+
+@article{JME-10-010,
+      title        = {Determination of the {Jet} {Energy} {Scale} in {CMS} with pp {Collisions}
+		     at $\sqrt{s}=7 TeV$},
+      author	   = {CMS Collaboration},
+      year         = {2010},
+}
+
+
+@article{l1triggernote,
+	title={Calibration and {Performance} of the {Jets} and {Energy} {Sums} in the 
+	{Level-1} {Trigger}},
+	author={Brooke, J. and Mathias B. and Tapper A. and Wardle N.},
+	year = {2012}
+}
+
+
+@article{cseez,
+      title        = {Electron {Reconstruction} in the {CMS} {Electromagnetic} {Calorimeter}},
+      author	   = {Meschi, E. and Monteiro T. and Seez C. and Vikas P.},
+      year         = {2001},
+}
+
+@article{dfutyan,
+      title        = {Electron reconstruction in {CMS}},
+      author	   = {Baffioni S. and Charlot C. and Ferri F. and Futyan D. and Meridiani P. and
+		     Puljak I. and Rovelli C. and Salerno R. and Sirois Y.},
+      year         = {2006},
+}
+
+@ONLINE{cmspub,
+  author = {CERN},
+  title = {{CMS} Compact Muon Solenoid,\texttt{public.web.cern.ch/public/Objects/LHC/CMSnc.jpg}},
+  url = {public.web.cern.ch/public/Objects/LHC/CMSnc.jpg},
+  institution = {CERN},
+  year = {2010},
+  month = {Feb}
+}
+
+@book{TDR1,
+      author       = {Acosta, D and Della Negra, Michel and Foà, L and Hervé, A
+                      and Petrilli, Achille},
+      title        = {{CMS} physics: {Technical} {Design} {Report}},
+      publisher    = {{CERN}},
+      address      = {Geneva},
+      series       = {Technical Design Report {CMS}},
+      year         = {2006}
+}
+
+@article{TRK-10-005,
+      title        = {Tracking and Primary Vertex Results in First 7 {TeV}
+                      Collisions},
+      year         = 2010,
+}
+
+@article{cls,
+  author={Read, A. -L.},
+  title={Presentation of search results: the {CLs} technique},
+  journal={Journal of Physics G: Nuclear and Particle Physics},
+  volume={28},
+  number={10},
+  pages={2693},
+  url={http://stacks.iop.org/0954-3899/28/i=10/a=313},
+  year={2002}
+}
+
+@article{pca,
+author = {Abdi, Hervé and Williams, Lynne J.},
+title = {Principal component analysis},
+journal = {Wiley Interdisciplinary Reviews: Computational Statistics},
+volume = {2},
+number = {4},
+publisher = {John Wiley & Sons, Inc.},
+issn = {1939-0068},
+url = {http://dx.doi.org/10.1002/wics.101},
+doi = {10.1002/wics.101},
+pages = {433--459},
+keywords = {singular and eigen value decomposition, bilinear decomposition, factor scores and loadings, RESS PRESS, multiple factor analysis},
+year = {2010},
+}	
+
+@article{pdg,
+  title = {Review of {Particle} {Physics}},
+  author = {Beringer, J. and Arguin, J. -F. and Barnett et al},
+  collaboration = {Particle Data Group},
+  journal = {Phys. Rev. D},
+  volume = {86},
+  issue = {1},
+  pages = {010001},
+  numpages = {1528},
+  year = {2012},
+  month = {Jul},
+  doi = {10.1103/PhysRevD.86.010001},
+  url = {http://link.aps.org/doi/10.1103/PhysRevD.86.010001},
+  publisher = {American Physical Society}
+}
+
+@ARTICLE{2011JInst611002C,
+   author = {{CMS Collaboration}},
+    title = {Determination of jet energy calibration and transverse momentum resolution in {CMS}},
+  journal = {Journal of Instrumentation},
+     year = 2011,
+    month = nov,
+   volume = 6,
+    pages = {11002},
+      doi = {10.1088/1748-0221/6/11/P11002},
+   adsurl = {http://adsabs.harvard.edu/abs/2011JInst\ldots611002C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@article{null,
+  title = {"NULL FOR NOW"},
+  author = {A. Nobody},
+  collaboration = {Noone},
+}
+
+@article{minuit,
+      author         = {James, F. and Roos, M.},
+      title          = {Minuit: {A} {System} for {Function} {Minimization} and {Analysis}
+                        of the {Parameter} {Errors} and {Correlations}},
+      journal        = {Comput.Phys.Commun.},
+      volume         = 10,
+      pages          = {343-367},
+      doi            = {10.1016/0010-4655(75)90039-9},
+      year           = 1975,
+      reportNumber   = CERN-DD-75-20,
+}
+
+@ARTICLE{leelyon,
+   author = {{Lyons}, L.},
+    title = {Open statistical issues in particle physics},
+  journal = {ArXiv e-prints},
+ keywords = {Statistics - Applications},
+     year = 2008,
+    month = nov,
+   adsurl = {http://adsabs.harvard.edu/abs/2008arXiv0811.1663L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+@article{lee,
+author = {Eilam Gross and Ofer Vitells},
+title = {{Trial factors for the look elsewhere effect in high energy physics}},
+journal = {European Physical Journal C},
+volume = {70},
+year = {2010},
+pages = {525--530},
+issue = {1},
+doi = {10.1140/epjc/s10052-010-1470-8},
+masid = {27604867}
+}
+
+
+@PhdThesis{crystalball,
+ author    = {Skwarnicki, Tomasz},
+ title     = {A study of the radiative cascade transitions between the
+                 {Upsilon-prime} and {Upsilon} resonances},
+ school =       {Institute of Nuclear Physics, Krakow},
+ year =         {1986},
+ note =         {{http://inspirehep.net/record/230779/files/230779.pdf}{DESY-F31-86-02}},
+}
+
+  	
+@Article{combinationstwiki,
+      TITLE = ``Documentation of the RooStats-based statistics tools for Higgs {PAG}'',
+       URL   = ``https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit''
+}
+
+@article{roofit,
+      author         = ``Verkerke, Wouter and Kirkby, David P.'',
+      title          = ``{The RooFit toolkit for data modeling}'',
+      journal        = ``eConf'',
+      volume         = ``C0303241'',
+      pages          = ``MOLT007'',
+      year           = ``2003'',
+      eprint         = ``physics/0306116'',
+      archivePrefix  = ``arXiv'',
+      primaryClass   = ``physics'',
+      reportNumber   = ``CHEP-2003-MOLT007'',
+      SLACcitation   = ``%%CITATION = PHYSICS/0306116;%%'',
+}
+
+@Article{onlinediag,
+      TITLE = ``Index of /nckw/combination-diagnostics-ichep2012'',
+       URL   = ``http://nckw.web.cern.ch/nckw/combination-diagnostics-ichep2012/''
+}
+@techreport{roofit,
+author = {Verkerke, Wouter and Kirkby, David},
+title = {{RooFit}}
+}
+
+% AN and PASES and CMS PAPERS
+@article{HIG-12-028,
+title = {Observation of a new boson at a mass of 125 {GeV} with the {CMS} experiment at the {LHC}},
+journal = {Physics Letters B},
+volume = {716},
+number = {1},
+pages = {30 - 61},
+year = {2012},
+issn = {0370-2693},
+doi = {10.1016/j.physletb.2012.08.021},
+url = {http://www.sciencedirect.com/science/article/pii/S0370269312008581},
+author = {S. Chatrchyan and V. Khachatryan et al},
+keywords = {CMS},
+keywords = {Physics},
+keywords = {Higgs}
+
+}
+
+@article{HIG-12-020,
+      title        = ``Observation of a new boson with a mass near 125 GeV'',
+      year         = ``2012'',
+}
+
+@article{HIG-11-033,
+title = {Search for the standard model {Higgs} boson decaying into two photons in pp collisions at {CMS}},
+journal = {Physics Letters B},
+volume = {710},
+number = {3},
+pages = {403 - 425},
+year = {2012},
+issn = {0370-2693},
+doi = {10.1016/j.physletb.2012.03.003},
+url = {http://www.sciencedirect.com/science/article/pii/S0370269312002547},
+author = {S. Chatrchyan and V. Khachatryan et al}
+}
+@article{AN-12-160,
+      title        = {Search for a {Standard} {Model} {Higgs} boson decaying into
+two photons},
+      author	   = {A. Benaglia et al},
+      year         = {2012},
+}
+
+@article{AN-12-048,
+      title        = {Search for a {Standard} {Model} {Higgs} boson decaying into
+two photons employing multivariate methods},
+      author	   = {A. Benaglia et al},
+      year         = {2012},
+}
+
+@article{AN-11-343,
+      title        = {Residual photon energy corrections and resolution from simulation},
+      author	   = {Dauncey, P. -D. and Kenzie M. and Seez, C.},
+      year         = {2012},
+}
+
+
+@ARTICLE{powheg,
+   author = {{Oleari}, C.},
+    title = {{The {POWHEG} {BOX}}},
+  journal = {Nuclear Physics B Proceedings Supplements},
+archivePrefix = {arXiv},
+   eprint = {1007.3893},
+ primaryClass = {hep-ph},
+     year = 2010,
+    month = aug,
+   volume = 205,
+    pages = {36-41},
+      doi = {10.1016/j.nuclphysbps.2010.08.016},
+   adsurl = {http://adsabs.harvard.edu/abs/2010NuPhS.205\ldots36O},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{pythia,
+   author = {{Sj{\"o}strand}, T. and {Mrenna}, S. and {Skands}, P.},
+    title = {{PYTHIA 6.4 physics and manual}},
+  journal = {Journal of High Energy Physics},
+   eprint = {arXiv:hep-ph/0603175},
+     year = 2006,
+    month = may,
+   volume = 5,
+      eid = {026},
+    pages = {26},
+      doi = {10.1088/1126-6708/2006/05/026},
+   adsurl = {http://adsabs.harvard.edu/abs/2006JHEP\ldots05..026S},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{hqt,
+title = {The {qT} spectrum of the {Higgs} boson at the {LHC} in {QCD} perturbation theory},
+journal = {Physics Letters B},
+volume = {564},
+number = {1–2},
+pages = {65 - 72},
+year = {2003},
+issn = {0370-2693},
+doi = {10.1016/S0370-2693(03)00656-7},
+url = {http://www.sciencedirect.com/science/article/pii/S0370269303006567},
+author = {G. Bozzi and S. Catani and D. de Florian and M. Grazzini}
+}
+
+@article{geant4,
+title = {{Geant4}—a simulation toolkit},
+journal = {Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment},
+volume = {506},
+number = {3},
+pages = {250 - 303},
+year = {2003},
+issn = {0168-9002},
+doi = {10.1016/S0168-9002(03)01368-8},
+url = {http://www.sciencedirect.com/science/article/pii/S0168900203013688},
+author = {S. Agostinelli and J. Allison and K. Amako et al},
+keywords = {Simulation},
+keywords = {Particle interactions},
+keywords = {Geometrical modelling},
+keywords = {Software engineering},
+keywords = {Object-oriented technology},
+keywords = {Distributed software development}
+}
+
+@ARTICLE{lhcxswg,
+   author = {{LHC Higgs Cross Section Working Group} and {Dittmaier}, S. and 
+	{Mariotti} et al},
+    title = {{Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables}},
+  journal = {ArXiv e-prints},
+archivePrefix = {arXiv},
+   eprint = {1101.0593},
+ primaryClass = {hep-ph},
+ keywords = {High Energy Physics - Phenomenology, High Energy Physics - Experiment},
+     year = 2011,
+    month = jan,
+   adsurl = {http://adsabs.harvard.edu/abs/2011arXiv1101.0593L},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{tmva,
+   author = {{Hoecker}, A. and {Speckmayer} et al},
+    title = {{TMVA - Toolkit for Multivariate Data Analysis}},
+  journal = {ArXiv Physics e-prints},
+   eprint = {arXiv:physics/0703039},
+ keywords = {Physics - Data Analysis, Statistics and Probability},
+     year = 2007,
+    month = mar,
+   adsurl = {http://adsabs.harvard.edu/abs/2007physics\dots3039H},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@article{HIG-12-025,
+      title        = ``Search for Higgs boson production in association with top
+                      quark pairs in pp collisions'',
+      year         = ``2012'',
+}
+
+
+@article{HIG-12-019,
+      title        = ``Search for the standard model Higgs boson produced in
+ 
+                      association with W or Z bosons, and decaying to bottom
+ 
+                      quarks for ICHEP 2012'',
+      year         = ``2012'',
+}
+
+@article{HIG-12-018,
+      title        = ``Search for a standard model Higgs bosons decaying to tau
+                      pairs in pp collisions'',
+      year         = ``2012'',
+}
+
+@article{HIG-12-017,
+      title        = ``Search for the standard model Higgs boson decaying to a W
+                      pair in the
+fully leptonic final state in pp collisions at
+                      sqrt(s) = 8 TeV'',
+      year         = ``2012'',
+}
+
+@article{HIG-11-034,
+      title        = ``Search for WH to 3 leptons'',
+      year         = ``2012'',
+}
+
+@article{HIG-12-016,
+      title        = ``Evidence for a new state in the search for the standard
+                      model Higgs boson in the  
+H to ZZ to 4 leptons channel in
+                      pp collisions at sqrt(s) = 7 and 8 TeV'',
+      year         = ``2012'',
+}
+@article{HIG-12-023,
+      title        = ``Higgs to ZZ to 2l 2nu'',
+      year         = ``2012'',
+}
+
+@article{HIG-11-027,
+      title        = ``Search for the standard model Higgs Boson in the decay
+                      channel H to ZZ(*) to q qbar l-l+ at CMS'',
+      year         = ``2011'',
+}
+
+@article{HIG-12-045,
+      title        = ``Combination of standard model Higgs boson searches and
+                      measurements
+of the properties of the new boson with a mass
+                      near 125 GeV'',
+      year         = ``2012'',
+}

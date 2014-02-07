@@ -1,0 +1,249 @@
+\documentclass[a4paper,10pt]{article}
+\newcommand{\captionfonts}{\footnotesize}
+\makeatletter % Allow the use of @ in command names
+\long\def\@makecaption#1#2{%
+\vskip\abovecaptionskip
+\sbox\@tempboxa{{\captionfonts #1: #2}}%
+\ifdim \wd\@tempboxa >\hsize
+{\captionfonts #1: #2\par}
+\else
+\hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+\fi
+\vskip\belowcaptionskip}
+\makeatother % Cancel the effect of \makeatletter
+
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{fullpage}
+
+
+%opening
+\title{Electroweak to New Physics at the CMS Detector}
+\author{Nicholas Wardle}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+A brief introduction to proposed extensions to the standard model and their physical consequences is provided.
+An overview of the Compact Muon Solenoid (CMS) experiment is given and its main physics priorities highlighted. Details of the relevant detector components are provided along with the short and long term
+goals of a study of Electroweak and Higgs physics through electromagnetic calorimetry and tracking.
+
+\end{abstract}
+
+\section{Beyond The Standard Model}
+
+The success of the standard model has been unparalleled over the last half-century as a well tested, precision model of fundamental particle physics. Despite this, it is known to be insufficient 
+as a full description of nature at the fundamental level.
+Several theories have emerged which attempt to resolve this either as extensions or successors to the standard model. Although none of these have been verified experimentally, some limits have been placed
+on the energy scales at which new physics should emerge as a result of them.
+
+\subsection{The SM Higgs Boson}
+The UA1 and UA2 collaborations have provided a great insight to nature of the weak interaction through the discovery of the massive W and Z intermediate vector bosons. 
+A necessary component of the unification of the electromagnetic and weak interactions is therefore the provision of mass to the W and Z bosons whilst keeping the photon massless.
+It has been demonstrated that the inclusion of a field with a non-zero vacuum expectation value, the `Higgs field', to the weak sector provides a mechanism in which the 
+local gauge symmetry of the electro-weak theory can be spontaneously broken~\cite{higgs} giving rise to massive W and Z  bosons. 
+In addition, the coupling of this field to fermions gives rise to their being massive without explicitly breaking the symmetry. 
+A consequence of this mechanism is that it implies the existence of a massive scalar (spin-0) boson known as the standard model Higgs (SM Higgs) boson. 
+Though the particle has never been observed experimentally, efforts from the particle physics experiment LEP have provided a lower bound of 114.4 $\mathrm{GeV/c^{2}}$ on the mass of the 
+SM Higgs boson at the 95\% confidence level~\cite{smhiggs}. From combined precision measurements of the electroweak parameters, an upper bound of the SM Higgs boson has been placed at around 
+182 $\mathrm{GeV/c^{2}}$ also at the 95\% confidence level~\cite{combsum}.
+
+A direct search for the standard model Higgs boson can be implemented through the use of observation of its various decay modes. These modes and their predicted branching ratios can be seen in
+Figure~\ref{fig:hggmodes} as a function of the Higgs mass, $m_h$. 
+
+\begin{figure}[hbt!]
+ 			\centering
+ 			\includegraphics[scale=0.5]{higgs_susy02.eps}
+ 			\caption{Branching ratios of Higgs decay modes as a function of its mass, $m_h$~\cite{haber-2002}. The two fermion (two boson) channels are indicated by solid (dashed) lines. }
+   \label{fig:hggmodes}
+\end{figure}
+
+The simplest of these (albeit one of the lowest branching ratios at around $10^{-3}$ compared with quark decays) is the
+di-photon signal of the decay $H \rightarrow \gamma \gamma$. Since the Higgs cannot directly couple to the massless photons, the decay is mediated through virtual particles such as top or W boson loops as
+shown in the second order diagram in figure~\ref{fig:higgsdecay}. The two photon signal can be readily identified against large QCD backgrounds 
+and reconstructed to find the invariant mass of the Higgs boson. However, due to the relatively low branching ratio of this channel and heavily suppressed Higgs production cross-section, 
+large data samples are required to be confident of discovery.
+
+\begin{figure}[hbt!]
+ 			\centering
+ 			\includegraphics*[scale=0.5,angle=90,viewport=230 0 520 900]{Hgg.ps}
+ 			\caption{Higgs decay to two photons through virtual quark (left) or virtual $W$ boson (right) loops.}
+   \label{fig:higgsdecay}
+\end{figure}
+
+Although the theoretical and experimental constraints on the Higgs properties provides a good indication as to where to look for SM Higgs, the self-coupling nature of the boson
+means that radiative corrections to its mass diverge unless loop 
+cancellations can be introduced. The Higgs bare mass is corrected via these loops by the addition of a term proportional to the energy scale at which the standard model is valid up to. If this scale is the
+Planck scale ($1.22 \times 10^{28}$ eV), then the Higgs mass will only be small (a few hundred $\mathrm{GeV/c^2}$) if there exists some fine tuning between these correcions and the Higgs bare mass.
+A solution to this has been proposed in the form of various super symmetry (SUSY) models. 
+
+\subsection{Super-Symmetry Breaking}
+In SUSY models, it is assumed that there exists some symmetry between fermions and bosons which leads to a wide array of new fundamental particle spectra.
+The simplest of these is the minimal super symmetric standard model (MSSM) which is an attempt to promote the standard model to a super symmetric one. The MSSM predicts that each particle has an 
+associated super-particle with the same mass but which differ by a half-integer unit of spin. The divergent corrections to the Higgs mass can be cancelled by adding partner super-particles to 
+those of the standard model~\cite{murayama-2000}. Since such particles have not been observed by experiment, it is assumed that this symmetry is broken. 
+ 
+Several explanations exist as to the mechanism by which the fermion-boson symmetry and mass degeneracy between the standard model particles and their super-particles are broken.
+In gauge mediated symmetry breaking (GMSB), messenger particles are introduced which interact indirectly with the fundamental fermions and bosons and Higgs particles of the MSSM through standard gauge
+interactions~\cite{martin-1997}. These interactions give rise to a mass spectrum for super-particles which goes beyond the energy levels currently achievable in particle accelerators however they may still 
+be observable indirectly via their contributions to higher order processes.
+
+A further result of the MSSM is an enlarged Higgs sector comprising of two Higgs doublets which corresponds to five physical Higgs bosons (two charged, $H^\pm$, and three neutral, $H$, $h$ and $A$) and 
+their super-partners. Searches for neutral Higgs in context of the MSSM at ALEPH have provided a lower bound of 89.8 $\mathrm{GeV/c^{2}}$ on the mass of the lightest Higgs, $h$, at the 95\% 
+confidence-level~\cite{almssm}.
+
+\section{The LHC and CMS}
+The Large Hadron Collider (LHC) at CERN is a circular particle collider on the Swiss-French border designed to collide proton bunches at a maximum luminosity of $10^{34}$ $\mathrm{cm^{-2}s^{-1}}$.
+During its first 18-24 months of running, the LHC will produce collisions at 3.5 TeV per beam, an energy level previously unobtainable at particle physics beam experiments such as LEP and the Tevatron.
+The Compact Muon Solenoid (CMS) detector at CERN is one of two general purpose detectors designed to study particle physics at the TeV scale. It is expected that at this scale, significant deviations 
+from standard model predictions should be observed and that new fundamental particles should be seen.
+
+The CMS detector is built in approximately cylindrical layers with its axis running along the beam line. The tracker and calorimeter elements are situated within a 4 Tesla axial magnetic field provided by 
+the superconducting magnet surrounding them. The flux return is implemented within the muon detector system which lie outdie the superconducting coil~\cite{cmsdetector}. 
+Figure~\ref{fig:cms} shows the geometry of the CMS detector and its major components. The following is an overview of the relavant detector elements for electro-weak measurements and di-photon Higgs/susy
+searches.
+
+ \begin{figure}[!ht]
+ 			\centering
+ 			\includegraphics[scale=0.35]{CMS_Detector.eps}
+ 			\caption{Schematic diagram of the CMS Detector segmented~\cite{cmspub}. The figure has been modified from its original source.}
+   \label{fig:cms}
+\end{figure}
+
+\subsection{CMS Tracking}
+
+The CMS tracker is designed to provide precise measurements of charged particle track observables, such as momentum and vertices, which make up a large portion of the complex topology of collisions at the 
+TeV scale. In addition to the high level of granularity required to make such measurements, the high rate of interaction at LHC (25 ns between bunch crossings) requires a fast response from the tracking 
+elements. The intense particle flux to which the tracking element can cause severe damage to the detector elements over short periods of time. For prolonged operation then, the tracker material have both
+high precision and efficiency as well as radiation hardness.
+
+The tracker is comprised of a pixel detector element encased by silicon strip detectors. The pixel detector is the closest tracking element to the interaction 
+point. It is a composite of 66 million individual pixels which form three cylindrical layers around the beam line and two forward disks. The geometry of the pixel detector, 
+as shown in Figure~\ref{fig:pixgeom}, allows for an acceptance within a pseudo-rapidity range $ |\eta| < 2.5$.
+Although each pixel is only 100 x 150 $\mathrm{\mu}$m in size, the spatial resolution is much finer than this due to charge sharing among individual pixels. 
+The resolution of the pixel detector is around 10 $\mathrm{\mu}$m in the $\hat{r}$ and $\hat{\phi}$ direction and 17 $\mathrm{\mu}$m in $\hat{z}$~\cite{trckAC}. 
+This fine resolution is important for reconstructing secondary vertices from real decays of heavy particles.  
+
+ \begin{figure}[!ht]
+ 			\centering
+ 			\includegraphics[scale=0.3]{pixelgeom.eps}
+ 			\caption{Pixel detector geometry at CMS cross-section view~\cite{cmsdetector}. The pseudo-rapidty, $\eta$, is defined as $-\ln(\tan(\theta/2))$ where $\theta$ is
+				  the angle with respect to the beam axis. The figure has been modified from its original source.}
+   \label{fig:pixgeom}
+\end{figure}
+
+The tracking capabilities of CMS are enhanced by the ten cylindrical layers of silicon strip detectors which extend from $r=20$ cm to $r=116$ cm~\cite{cmsdetector} and the twelve silicon discs at each end. 
+The geometry of the silicon tracker is shown in figure~\ref{fig:silicon}. The first two layers and second two layers form the tracker inner barrel (TIB in fig~\ref{fig:silicon}) and give four position
+position measurements with resolutions 23$\mathrm{\mu}$m and 35$\mathrm{\mu}$m respectively in the $\hat{r}-\hat{\phi}$ plane. The remaining layers form the tracker outer barrel (TOB) giving a further 
+six measurements with resolutions 53$\mathrm{\mu}$m (for the first four layers) and 35$\mathrm{\mu}$m (for the last two layers) in this plane.
+
+ \begin{figure}[!ht]
+ 			\centering
+ 			\includegraphics[scale=0.4]{silicon.eps}
+ 			\caption{Silicon detector geometry at CMS cross-section view~\cite{cmsdetector}.Each solid line represents a detector module.}
+   \label{fig:silicon}
+\end{figure}
+
+By making multiple precise measurements throughout the tracker system, sophisticated tracking algorithms can be applied to reconstruct the trajectories of the particles which originated from the interaction
+point. This is crucial in determining the transverse momentum of the particles for candidate reconstruction and to understand the overall topology of a single event. The ability of the CMS tracker 
+and algorithms to do this has been tested using detector simulations (with GEANT4) of single muons passing through the tracker
+at varied energies as a function of their pseudo-rapidity $\eta$ (fig~\ref{fig:delp}. For high energy muons ($100 \mathrm{GeV/c^2}$) the momentum resolution is around 1-2\% for $\eta < 1.6$ and is 
+largely a result of the choice of tracker material~\cite{TDR1}.
+ 
+ \begin{figure}[!ht]
+ 			\centering
+ 			\includegraphics[scale=0.5]{delp.eps}
+ 			\caption{Transverse momentum resolution for muons in the CMS tracker, at 1,10 and 100 GeV as a function of pseudo-rapidity~\cite{TDR1}.Each solid line represents a detector module.}
+   \label{fig:delp}
+\end{figure}
+
+\subsection{CMS ECAL}
+
+The CMS electromagnetic calorimeter (ECAL) will play a vital role in discovering new physics at the LHC. It is constructed from high density lead tungstate (PbWO$_{4}$) crystals, kept at around 291 K, which
+form a 
+barrel and two endcaps around the tracker, covering a pseudo-rapidity range up to $|\eta | < 3$. The crystals are arranged to form modules which surround the beam line but in a non-projective geometry.
+This means that the gaps between crystal modules are not aligned with particle tracks originating from the primary vertex.
+Electrons and photons from the interaction point deposit most of their energy within the crystals due to the depth of the crystals being equivalent to 25.8 radiation lengths~\cite{TDR1}. This produces
+clear electro-weak signals amongst a complex QCD background. For high energy particles, these are typically 
+seen as showers either through pair production in the case of photons or a combination of ionisation and bremsstrahlung radiation for electrons resulting in scintillation light at around 440 nm in the
+crystals. Typically, the shower profile can be used to identify the source as either an electron or a photon.
+
+The (PbWO$_{4}$) crystals used in CMS have a scintillation decay time roughly equal to that of the CMS bunch crossing time of 25 ns. This means that around 80\% of the scintillation light from an event
+in the ECAL can be collected~\cite{cmsdetector}. The scintillation output of the crystals is, however, low and temperature dependant ($\sim$ 2.1\%/K at 291 K). To overcome this low yield, 
+avalanche photo-diodes (APD's) and vacuum photo-triodes (VPT's) are used to collect the scintillation light and amplify the signal in the calorimeter barrel and endcaps respectively. Around 4.5 photo-electrons
+per MeV are produced in both APD's and VPT's at 291 K.
+
+The crystals, though radiation hard, do suffer from loss of optical transmission when irradiated through the formation of crystal-lattice defaults which absorb some of the scintillation light. Annealing
+which occurs at 291 K acts to balance the damage from radiation which results in an equilibrium optical transmission which is dose-dependant~\cite{cmsdetector}. At the LHC, the dose varies during its runs
+and so the time varying optical transmission of the ECAL crystals must be monitored. This effect has been simulated using test beam results as seen in Figure~\ref{fig:trans}.
+
+\begin{figure}[!ht]
+			\centering
+			\includegraphics[scale=0.4]{trans.eps}
+			\caption{Simulation of ECAL crystal transmission using test beam results assuming a luminosity of $2 \times 10^23 \mathrm{cm^{-2}s^{-1}}$ at the LHC~\cite{cmsdetector}.}
+\label{fig:trans}
+\end{figure}
+
+
+The ECAL transmission is monitored at CMS through the use of laser pulses at blue light (440 nm), which is close to the scintillation emission peak,
+and infra-red (796 nm), which is far from the peak and relatively unaffected by the radiation damage. By comparing the transmission of the blue light to the infra-red, the time varying nature of the ECAL's
+transparency can be monitored and corrected for.
+
+The identification and reconstruction of electrons and photons is vital for studying the decays of the electroweak bosons (such as in $Z\rightarrow e e$) and potentially Higgs bosons (such as in $H \rightarrow
+ \gamma \gamma$). The energy measurement provided by the ECAL can be combined with measurements from the tracker to determine which particles were produced in the primary interaction. 
+The energy resolution of the ECAL can be parametrised as the combination of three uncorrelated sources as given in equation~\ref{eqn:res} where the energy is in GeV. 
+The constants $a$,$b$ and $c$ are the stochastic, noise and constant contributions respectively. The stochastic term, $a=2.8\%$ is very low for lead tungstate since the shower can be mostly contained.
+As the noise term, $b=$ 0.12 is determined by the electronics, it is mostly the constant term, $c=0.3\%$ which will limit the ECAL accuracy at high energies~\cite{cmsdetector}. 
+
+\begin{eqnarray}
+  \left( \frac{\displaystyle \sigma_{E}}{\displaystyle E} \right)^ 2 & = & \left( \frac{\displaystyle a}{\displaystyle \sqrt{E}} \right)^ 2 
+  + \left( \frac{\displaystyle b}{\displaystyle {E}} \right)^ 2 + c^ 2
+\end{eqnarray}
+\label{eqn:res}
+
+ 
+
+\section{W/Z Cross-sections}
+
+The formulation of the Glashow-Weinberg-Salam (GWS) theory of the (electro-)weak interaction lead to the prediction of massive intermediate vector bosons ($W^{\pm}$ and $Z^0$) which would mediate
+weak processes such as nuclear beta decay. The discovery of these bosons in 1983 by the UA1 collaboration at CERN~\cite{UA1W,UA1Z} validated the theory and found the masses of these bosons to be around
+$80 \mathrm{GeV/c^2 }$ and $95 \mathrm{GeV/c^2 }$ respectively.
+
+One of the initial tasks of CMS at the LHC will be to understand the production rates and subsequent decays of these fundamental particles within the detector at 7 $\mathrm{TeV}$ proton-proton collisions.
+Understanding these fundamental processes will not only build confidence in the performance of the detector and reconstruction algorithms but also provide the help to constrain the Electro-Weak
+processes as a background to searches for new physics.
+
+The $W^{\pm}$ and $Z^{0}$ bosons can be detected through their leptonic decays, $W^{\pm} \rightarrow e^{\pm} + \nu_{e} / \bar{\nu_e}$ and $\gamma / Z \rightarrow e^+ +e^- $. 
+These decays provide clear signals amongst the large QCD backgrounds at LHC and can be used to calculate the production cross-section $\sigma_W / \sigma_{\gamma/Z} $ 
+using equations~\ref{eqn:crossec1} and~\ref{eqn:crossec2}.
+
+\begin{eqnarray}
+  \sigma_W \times BR(W\rightarrow e\nu) & = & \frac{\displaystyle S_W }{\displaystyle A_W \epsilon_W \int L dt} \label{eqn:crossec1}\\
+  \sigma_{\gamma/Z} \times BR({\gamma/Z}\rightarrow e^+ e^- ) & = & \frac{\displaystyle S_{\gamma/Z} }{\displaystyle A_{\gamma/Z} \epsilon_{\gamma/Z} \int L dt} \label{eqn:crossec2}
+\end{eqnarray}
+
+Here, $A_i$ and $\epsilon_i$ represent the acceptance and efficiencies as fractions of multiple candidates which pass the detector geometry and identification criteria respectively.
+$\int L dt$ is the integrated luminosity of the sample. The acceptance for $Z$ and $W$ will not be unity since the detector elements (such as the ECAL) do
+not have an hermetic coverage of the interaction point. The efficiencies too will not be unity due to the various cuts which must be made to confidently identify candidate electrons,
+thereby reducing the potential signal sample size. Due to the missing energy observed in $W\rightarrow e\nu$ events, this will have a greater significance for measuring $\sigma_W$. 
+In addition, there are various electro-weak
+backgrounds to the two decays either in the form of a faked signal, such as a single electron from a $Z$ decay in which one electron is missed, or from tau or $b$-quark decays to single electrons. 
+Fortunately, these are small compared to the signal and can be estimated from Monte-Carlo studies.   
+
+A greater challenge will be to correctly identify the signal $W\rightarrow e\nu$ events from the QCD backgrounds present in high energy proton-proton collisions. The largest of these contributions is expected
+from di-jet events whereby one narrow jet fakes an electron and mis measurements of energy in appear as missing $E_T$. Another contribution can be from $\gamma$+jets events in which the photon produces
+an electron-positron pair in the detector. Unlike the electro-weak processes, these backgrounds are harder to estimate from Monte-Carlo and will rely on early work with data-driven methods to constrain them.
+Due to the high cross-section of QCD and events at the LHC, the data will be available to perform such an investigation relatively quickly.
+
+\section{Conclusions}
+The initial run of the LHC will produce head on collisions at higher energies than ever before achieved in beam particle physics experiments. It is currently one of the best instruments available
+to probe physics beyond the standard model and CMS will play a leading role in the potential direct discovery of new fundamental particles. Early measurements of known processes in CMS such as the production
+of the weak bosons will provide a solid understanding of the detector performance in the first stages of running will provide a firm foundation for searches into physics beyond the TeV scale. 
+  
+
+\bibliographystyle{unsrt}
+\bibliography{Report}
+\end{document}

@@ -34,7 +34,7 @@
    h_1_a->SetEntries(16);
    h_1_a->SetLineColor(4);
    h_1_a->SetLineWidth(2);
-   h_1_a->GetXaxis()->SetTitle("E_{T}^{L1} GeV");
+   h_1_a->GetXaxis()->SetTitle("E_{T}^{L1} (GeV)");
    h_1_a->GetYaxis()->SetTitle("E_{T}^{L1}/E_{T}^{Gen}");
    h_1_a->GetYaxis()->SetTitleSize(0.045);
    h_1_a->GetYaxis()->SetTitleOffset(1.0);
@@ -131,7 +131,8 @@
    pt_u_rsp->SetMinimum(0);
    pt_u_rsp->SetMaximum(2);
    pt_u_rsp->SetEntries(16);
-   pt_u_rsp->SetMarkerStyle(21);
+   pt_u_rsp->SetMarkerStyle(22);
+   pt_u_rsp->SetMarkerSize(1.25);
    pt_u_rsp->GetXaxis()->SetTitle("P_{T}^{L1}");
    pt_u_rsp->GetYaxis()->SetTitle("P_{T}^{L1}/P_{T}^{Gen}");
    pt_u_rsp->Draw("same");
@@ -192,8 +193,8 @@
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
    entry->SetMarkerColor(1);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(1);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1.25);
    entry=leg->AddEntry("pt_pf_rsp","Corrected","P");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);

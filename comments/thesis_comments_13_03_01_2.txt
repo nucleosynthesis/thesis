@@ -1,0 +1,47 @@
+Chapter 2: The LHC and CMS Detector
+
+2.1 The LHC : "leading" since there is only one collider studying physics at the TeV scale, not sure "leading" adds anything.
+
+Page 19 top: "design was therefore the..." -> "design was, therefore, the ..."
+
+"almost any known particle.." sounds a bit weird, be more specific.
+
+middle: "|\eta| = 5" symbol not yet defined.
+
+bottom: don't think you have uniquely defined the coordinate system. Should mention "right handed" perhaps.
+
+2.2.2 ECAL reword first sentence. Muons also interact electromagnetically and even leave signals in the ECAL. But they don't generally form electromagnetic showers.
+
+end of first paragraph in this section: the point is to distinguish the showers of two boosted photons from a pi0 decay from a single high energy photon. Not sure the sentence about spatial resolution really gets across how this discrimination is achieved.
+
+second paragraph: why is "non-projective geometry" in single quotes? Also, you could say the gaps between the crystals point to 3degrees beyond the interaction point. As there is a difference between pointing beyond or in front of the interaction regio. You should also add a comment as to why this is the case - ie to avoid having pointing gaps.
+
+page 23 top: you don't use APDs and VPT because the light yield is low and temperature dependent. You use them because they can withstand the strong magnetic field where a more traditional photomultiplier tube might fail work, and they are radiation hard. Check the ECAL TDR or CMS Technical Proposal. Should also explain why different technology in endcap and barrel - ie VPT more rad hard in higher dose forward region.
+
+Second paragraph of page 23: don't call a, b and c constants, they're not. call them parameters. add more explanation about the different contributions to each of the terms. 
+
+Electron Photon Reconstruction: "for photons which convert in the tracker..." -> "for photons that convert in the material between the beam and the calorimeter". Also, add the extra point that the range of the spreading of the cluster will depend on the conversion point. You could also add something about where most fo the conversions occur etc.
+
+2.3: "In order to cope with the high data output rate" -> "... high event rate"
+or perhaps ".. collision rate"
+
+2.3.1 "generated jets..." bit jargony, are they compared to the originating parton? or by applying the same jet finding algorithm to the MC truth particles after hadronization?
+
+Any motivation for the choice of eqn 2.5?
+
+No error bars on Figure 2.10? Caption should reference the specific parameterisation used, ie. is it the one in eqn 2.5.
+
+2.3.2 No conclusion on the closure - merely a statement of the result. Is this value acceptable etc?
+
+Again, Figures 2.11 and 2.12 have no error bars. High stats so the bars are v. small? or missing?
+
+2.13 has error bars! yay.
+
+Page 32 middle of paragraph "reconstructed online,..." be careful with the use of online and offline, unless you have defined these terms earlier in the text. Not obvious to the uninitiated that offline -> non-trigger and online -> trigger.
+
+
+
+
+
+
+

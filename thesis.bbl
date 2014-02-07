@@ -1,0 +1,516 @@
+\begin{thebibliography}{10}
+
+\bibitem{tevhiggscombinations}
+{The TEVNPH Working Group} and {CDF {and} D0 Collaborations}.
+\newblock {Combined CDF and D0 Search for Standard Model Higgs Boson Production
+  with up to 10.0 $fb^{-1}$ of Data}.
+\newblock {\em ArXiv e-prints:1203.3774}, March 2012.
+
+\bibitem{lepewwgpage}
+{LEPEWWG}.
+\newblock The {LEP} {Electroweak} {Working} {Group}.
+\newblock 2012.
+\newblock http://lepewwg.web.cern.ch/LEPEWWG/.
+
+\bibitem{lhcxswg2011}
+{LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.).
+\newblock {Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables}.
+\newblock {\em CERN-2011-002}, CERN, Geneva, 2011.
+
+\bibitem{lhcxswg2012}
+{LHC Higgs Cross Section Working Group}, S.~Dittmaier, C.~Mariotti,
+  G.~Passarino, and R.~Tanaka~(Eds.).
+\newblock {Handbook of LHC Higgs Cross Sections: 2. Differential
+  Distributions}.
+\newblock {\em CERN-2012-002}, CERN, Geneva, 2012.
+
+\bibitem{cmspub}
+CERN.
+\newblock {CMS} {Compact} {Muon} {Solenoid}.
+\newblock Feb 2010.
+\newblock http://public.web.cern.ch/public/Objects/LHC/CMSnc.jpg.
+
+\bibitem{Weber201159}
+M.~Weber.
+\newblock Calibration, alignment and tracking performance of the cms silicon
+  strip tracker.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 628(1):59
+  -- 63, 2011.
+\newblock Proceedings of the 12th International Vienna Conference on
+  Instrumentation.
+
+\bibitem{TRK-10-005}
+CMS {Collaboration}.
+\newblock Tracking and {Primary} {Vertex} {Results} in {First} 7 {TeV}
+  {Collisions}.
+\newblock {\em {CMS-PAS-TRK-10-005}}, 2010.
+
+\bibitem{AN-12-048}
+A.~Bengalia et~al.
+\newblock Search for a {Standard} {Model} {Higgs} boson decaying into two
+  photons employing multivariate methods.
+\newblock {\em {CMS-AN-12/048}}, 2012.
+
+\bibitem{HIG-12-036}
+The~{CMS} {Collaboration}.
+\newblock Observation of a new boson with mass near 125 {GeV} in pp collisions
+  at $\sqrt{s}$ = 7 and 8 {TeV}.
+\newblock {\em CMS-PREPRINT (submitted to JHEP)}, 2013.
+
+\bibitem{HIG-12-020}
+The~{CMS} {Collaboration}.
+\newblock Observation of a new boson with a mass near 125 {GeV}.
+\newblock {\em {CMS-PAS-HIG-12-020}}, 2012.
+
+\bibitem{HIG-12-045}
+The~{CMS} {Collaboration}.
+\newblock Combination of {Standard} {Model} {Higgs} boson searches and
+  measurements of the properties of the new boson with a mass near 125 {GeV}.
+\newblock {\em {CMS-PAS-HIG-12-045}}, 2012.
+
+\bibitem{combinedWmass}
+R.~C. Lopes~de Sa.
+\newblock Precise measurements of the {$W$} mass at the {Tevatron} and indirect
+  constraints on the {Higgs} mass.
+\newblock {\em ArXiv e-prints: 1204.3260}, 2012.
+
+\bibitem{pdg}
+J.~Beringer and others. (Paricle Data~Group).
+\newblock Review of {Particle} {Physics}.
+\newblock {\em Phys. Rev. D}, 86:010001, Jul 2012.
+
+\bibitem{AN-12-160}
+A.~Benaglia et~al.
+\newblock Search for a {Standard} {Model} {Higgs} boson decaying into two
+  photons.
+\newblock {\em {CMS-AN-12/160}}, 2012.
+
+\bibitem{EWK-11-001}
+The~{CMS} {Collaboration}.
+\newblock {Measurement of the {Inclusive} $W$ and $Z$ {Production} {Cross}
+  {Sections} in $pp$ {Collisions} at $\sqrt{s}=7$ {TeV}}.
+\newblock {\em JHEP}, 1110:132, 2011.
+
+\bibitem{AN-11-009}
+N.~Wardle, D.~Futyan, J.~Hays, N.~Rompotis, C.~Seez, T.~Virdee, and
+  D.~Wardrope.
+\newblock Extraction of the $w\rightarrow e\nu$ signal yield in pp collisions
+  at {CMS} using the {ABCDE} method.
+\newblock {\em {CMS-AN-11/009}}, 2011.
+
+\bibitem{noether}
+E.~Noether.
+\newblock {Invariant variation problems}.
+\newblock {\em Transport Theory and Statistical Physics}, 1:186--207, 1971.
+
+\bibitem{glashow}
+S.~L. Glashow.
+\newblock {Partial Symmetries of Weak Interactions}.
+\newblock {\em Nucl.Phys.}, 22:579--588, 1961.
+
+\bibitem{weinberg}
+S.~Weinberg.
+\newblock {A Model of Leptons}.
+\newblock {\em Phys. Rev. Lett.}, 19:1264--1266, Nov 1967.
+
+\bibitem{salam}
+A.~Salam.
+\newblock {Weak and Electromagnetic Interactions}.
+\newblock {\em Conf.Proc.}, C680519:367--377, 1968.
+
+\bibitem{wu}
+C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
+\newblock Experimental {Test} of {Parity} {Conservation} in {Beta} {Decay}.
+\newblock {\em Phys. Rev.}, 105:1413--1415, Feb 1957.
+
+\bibitem{aitchison}
+I.~J.~R. Aitchison and A.~J.~G. Hey.
+\newblock {\em {Gauge Theories in Particle Physics, 2 Volume Set}}.
+\newblock Taylor \& Francis, 3 edition, January 2004.
+
+\bibitem{halzen}
+F.~Halzen and A.~D. Martin.
+\newblock {\em {Quarks and Leptons: An Introductory Course in Modern Particle
+  Physics}}.
+\newblock Wiley, February 1984.
+
+\bibitem{Higgs:1964ia}
+P.~W. Higgs.
+\newblock {Broken symmetries, massless particles and gauge fields}.
+\newblock {\em Phys.Lett.}, 12:132--133, 1964.
+
+\bibitem{PhysRev.155.1554}
+T.~W.~B. Kibble.
+\newblock Symmetry breaking in non-abelian gauge theories.
+\newblock {\em Phys. Rev.}, 155:1554--1561, Mar 1967.
+
+\bibitem{Higgs:1964pj}
+P.~W. Higgs.
+\newblock {Broken Symmetries and the Masses of Gauge Bosons}.
+\newblock {\em Phys.Rev.Lett.}, 13:508--509, 1964.
+
+\bibitem{Guralnik:1964eu}
+G.~S. Guralnik, C.~R. Hagen, and T.~W.~B. Kibble.
+\newblock {Global Conservation Laws and Massless Particles}.
+\newblock {\em Phys.Rev.Lett.}, 13:585--587, 1964.
+
+\bibitem{PhysRev.145.1156}
+P.~W. Higgs.
+\newblock Spontaneous symmetry breakdown without massless bosons.
+\newblock {\em Phys. Rev.}, 145:1156--1163, May 1966.
+
+\bibitem{muondecay}
+D.~M. Webber et~al.
+\newblock {Measurement of the Positive Muon Lifetime and Determination of the
+  Fermi Constant to Part-per-Million Precision}.
+\newblock {\em Phys. Rev. Lett.}, 106:041803, Jan 2011.
+
+\bibitem{ellisHiggsReview}
+J.~Ellis, M.~K. Gaillard, and D.~V. Nanopoulos.
+\newblock {A Historical Profile of the Higgs Boson}.
+\newblock {\em ArXiv e-prints: 1201.6045}, 2012.
+
+\bibitem{higgstriviality}
+U.~M. {Heller}, M.~{Klomfass}, H.~{Neuberger}, and P.~{Vranas}.
+\newblock {Numerical analysis of the Higgs mass triviality bound}.
+\newblock {\em Nuclear Physics B}, 405:555--573, September 1993.
+
+\bibitem{higgsreview2012}
+J.~Beringer and others (Particle Data~Group).
+\newblock Higgs {Bosons}: {Theory} and {Searches}.
+\newblock {\em Phys. Rev. D}, 86:010001, 2012.
+
+\bibitem{lephiggs}
+{ALEPH Collaboration}, {DELPHI Collaboration}, {L3 Collaboration}, {OPAL
+  Collaboration}, and {LEP Working Group For Higgs Boson Searches}.
+\newblock {Search for the Standard Model Higgs boson at LEP}.
+\newblock {\em Physics Letters B}, 565:61--75, July 2003.
+
+\bibitem{aliceexperiment}
+The~{ALICE} {Collaboration}.
+\newblock The {ALICE} experiment at the {CERN LHC}.
+\newblock {\em Journal of Instrumentation}, 3(08):S08002, 2008.
+
+\bibitem{atlasexperiment}
+The~{ATLAS} {Collaboration}.
+\newblock The {ATLAS} {Experiment} at the {CERN} {Large Hadron Collider}.
+\newblock {\em Journal of Instrumentation}, 3(08):S08003, 2008.
+
+\bibitem{cmsexperiment}
+The~{CMS} {Collaboration}.
+\newblock {The CMS experiment at the CERN LHC}.
+\newblock {\em Journal of Instrumentation}, 3:S08004, 2008.
+
+\bibitem{lhcbexperiment}
+The~LHCb Collaboration.
+\newblock The lhcb detector at the lhc.
+\newblock {\em Journal of Instrumentation}, 3(08):S08005, 2008.
+
+\bibitem{trckAC}
+A.~Tricomi.
+\newblock {Performances of the ATLAS and CMS silicon tracker}.
+\newblock {\em The European Physical Journal C - Particles and Fields},
+  33:s1023--s1025, 2004.
+
+\bibitem{TDR1}
+The~{CMS} {Collaboration}.
+\newblock {\em CMS {Physics}: {Technical} {Design} {Report} {Volume} 1:
+  {Detector} {Performance} and {Software}}.
+\newblock {Technical Design Report CMS}. {CERN}, Geneva, 2006.
+
+\bibitem{AN-06-140}
+P.~Adzic and others.
+\newblock Energy resolution performance of the {CMS} electromagnetic
+  calorimeter.
+\newblock {\em {CMS-AN-06/140}}, 2006.
+
+\bibitem{cseez}
+E.~Meschi, T.~Monteiro, C.~Seez, and P.~Vikas.
+\newblock Electron {Reconstruction} in the {CMS} {Electromagnetic}
+  {Calorimeter}.
+\newblock {\em CMS-AN-01/034}, 2001.
+
+\bibitem{dfutyan}
+S.~Baffioni, C.~Charlot, F.~Ferri, D.~Futyan, P.~Meridiani, I.~Puljak,
+  C.~Rovelli, R.~Salerno, and Y.~Sirois.
+\newblock Electron reconstruction in {CMS}.
+\newblock {\em The European Physical Journal C}, 49:1099--1116, 2007.
+
+\bibitem{AN-09-164}
+W.~Adam et~al.
+\newblock Electron reconstruction in {CMS}.
+\newblock {\em {CMS-AN-09/164}}, 2009.
+
+\bibitem{GSF_Electron_Reconstruction_CMS}
+W.~Adam, R.~Fr\"{u}hwirth, A.~Strandlie, and T.~Todorov.
+\newblock Reconstruction of electrons with the {Gaussian}-sum filter in the
+  {CMS} tracker at the {LHC}.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics}, 31(9):N9,
+  2005.
+
+\bibitem{CMS-DP-2012-007}
+The~{CMS} {Collaboration}.
+\newblock {ECAL} {Detector} {Performance}, {2011} {Data}.
+\newblock {\em CMS-DP-2012-007}, May 2012.
+
+\bibitem{l1}
+The~{CMS} {Collaboration}.
+\newblock The trigger and data acquisition project technical design report,
+  volume 1, the level-1 trigger.
+\newblock {\em CERN/LHCC 2000-038, CMS TDR 6.1}, 2000.
+
+\bibitem{hlt}
+The~{CMS} {Collaboration}.
+\newblock The trigger and data acquisition project technical design report,
+  volume 2: Data acquisition and high-level trigger.
+\newblock {\em CERN/LHCC 2002-026, CMS TDR 6.2}, 2002.
+
+\bibitem{antikt}
+M.~Cacciari, G.~P. Salam, and G.~Soyez.
+\newblock The anti-$k_{t}$ jet clustering algorithm.
+\newblock {\em Journal of High Energy Physics}, (04):12, 2008.
+
+\bibitem{jetcalib}
+The~{CMS} {Collaboration}.
+\newblock {Determination} of jet energy calibration and transverse momentum
+  resolution in {CMS}.
+\newblock {\em Journal of Instrumentation}, 6(11):P11002, 2011.
+
+\bibitem{l1triggernote}
+J.~Brooke, B.~Mathias, A.~Tapper, and N.~Wardle.
+\newblock Calibration and {Performance} of the {Jets} and {Energy} {Sums} in
+  the {Level-1} {Trigger}.
+\newblock {\em CMS-INTERNAL-NOTE}, 2012.
+
+\bibitem{HIG-11-033}
+The~{CMS} {Collaboration}.
+\newblock Search for the standard model {Higgs} boson decaying into two photons
+  in pp collisions at {CMS}.
+\newblock {\em Physics Letters B}, 710(3):403 -- 425, 2012.
+
+\bibitem{powheg}
+C.~Oleari.
+\newblock {The {POWHEG} {BOX}}.
+\newblock {\em Nuclear Physics B Proceedings Supplements}, 205:36--41, August
+  2010.
+
+\bibitem{hqt}
+G.~Bozzi, S.~Catani, D.~{de Florian}, and M.~Grazzini.
+\newblock The {qT} spectrum of the {Higgs} boson at the {LHC} in {QCD}
+  perturbation theory.
+\newblock {\em Physics Letters B}, 564(1–2):65 -- 72, 2003.
+
+\bibitem{lhcxswg}
+{LHC Higgs Cross Section Working Group}, S.~{Dittmaier}, C.~{Mariotti}, et~al.
+\newblock {Handbook of LHC Higgs Cross Sections: 1. Inclusive Observables}.
+\newblock {\em ArXiv e-prints}, January 2011.
+
+\bibitem{pythia}
+T.~{Sj{\"o}strand}, S.~{Mrenna}, and P.~{Skands}.
+\newblock {PYTHIA 6.4 physics and manual}.
+\newblock {\em Journal of High Energy Physics}, 5:26, May 2006.
+
+\bibitem{geant4}
+S.~Agostinelli, J.~Allison, K.~Amako, et~al.
+\newblock {Geant4} - a simulation toolkit.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 506(3):250
+  -- 303, 2003.
+
+\bibitem{cmssw}
+The~{CMS} {Collaboration}.
+\newblock {CMS} {Software} {Page}.
+\newblock 2013.
+\newblock https://cms-cpt-software.web.cern.ch/cms-cpt-software/General.
+
+\bibitem{tmva}
+A.~Hoecker et~al.
+\newblock {TMVA - Toolkit for Multivariate Data Analysis}.
+\newblock {\em ArXiv e-prints:0703039}, March 2007.
+
+\bibitem{friedmanbdt}
+J.~H. Friedman.
+\newblock {Greedy Function Approximation: A Gradient Boosting Machine}.
+\newblock {\em Annals of Statistics}, 29:1189--1232, 2000.
+
+\bibitem{AN-11-343}
+P.~D. Dauncey, M.~Kenzie, and C.~Seez.
+\newblock Residual photon energy corrections and resolution from simulation.
+\newblock {\em {CMS-AN-11/343}}, 2011.
+
+\bibitem{crystalball}
+T.~Skwarnicki.
+\newblock {\em A study of the radiative cascade transitions between the
+  {Upsilon-prime} and {Upsilon} resonances}.
+\newblock PhD thesis, Institute of Nuclear Physics, Krakow, 1986.
+\newblock
+  {http://inspirehep.net/record/230779/files/230779.pdf}{DESY-F31-86-02}.
+
+\bibitem{IN-11-014}
+W.~Erdmann.
+\newblock {Offline Primary Vertex Reconstruction with Deterministic Annealing
+  Clustering}.
+\newblock {\em {CMS-IN-11/014}}, 2011.
+
+\bibitem{AN-12-116}
+The {Egamma}~{ID} {Group}.
+\newblock Tag and probe methodology for analyses using electrons and photons.
+\newblock {\em {CMS-AN-12/116}}, 2012.
+
+\bibitem{2011JInst611002C}
+The~{CMS} {Collaboration}.
+\newblock Determination of jet energy calibration and transverse momentum
+  resolution in {CMS}.
+\newblock {\em Journal of Instrumentation}, 6:11002, November 2011.
+
+\bibitem{minuit}
+F.~James and M.~Roos.
+\newblock Minuit: {A} {System} for {Function} {Minimization} and {Analysis} of
+  the {Parameter} {Errors} and {Correlations}.
+\newblock {\em Comput.Phys.Commun.}, 10:343--367, 1975.
+
+\bibitem{pca}
+H.~Abdi and L.~J. Williams.
+\newblock Principal {Component} {Analysis}.
+\newblock {\em Wiley Interdisciplinary Reviews: Computational Statistics},
+  2(4):433--459, 2010.
+
+\bibitem{onlineresults}
+N.~Wardle.
+\newblock {Higgs} to two photon binned bdt distribution plots for the 2011
+  dataset.
+\newblock 2013.
+\newblock http://nckw.web.cern.ch/nckw/hgg-fmva-2011/data-model.
+
+\bibitem{statsbook}
+F.~E. James.
+\newblock {\em {Statistical} {Methods} in {Experimental} {Physics}: 2nd
+  {Edition}}.
+\newblock World Scientific Publishing, February 2006.
+
+\bibitem{cls}
+A.~L. Read.
+\newblock Presentation of search results: the {CLs} technique.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics},
+  28(10):2693, 2002.
+
+\bibitem{roofit}
+W.~Verkerke and D.~P. Kirkby.
+\newblock {The RooFit toolkit for data modeling}.
+\newblock {\em eConf}, C0303241:MOLT007, 2003.
+
+\bibitem{combinationstwiki}
+G.~Petrucciani.
+\newblock Documentation of the {RooStats}-based statistics tools for {Higgs}
+  {PAG}.
+\newblock 2013.
+\newblock
+  https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideHiggsAnalysisCombinedLimit.
+
+\bibitem{asimov}
+G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em The European Physical Journal C}, 71:1--19, 2011.
+
+\bibitem{leelyon}
+L.~Lyons.
+\newblock Open statistical issues in particle physics.
+\newblock {\em ArXiv e-prints: 0811.1663}, November 2008.
+
+\bibitem{lee}
+E.~Gross and O.~Vitells.
+\newblock {Trial factors for the look elsewhere effect in high energy physics}.
+\newblock {\em European Physical Journal C}, 70:525--530, 2010.
+
+\bibitem{HIG-12-028}
+The~{CMS} {Collaboration}.
+\newblock Observation of a new boson at a mass of 125 {GeV} with the {CMS}
+  experiment at the {LHC}.
+\newblock {\em Physics Letters B}, 716(1):30 -- 61, 2012.
+
+\bibitem{AN-12-317}
+G.~Davies, J.~Hays, and N.~Wardle.
+\newblock Diagnostic tools for {Higgs} searches and properties measurements at
+  {CMS}.
+\newblock {\em {CMS-AN-12/317}}, 2012.
+
+\bibitem{onlinediag}
+N.~Wardle.
+\newblock {Higgs} {Combination} {Diagostic} summary plots for the {ICHEP 2012}
+  dataset.
+\newblock 2013.
+\newblock http://nckw.web.cern.ch/nckw/combination-diagnostics-ichep2012.
+
+\bibitem{HIG-12-015}
+The~{CMS} {Collaboration}.
+\newblock Evidence for a new state decaying into two photons in the search for
+  the {Standard} {Model} {Higgs} boson in pp collisions.
+\newblock {\em {CMS-PAS-HIG-12-015}}, 2012.
+
+\bibitem{HIG-12-019}
+The~{CMS} {Collaboration}.
+\newblock Search for the {Standard} {Model} {Higgs} boson produced in
+  association with {W} or {Z} bosons, and decaying to bottom quarks for {ICHEP}
+  2012.
+\newblock {\em {CMS-PAS-HIG-12-019}}, 2012.
+
+\bibitem{HIG-12-018}
+The~{CMS} {Collaboration}.
+\newblock Search for a {Standard} {Model} {Higgs} boson decaying to tau pairs
+  in pp collisions.
+\newblock {\em {CMS-PAS-HIG-12-018}}, 2012.
+
+\bibitem{HIG-12-017}
+The~{CMS} {Collaboration}.
+\newblock Search for the {Standard} {Model} {Higgs} boson decaying to a {W}
+  pair in the fully leptonic final state in pp collisions at $\sqrt{s}$ = 8
+  {TeV}.
+\newblock {\em {CMS-PAS-HIG-12-017}}, 2012.
+
+\bibitem{HIG-12-021}
+The~{CMS} {Collaboration}.
+\newblock Search for the {Standard} {Model} {Higgs} boson in the {H} to {WW} to
+  lvjj decay channel.
+\newblock {\em {CMS-PAS-HIG-12-021}}, 2012.
+
+\bibitem{HIG-11-034}
+The~{CMS} {Collaboration}.
+\newblock Study of associated {Higgs} boson ({WH}) {Production} in the three
+  leptons ﬁnal state at 7 {TeV}.
+\newblock {\em {CMS-PAS-HIG-11-034}}, 2012.
+
+\bibitem{HIG-12-016}
+The~{CMS} {Collaboration}.
+\newblock Evidence for a new state in the search for the {Standard} {Model}
+  higgs boson in the {H} to {ZZ} to 4 leptons channel in pp collisions at
+  $\sqrt{s}$ = 7 and 8 {TeV}.
+\newblock {\em {CMS-PAS-HIG-12-016}}, 2012.
+
+\bibitem{HIG-11-027}
+The~{CMS} {Collaboration}.
+\newblock Search for the {Standard} {Model} {Higgs} {Boson} in the decay
+  channel {H} to {ZZ(*)} to q-qbar $l^{-}l^{+}$ at {CMS}.
+\newblock {\em {CMS-PAS-HIG-11-027}}, 2011.
+
+\bibitem{HIG-12-023}
+The~{CMS} {Collaboration}.
+\newblock Search for the standard model higgs boson in the $h\rightarrow zz
+  \rightarrow 2l2\nu$ channel in pp collisions at $\sqrt{s}$ = 7 and 8 {TeV}.
+\newblock {\em {CMS-PAS-HIG-12-023}}, 2012.
+
+\bibitem{fc}
+G.~J. Feldman and R.~D. Cousins.
+\newblock Unified approach to the classical statistical analysis of small
+  signals.
+\newblock {\em Phys. Rev. D}, 57:3873--3889, Apr 1998.
+
+\bibitem{couplingsint}
+{LHC} {Higgs} {Cross} {Section}~{Working} {Group}, A.~David, A.~Denner,
+  M.~Duehrssen, M.~Grazzini, et~al.
+\newblock {LHC} {HXSWG} interim recommendations to explore the coupling
+  structure of a {Higgs-like} particle.
+\newblock 2012.
+
+\end{thebibliography}

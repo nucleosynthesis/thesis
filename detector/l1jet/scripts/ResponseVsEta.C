@@ -106,7 +106,8 @@
    eta_u_rsp->SetMinimum(0);
    eta_u_rsp->SetMaximum(2);
    eta_u_rsp->SetEntries(11);
-   eta_u_rsp->SetMarkerStyle(21);
+   eta_u_rsp->SetMarkerStyle(22);
+   eta_u_rsp->SetMarkerSize(1.25);
    eta_u_rsp->GetXaxis()->SetTitle("|#eta|^{Gen}");
    eta_u_rsp->GetYaxis()->SetTitle("E_{T}^{L1}/E_{T}^{Gen}");
    eta_u_rsp->Draw("same");
@@ -157,8 +158,8 @@
    entry->SetLineStyle(1);
    entry->SetLineWidth(1);
    entry->SetMarkerColor(1);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(1);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1.25);
    entry=leg->AddEntry("eta_pf_rsp","Corrected","P");
    entry->SetLineColor(1);
    entry->SetLineStyle(1);

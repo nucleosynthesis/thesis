@@ -51,7 +51,7 @@
    Graph1->SetMaximum(0.4);
    Graph1->SetDirectory(0);
    Graph1->SetStats(0);
-   Graph1->GetXaxis()->SetTitle("E_{T}");
+   Graph1->GetXaxis()->SetTitle("E_{T} (GeV)");
    Graph1->GetXaxis()->SetRange(5,100);
    Graph1->GetYaxis()->SetTitle("#sigma_{E_{T}}/E_{T}");
    Graph1->GetYaxis()->SetTitleOffset(1.22);

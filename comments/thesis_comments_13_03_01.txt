@@ -1,0 +1,34 @@
+Acknowledgements: bit short :)
+
+Introduction: chapter numbering incorrect.
+
+Page 2:
+Sentence three: not sure this is not a tautology. If the Higgs is the SM one, then the mechanism for EWSB is the one prescribed by the SM. Better statement might be: if further measurements of the properties of the new boson prove to fit hte predictions of the standard model, then it will serve as compelling evidence for the mechanism by which EWSB etc.. blah blah.
+
+Not sure you need sentence 4. 
+
+Paragraph 2: "will be outlined serving as..." -> "will be outlined, serving as"
+
+Chapter 2: 
+Theory and Motivations
+
+Why is the first bit in italics? Is this allowed by style constraints?
+
+1.1: Be careful with the first sentence, "unparalleled" is strong statement. Could you back that up? You could just say the SM is a well tested precision model of PP.
+
+1.1: last line: "both both"->"both"
+
+1.1.2: "whereas electromagnatism is effectively infinite" not sure elctromagnatism can be infinite... its range could be infinite.
+
+You could improve on the sentence beginning "The mediators of the weak-nuclear force..." Really, the physical mediators of both the EM and weak-nuclear forces arise from a mixing of the gauge fields.
+
+You could also strengthen the final sentence of this paragraph, saying that it has no measureable impact on the predictions of the model or something like that.
+
+Eqn. 1.2 note that the 1/2 on the hypercharge is convention.
+
+1.1.4 no mention of Goldstone et al.?
+
+Middle of page 10: "only terms which are at most second order in the fields are kept..." not motivated in the text.
+
+1.2.1 end of page 12: "Within the context of the standard model, for a particular value of mH, all other electroweak observables are calculable..." pretty sure this statement is too strong. The SM has a number of parameters which need to be ascertained experimentally. We do not appear, so far, to live in a universe indexed within the multiverse by the Higgs mass.
+

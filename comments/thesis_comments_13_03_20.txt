@@ -1,0 +1,119 @@
+Chapter 3:
+
+introductory test:
+
+"very clean, fully reconstructible final-state topology" bit of a mouthful. reduce, and avoid the word topology. For example:
+"the decay h->gg provides a very clean final state where the kinematics of the Higgs boson can be fully reconstructed. It is one of the most sensitive channels at low mass."
+
+"there is a contribution" -> "there are contributions" since you mention two contributions.
+
+Re-order the sentences "In high-priority... " to "For these reasons...".
+
+Personally, I think it is a better style and comes across as a stronger statement if you state what was done and then motivate it, rather than the other way around. Unless the motivation is very short. So for example you could put:
+
+"With a small signal to background ratio, the sensitivity of the search is driven by the careful modelling of the background. Two data-driven background modelling techniques were developed, to allow for additional cross checks and ensure a robust result."
+
+"statistical uncertainty in the functional form" - I don't know what this means.
+
+"In particular, this is achieved through the direct inclusion of the systematics uncertainties in the signal extraction..." should mention that these are the background modelling systematics... to contrast with the parameteric model - possibly just by inserting the words "background model" before "systematics"?
+
+I don't think Figure 3.1 should be referenced in the introductory text.
+
+3.1:
+
+Is there a more detailed definition of 2011A and 2011B?  (ie some dates or something?)
+
+"The dataset used for this analysis is ... drawn from ... the combination of the..."
+
+
+"MC for background processes..." should be "MC events..."
+
+"The QCD dijet and gamma+jet samples are..." -> "samples were" you changed tense inappropriately.
+
+"results in severl.." typo.
+
+Table 1 caption: "throughput" ->" throughout" typo
+
+3.2.1
+
+drop the word "frequently" from the first sentence. 
+
+I'd reword the sentence ".. the desired effect of the the BDT is to provide separation between signal and background" to something like:
+" the BDT is used to provide categorization of events... "
+
+",are often used..." sounds like you are describing a whole set of analyses over a period of time. Should be more specific, either the variables are used or they are not. Or should you should be much less specific here and just say variables relating to event kinematics, instanteous luminosity and object recontruction quality etc....
+
+"The weighting is applied" -> "A weight is applied"
+
+3.2.2 
+
+\sigma_{eff} -> \sigma_{\mathrm{eff}}
+
+
+Near the bottom of page 39:
+ "is dependent on whether the electron showered or not" Electrons always shower. Do you mean dependen on whether the electron started showering in the tracking detector and associated support structures?
+
+3.2.3 Vertex Selection:
+
+"strongly on determining the interaction in which they were produced." might be better as:
+
+"strongly on determining the interaction vertex at which they were produced."
+
+3.2.4 pg 43: "The measurements is performed..." -> "are performed" or lose the plural.
+
+pg 46: "..., the signal model will be taken from corrected MC simulation." inconsistent tense. 
+
+pg 52. be careful with the phrasing: "Since this mass is unconstrained in the Standard Model" since, though its true the SM itself does not predict the mass, measurements of EWK observables other than the Higgs mass itself do allow for constraints on the mass of the Higgs within the SM ie, blue-band plot. Also, generally standard model should be written in lower case. 
+
+"making little assumption" -> "making few assumptions"
+
+Figure 3.14 why no z-scale?
+
+pg 55: "This means that any disagreement between data and MC will only effect the performance of the BDT and not the validity of the final results." This is a very strong statement and perhaps needs more qualification - especially since the validity of the final results doesn't just depend on the background model but also on the signal model which is sensitive to mismodelling. 
+
+Eqn. 3.9 might want to explain that this comes from the LLR for poisson likelihoods.
+
+pg 59: "double power law" think this is jargon.
+
+pg 64: "These variables provide are treated.." typo.
+
+pg 68: "The additional resolution smearing..." I think technically it is more correct to say energy smearing. The resolution is not smeared, but the energy is - in order to make the resolutions match.
+
+pg 70: "The systematic uncertainties which effect..." -> "The systematic uncertainties that affect..."
+
+"fewer available MC statistics" - colloquial use of the word statistics. rephrase.
+
+pg 75: "Zee MC" ->" Z->ee MC"
+ bottom of same page - broken reference to online plots.
+
+eqn 3.14 might look better to use mathrm for "data" and "Poisson" ?
+
+pg 78: "which decays to two photons is ruled out at the 95% confidence level" -> "at *least* the 95% confidence level"
+
+and again on pg 81.
+
+Might be interesting to add an additional plot showing the S/B versus BDT bin.
+
+pg 87: might want to make it clearer that this is not the entire 2012 dataset.
+
+Chapter 4:
+
+The introductory material in Chapter 4 seems out of place a little bit - since you've already done some hypothesis testing and limit setting etc in Chapter 3. Might be worth reconsidering the ordering - or perhaps just adding a forward reference in chapter 3.
+
+4.1.1: 
+"Frequentest" -> "Frequentist"
+
+pg 96: "effects the signal process" -> "affects".
+
+pg 102: ".. so that exclusion of a SM Higgs boson with a mass in that range cannot be excluded..." drop the first exclusion.
+
+pg 106: "largest constraint" -> "strongest constraint"
+
+Chapter 5:
+
+fine - no comments.
+
+
+
+
+

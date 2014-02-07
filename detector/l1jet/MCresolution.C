@@ -16,7 +16,9 @@
    graph->SetTitle("");
    graph->SetFillColor(1);
    graph->SetLineWidth(3);
-   graph->SetMarkerStyle(21);
+   graph->SetMarkerStyle(22);
+   graph->SetMarkerColor(1);
+   graph->SetMarkerSize(1.35);
    graph->SetPoint(0,17,0.5452139936);
    graph->SetPoint(1,22.5,0.4464503257);
    graph->SetPoint(2,27.5,0.3780000554);
@@ -58,31 +60,9 @@
    
    graph->Draw("alp");
    
-   TLegend *leg = new TLegend(0.5,0.6,0.89,0.89,NULL,"brNDC");
-   leg->SetBorderSize(1);
-   leg->SetLineColor(1);
-   leg->SetLineStyle(1);
-   leg->SetLineWidth(1);
-   leg->SetFillColor(10);
-   leg->SetFillStyle(1001);
-   TLegendEntry *entry=leg->AddEntry("resgr","Uncorrected","P");
-   entry->SetLineColor(1);
-   entry->SetLineStyle(1);
-   entry->SetLineWidth(1);
-   entry->SetMarkerColor(1);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(1);
-   entry=leg->AddEntry("resgr","Corrected","P");
-   entry->SetLineColor(1);
-   entry->SetLineStyle(1);
-   entry->SetLineWidth(1);
-   entry->SetMarkerColor(2);
-   entry->SetMarkerStyle(21);
-   entry->SetMarkerSize(1);
-   leg->Draw();
    
    graph = new TGraph(13);
-   graph->SetName("resgr");
+   graph->SetName("resgrC");
    graph->SetTitle("");
    graph->SetFillColor(1);
    graph->SetLineWidth(3);
@@ -115,7 +95,7 @@
    Graph_Graph2->GetXaxis()->SetLabelSize(0.035);
    Graph_Graph2->GetXaxis()->SetTitleSize(0.035);
    Graph_Graph2->GetXaxis()->SetTitleFont(42);
-   Graph_Graph2->GetYaxis()->SetTitle("#sigma_{E_{T}}/E_{T}");
+   Graph_Graph2->GetYaxis()->SetTitle("#sigma_{E^{L1}_{T}}/E^{L1}_{T}");
    Graph_Graph2->GetYaxis()->SetLabelFont(42);
    Graph_Graph2->GetYaxis()->SetLabelSize(0.035);
    Graph_Graph2->GetYaxis()->SetTitleSize(0.035);
@@ -129,7 +109,7 @@
    graph->Draw("p");
    
    graph = new TGraph(13);
-   graph->SetName("resgr");
+   graph->SetName("resgrC");
    graph->SetTitle("");
    graph->SetFillColor(1);
    graph->SetLineWidth(3);
@@ -162,7 +142,7 @@
    Graph_Graph_Graph23->GetXaxis()->SetLabelSize(0.035);
    Graph_Graph_Graph23->GetXaxis()->SetTitleSize(0.035);
    Graph_Graph_Graph23->GetXaxis()->SetTitleFont(42);
-   Graph_Graph_Graph23->GetYaxis()->SetTitle("#sigma_{E_{T}}/E_{T}");
+   Graph_Graph_Graph23->GetYaxis()->SetTitle("#sigma_{E^{L1}_{T}}/E^{L1}_{T}");
    Graph_Graph_Graph23->GetYaxis()->SetLabelFont(42);
    Graph_Graph_Graph23->GetYaxis()->SetLabelSize(0.035);
    Graph_Graph_Graph23->GetYaxis()->SetTitleSize(0.035);
@@ -174,6 +154,28 @@
    graph->SetHistogram(Graph_Graph_Graph23);
    
    graph->Draw("pl");
+   TLegend *leg = new TLegend(0.5,0.6,0.89,0.89,NULL,"brNDC");
+   leg->SetBorderSize(1);
+   leg->SetLineColor(1);
+   leg->SetLineStyle(1);
+   leg->SetLineWidth(1);
+   leg->SetFillColor(10);
+   leg->SetFillStyle(1001);
+   TLegendEntry *entry=leg->AddEntry("resgr","Uncorrected","P");
+   entry->SetLineColor(1);
+   entry->SetLineStyle(1);
+   entry->SetLineWidth(1);
+   entry->SetMarkerColor(1);
+   entry->SetMarkerStyle(22);
+   entry->SetMarkerSize(1.25);
+   TLegendEntry *entry2=leg->AddEntry("resgrC","Corrected","P");
+   entry2->SetLineColor(1);
+   entry2->SetLineStyle(1);
+   entry2->SetLineWidth(1);
+   entry2->SetMarkerColor(2);
+   entry2->SetMarkerStyle(21);
+   entry2->SetMarkerSize(1);
+   leg->Draw();
    c->Modified();
    c->cd();
    c->SetSelected(c);

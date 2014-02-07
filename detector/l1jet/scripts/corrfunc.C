@@ -1,4 +1,4 @@
-void makePlot(double low, double up){
+void makePlot(TFile *_fileP, double low, double up, double ymin=1.5, double ymax=3., double xmax=80., std::string name="test.pdf"){
 //=========Macro generated from canvas: c/c
 //=========  (Mon Jan 14 12:51:57 2013) by ROOT version5.33/03
    TCanvas *c = new TCanvas("c", "c",1547,51,800,600);
@@ -13,7 +13,7 @@ void makePlot(double low, double up){
    c->SetFrameBorderMode(0);
    
    //TGraphErrors *gre = new TGraphErrors(27);
-   TGraphErrors *gre = (TGraphErrors*)_file0->Get("ak5Intern/L3CorVsJetPt");
+   TGraphErrors *gre = (TGraphErrors*)_fileP->Get("ak5Intern/L3CorVsJetPt");
    gre->SetName("L3CorVsJetPt");
    gre->SetTitle("");
    gre->SetFillColor(1);
@@ -76,14 +76,14 @@ void makePlot(double low, double up){
    gre->SetPointError(26,0.2452193,0.005084357);
   */ 
    TH1F *Graph_L3CorVsJetPt1 = new TH1F("Graph_L3CorVsJetPt1","",100,0,82.58359);
-   Graph_L3CorVsJetPt1->SetMinimum(1.5);
-   Graph_L3CorVsJetPt1->SetMaximum(2.5);
+   Graph_L3CorVsJetPt1->SetMinimum(ymin);
+   Graph_L3CorVsJetPt1->SetMaximum(ymax);
    Graph_L3CorVsJetPt1->SetDirectory(0);
    Graph_L3CorVsJetPt1->SetStats(0);
    Graph_L3CorVsJetPt1->SetFillStyle(0);
    Graph_L3CorVsJetPt1->SetLineStyle(0);
    Graph_L3CorVsJetPt1->SetMarkerStyle(0);
-   Graph_L3CorVsJetPt1->GetXaxis()->SetTitle("<E_{T}^{L1}>");
+   Graph_L3CorVsJetPt1->GetXaxis()->SetTitle("<E_{T}^{L1}> (GeV)");
    Graph_L3CorVsJetPt1->GetXaxis()->SetNdivisions(405);
    Graph_L3CorVsJetPt1->GetXaxis()->SetLabelFont(42);
    Graph_L3CorVsJetPt1->GetXaxis()->SetLabelOffset(0.004);
@@ -115,8 +115,8 @@ void makePlot(double low, double up){
    fitcor->SetLineWidth(2);
    fitcor->SetLineColor(4);
    fitcor->SetLineStyle(0);
-   fitcor->SetChisquare(21.7422);
-   fitcor->SetNDF(21);
+   //fitcor->SetChisquare(21.7422);
+   //fitcor->SetNDF(21);
    fitcor->GetXaxis()->SetLabelFont(42);
    fitcor->GetXaxis()->SetLabelSize(0.035);
    fitcor->GetXaxis()->SetTitleSize(0.035);
@@ -168,9 +168,9 @@ void makePlot(double low, double up){
    gre->GetListOfFunctions()->Add(ptstats);
    ptstats->SetParent(gre->GetListOfFunctions());
 */
-gStyle->SetOptFit(0111);
+gStyle->SetOptFit(1111);
    gre->Draw("ap");
-   gre->GetXaxis()->SetRangeUser(0,60);
+   gre->GetXaxis()->SetRangeUser(0,xmax);
    gre->Draw("samep");
       tex = new TLatex(0.1,0.91,Form("%.3f < |#eta^{Gen}| < %.3f",low,up));
 tex->SetNDC();
@@ -181,5 +181,6 @@ tex->SetNDC();
    c->Modified();
    c->cd();
    c->SetSelected(c);
-   c->SaveAs(Form("correctionPlots/l3_%.3f_to_%.3f.pdf",low,up));
+   //c->SaveAs(Form("correctionPlots/l3_%.3f_to_%.3f.pdf",low,up));
+   c->SaveAs(name.c_str());
 }

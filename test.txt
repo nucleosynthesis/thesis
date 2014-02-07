@@ -1,0 +1,32 @@
+
+
+%% Acknowledgements
+\begin{acknowledgements}
+  I would like to thank foremost my parents, Pat and David, who have provided me every opportunity to 
+pursue research in Physics. Their unwaivering support and encouragement has been
+an endless source of determination throughout my education. In addition, I would like to thank my 
+friends and colleagues, in particular those who provided much needed distraction from study and 
+an appreciation for the 
+  Secondly, I thank my supervisors Jon Hays and Gavin Davies for guiding me through my PhD research.
+The mix of enthusiasm for the subtleties of data analysis techniques and expertise in maintaining the 
+bigger picture have provided many hours of educational and entertaining discussion.
+  I'd like to thank the Imperial College $\Hgg$ group and the CMS $\Hgg$ group for providing a platform 
+to discuss ideas and results in an open and often welcoming manner. 
+ 
+  Finally, I would like to thank the STFC for providing the funding for my research and 
+ in particular allowing for the time spent in Geneva.
+\end{acknowledgements}
+
+
+%% Preface
+%\begin{preface}
+% Insert preface here...
+%\end{preface}
+
+%% ToC
+\tableofcontents
+
+%% Strictly optional!
+\frontquote%
+  {Un bon mot ne prouve rien.}%
+  {Fran\c{c}ois-Marie Arouet (Voltaire)}

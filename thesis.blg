@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: thesis.aux
+The style file: unsrt.bst
+Database file #1: thesis.bib
+Warning--empty journal in lepewwgpage
+Warning--empty journal in cmspub
+Warning--there's a number but no volume in antikt
+Warning--empty journal in cmssw
+Warning--empty journal in onlineresults
+Warning--empty journal in combinationstwiki
+Warning--empty journal in onlinediag
+Warning--empty journal in couplingsint
+You've used 88 entries,
+            1791 wiz_defined-function locations,
+            905 strings with 15748 characters,
+and the built_in function-call counts, 16021 in all, are:
+= -- 1387
+> -- 650
+< -- 0
++ -- 263
+- -- 175
+* -- 941
+:= -- 2755
+add.period$ -- 273
+call.type$ -- 88
+change.case$ -- 84
+chr.to.int$ -- 0
+cite$ -- 96
+duplicate$ -- 752
+empty$ -- 1615
+format.name$ -- 175
+if$ -- 3482
+int.to.chr$ -- 0
+int.to.str$ -- 88
+missing$ -- 91
+newline$ -- 451
+num.names$ -- 88
+pop$ -- 200
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 272
+stack$ -- 0
+substring$ -- 842
+swap$ -- 81
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 137
+width$ -- 90
+write$ -- 936
+(There were 8 warnings)
